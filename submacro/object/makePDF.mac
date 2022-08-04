@@ -11,7 +11,7 @@ pdf
   set bound, crystal,exact  # sets structure to be not periodic, takes exact PDF not just nieghbors
   set finite, sphere, 50    # set the structure shape to correctly modify 4*Pi*rho0
   set diameter, 50          # compliments set finite above (not sure if necessary)
-  set density, .0589        # FCC bulk Au number density from Au lattice parameter (4.0789 a)
+  #set density, .0589        # FCC bulk Au number density from Au lattice parameter (4.0789 a)
   set qmax, 35              # set qmax, pdf is integrated from Q=0 to Q=Qmax
   set qsigma, 0             # correction for the limited resolution of Q. Damps G(r) (identical to qdamp)
   set qbroad, 0             # correction for peak broadening (identical to qalp)

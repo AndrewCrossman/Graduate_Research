@@ -54,4 +54,16 @@ elseif(type=="AuPd")then
     blen Au, Pd, "%c",bldname2
     blen Pd, Pd, "%c",bldname3
     exit
+elseif(type=="AuPt")then
+  bldname1 = "%c/%d_%c%c.bld",output,MMC_Cycles*loop/divs,atom1,atom1
+  bldname2 = "%c/%d_%c%c.bld",output,MMC_Cycles*loop/divs,atom1,atom2
+  bldname3 = "%c/%d_%c%c.bld",output,MMC_Cycles*loop/divs,atom2,atom2
+  chem  
+    set mode, exact
+    set blen, 1,13
+    set bin, 801
+    blen Au, Au, "%c",bldname1
+    blen Au, Pt, "%c",bldname2
+    blen Pt, Pt, "%c",bldname3
+    exit
 endif
