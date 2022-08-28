@@ -1,0 +1,1038 @@
+  running mc.relax.mac 
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :   18 x   18 x   18
+ Total number of atoms            :     23328
+ Number of atoms per unit cell    :         4
+ Number of different atoms        :         1
+
+    Element : VOID(0)   rel. abundance : 0.832  (    19403 atoms)
+    Element : AU(1)     rel. abundance : 0.168  (     3925 atoms)
+   Operation mode for MC        : atoms
+   Max. number of MC cycles     : 23328000
+   Feedback/update intervall    : 23328000
+   Maximum no. non_valid cycles :     1000
+   Temperature [kT]             :   0.6000
+   MMC will stop at convergence
+      Max rel. difference       :   0.0000 at last cycle
+      Max change rel. difference:   0.0000 observed over    3 feedbacks
+      Av. change rel. difference:   0.0000 averaged over    3 feedbacks
+
+ Operation modes for MMC; atoms selected 
+   Mode                  Probability  two-atom correlation
+   -------------------------------------------------------
+   switch chemistry      0.00000      all                 
+   switch displacement   0.00000      all                 
+   shift atom            1.00000      all                 
+   inverse displacement  0.00000      all                 
+
+ Correlation definitions        : 
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+        1  vec      1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50
+       51  vec     52  53  54
+        2  vec     55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72  73  74  75  76  77  78  79  80  81  82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99 100 101 102 103 104
+       **  vec    106 107 108
+        3  vec    109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158
+       **  vec    160 161 162
+        4  vec    163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212
+       **  vec    214 215 216
+
+    Defined correlation vectors    : 
+
+       Correlation vector   1      : Site  1 -> site  2, neig =  0 -1 -1
+       Correlation vector   2      : Site  1 -> site  3, neig =  0  0 -1
+       Correlation vector   3      : Site  1 -> site  4, neig = -1 -1  0
+       Correlation vector   4      : Site  1 -> site  3, neig = -1  0  0
+       Correlation vector   5      : Site  1 -> site  4, neig = -1  0  0
+       Correlation vector   6      : Site  1 -> site  2, neig =  0 -1  0
+       Correlation vector   7      : Site  1 -> site  2, neig =  0  0  0
+       Correlation vector   8      : Site  1 -> site  2, neig =  0  0 -1
+       Correlation vector   9      : Site  1 -> site  4, neig =  0 -1  0
+       Correlation vector  10      : Site  1 -> site  3, neig = -1  0 -1
+       Correlation vector  11      : Site  1 -> site  4, neig =  0  0  0
+       Correlation vector  12      : Site  1 -> site  3, neig =  0  0  0
+       Correlation vector  13      : Site  1 -> site  1, neig =  0 -1  0
+       Correlation vector  14      : Site  1 -> site  1, neig =  0  1  0
+       Correlation vector  15      : Site  1 -> site  1, neig = -1  0  0
+       Correlation vector  16      : Site  1 -> site  1, neig =  1  0  0
+       Correlation vector  17      : Site  1 -> site  1, neig =  0  0  1
+       Correlation vector  18      : Site  1 -> site  1, neig =  0  0 -1
+       Correlation vector  19      : Site  1 -> site  3, neig =  0  1  0
+       Correlation vector  20      : Site  1 -> site  2, neig =  1  0  0
+       Correlation vector  21      : Site  1 -> site  2, neig =  1 -1 -1
+       Correlation vector  22      : Site  1 -> site  4, neig =  0 -1 -1
+       Correlation vector  23      : Site  1 -> site  3, neig = -1 -1 -1
+       Correlation vector  24      : Site  1 -> site  3, neig =  0 -1 -1
+       Correlation vector  25      : Site  1 -> site  4, neig = -1 -1  1
+       Correlation vector  26      : Site  1 -> site  3, neig = -1  1 -1
+       Correlation vector  27      : Site  1 -> site  4, neig = -1 -1 -1
+       Correlation vector  28      : Site  1 -> site  3, neig =  0  1 -1
+       Correlation vector  29      : Site  1 -> site  4, neig =  0 -1  1
+       Correlation vector  30      : Site  1 -> site  2, neig = -1 -1 -1
+       Correlation vector  31      : Site  1 -> site  2, neig = -1  0  0
+       Correlation vector  32      : Site  1 -> site  2, neig = -1  0 -1
+       Correlation vector  33      : Site  1 -> site  3, neig = -1  1  0
+       Correlation vector  34      : Site  1 -> site  4, neig =  0  0 -1
+       Correlation vector  35      : Site  1 -> site  2, neig =  1 -1  0
+       Correlation vector  36      : Site  1 -> site  3, neig =  0 -1  0
+       Correlation vector  37      : Site  1 -> site  3, neig = -1 -1  0
+       Correlation vector  38      : Site  1 -> site  2, neig =  1  0 -1
+       Correlation vector  39      : Site  1 -> site  4, neig =  0  0  1
+       Correlation vector  40      : Site  1 -> site  4, neig = -1  0  1
+       Correlation vector  41      : Site  1 -> site  2, neig = -1 -1  0
+       Correlation vector  42      : Site  1 -> site  4, neig = -1  0 -1
+       Correlation vector  43      : Site  1 -> site  1, neig =  0  1 -1
+       Correlation vector  44      : Site  1 -> site  1, neig =  0  1  1
+       Correlation vector  45      : Site  1 -> site  1, neig =  1  0 -1
+       Correlation vector  46      : Site  1 -> site  1, neig =  1 -1  0
+       Correlation vector  47      : Site  1 -> site  1, neig =  0 -1 -1
+       Correlation vector  48      : Site  1 -> site  1, neig = -1 -1  0
+       Correlation vector  49      : Site  1 -> site  1, neig =  0 -1  1
+       Correlation vector  50      : Site  1 -> site  1, neig = -1  1  0
+       Correlation vector  51      : Site  1 -> site  1, neig = -1  0  1
+       Correlation vector  52      : Site  1 -> site  1, neig = -1  0 -1
+       Correlation vector  53      : Site  1 -> site  1, neig =  1  0  1
+       Correlation vector  54      : Site  1 -> site  1, neig =  1  1  0
+       Correlation vector  55      : Site  2 -> site  1, neig =  0  0  0
+       Correlation vector  56      : Site  2 -> site  3, neig = -1  1  0
+       Correlation vector  57      : Site  2 -> site  1, neig =  0  0  1
+       Correlation vector  58      : Site  2 -> site  3, neig =  0  0  0
+       Correlation vector  59      : Site  2 -> site  4, neig =  0  0  1
+       Correlation vector  60      : Site  2 -> site  4, neig = -1  0  0
+       Correlation vector  61      : Site  2 -> site  3, neig = -1  0  0
+       Correlation vector  62      : Site  2 -> site  4, neig = -1  0  1
+       Correlation vector  63      : Site  2 -> site  1, neig =  0  1  1
+       Correlation vector  64      : Site  2 -> site  4, neig =  0  0  0
+       Correlation vector  65      : Site  2 -> site  1, neig =  0  1  0
+       Correlation vector  66      : Site  2 -> site  3, neig =  0  1  0
+       Correlation vector  67      : Site  2 -> site  2, neig =  0  1  0
+       Correlation vector  68      : Site  2 -> site  2, neig =  0  0 -1
+       Correlation vector  69      : Site  2 -> site  2, neig =  0  0  1
+       Correlation vector  70      : Site  2 -> site  2, neig =  0 -1  0
+       Correlation vector  71      : Site  2 -> site  2, neig = -1  0  0
+       Correlation vector  72      : Site  2 -> site  2, neig =  1  0  0
+       Correlation vector  73      : Site  2 -> site  1, neig = -1  1  0
+       Correlation vector  74      : Site  2 -> site  4, neig = -1  1  0
+       Correlation vector  75      : Site  2 -> site  1, neig =  1  1  0
+       Correlation vector  76      : Site  2 -> site  3, neig = -1  1 -1
+       Correlation vector  77      : Site  2 -> site  4, neig = -1 -1  0
+       Correlation vector  78      : Site  2 -> site  3, neig =  0  0 -1
+       Correlation vector  79      : Site  2 -> site  1, neig =  1  0  0
+       Correlation vector  80      : Site  2 -> site  3, neig =  0  1 -1
+       Correlation vector  81      : Site  2 -> site  1, neig = -1  0  0
+       Correlation vector  82      : Site  2 -> site  4, neig =  0 -1  0
+       Correlation vector  83      : Site  2 -> site  4, neig =  0  1  0
+       Correlation vector  84      : Site  2 -> site  3, neig = -1  0 -1
+       Correlation vector  85      : Site  2 -> site  1, neig = -1  1  1
+       Correlation vector  86      : Site  2 -> site  4, neig =  0 -1  1
+       Correlation vector  87      : Site  2 -> site  3, neig = -1  0  1
+       Correlation vector  88      : Site  2 -> site  3, neig = -1  1  1
+       Correlation vector  89      : Site  2 -> site  4, neig = -1  1  1
+       Correlation vector  90      : Site  2 -> site  1, neig = -1  0  1
+       Correlation vector  91      : Site  2 -> site  3, neig =  0  1  1
+       Correlation vector  92      : Site  2 -> site  1, neig =  1  0  1
+       Correlation vector  93      : Site  2 -> site  1, neig =  1  1  1
+       Correlation vector  94      : Site  2 -> site  3, neig =  0  0  1
+       Correlation vector  95      : Site  2 -> site  4, neig = -1 -1  1
+       Correlation vector  96      : Site  2 -> site  4, neig =  0  1  1
+       Correlation vector  97      : Site  2 -> site  2, neig =  1  0 -1
+       Correlation vector  98      : Site  2 -> site  2, neig =  1  0  1
+       Correlation vector  99      : Site  2 -> site  2, neig = -1 -1  0
+       Correlation vector 100      : Site  2 -> site  2, neig =  1 -1  0
+       Correlation vector 101      : Site  2 -> site  2, neig =  0 -1 -1
+       Correlation vector 102      : Site  2 -> site  2, neig =  0  1  1
+       Correlation vector 103      : Site  2 -> site  2, neig =  0  1 -1
+       Correlation vector 104      : Site  2 -> site  2, neig = -1  0 -1
+       Correlation vector 105      : Site  2 -> site  2, neig = -1  0  1
+       Correlation vector 106      : Site  2 -> site  2, neig =  0 -1  1
+       Correlation vector 107      : Site  2 -> site  2, neig = -1  1  0
+       Correlation vector 108      : Site  2 -> site  2, neig =  1  1  0
+       Correlation vector 109      : Site  3 -> site  2, neig =  1  0  0
+       Correlation vector 110      : Site  3 -> site  1, neig =  1  0  1
+       Correlation vector 111      : Site  3 -> site  1, neig =  0  0  0
+       Correlation vector 112      : Site  3 -> site  2, neig =  0  0  0
+       Correlation vector 113      : Site  3 -> site  4, neig =  0  0  0
+       Correlation vector 114      : Site  3 -> site  1, neig =  1  0  0
+       Correlation vector 115      : Site  3 -> site  2, neig =  1 -1  0
+       Correlation vector 116      : Site  3 -> site  4, neig =  0  0  1
+       Correlation vector 117      : Site  3 -> site  2, neig =  0 -1  0
+       Correlation vector 118      : Site  3 -> site  4, neig =  0 -1  1
+       Correlation vector 119      : Site  3 -> site  1, neig =  0  0  1
+       Correlation vector 120      : Site  3 -> site  4, neig =  0 -1  0
+       Correlation vector 121      : Site  3 -> site  3, neig =  0  0 -1
+       Correlation vector 122      : Site  3 -> site  3, neig =  0  0  1
+       Correlation vector 123      : Site  3 -> site  3, neig =  0 -1  0
+       Correlation vector 124      : Site  3 -> site  3, neig = -1  0  0
+       Correlation vector 125      : Site  3 -> site  3, neig =  0  1  0
+       Correlation vector 126      : Site  3 -> site  3, neig =  1  0  0
+       Correlation vector 127      : Site  3 -> site  2, neig =  1 -1  1
+       Correlation vector 128      : Site  3 -> site  1, neig =  1  1  0
+       Correlation vector 129      : Site  3 -> site  1, neig =  1 -1  1
+       Correlation vector 130      : Site  3 -> site  4, neig =  1 -1  1
+       Correlation vector 131      : Site  3 -> site  2, neig =  0 -1 -1
+       Correlation vector 132      : Site  3 -> site  2, neig =  1 -1 -1
+       Correlation vector 133      : Site  3 -> site  1, neig =  1 -1  0
+       Correlation vector 134      : Site  3 -> site  4, neig =  1  0  0
+       Correlation vector 135      : Site  3 -> site  4, neig =  1 -1  0
+       Correlation vector 136      : Site  3 -> site  4, neig = -1  0  0
+       Correlation vector 137      : Site  3 -> site  2, neig =  0 -1  1
+       Correlation vector 138      : Site  3 -> site  1, neig =  0 -1  1
+       Correlation vector 139      : Site  3 -> site  4, neig = -1 -1  1
+       Correlation vector 140      : Site  3 -> site  2, neig =  0  0 -1
+       Correlation vector 141      : Site  3 -> site  1, neig =  0  1  0
+       Correlation vector 142      : Site  3 -> site  2, neig =  1  0 -1
+       Correlation vector 143      : Site  3 -> site  4, neig = -1  0  1
+       Correlation vector 144      : Site  3 -> site  2, neig =  1  0  1
+       Correlation vector 145      : Site  3 -> site  1, neig =  0 -1  0
+       Correlation vector 146      : Site  3 -> site  1, neig =  1  1  1
+       Correlation vector 147      : Site  3 -> site  4, neig = -1 -1  0
+       Correlation vector 148      : Site  3 -> site  2, neig =  0  0  1
+       Correlation vector 149      : Site  3 -> site  1, neig =  0  1  1
+       Correlation vector 150      : Site  3 -> site  4, neig =  1  0  1
+       Correlation vector 151      : Site  3 -> site  3, neig =  0 -1 -1
+       Correlation vector 152      : Site  3 -> site  3, neig = -1 -1  0
+       Correlation vector 153      : Site  3 -> site  3, neig = -1  1  0
+       Correlation vector 154      : Site  3 -> site  3, neig =  0  1 -1
+       Correlation vector 155      : Site  3 -> site  3, neig =  1  1  0
+       Correlation vector 156      : Site  3 -> site  3, neig = -1  0 -1
+       Correlation vector 157      : Site  3 -> site  3, neig =  0 -1  1
+       Correlation vector 158      : Site  3 -> site  3, neig =  1  0 -1
+       Correlation vector 159      : Site  3 -> site  3, neig =  1 -1  0
+       Correlation vector 160      : Site  3 -> site  3, neig =  1  0  1
+       Correlation vector 161      : Site  3 -> site  3, neig =  0  1  1
+       Correlation vector 162      : Site  3 -> site  3, neig = -1  0  1
+       Correlation vector 163      : Site  4 -> site  1, neig =  0  1  0
+       Correlation vector 164      : Site  4 -> site  2, neig =  1  0  0
+       Correlation vector 165      : Site  4 -> site  3, neig =  0  1  0
+       Correlation vector 166      : Site  4 -> site  3, neig =  0  1 -1
+       Correlation vector 167      : Site  4 -> site  1, neig =  0  0  0
+       Correlation vector 168      : Site  4 -> site  3, neig =  0  0  0
+       Correlation vector 169      : Site  4 -> site  1, neig =  1  0  0
+       Correlation vector 170      : Site  4 -> site  1, neig =  1  1  0
+       Correlation vector 171      : Site  4 -> site  2, neig =  0  0  0
+       Correlation vector 172      : Site  4 -> site  2, neig =  1  0 -1
+       Correlation vector 173      : Site  4 -> site  2, neig =  0  0 -1
+       Correlation vector 174      : Site  4 -> site  3, neig =  0  0 -1
+       Correlation vector 175      : Site  4 -> site  4, neig = -1  0  0
+       Correlation vector 176      : Site  4 -> site  4, neig =  0  0  1
+       Correlation vector 177      : Site  4 -> site  4, neig =  0  1  0
+       Correlation vector 178      : Site  4 -> site  4, neig =  0  0 -1
+       Correlation vector 179      : Site  4 -> site  4, neig =  0 -1  0
+       Correlation vector 180      : Site  4 -> site  4, neig =  1  0  0
+       Correlation vector 181      : Site  4 -> site  1, neig =  0  0 -1
+       Correlation vector 182      : Site  4 -> site  3, neig = -1  0 -1
+       Correlation vector 183      : Site  4 -> site  2, neig =  1 -1 -1
+       Correlation vector 184      : Site  4 -> site  1, neig =  1  1  1
+       Correlation vector 185      : Site  4 -> site  2, neig =  1 -1  0
+       Correlation vector 186      : Site  4 -> site  3, neig =  1  0 -1
+       Correlation vector 187      : Site  4 -> site  1, neig =  1  0 -1
+       Correlation vector 188      : Site  4 -> site  1, neig =  1  1 -1
+       Correlation vector 189      : Site  4 -> site  1, neig =  0  1 -1
+       Correlation vector 190      : Site  4 -> site  2, neig =  0  1 -1
+       Correlation vector 191      : Site  4 -> site  2, neig =  0 -1  0
+       Correlation vector 192      : Site  4 -> site  3, neig = -1  1 -1
+       Correlation vector 193      : Site  4 -> site  3, neig = -1  0  0
+       Correlation vector 194      : Site  4 -> site  3, neig =  1  1 -1
+       Correlation vector 195      : Site  4 -> site  2, neig =  1  1 -1
+       Correlation vector 196      : Site  4 -> site  2, neig =  0 -1 -1
+       Correlation vector 197      : Site  4 -> site  3, neig =  1  0  0
+       Correlation vector 198      : Site  4 -> site  2, neig =  1  1  0
+       Correlation vector 199      : Site  4 -> site  3, neig =  1  1  0
+       Correlation vector 200      : Site  4 -> site  3, neig = -1  1  0
+       Correlation vector 201      : Site  4 -> site  1, neig =  0  1  1
+       Correlation vector 202      : Site  4 -> site  2, neig =  0  1  0
+       Correlation vector 203      : Site  4 -> site  1, neig =  1  0  1
+       Correlation vector 204      : Site  4 -> site  1, neig =  0  0  1
+       Correlation vector 205      : Site  4 -> site  4, neig = -1  0 -1
+       Correlation vector 206      : Site  4 -> site  4, neig =  0 -1 -1
+       Correlation vector 207      : Site  4 -> site  4, neig =  1  1  0
+       Correlation vector 208      : Site  4 -> site  4, neig = -1  0  1
+       Correlation vector 209      : Site  4 -> site  4, neig =  1  0  1
+       Correlation vector 210      : Site  4 -> site  4, neig =  1  0 -1
+       Correlation vector 211      : Site  4 -> site  4, neig =  0 -1  1
+       Correlation vector 212      : Site  4 -> site  4, neig =  0  1 -1
+       Correlation vector 213      : Site  4 -> site  4, neig =  1 -1  0
+       Correlation vector 214      : Site  4 -> site  4, neig = -1 -1  0
+       Correlation vector 215      : Site  4 -> site  4, neig =  0  1  1
+       Correlation vector 216      : Site  4 -> site  4, neig = -1  1  0
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       Displacement corr. #  1     : all directions
+       Displacement corr. #  2     : all directions
+       Displacement corr. #  3     : all directions
+       Displacement corr. #  4     : all directions
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+
+ Desired distance for LENNARD : 
+
+            Pairs          neigh. #   distance/A       depth/B       m       n
+     AU(1)    - AU(1)          1       2.951          5.2900000    
+                                   2307205.0         6987.1638     12.000    6.000
+     AU(1)    - AU(1)          2       2.951          5.2900000    
+                                   2307205.0         6987.1638     12.000    6.000
+     AU(1)    - AU(1)          3       2.951          5.2900000    
+                                   2307205.0         6987.1638     12.000    6.000
+     AU(1)    - AU(1)          4       2.951          5.2900000    
+                                   2307205.0         6987.1638     12.000    6.000
+
+ Sigmas for MC shifts (l.u.)    : 
+                 Atom VOID(0)   :   0.00000   0.00000   0.00000
+                 Atom AU(1)     :   0.02500   0.02500   0.02500
+
+ Gen:   23328000 try:   46656000 acc: (g/n/b):  3211463 /      297 /  2496738  MC moves 0.0000
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AU      AU            2.951     4.643     1.064    -1.692    -0.573      89664
+   2   Lennard   AU      AU            2.951     4.650     1.065    -1.699    -0.576      92040
+   3   Lennard   AU      AU            2.951     4.649     1.064    -1.698    -0.575      92040
+   4   Lennard   AU      AU            2.951     4.649     1.064    -1.698    -0.575      92040
+
+ --- Final multiple energy configuration ---
+
+ Gen:   23328000 try:   23328000 acc: (g/n/b):  3211463 /      297 /  2496739  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AU      AU            2.951     4.643     1.064    -1.692    -0.573      89664
+   2   Lennard   AU      AU            2.951     4.650     1.065    -1.699    -0.576      92040
+   3   Lennard   AU      AU            2.951     4.649     1.064    -1.698    -0.575      92040
+   4   Lennard   AU      AU            2.951     4.649     1.064    -1.698    -0.575      92040
+
+ Maximum Cycles reached 
+ Largest          difference ************ ?       0.0000
+ Largest relative difference ************ ?       0.0000
+ Stagnant: average changes   ************ ?       0.0000
+ Stagnant: largest changes   ************ ?       0.0000
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    3211510      -0.487209       297   2496747       0.616163
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h 18 min 29 sec 
+ Time/cycle   :     0.000 sec
+
+
+ Gen:   23328000 try:   46656000 acc: (g/n/b):  3234933 /      278 /  2508024  MC moves 0.0000
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AU      AU            2.951     4.643     1.064    -1.692    -0.573      89664
+   2   Lennard   AU      AU            2.951     4.649     1.065    -1.698    -0.575      92040
+   3   Lennard   AU      AU            2.951     4.650     1.065    -1.699    -0.576      92040
+   4   Lennard   AU      AU            2.951     4.649     1.065    -1.698    -0.575      92040
+
+ --- Final multiple energy configuration ---
+
+ Gen:   23328000 try:   23328000 acc: (g/n/b):  3234933 /      278 /  2508024  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AU      AU            2.951     4.643     1.064    -1.692    -0.573      89664
+   2   Lennard   AU      AU            2.951     4.649     1.065    -1.698    -0.575      92040
+   3   Lennard   AU      AU            2.951     4.650     1.065    -1.699    -0.576      92040
+   4   Lennard   AU      AU            2.951     4.649     1.065    -1.698    -0.575      92040
+
+ Maximum Cycles reached 
+ Largest          difference ************ ?       0.0000
+ Largest relative difference ************ ?       0.0000
+ Stagnant: average changes   ************ ?       0.0000
+ Stagnant: largest changes   ************ ?       0.0000
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    3234975      -0.486081       278   2508037       0.615605
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h 18 min 26 sec 
+ Time/cycle   :     0.000 sec
+
+
+ Gen:   23328000 try:   46656000 acc: (g/n/b):  3233239 /      303 /  2509967  MC moves 0.0000
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AU      AU            2.951     4.643     1.064    -1.692    -0.573      89664
+   2   Lennard   AU      AU            2.951     4.650     1.065    -1.699    -0.576      92040
+   3   Lennard   AU      AU            2.951     4.650     1.065    -1.699    -0.576      92040
+   4   Lennard   AU      AU            2.951     4.649     1.064    -1.698    -0.575      92040
+
+ --- Final multiple energy configuration ---
+
+ Gen:   23328000 try:   23328000 acc: (g/n/b):  3233239 /      303 /  2509967  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AU      AU            2.951     4.643     1.064    -1.692    -0.573      89664
+   2   Lennard   AU      AU            2.951     4.650     1.065    -1.699    -0.576      92040
+   3   Lennard   AU      AU            2.951     4.650     1.065    -1.699    -0.576      92040
+   4   Lennard   AU      AU            2.951     4.649     1.064    -1.698    -0.575      92040
+
+ Maximum Cycles reached 
+ Largest          difference ************ ?       0.0000
+ Largest relative difference ************ ?       0.0000
+ Stagnant: average changes   ************ ?       0.0000
+ Stagnant: largest changes   ************ ?       0.0000
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    3233271      -0.486365       303   2509969       0.615087
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h 18 min 27 sec 
+ Time/cycle   :     0.000 sec
+
+
+ Gen:   23328000 try:   46656000 acc: (g/n/b):  3235045 /      286 /  2508700  MC moves 0.0000
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AU      AU            2.951     4.642     1.064    -1.691    -0.573      89664
+   2   Lennard   AU      AU            2.951     4.650     1.065    -1.699    -0.576      92040
+   3   Lennard   AU      AU            2.951     4.650     1.065    -1.699    -0.576      92040
+   4   Lennard   AU      AU            2.951     4.650     1.065    -1.699    -0.576      92040
+
+ --- Final multiple energy configuration ---
+
+ Gen:   23328000 try:   23328000 acc: (g/n/b):  3235045 /      286 /  2508700  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AU      AU            2.951     4.642     1.064    -1.691    -0.573      89664
+   2   Lennard   AU      AU            2.951     4.650     1.065    -1.699    -0.576      92040
+   3   Lennard   AU      AU            2.951     4.650     1.065    -1.699    -0.576      92040
+   4   Lennard   AU      AU            2.951     4.650     1.065    -1.699    -0.576      92040
+
+ Maximum Cycles reached 
+ Largest          difference ************ ?       0.0000
+ Largest relative difference ************ ?       0.0000
+ Stagnant: average changes   ************ ?       0.0000
+ Stagnant: largest changes   ************ ?       0.0000
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    3235083      -0.486114       286   2508707       0.615423
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h 18 min 27 sec 
+ Time/cycle   :     0.000 sec
+
+
+ Gen:   23328000 try:   46656000 acc: (g/n/b):  3234635 /      310 /  2508688  MC moves 0.0000
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AU      AU            2.951     4.645     1.065    -1.694    -0.574      89664
+   2   Lennard   AU      AU            2.951     4.652     1.065    -1.701    -0.576      92040
+   3   Lennard   AU      AU            2.951     4.651     1.065    -1.700    -0.576      92040
+   4   Lennard   AU      AU            2.951     4.651     1.065    -1.700    -0.576      92040
+
+ --- Final multiple energy configuration ---
+
+ Gen:   23328000 try:   23328000 acc: (g/n/b):  3234636 /      310 /  2508688  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AU      AU            2.951     4.645     1.065    -1.694    -0.574      89664
+   2   Lennard   AU      AU            2.951     4.652     1.065    -1.701    -0.576      92040
+   3   Lennard   AU      AU            2.951     4.651     1.065    -1.700    -0.576      92040
+   4   Lennard   AU      AU            2.951     4.651     1.065    -1.700    -0.576      92040
+
+ Maximum Cycles reached 
+ Largest          difference ************ ?       0.0000
+ Largest relative difference ************ ?       0.0000
+ Stagnant: average changes   ************ ?       0.0000
+ Stagnant: largest changes   ************ ?       0.0000
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    3234692      -0.485717       310   2508680       0.614704
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h 18 min 27 sec 
+ Time/cycle   :     0.000 sec
+
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         1
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : AU(1)     rel. abundance : 1.000  (     3925 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.170599     sec
+  Starting convolution
+
+ Elapsed time    :   5540.92     sec
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.465212E-01 sec
+ Required time        :     0.21 s
+
+ Total sum of weights :    47178.00000    
+ Saving PDF to file : MC_Sphere100_Au_onAu_r25_5000Cycles/1000.apd ...
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  13.00  A / File : MC_Sphere100 ( 801 pts)
+
+    AU(1)    - AU(1)    : d =  9.620 +-  2.606 A (Min =  0.000, Max = 13.000)
+                                                 (Pairs =            1484750)
+                                                 (Total =            1484750)
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         1
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : AU(1)     rel. abundance : 1.000  (     3925 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.159537     sec
+  Starting convolution
+
+ Elapsed time    :   5543.28     sec
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.457730E-01 sec
+ Required time        :     0.21 s
+
+ Total sum of weights :    47149.00000    
+ Saving PDF to file : MC_Sphere100_Au_onAu_r25_5000Cycles/2000.apd ...
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  13.00  A / File : MC_Sphere100 ( 801 pts)
+
+    AU(1)    - AU(1)    : d =  9.620 +-  2.607 A (Min =  0.000, Max = 13.000)
+                                                 (Pairs =            1484180)
+                                                 (Total =            1484180)
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         1
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : AU(1)     rel. abundance : 1.000  (     3925 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.160822     sec
+  Starting convolution
+
+ Elapsed time    :   5545.63     sec
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.462128E-01 sec
+ Required time        :     0.21 s
+
+ Total sum of weights :    47199.00000    
+ Saving PDF to file : MC_Sphere100_Au_onAu_r25_5000Cycles/3000.apd ...
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  13.00  A / File : MC_Sphere100 ( 801 pts)
+
+    AU(1)    - AU(1)    : d =  9.620 +-  2.607 A (Min =  0.000, Max = 13.000)
+                                                 (Pairs =            1484112)
+                                                 (Total =            1484112)
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         1
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : AU(1)     rel. abundance : 1.000  (     3925 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.162687     sec
+  Starting convolution
+
+ Elapsed time    :   5547.99     sec
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.470434E-01 sec
+ Required time        :     0.22 s
+
+ Total sum of weights :    47198.00000    
+ Saving PDF to file : MC_Sphere100_Au_onAu_r25_5000Cycles/4000.apd ...
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  13.00  A / File : MC_Sphere100 ( 801 pts)
+
+    AU(1)    - AU(1)    : d =  9.621 +-  2.607 A (Min =  0.000, Max = 13.000)
+                                                 (Pairs =            1484502)
+                                                 (Total =            1484502)
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         1
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : AU(1)     rel. abundance : 1.000  (     3925 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.158278     sec
+  Starting convolution
+
+ Elapsed time    :   5550.34     sec
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.465602E-01 sec
+ Required time        :     0.21 s
+
+ Total sum of weights :    47209.00000    
+ Saving PDF to file : MC_Sphere100_Au_onAu_r25_5000Cycles/5000.apd ...
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  13.00  A / File : MC_Sphere100 ( 801 pts)
+
+    AU(1)    - AU(1)    : d =  9.622 +-  2.607 A (Min =  0.000, Max = 13.000)
+                                                 (Pairs =            1483204)
+                                                 (Total =            1483204)
+ END mc.relax.mac

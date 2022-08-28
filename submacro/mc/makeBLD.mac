@@ -24,8 +24,8 @@ if(type=='Au')then
   bldname3 = ""
   chem	
   	set mode, exact
-  	set blen, 1,13
-  	set bin, 801
+    set blen, 1,25
+    set bin, 1601
   	blen Au, Au, "%c",bldname1
   	exit
 
@@ -35,8 +35,8 @@ elseif(type=="AuNi")then
   bldname3 = "%c/%d_%c%c.bld",output,MMC_Cycles*loop/divs,atom2,atom2
   chem	
     set mode, exact
-    set blen, 1,13
-    set bin, 801
+    set blen, 1,25
+    set bin, 1601
     blen Au, Au, "%c",bldname1
     blen Au, Ni, "%c",bldname2
     blen Ni, Ni, "%c",bldname3
@@ -48,8 +48,8 @@ elseif(type=="AuPd")then
   bldname3 = "%c/%d_%c%c.bld",output,MMC_Cycles*loop/divs,atom2,atom2
   chem	
     set mode, exact
-    set blen, 1,13
-    set bin, 801
+    set blen, 1,25
+    set bin, 1601
     blen Au, Au, "%c",bldname1
     blen Au, Pd, "%c",bldname2
     blen Pd, Pd, "%c",bldname3
@@ -60,8 +60,8 @@ elseif(type=="AuPt")then
   bldname3 = "%c/%d_%c%c.bld",output,MMC_Cycles*loop/divs,atom2,atom2
   chem  
     set mode, exact
-    set blen, 1,13
-    set bin, 801
+    set blen, 1,25
+    set bin, 1601
     blen Au, Au, "%c",bldname1
     blen Au, Pt, "%c",bldname2
     blen Pt, Pt, "%c",bldname3
