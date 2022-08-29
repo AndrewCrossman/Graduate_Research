@@ -1,4 +1,4 @@
-unning mc.relax.mac 
+  running mc.relax.mac 
  Fm-3m             225
  Lattice constants :
     a          b          c         alpha      beta       gamma      volume
@@ -59,8 +59,8 @@ unning mc.relax.mac
  Number of different atoms        :         2
 
     Element : VOID(0)   rel. abundance : 0.832  (    19403 atoms)
-    Element : PT(1)     rel. abundance : 0.083  (     1940 atoms)
-    Element : AU(2)     rel. abundance : 0.085  (     1985 atoms)
+    Element : AU(1)     rel. abundance : 0.083  (     1940 atoms)
+    Element : PT(2)     rel. abundance : 0.085  (     1985 atoms)
    Operation mode for MC        : atoms
    Max. number of MC cycles     : 23328000
    Feedback/update intervall    : 23328000
@@ -339,71 +339,39 @@ unning mc.relax.mac
  Desired distance for LENNARD : 
 
             Pairs          neigh. #   distance/A       depth/B       m       n
-     PT(1)    - PT(1)          1       2.845          7.8000000    
-                                   2193218.3         8272.1466     12.000    6.000
-     PT(1)    - AU(2)          1       2.898          6.5450000    
-                                   2296625.7         7754.0739     12.000    6.000
-     AU(2)    - AU(2)          1       2.951          5.2900000    
+     AU(1)    - AU(1)          1       2.951          5.2900000    
                                    2307205.0         6987.1638     12.000    6.000
-     PT(1)    - PT(1)          2       2.845          7.8000000    
-                                   2193218.3         8272.1466     12.000    6.000
-     PT(1)    - AU(2)          2       2.898          6.5450000    
-                                   2296625.7         7754.0739     12.000    6.000
-     AU(2)    - AU(2)          2       2.951          5.2900000    
+     AU(1)    - AU(1)          2       2.951          5.2900000    
                                    2307205.0         6987.1638     12.000    6.000
-     PT(1)    - PT(1)          3       2.845          7.8000000    
-                                   2193218.3         8272.1466     12.000    6.000
-     PT(1)    - AU(2)          3       2.898          6.5450000    
-                                   2296625.7         7754.0739     12.000    6.000
-     AU(2)    - AU(2)          3       2.951          5.2900000    
+     AU(1)    - AU(1)          3       2.951          5.2900000    
                                    2307205.0         6987.1638     12.000    6.000
-     PT(1)    - PT(1)          4       2.845          7.8000000    
-                                   2193218.3         8272.1466     12.000    6.000
-     PT(1)    - AU(2)          4       2.898          6.5450000    
-                                   2296625.7         7754.0739     12.000    6.000
-     AU(2)    - AU(2)          4       2.951          5.2900000    
+     AU(1)    - AU(1)          4       2.951          5.2900000    
                                    2307205.0         6987.1638     12.000    6.000
 
  Sigmas for MC shifts (l.u.)    : 
                  Atom VOID(0)   :   0.00000   0.00000   0.00000
-                 Atom PT(1)     :   0.02500   0.02500   0.02500
-                 Atom AU(2)     :   0.02500   0.02500   0.02500
+                 Atom AU(1)     :   0.02500   0.02500   0.02500
+                 Atom PT(2)     :   0.02500   0.02500   0.02500
 
- Gen:   23328000 try:   46656000 acc: (g/n/b):  2308942 /      196 /  1797526  MC moves 0.0000
+ Gen:   23328000 try:   46656000 acc: (g/n/b):  3024371 /      282 /  2338151  MC moves 0.0000
                                              Correlations/
  Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
  Def.   Type    central  Neighbors             Angle                           Target  of pairs
-   1   Lennard   PT      PT            2.845     4.374     1.076    -1.529    -0.537      27984
-   1   Lennard   PT      AU            2.898     4.784     0.920    -1.886    -0.651       8856
-   1   Lennard   AU      AU            2.951     4.571     1.053    -1.620    -0.549      43968
-   2   Lennard   PT      PT            2.845     4.383     1.075    -1.538    -0.541      29048
-   2   Lennard   PT      AU            2.898     4.779     0.922    -1.881    -0.649       9204
-   2   Lennard   AU      AU            2.951     4.576     1.052    -1.625    -0.551      44584
-   3   Lennard   PT      PT            2.845     4.382     1.075    -1.537    -0.540      29048
-   3   Lennard   PT      AU            2.898     4.782     0.922    -1.884    -0.650       9204
-   3   Lennard   AU      AU            2.951     4.576     1.052    -1.625    -0.551      44584
-   4   Lennard   PT      PT            2.845     4.383     1.076    -1.538    -0.541      29048
-   4   Lennard   PT      AU            2.898     4.781     0.922    -1.883    -0.650       9204
-   4   Lennard   AU      AU            2.951     4.575     1.052    -1.624    -0.550      44584
+   1   Lennard   AU      AU            2.951     4.491     1.097    -1.540    -0.522      27984
+   2   Lennard   AU      AU            2.951     4.504     1.097    -1.553    -0.526      29048
+   3   Lennard   AU      AU            2.951     4.505     1.098    -1.554    -0.527      29048
+   4   Lennard   AU      AU            2.951     4.506     1.097    -1.555    -0.527      29048
 
  --- Final multiple energy configuration ---
 
- Gen:   23328000 try:   23328000 acc: (g/n/b):  2308942 /      196 /  1797526  MC moves 
+ Gen:   23328000 try:   23328000 acc: (g/n/b):  3024372 /      282 /  2338151  MC moves 
                                              Correlations/
  Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
  Def.   Type    central  Neighbors             Angle                           Target  of pairs
-   1   Lennard   PT      PT            2.845     4.374     1.076    -1.529    -0.537      27984
-   1   Lennard   PT      AU            2.898     4.784     0.920    -1.886    -0.651       8856
-   1   Lennard   AU      AU            2.951     4.571     1.053    -1.620    -0.549      43968
-   2   Lennard   PT      PT            2.845     4.383     1.075    -1.538    -0.541      29048
-   2   Lennard   PT      AU            2.898     4.779     0.922    -1.881    -0.649       9204
-   2   Lennard   AU      AU            2.951     4.576     1.052    -1.625    -0.551      44584
-   3   Lennard   PT      PT            2.845     4.382     1.075    -1.537    -0.540      29048
-   3   Lennard   PT      AU            2.898     4.782     0.922    -1.884    -0.650       9204
-   3   Lennard   AU      AU            2.951     4.576     1.052    -1.625    -0.551      44584
-   4   Lennard   PT      PT            2.845     4.383     1.076    -1.538    -0.541      29048
-   4   Lennard   PT      AU            2.898     4.781     0.922    -1.883    -0.650       9204
-   4   Lennard   AU      AU            2.951     4.575     1.052    -1.624    -0.550      44584
+   1   Lennard   AU      AU            2.951     4.491     1.097    -1.540    -0.522      27984
+   2   Lennard   AU      AU            2.951     4.504     1.097    -1.553    -0.526      29048
+   3   Lennard   AU      AU            2.951     4.505     1.098    -1.554    -0.527      29048
+   4   Lennard   AU      AU            2.951     4.506     1.097    -1.555    -0.527      29048
 
  Maximum Cycles reached 
  Largest          difference ************ ?       0.0000
@@ -421,52 +389,36 @@ Displacement energy              0       0.000000         0         0       0.00
 Angular energy                   0       0.000000         0         0       0.000000
 Vector energy                    0       0.000000         0         0       0.000000
 Bond length energy               0       0.000000         0         0       0.000000
-Lennard Jones Potential    2308968      -0.536291       196   1797528       0.671008
+Lennard Jones Potential    3024387      -0.500836       282   2338171       0.629386
 Buckingham Potential             0       0.000000         0         0       0.000000
 Repulsive     Potential          0       0.000000         0         0       0.000000
 Coordination Number              0       0.000000         0         0       0.000000
 Unidirectional Corr              0       0.000000         0         0       0.000000
 Groupwise correlation            0       0.000000         0         0       0.000000
 
- Elapsed time :    0 h 19 min 27 sec 
+ Elapsed time :    0 h 14 min  0 sec 
  Time/cycle   :     0.000 sec
 
 
- Gen:   23328000 try:   46656000 acc: (g/n/b):  2312771 /      188 /  1796853  MC moves 0.0000
+ Gen:   23328000 try:   46656000 acc: (g/n/b):  3035473 /      275 /  2348430  MC moves 0.0000
                                              Correlations/
  Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
  Def.   Type    central  Neighbors             Angle                           Target  of pairs
-   1   Lennard   PT      PT            2.845     4.375     1.077    -1.530    -0.538      27984
-   1   Lennard   PT      AU            2.898     4.790     0.922    -1.892    -0.653       8856
-   1   Lennard   AU      AU            2.951     4.571     1.053    -1.620    -0.549      43968
-   2   Lennard   PT      PT            2.845     4.385     1.076    -1.540    -0.541      29048
-   2   Lennard   PT      AU            2.898     4.788     0.923    -1.890    -0.652       9204
-   2   Lennard   AU      AU            2.951     4.576     1.052    -1.625    -0.551      44584
-   3   Lennard   PT      PT            2.845     4.385     1.076    -1.540    -0.541      29048
-   3   Lennard   PT      AU            2.898     4.787     0.924    -1.889    -0.652       9204
-   3   Lennard   AU      AU            2.951     4.576     1.052    -1.625    -0.551      44584
-   4   Lennard   PT      PT            2.845     4.386     1.076    -1.541    -0.542      29048
-   4   Lennard   PT      AU            2.898     4.786     0.924    -1.888    -0.652       9204
-   4   Lennard   AU      AU            2.951     4.576     1.052    -1.625    -0.551      44584
+   1   Lennard   AU      AU            2.951     4.493     1.098    -1.542    -0.523      27984
+   2   Lennard   AU      AU            2.951     4.504     1.099    -1.553    -0.526      29048
+   3   Lennard   AU      AU            2.951     4.505     1.098    -1.554    -0.526      29048
+   4   Lennard   AU      AU            2.951     4.503     1.098    -1.552    -0.526      29048
 
  --- Final multiple energy configuration ---
 
- Gen:   23328000 try:   23328000 acc: (g/n/b):  2312771 /      188 /  1796853  MC moves 
+ Gen:   23328000 try:   23328000 acc: (g/n/b):  3035473 /      275 /  2348430  MC moves 
                                              Correlations/
  Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
  Def.   Type    central  Neighbors             Angle                           Target  of pairs
-   1   Lennard   PT      PT            2.845     4.375     1.077    -1.530    -0.538      27984
-   1   Lennard   PT      AU            2.898     4.790     0.922    -1.892    -0.653       8856
-   1   Lennard   AU      AU            2.951     4.571     1.053    -1.620    -0.549      43968
-   2   Lennard   PT      PT            2.845     4.385     1.076    -1.540    -0.541      29048
-   2   Lennard   PT      AU            2.898     4.788     0.923    -1.890    -0.652       9204
-   2   Lennard   AU      AU            2.951     4.576     1.052    -1.625    -0.551      44584
-   3   Lennard   PT      PT            2.845     4.385     1.076    -1.540    -0.541      29048
-   3   Lennard   PT      AU            2.898     4.787     0.924    -1.889    -0.652       9204
-   3   Lennard   AU      AU            2.951     4.576     1.052    -1.625    -0.551      44584
-   4   Lennard   PT      PT            2.845     4.386     1.076    -1.541    -0.542      29048
-   4   Lennard   PT      AU            2.898     4.786     0.924    -1.888    -0.652       9204
-   4   Lennard   AU      AU            2.951     4.576     1.052    -1.625    -0.551      44584
+   1   Lennard   AU      AU            2.951     4.493     1.098    -1.542    -0.523      27984
+   2   Lennard   AU      AU            2.951     4.504     1.099    -1.553    -0.526      29048
+   3   Lennard   AU      AU            2.951     4.505     1.098    -1.554    -0.526      29048
+   4   Lennard   AU      AU            2.951     4.503     1.098    -1.552    -0.526      29048
 
  Maximum Cycles reached 
  Largest          difference ************ ?       0.0000
@@ -484,52 +436,36 @@ Displacement energy              0       0.000000         0         0       0.00
 Angular energy                   0       0.000000         0         0       0.000000
 Vector energy                    0       0.000000         0         0       0.000000
 Bond length energy               0       0.000000         0         0       0.000000
-Lennard Jones Potential    2312803      -0.536194       188   1796854       0.671421
+Lennard Jones Potential    3035487      -0.500708       275   2348443       0.627882
 Buckingham Potential             0       0.000000         0         0       0.000000
 Repulsive     Potential          0       0.000000         0         0       0.000000
 Coordination Number              0       0.000000         0         0       0.000000
 Unidirectional Corr              0       0.000000         0         0       0.000000
 Groupwise correlation            0       0.000000         0         0       0.000000
 
- Elapsed time :    0 h 19 min 24 sec 
+ Elapsed time :    0 h 13 min 45 sec 
  Time/cycle   :     0.000 sec
 
 
- Gen:   23328000 try:   46656000 acc: (g/n/b):  2316968 /      249 /  1802326  MC moves 0.0000
+ Gen:   23328000 try:   46656000 acc: (g/n/b):  3034316 /      250 /  2346550  MC moves 0.0000
                                              Correlations/
  Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
  Def.   Type    central  Neighbors             Angle                           Target  of pairs
-   1   Lennard   PT      PT            2.845     4.374     1.076    -1.529    -0.537      27984
-   1   Lennard   PT      AU            2.898     4.780     0.920    -1.882    -0.650       8856
-   1   Lennard   AU      AU            2.951     4.572     1.053    -1.621    -0.549      43968
-   2   Lennard   PT      PT            2.845     4.383     1.076    -1.538    -0.541      29048
-   2   Lennard   PT      AU            2.898     4.781     0.923    -1.883    -0.650       9204
-   2   Lennard   AU      AU            2.951     4.577     1.053    -1.626    -0.551      44584
-   3   Lennard   PT      PT            2.845     4.384     1.076    -1.539    -0.541      29048
-   3   Lennard   PT      AU            2.898     4.780     0.923    -1.882    -0.649       9204
-   3   Lennard   AU      AU            2.951     4.577     1.052    -1.626    -0.551      44584
-   4   Lennard   PT      PT            2.845     4.384     1.075    -1.539    -0.541      29048
-   4   Lennard   PT      AU            2.898     4.781     0.924    -1.883    -0.650       9204
-   4   Lennard   AU      AU            2.951     4.576     1.052    -1.625    -0.551      44584
+   1   Lennard   AU      AU            2.951     4.491     1.097    -1.540    -0.522      27984
+   2   Lennard   AU      AU            2.951     4.503     1.097    -1.552    -0.526      29048
+   3   Lennard   AU      AU            2.951     4.506     1.097    -1.555    -0.527      29048
+   4   Lennard   AU      AU            2.951     4.505     1.097    -1.554    -0.526      29048
 
  --- Final multiple energy configuration ---
 
- Gen:   23328000 try:   23328000 acc: (g/n/b):  2316968 /      249 /  1802326  MC moves 
+ Gen:   23328000 try:   23328000 acc: (g/n/b):  3034316 /      250 /  2346550  MC moves 
                                              Correlations/
  Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
  Def.   Type    central  Neighbors             Angle                           Target  of pairs
-   1   Lennard   PT      PT            2.845     4.374     1.076    -1.529    -0.537      27984
-   1   Lennard   PT      AU            2.898     4.780     0.920    -1.882    -0.650       8856
-   1   Lennard   AU      AU            2.951     4.572     1.053    -1.621    -0.549      43968
-   2   Lennard   PT      PT            2.845     4.383     1.076    -1.538    -0.541      29048
-   2   Lennard   PT      AU            2.898     4.781     0.923    -1.883    -0.650       9204
-   2   Lennard   AU      AU            2.951     4.577     1.053    -1.626    -0.551      44584
-   3   Lennard   PT      PT            2.845     4.384     1.076    -1.539    -0.541      29048
-   3   Lennard   PT      AU            2.898     4.780     0.923    -1.882    -0.649       9204
-   3   Lennard   AU      AU            2.951     4.577     1.052    -1.626    -0.551      44584
-   4   Lennard   PT      PT            2.845     4.384     1.075    -1.539    -0.541      29048
-   4   Lennard   PT      AU            2.898     4.781     0.924    -1.883    -0.650       9204
-   4   Lennard   AU      AU            2.951     4.576     1.052    -1.625    -0.551      44584
+   1   Lennard   AU      AU            2.951     4.491     1.097    -1.540    -0.522      27984
+   2   Lennard   AU      AU            2.951     4.503     1.097    -1.552    -0.526      29048
+   3   Lennard   AU      AU            2.951     4.506     1.097    -1.555    -0.527      29048
+   4   Lennard   AU      AU            2.951     4.505     1.097    -1.554    -0.526      29048
 
  Maximum Cycles reached 
  Largest          difference ************ ?       0.0000
@@ -547,52 +483,36 @@ Displacement energy              0       0.000000         0         0       0.00
 Angular energy                   0       0.000000         0         0       0.000000
 Vector energy                    0       0.000000         0         0       0.000000
 Bond length energy               0       0.000000         0         0       0.000000
-Lennard Jones Potential    2316979      -0.535982       249   1802329       0.670354
+Lennard Jones Potential    3034338      -0.499676       250   2346560       0.627336
 Buckingham Potential             0       0.000000         0         0       0.000000
 Repulsive     Potential          0       0.000000         0         0       0.000000
 Coordination Number              0       0.000000         0         0       0.000000
 Unidirectional Corr              0       0.000000         0         0       0.000000
 Groupwise correlation            0       0.000000         0         0       0.000000
 
- Elapsed time :    0 h 19 min 25 sec 
+ Elapsed time :    0 h 13 min 45 sec 
  Time/cycle   :     0.000 sec
 
 
- Gen:   23328000 try:   46656000 acc: (g/n/b):  2312888 /      207 /  1797387  MC moves 0.0000
+ Gen:   23328000 try:   46656000 acc: (g/n/b):  3029583 /      292 /  2337011  MC moves 0.0000
                                              Correlations/
  Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
  Def.   Type    central  Neighbors             Angle                           Target  of pairs
-   1   Lennard   PT      PT            2.845     4.375     1.076    -1.530    -0.538      27984
-   1   Lennard   PT      AU            2.898     4.783     0.921    -1.885    -0.651       8856
-   1   Lennard   AU      AU            2.951     4.572     1.053    -1.621    -0.549      43968
-   2   Lennard   PT      PT            2.845     4.384     1.076    -1.539    -0.541      29048
-   2   Lennard   PT      AU            2.898     4.780     0.923    -1.882    -0.649       9204
-   2   Lennard   AU      AU            2.951     4.577     1.052    -1.626    -0.551      44584
-   3   Lennard   PT      PT            2.845     4.384     1.076    -1.539    -0.541      29048
-   3   Lennard   PT      AU            2.898     4.779     0.923    -1.881    -0.649       9204
-   3   Lennard   AU      AU            2.951     4.577     1.052    -1.626    -0.551      44584
-   4   Lennard   PT      PT            2.845     4.383     1.076    -1.538    -0.541      29048
-   4   Lennard   PT      AU            2.898     4.783     0.923    -1.885    -0.651       9204
-   4   Lennard   AU      AU            2.951     4.576     1.052    -1.625    -0.551      44584
+   1   Lennard   AU      AU            2.951     4.494     1.098    -1.543    -0.523      27984
+   2   Lennard   AU      AU            2.951     4.503     1.098    -1.552    -0.526      29048
+   3   Lennard   AU      AU            2.951     4.503     1.097    -1.552    -0.526      29048
+   4   Lennard   AU      AU            2.951     4.503     1.098    -1.552    -0.526      29048
 
  --- Final multiple energy configuration ---
 
- Gen:   23328000 try:   23328000 acc: (g/n/b):  2312888 /      207 /  1797387  MC moves 
+ Gen:   23328000 try:   23328000 acc: (g/n/b):  3029583 /      292 /  2337011  MC moves 
                                              Correlations/
  Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
  Def.   Type    central  Neighbors             Angle                           Target  of pairs
-   1   Lennard   PT      PT            2.845     4.375     1.076    -1.530    -0.538      27984
-   1   Lennard   PT      AU            2.898     4.783     0.921    -1.885    -0.651       8856
-   1   Lennard   AU      AU            2.951     4.572     1.053    -1.621    -0.549      43968
-   2   Lennard   PT      PT            2.845     4.384     1.076    -1.539    -0.541      29048
-   2   Lennard   PT      AU            2.898     4.780     0.923    -1.882    -0.649       9204
-   2   Lennard   AU      AU            2.951     4.577     1.052    -1.626    -0.551      44584
-   3   Lennard   PT      PT            2.845     4.384     1.076    -1.539    -0.541      29048
-   3   Lennard   PT      AU            2.898     4.779     0.923    -1.881    -0.649       9204
-   3   Lennard   AU      AU            2.951     4.577     1.052    -1.626    -0.551      44584
-   4   Lennard   PT      PT            2.845     4.383     1.076    -1.538    -0.541      29048
-   4   Lennard   PT      AU            2.898     4.783     0.923    -1.885    -0.651       9204
-   4   Lennard   AU      AU            2.951     4.576     1.052    -1.625    -0.551      44584
+   1   Lennard   AU      AU            2.951     4.494     1.098    -1.543    -0.523      27984
+   2   Lennard   AU      AU            2.951     4.503     1.098    -1.552    -0.526      29048
+   3   Lennard   AU      AU            2.951     4.503     1.097    -1.552    -0.526      29048
+   4   Lennard   AU      AU            2.951     4.503     1.098    -1.552    -0.526      29048
 
  Maximum Cycles reached 
  Largest          difference ************ ?       0.0000
@@ -610,52 +530,36 @@ Displacement energy              0       0.000000         0         0       0.00
 Angular energy                   0       0.000000         0         0       0.000000
 Vector energy                    0       0.000000         0         0       0.000000
 Bond length energy               0       0.000000         0         0       0.000000
-Lennard Jones Potential    2312910      -0.536598       207   1797393       0.671385
+Lennard Jones Potential    3029620      -0.500534       292   2337040       0.629522
 Buckingham Potential             0       0.000000         0         0       0.000000
 Repulsive     Potential          0       0.000000         0         0       0.000000
 Coordination Number              0       0.000000         0         0       0.000000
 Unidirectional Corr              0       0.000000         0         0       0.000000
 Groupwise correlation            0       0.000000         0         0       0.000000
 
- Elapsed time :    0 h 19 min 24 sec 
+ Elapsed time :    0 h 13 min 39 sec 
  Time/cycle   :     0.000 sec
 
 
- Gen:   23328000 try:   46656000 acc: (g/n/b):  2315351 /      218 /  1798938  MC moves 0.0000
+ Gen:   23328000 try:   46656000 acc: (g/n/b):  3033902 /      262 /  2345508  MC moves 0.0000
                                              Correlations/
  Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
  Def.   Type    central  Neighbors             Angle                           Target  of pairs
-   1   Lennard   PT      PT            2.845     4.374     1.076    -1.529    -0.537      27984
-   1   Lennard   PT      AU            2.898     4.784     0.919    -1.886    -0.651       8856
-   1   Lennard   AU      AU            2.951     4.569     1.052    -1.618    -0.548      43968
-   2   Lennard   PT      PT            2.845     4.383     1.076    -1.538    -0.541      29048
-   2   Lennard   PT      AU            2.898     4.782     0.924    -1.884    -0.650       9204
-   2   Lennard   AU      AU            2.951     4.575     1.051    -1.624    -0.550      44584
-   3   Lennard   PT      PT            2.845     4.382     1.075    -1.537    -0.540      29048
-   3   Lennard   PT      AU            2.898     4.784     0.923    -1.886    -0.651       9204
-   3   Lennard   AU      AU            2.951     4.574     1.052    -1.623    -0.550      44584
-   4   Lennard   PT      PT            2.845     4.381     1.075    -1.536    -0.540      29048
-   4   Lennard   PT      AU            2.898     4.784     0.921    -1.886    -0.651       9204
-   4   Lennard   AU      AU            2.951     4.574     1.052    -1.623    -0.550      44584
+   1   Lennard   AU      AU            2.951     4.489     1.097    -1.538    -0.521      27984
+   2   Lennard   AU      AU            2.951     4.502     1.097    -1.551    -0.526      29048
+   3   Lennard   AU      AU            2.951     4.503     1.097    -1.552    -0.526      29048
+   4   Lennard   AU      AU            2.951     4.500     1.097    -1.549    -0.525      29048
 
  --- Final multiple energy configuration ---
 
- Gen:   23328000 try:   23328000 acc: (g/n/b):  2315351 /      218 /  1798938  MC moves 
+ Gen:   23328000 try:   23328000 acc: (g/n/b):  3033903 /      262 /  2345508  MC moves 
                                              Correlations/
  Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
  Def.   Type    central  Neighbors             Angle                           Target  of pairs
-   1   Lennard   PT      PT            2.845     4.374     1.076    -1.529    -0.537      27984
-   1   Lennard   PT      AU            2.898     4.784     0.919    -1.886    -0.651       8856
-   1   Lennard   AU      AU            2.951     4.569     1.052    -1.618    -0.548      43968
-   2   Lennard   PT      PT            2.845     4.383     1.076    -1.538    -0.541      29048
-   2   Lennard   PT      AU            2.898     4.782     0.924    -1.884    -0.650       9204
-   2   Lennard   AU      AU            2.951     4.575     1.051    -1.624    -0.550      44584
-   3   Lennard   PT      PT            2.845     4.382     1.075    -1.537    -0.540      29048
-   3   Lennard   PT      AU            2.898     4.784     0.923    -1.886    -0.651       9204
-   3   Lennard   AU      AU            2.951     4.574     1.052    -1.623    -0.550      44584
-   4   Lennard   PT      PT            2.845     4.381     1.075    -1.536    -0.540      29048
-   4   Lennard   PT      AU            2.898     4.784     0.921    -1.886    -0.651       9204
-   4   Lennard   AU      AU            2.951     4.574     1.052    -1.623    -0.550      44584
+   1   Lennard   AU      AU            2.951     4.489     1.097    -1.538    -0.521      27984
+   2   Lennard   AU      AU            2.951     4.502     1.097    -1.551    -0.526      29048
+   3   Lennard   AU      AU            2.951     4.503     1.097    -1.552    -0.526      29048
+   4   Lennard   AU      AU            2.951     4.500     1.097    -1.549    -0.525      29048
 
  Maximum Cycles reached 
  Largest          difference ************ ?       0.0000
@@ -673,14 +577,14 @@ Displacement energy              0       0.000000         0         0       0.00
 Angular energy                   0       0.000000         0         0       0.000000
 Vector energy                    0       0.000000         0         0       0.000000
 Bond length energy               0       0.000000         0         0       0.000000
-Lennard Jones Potential    2315375      -0.535638       218   1798943       0.670714
+Lennard Jones Potential    3033948      -0.500367       262   2345529       0.627914
 Buckingham Potential             0       0.000000         0         0       0.000000
 Repulsive     Potential          0       0.000000         0         0       0.000000
 Coordination Number              0       0.000000         0         0       0.000000
 Unidirectional Corr              0       0.000000         0         0       0.000000
 Groupwise correlation            0       0.000000         0         0       0.000000
 
- Elapsed time :    0 h 19 min 24 sec 
+ Elapsed time :    0 h 13 min 39 sec 
  Time/cycle   :     0.000 sec
 
  Fm-3m             225
@@ -743,16 +647,16 @@ Groupwise correlation            0       0.000000         0         0       0.00
  Number of different atoms        :         2
 
     Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
-    Element : PT(1)     rel. abundance : 0.494  (     1940 atoms)
-    Element : AU(2)     rel. abundance : 0.506  (     1985 atoms)
+    Element : AU(1)     rel. abundance : 0.494  (     1940 atoms)
+    Element : PT(2)     rel. abundance : 0.506  (     1985 atoms)
  Computing powder sine lookup table ...
  Computing sin(theta)/lambda table ...
   Starting histogram
 
- Elapsed time H  :  0.366098     sec
+ Elapsed time H  :  0.292246     sec
   Starting convolution
 
- Elapsed time    :   57207.7     sec
+ Elapsed time    :   4132.43     sec
  Setting PDF calculation to no periodic bound., 3D, exact mode ..
  Setting up PDF segment ...
  Extending PDF search distance to  51.1429 A ...
@@ -763,29 +667,17 @@ Groupwise correlation            0       0.000000         0         0       0.00
     80.00 % done  ...
    100.00 % done  ...
 
- Elapsed time    :  0.533395E-01 sec
- Required time        :     0.53 s
+ Elapsed time    :  0.511423E-01 sec
+ Required time        :     0.46 s
 
- Total sum of weights :    161036.6198    
+ Total sum of weights :    132011.8360    
  Saving PDF to file : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/1000.apd ...
  Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : MC_Coreshell ( 801 pts)
+    Allowed range :   1.00 A to  25.00  A / File : MC_Coreshell (1601 pts)
 
-    AU(2)    - AU(2)    : d =  9.494 +-  2.627 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             694680)
-                                                 (Total =             694680)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : MC_Coreshell ( 801 pts)
-
-    AU(2)    - PT(1)    : d = 10.016 +-  2.300 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             268129)
-                                                 (Total =             268129)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : MC_Coreshell ( 801 pts)
-
-    PT(1)    - PT(1)    : d =  8.923 +-  2.865 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             303062)
-                                                 (Total =             303062)
+    AU(1)    - AU(1)    : d = 16.805 +-  5.745 A (Min =  0.000, Max = 25.000)
+                                                 (Pairs =            1102418)
+                                                 (Total =            1102418)
  Fm-3m             225
  Lattice constants :
     a          b          c         alpha      beta       gamma      volume
@@ -846,16 +738,16 @@ Groupwise correlation            0       0.000000         0         0       0.00
  Number of different atoms        :         2
 
     Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
-    Element : PT(1)     rel. abundance : 0.494  (     1940 atoms)
-    Element : AU(2)     rel. abundance : 0.506  (     1985 atoms)
+    Element : AU(1)     rel. abundance : 0.494  (     1940 atoms)
+    Element : PT(2)     rel. abundance : 0.506  (     1985 atoms)
  Computing powder sine lookup table ...
  Computing sin(theta)/lambda table ...
   Starting histogram
 
- Elapsed time H  :  0.372158     sec
+ Elapsed time H  :  0.281112     sec
   Starting convolution
 
- Elapsed time    :   57210.2     sec
+ Elapsed time    :   4133.81     sec
  Setting PDF calculation to no periodic bound., 3D, exact mode ..
  Setting up PDF segment ...
  Extending PDF search distance to  51.1429 A ...
@@ -866,29 +758,17 @@ Groupwise correlation            0       0.000000         0         0       0.00
     80.00 % done  ...
    100.00 % done  ...
 
- Elapsed time    :  0.524558E-01 sec
- Required time        :     0.53 s
+ Elapsed time    :  0.516496E-01 sec
+ Required time        :     0.46 s
 
- Total sum of weights :    161265.7147    
+ Total sum of weights :    131755.1304    
  Saving PDF to file : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/2000.apd ...
  Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : MC_Coreshell ( 801 pts)
+    Allowed range :   1.00 A to  25.00  A / File : MC_Coreshell (1601 pts)
 
-    AU(2)    - AU(2)    : d =  9.493 +-  2.627 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             694492)
-                                                 (Total =             694492)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : MC_Coreshell ( 801 pts)
-
-    AU(2)    - PT(1)    : d = 10.020 +-  2.299 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             267862)
-                                                 (Total =             267862)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : MC_Coreshell ( 801 pts)
-
-    PT(1)    - PT(1)    : d =  8.923 +-  2.866 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             302754)
-                                                 (Total =             302754)
+    AU(1)    - AU(1)    : d = 16.800 +-  5.744 A (Min =  0.000, Max = 25.000)
+                                                 (Pairs =            1099238)
+                                                 (Total =            1099238)
  Fm-3m             225
  Lattice constants :
     a          b          c         alpha      beta       gamma      volume
@@ -949,16 +829,16 @@ Groupwise correlation            0       0.000000         0         0       0.00
  Number of different atoms        :         2
 
     Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
-    Element : PT(1)     rel. abundance : 0.494  (     1940 atoms)
-    Element : AU(2)     rel. abundance : 0.506  (     1985 atoms)
+    Element : AU(1)     rel. abundance : 0.494  (     1940 atoms)
+    Element : PT(2)     rel. abundance : 0.506  (     1985 atoms)
  Computing powder sine lookup table ...
  Computing sin(theta)/lambda table ...
   Starting histogram
 
- Elapsed time H  :  0.370856     sec
+ Elapsed time H  :  0.283885     sec
   Starting convolution
 
- Elapsed time    :   57212.6     sec
+ Elapsed time    :   4135.19     sec
  Setting PDF calculation to no periodic bound., 3D, exact mode ..
  Setting up PDF segment ...
  Extending PDF search distance to  51.1429 A ...
@@ -969,29 +849,17 @@ Groupwise correlation            0       0.000000         0         0       0.00
     80.00 % done  ...
    100.00 % done  ...
 
- Elapsed time    :  0.536047E-01 sec
- Required time        :     0.53 s
+ Elapsed time    :  0.508070E-01 sec
+ Required time        :     0.46 s
 
- Total sum of weights :    161304.9579    
+ Total sum of weights :    131968.9729    
  Saving PDF to file : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/3000.apd ...
  Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : MC_Coreshell ( 801 pts)
+    Allowed range :   1.00 A to  25.00  A / File : MC_Coreshell (1601 pts)
 
-    AU(2)    - AU(2)    : d =  9.493 +-  2.627 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             694606)
-                                                 (Total =             694606)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : MC_Coreshell ( 801 pts)
-
-    AU(2)    - PT(1)    : d = 10.017 +-  2.301 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             268096)
-                                                 (Total =             268096)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : MC_Coreshell ( 801 pts)
-
-    PT(1)    - PT(1)    : d =  8.924 +-  2.866 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             303064)
-                                                 (Total =             303064)
+    AU(1)    - AU(1)    : d = 16.810 +-  5.745 A (Min =  0.000, Max = 25.000)
+                                                 (Pairs =            1104554)
+                                                 (Total =            1104554)
  Fm-3m             225
  Lattice constants :
     a          b          c         alpha      beta       gamma      volume
@@ -1052,16 +920,16 @@ Groupwise correlation            0       0.000000         0         0       0.00
  Number of different atoms        :         2
 
     Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
-    Element : PT(1)     rel. abundance : 0.494  (     1940 atoms)
-    Element : AU(2)     rel. abundance : 0.506  (     1985 atoms)
+    Element : AU(1)     rel. abundance : 0.494  (     1940 atoms)
+    Element : PT(2)     rel. abundance : 0.506  (     1985 atoms)
  Computing powder sine lookup table ...
  Computing sin(theta)/lambda table ...
   Starting histogram
 
- Elapsed time H  :  0.368315     sec
+ Elapsed time H  :  0.280753     sec
   Starting convolution
 
- Elapsed time    :   57215.0     sec
+ Elapsed time    :   4136.56     sec
  Setting PDF calculation to no periodic bound., 3D, exact mode ..
  Setting up PDF segment ...
  Extending PDF search distance to  51.1429 A ...
@@ -1072,29 +940,17 @@ Groupwise correlation            0       0.000000         0         0       0.00
     80.00 % done  ...
    100.00 % done  ...
 
- Elapsed time    :  0.510505E-01 sec
- Required time        :     0.53 s
+ Elapsed time    :  0.511004E-01 sec
+ Required time        :     0.45 s
 
- Total sum of weights :    161079.3662    
+ Total sum of weights :    131824.9416    
  Saving PDF to file : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/4000.apd ...
  Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : MC_Coreshell ( 801 pts)
+    Allowed range :   1.00 A to  25.00  A / File : MC_Coreshell (1601 pts)
 
-    AU(2)    - AU(2)    : d =  9.493 +-  2.627 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             694456)
-                                                 (Total =             694456)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : MC_Coreshell ( 801 pts)
-
-    AU(2)    - PT(1)    : d = 10.017 +-  2.301 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             267987)
-                                                 (Total =             267987)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : MC_Coreshell ( 801 pts)
-
-    PT(1)    - PT(1)    : d =  8.923 +-  2.866 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             303000)
-                                                 (Total =             303000)
+    AU(1)    - AU(1)    : d = 16.800 +-  5.743 A (Min =  0.000, Max = 25.000)
+                                                 (Pairs =            1100822)
+                                                 (Total =            1100822)
  Fm-3m             225
  Lattice constants :
     a          b          c         alpha      beta       gamma      volume
@@ -1155,16 +1011,16 @@ Groupwise correlation            0       0.000000         0         0       0.00
  Number of different atoms        :         2
 
     Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
-    Element : PT(1)     rel. abundance : 0.494  (     1940 atoms)
-    Element : AU(2)     rel. abundance : 0.506  (     1985 atoms)
+    Element : AU(1)     rel. abundance : 0.494  (     1940 atoms)
+    Element : PT(2)     rel. abundance : 0.506  (     1985 atoms)
  Computing powder sine lookup table ...
  Computing sin(theta)/lambda table ...
   Starting histogram
 
- Elapsed time H  :  0.367956     sec
+ Elapsed time H  :  0.280984     sec
   Starting convolution
 
- Elapsed time    :   57217.4     sec
+ Elapsed time    :   4137.93     sec
  Setting PDF calculation to no periodic bound., 3D, exact mode ..
  Setting up PDF segment ...
  Extending PDF search distance to  51.1429 A ...
@@ -1175,27 +1031,15 @@ Groupwise correlation            0       0.000000         0         0       0.00
     80.00 % done  ...
    100.00 % done  ...
 
- Elapsed time    :  0.504268E-01 sec
- Required time        :     0.53 s
+ Elapsed time    :  0.508655E-01 sec
+ Required time        :     0.46 s
 
- Total sum of weights :    161062.1737    
+ Total sum of weights :    131926.1452    
  Saving PDF to file : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd ...
  Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : MC_Coreshell ( 801 pts)
+    Allowed range :   1.00 A to  25.00  A / File : MC_Coreshell (1601 pts)
 
-    AU(2)    - AU(2)    : d =  9.493 +-  2.626 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             695294)
-                                                 (Total =             695294)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : MC_Coreshell ( 801 pts)
-
-    AU(2)    - PT(1)    : d = 10.017 +-  2.299 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             268021)
-                                                 (Total =             268021)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : MC_Coreshell ( 801 pts)
-
-    PT(1)    - PT(1)    : d =  8.923 +-  2.866 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             303132)
-                                                 (Total =             303132)
+    AU(1)    - AU(1)    : d = 16.810 +-  5.747 A (Min =  0.000, Max = 25.000)
+                                                 (Pairs =            1103984)
+                                                 (Total =            1103984)
  END mc.relax.mac

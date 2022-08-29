@@ -57,8 +57,6 @@
      PT(2)     - PT(2)        :     0.98759219    
 
  Current RMC settings (not all used here) :
- RMC running mode            :  0.500 : move atoms/molecules
- RMC running mode            :  0.500 : switch atoms/molecules
    Valid neighbours          : all
    Calc. scaling/backgr.     : none
    Fourier volume            : complete crystal
@@ -71,7 +69,7 @@
      PT(2)     and PT(2)     :   0.500
 
  Sigma for created RMC moves : 
-              Atom AU(1)     :   0.050   0.050   0.050
+              Atom AU(1)     :   0.200   0.200   0.200
               Atom PT(2)     :   0.200   0.200   0.200
 
  Selected atoms for RMC      : VOID(0)   AU(1)     PT(2)    
@@ -81,155 +79,66 @@
 
  Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
 
- Elapsed time    :  0.505365E-01 sec
+ Elapsed time    :  0.499822E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    17480 acc: (good/bad):     2360 /      826 s2x2:   2.1395773    
+ Gen:    78500 try:    34943 acc: (good/bad):     2950 /     1315 s2x2:   2.1254705    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    88075 try:    39250 acc: (good/bad):     3067 /     1435 s2x2:   2.1248688    
+
+ Delta Chi    : ave:      0.3679E-03 sig:      0.1694E-03 max:      0.7438E-03
+
+ Elapsed time :    0 h 49 min 30 sec 
+ Time/cycle   :     0.076 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.489917E-01 sec
 
  Starting main RMC loop ...
  (Mode SWCHEM) 
 
- Gen:    39250 try:    26116 acc: (good/bad):     7291 /     3518 s2x2:  0.56273686    
+ Gen:    39250 try:    26249 acc: (good/bad):     6105 /     3421 s2x2:  0.24647746    
 
  ---- Final configuration (s=   1.0000) ---- 
 
- Gen:    59055 try:    39250 acc: (good/bad):     9890 /     5836 s2x2:  0.51742370    
+ Gen:    58570 try:    39250 acc: (good/bad):     7953 /     5204 s2x2:  0.24318671    
 
- Delta Chi    : ave:      0.4067E-03 sig:      0.3844E-03 max:      0.3962E-02
+ Delta Chi    : ave:      0.2623E-03 sig:      0.2192E-03 max:      0.1092E-02
 
- Elapsed time :    0 h 35 min 26 sec 
- Time/cycle   :     0.054 sec
-
- Setting up PDF segment ...
- Extending PDF search distance to  51.1429 A ...
- Running PDF-Fit ...
-
- Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
-
- Elapsed time    :  0.560428E-01 sec
-
- Starting main RMC loop ...
- (Mode SHIFT) 
-
- Gen:    39250 try:    26152 acc: (good/bad):     5665 /     5129 s2x2:  0.41566137    
-
- ---- Final configuration (s=   1.0000) ---- 
-
- Gen:    58904 try:    39250 acc: (good/bad):     8524 /     7814 s2x2:  0.37951274    
-
- Delta Chi    : ave:      0.3201E-03 sig:      0.3108E-03 max:      0.1394E-02
-
- Elapsed time :    0 h 35 min 21 sec 
- Time/cycle   :     0.054 sec
-
- Saving structure to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-1.stru ...
- Setting up PDF segment ...
- Extending PDF search distance to  51.1429 A ...
- Running PDF-Fit ...
-
- Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
-
- Elapsed time    :  0.600182E-01 sec
-
- Starting main RMC loop ...
- (Mode SHIFT) 
-
- Gen:    39250 try:    26000 acc: (good/bad):     4455 /     3110 s2x2:  0.28946860    
-
- ---- Final configuration (s=   1.0000) ---- 
-
- Gen:    59273 try:    39250 acc: (good/bad):     6531 /     4825 s2x2:  0.26508296    
-
- Delta Chi    : ave:      0.2626E-03 sig:      0.2614E-03 max:      0.1249E-02
-
- Elapsed time :    0 h 36 min  5 sec 
+ Elapsed time :    0 h 35 min 42 sec 
  Time/cycle   :     0.055 sec
 
+ Saving structure to file : RMC_Coreshell5050_PtAu_on_Au_1-10-10/1-1.stru ...
  Setting up PDF segment ...
  Extending PDF search distance to  51.1429 A ...
  Running PDF-Fit ...
 
  Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
 
- Elapsed time    :  0.601525E-01 sec
+ Elapsed time    :  0.550974E-01 sec
 
  Starting main RMC loop ...
  (Mode SHIFT) 
 
- Gen:    39250 try:    25902 acc: (good/bad):     4063 /     3406 s2x2:  0.22567674    
+ Gen:    39250 try:    26091 acc: (good/bad):     2427 /     1087 s2x2:  0.17697704    
 
  ---- Final configuration (s=   1.0000) ---- 
 
- Gen:    59424 try:    39250 acc: (good/bad):     6109 /     5140 s2x2:  0.21313369    
+ Gen:    58621 try:    39250 acc: (good/bad):     3253 /     1626 s2x2:  0.16236746    
 
- Delta Chi    : ave:      0.2163E-03 sig:      0.2162E-03 max:      0.9911E-03
+ Delta Chi    : ave:      0.2198E-03 sig:      0.1935E-03 max:      0.8954E-03
 
- Elapsed time :    0 h 36 min 13 sec 
- Time/cycle   :     0.055 sec
-
- Saving structure to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-2.stru ...
- Setting up PDF segment ...
- Extending PDF search distance to  51.1429 A ...
- Running PDF-Fit ...
-
- Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
-
- Elapsed time    :  0.577250E-01 sec
-
- Starting main RMC loop ...
- (Mode SHIFT) 
-
- Gen:    39250 try:    26103 acc: (good/bad):     3241 /     2272 s2x2:  0.18571094    
-
- ---- Final configuration (s=   1.0000) ---- 
-
- Gen:    59056 try:    39250 acc: (good/bad):     4774 /     3502 s2x2:  0.17539532    
-
- Delta Chi    : ave:      0.1869E-03 sig:      0.1915E-03 max:      0.8751E-03
-
- Elapsed time :    0 h 36 min 47 sec 
- Time/cycle   :     0.056 sec
-
- Setting up PDF segment ...
- Extending PDF search distance to  51.1429 A ...
- Running PDF-Fit ...
-
- Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
-
- Elapsed time    :  0.560280E-01 sec
-
- Starting main RMC loop ...
- (Mode SHIFT) 
-
- Gen:    39250 try:    25941 acc: (good/bad):     2963 /     2368 s2x2:  0.15987531    
-
- ---- Final configuration (s=   1.0000) ---- 
-
- Gen:    59179 try:    39250 acc: (good/bad):     4475 /     3632 s2x2:  0.15241160    
-
- Delta Chi    : ave:      0.1693E-03 sig:      0.1735E-03 max:      0.7866E-03
-
- Elapsed time :    0 h 36 min 42 sec 
- Time/cycle   :     0.056 sec
-
- Saving structure to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-3.stru ...
- Setting up PDF segment ...
- Extending PDF search distance to  51.1429 A ...
- Running PDF-Fit ...
-
- Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
-
- Elapsed time    :  0.553830E-01 sec
-
- Starting main RMC loop ...
- (Mode SWCHEM) 
-
- Gen:    39250 try:    25952 acc: (good/bad):     2361 /     1655 s2x2:  0.13940813    
-
- ---- Final configuration (s=   1.0000) ---- 
-
- Gen:    59269 try:    39250 acc: (good/bad):     3484 /     2554 s2x2:  0.13435853    
-
- Delta Chi    : ave:      0.1523E-03 sig:      0.1603E-03 max:      0.7518E-03
-
- Elapsed time :    0 h 37 min  2 sec 
+ Elapsed time :    0 h 37 min  5 sec 
  Time/cycle   :     0.057 sec
 
  Setting up PDF segment ...
@@ -238,88 +147,43 @@
 
  Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
 
- Elapsed time    :  0.562960E-01 sec
+ Elapsed time    :  0.562945E-01 sec
 
  Starting main RMC loop ...
  (Mode SHIFT) 
 
- Gen:    39250 try:    25820 acc: (good/bad):     2121 /     1730 s2x2:  0.12812515    
+ Gen:    39250 try:    26356 acc: (good/bad):     1582 /     1049 s2x2:  0.14048718    
 
  ---- Final configuration (s=   1.0000) ---- 
 
- Gen:    59584 try:    39250 acc: (good/bad):     3197 /     2682 s2x2:  0.12471303    
+ Gen:    58560 try:    39250 acc: (good/bad):     2243 /     1575 s2x2:  0.13363380    
 
- Delta Chi    : ave:      0.1446E-03 sig:      0.1526E-03 max:      0.6766E-03
-
- Elapsed time :    0 h 37 min  6 sec 
- Time/cycle   :     0.057 sec
-
- Saving structure to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-4.stru ...
- Setting up PDF segment ...
- Extending PDF search distance to  51.1429 A ...
- Running PDF-Fit ...
-
- Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
-
- Elapsed time    :  0.545835E-01 sec
-
- Starting main RMC loop ...
- (Mode SHIFT) 
-
- Gen:    39250 try:    25877 acc: (good/bad):     1820 /     1252 s2x2:  0.11834735    
-
- ---- Final configuration (s=   1.0000) ---- 
-
- Gen:    59448 try:    39250 acc: (good/bad):     2682 /     1901 s2x2:  0.11540768    
-
- Delta Chi    : ave:      0.1370E-03 sig:      0.1461E-03 max:      0.6423E-03
+ Delta Chi    : ave:      0.1928E-03 sig:      0.1669E-03 max:      0.7067E-03
 
  Elapsed time :    0 h 37 min 19 sec 
  Time/cycle   :     0.057 sec
 
+ Saving structure to file : RMC_Coreshell5050_PtAu_on_Au_1-10-10/1-2.stru ...
  Setting up PDF segment ...
  Extending PDF search distance to  51.1429 A ...
  Running PDF-Fit ...
 
  Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
 
- Elapsed time    :  0.543595E-01 sec
+ Elapsed time    :  0.550985E-01 sec
 
  Starting main RMC loop ...
  (Mode SHIFT) 
 
- Gen:    39250 try:    25969 acc: (good/bad):     1660 /     1289 s2x2:  0.10995214    
+ Gen:    39250 try:    26194 acc: (good/bad):     1092 /      458 s2x2:  0.11623512    
 
  ---- Final configuration (s=   1.0000) ---- 
 
- Gen:    59430 try:    39250 acc: (good/bad):     2538 /     1971 s2x2:  0.10736373    
+ Gen:    58648 try:    39250 acc: (good/bad):     1519 /      671 s2x2:  0.11067459    
 
- Delta Chi    : ave:      0.1308E-03 sig:      0.1413E-03 max:      0.6459E-03
+ Delta Chi    : ave:      0.1659E-03 sig:      0.1434E-03 max:      0.6571E-03
 
- Elapsed time :    0 h 37 min 41 sec 
- Time/cycle   :     0.058 sec
-
- Saving structure to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-5.stru ...
- Setting up PDF segment ...
- Extending PDF search distance to  51.1429 A ...
- Running PDF-Fit ...
-
- Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
-
- Elapsed time    :  0.609920E-01 sec
-
- Starting main RMC loop ...
- (Mode SHIFT) 
-
- Gen:    39250 try:    25868 acc: (good/bad):     1370 /      986 s2x2:  0.10278683    
-
- ---- Final configuration (s=   1.0000) ---- 
-
- Gen:    59506 try:    39250 acc: (good/bad):     2070 /     1515 s2x2:  0.10125746    
-
- Delta Chi    : ave:      0.1218E-03 sig:      0.1347E-03 max:      0.6121E-03
-
- Elapsed time :    0 h 37 min 34 sec 
+ Elapsed time :    0 h 37 min 30 sec 
  Time/cycle   :     0.057 sec
 
  Setting up PDF segment ...
@@ -328,88 +192,88 @@
 
  Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
 
- Elapsed time    :  0.552125E-01 sec
-
- Starting main RMC loop ...
- (Mode SHIFT) 
-
- Gen:    39250 try:    25786 acc: (good/bad):     1327 /      943 s2x2:  0.96442911E-01
-
- ---- Final configuration (s=   1.0000) ---- 
-
- Gen:    59516 try:    39250 acc: (good/bad):     2011 /     1455 s2x2:  0.94398457E-01
-
- Delta Chi    : ave:      0.1188E-03 sig:      0.1300E-03 max:      0.6159E-03
-
- Elapsed time :    0 h 37 min 33 sec 
- Time/cycle   :     0.057 sec
-
- Saving structure to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-6.stru ...
- Setting up PDF segment ...
- Extending PDF search distance to  51.1429 A ...
- Running PDF-Fit ...
-
- Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
-
- Elapsed time    :  0.588635E-01 sec
+ Elapsed time    :  0.553357E-01 sec
 
  Starting main RMC loop ...
  (Mode SWCHEM) 
 
- Gen:    39250 try:    25809 acc: (good/bad):     1096 /      725 s2x2:  0.91977166E-01
+ Gen:    39250 try:    26316 acc: (good/bad):      782 /      394 s2x2:  0.10022309    
 
  ---- Final configuration (s=   1.0000) ---- 
 
- Gen:    59528 try:    39250 acc: (good/bad):     1559 /     1067 s2x2:  0.91163443E-01
+ Gen:    58678 try:    39250 acc: (good/bad):     1128 /      593 s2x2:  0.96467574E-01
 
- Delta Chi    : ave:      0.1134E-03 sig:      0.1259E-03 max:      0.5875E-03
+ Delta Chi    : ave:      0.1518E-03 sig:      0.1300E-03 max:      0.5763E-03
+
+ Elapsed time :    0 h 37 min 35 sec 
+ Time/cycle   :     0.057 sec
+
+ Saving structure to file : RMC_Coreshell5050_PtAu_on_Au_1-10-10/1-3.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.560644E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    26040 acc: (good/bad):      598 /      177 s2x2:  0.88526840E-01
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    59038 try:    39250 acc: (good/bad):      825 /      262 s2x2:  0.85520248E-01
+
+ Delta Chi    : ave:      0.1428E-03 sig:      0.1209E-03 max:      0.5179E-03
+
+ Elapsed time :    0 h 37 min 41 sec 
+ Time/cycle   :     0.058 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.577894E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    26201 acc: (good/bad):      488 /      178 s2x2:  0.78835308E-01
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    58728 try:    39250 acc: (good/bad):      711 /      260 s2x2:  0.76388618E-01
+
+ Delta Chi    : ave:      0.1307E-03 sig:      0.1091E-03 max:      0.4642E-03
 
  Elapsed time :    0 h 37 min 42 sec 
  Time/cycle   :     0.058 sec
 
+ Saving structure to file : RMC_Coreshell5050_PtAu_on_Au_1-10-10/1-4.stru ...
  Setting up PDF segment ...
  Extending PDF search distance to  51.1429 A ...
  Running PDF-Fit ...
 
  Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
 
- Elapsed time    :  0.573120E-01 sec
+ Elapsed time    :  0.559654E-01 sec
 
  Starting main RMC loop ...
  (Mode SWCHEM) 
 
- Gen:    39250 try:    25853 acc: (good/bad):      994 /      734 s2x2:  0.88892261E-01
+ Gen:    39250 try:    26139 acc: (good/bad):      438 /      116 s2x2:  0.70964437E-01
 
  ---- Final configuration (s=   1.0000) ---- 
 
- Gen:    59488 try:    39250 acc: (good/bad):     1483 /     1095 s2x2:  0.87951233E-01
+ Gen:    58885 try:    39250 acc: (good/bad):      630 /      166 s2x2:  0.68868626E-01
 
- Delta Chi    : ave:      0.1106E-03 sig:      0.1231E-03 max:      0.5559E-03
+ Delta Chi    : ave:      0.1173E-03 sig:      0.9824E-04 max:      0.4194E-03
 
- Elapsed time :    0 h 37 min 41 sec 
- Time/cycle   :     0.058 sec
-
- Saving structure to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-7.stru ...
- Setting up PDF segment ...
- Extending PDF search distance to  51.1429 A ...
- Running PDF-Fit ...
-
- Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
-
- Elapsed time    :  0.561655E-01 sec
-
- Starting main RMC loop ...
- (Mode SHIFT) 
-
- Gen:    39250 try:    25751 acc: (good/bad):      915 /      587 s2x2:  0.86005117E-01
-
- ---- Final configuration (s=   1.0000) ---- 
-
- Gen:    59634 try:    39250 acc: (good/bad):     1349 /      900 s2x2:  0.84996990E-01
-
- Delta Chi    : ave:      0.1091E-03 sig:      0.1218E-03 max:      0.5834E-03
-
- Elapsed time :    0 h 37 min 46 sec 
+ Elapsed time :    0 h 37 min 53 sec 
  Time/cycle   :     0.058 sec
 
  Setting up PDF segment ...
@@ -418,43 +282,133 @@
 
  Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
 
- Elapsed time    :  0.571150E-01 sec
+ Elapsed time    :  0.576664E-01 sec
 
  Starting main RMC loop ...
  (Mode SHIFT) 
 
- Gen:    39250 try:    25739 acc: (good/bad):      807 /      531 s2x2:  0.82690090E-01
+ Gen:    39250 try:    26046 acc: (good/bad):      338 /       97 s2x2:  0.64301366E-01
 
  ---- Final configuration (s=   1.0000) ---- 
 
- Gen:    59717 try:    39250 acc: (good/bad):     1216 /      800 s2x2:  0.81685823E-01
+ Gen:    59019 try:    39250 acc: (good/bad):      507 /      135 s2x2:  0.62678805E-01
 
- Delta Chi    : ave:      0.1065E-03 sig:      0.1189E-03 max:      0.5287E-03
+ Delta Chi    : ave:      0.1125E-03 sig:      0.9254E-04 max:      0.4051E-03
+
+ Elapsed time :    0 h 37 min 44 sec 
+ Time/cycle   :     0.058 sec
+
+ Saving structure to file : RMC_Coreshell5050_PtAu_on_Au_1-10-10/1-5.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.568692E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:    39250 try:    26260 acc: (good/bad):      330 /       63 s2x2:  0.58374375E-01
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    58687 try:    39250 acc: (good/bad):      495 /       96 s2x2:  0.56596380E-01
+
+ Delta Chi    : ave:      0.1035E-03 sig:      0.8414E-04 max:      0.3784E-03
+
+ Elapsed time :    0 h 37 min 47 sec 
+ Time/cycle   :     0.058 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.552130E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:    39250 try:    26145 acc: (good/bad):      283 /       65 s2x2:  0.54023768E-01
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    58826 try:    39250 acc: (good/bad):      422 /       96 s2x2:  0.52338077E-01
+
+ Delta Chi    : ave:      0.1009E-03 sig:      0.8264E-04 max:      0.3584E-03
+
+ Elapsed time :    0 h 37 min 51 sec 
+ Time/cycle   :     0.058 sec
+
+ Saving structure to file : RMC_Coreshell5050_PtAu_on_Au_1-10-10/1-6.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.577708E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    26117 acc: (good/bad):      269 /       40 s2x2:  0.49750579E-01
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    58764 try:    39250 acc: (good/bad):      399 /       55 s2x2:  0.48635585E-01
+
+ Delta Chi    : ave:      0.9740E-04 sig:      0.7917E-04 max:      0.3698E-03
 
  Elapsed time :    0 h 37 min 45 sec 
  Time/cycle   :     0.058 sec
 
- Saving structure to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-8.stru ...
  Setting up PDF segment ...
  Extending PDF search distance to  51.1429 A ...
  Running PDF-Fit ...
 
  Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
 
- Elapsed time    :  0.580650E-01 sec
+ Elapsed time    :  0.561610E-01 sec
 
  Starting main RMC loop ...
  (Mode SHIFT) 
 
- Gen:    39250 try:    25830 acc: (good/bad):      683 /      380 s2x2:  0.79712305E-01
+ Gen:    39250 try:    26056 acc: (good/bad):      256 /       35 s2x2:  0.46152875E-01
 
  ---- Final configuration (s=   1.0000) ---- 
 
- Gen:    59436 try:    39250 acc: (good/bad):     1030 /      586 s2x2:  0.78550886E-01
+ Gen:    58908 try:    39250 acc: (good/bad):      374 /       55 s2x2:  0.45152361E-01
 
- Delta Chi    : ave:      0.1038E-03 sig:      0.1159E-03 max:      0.5132E-03
+ Delta Chi    : ave:      0.9173E-04 sig:      0.7397E-04 max:      0.3314E-03
 
- Elapsed time :    0 h 37 min 51 sec 
+ Elapsed time :    0 h 37 min 50 sec 
+ Time/cycle   :     0.058 sec
+
+ Saving structure to file : RMC_Coreshell5050_PtAu_on_Au_1-10-10/1-7.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.555860E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    26176 acc: (good/bad):      241 /       28 s2x2:  0.42773395E-01
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    58651 try:    39250 acc: (good/bad):      355 /       50 s2x2:  0.41829259E-01
+
+ Delta Chi    : ave:      0.8474E-04 sig:      0.6802E-04 max:      0.3090E-03
+
+ Elapsed time :    0 h 37 min 57 sec 
  Time/cycle   :     0.058 sec
 
  Setting up PDF segment ...
@@ -463,68 +417,113 @@
 
  Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
 
- Elapsed time    :  0.603910E-01 sec
+ Elapsed time    :  0.552105E-01 sec
 
  Starting main RMC loop ...
  (Mode SWCHEM) 
 
- Gen:    39250 try:    25780 acc: (good/bad):      633 /      392 s2x2:  0.77149807E-01
+ Gen:    39250 try:    26175 acc: (good/bad):      244 /       44 s2x2:  0.39599110E-01
 
  ---- Final configuration (s=   1.0000) ---- 
 
- Gen:    59591 try:    39250 acc: (good/bad):      944 /      601 s2x2:  0.76287042E-01
+ Gen:    58799 try:    39250 acc: (good/bad):      367 /       70 s2x2:  0.38658025E-01
 
- Delta Chi    : ave:      0.1028E-03 sig:      0.1144E-03 max:      0.5073E-03
+ Delta Chi    : ave:      0.8269E-04 sig:      0.6566E-04 max:      0.3134E-03
+
+ Elapsed time :    0 h 37 min 49 sec 
+ Time/cycle   :     0.058 sec
+
+ Saving structure to file : RMC_Coreshell5050_PtAu_on_Au_1-10-10/1-8.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.545213E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:    39250 try:    26158 acc: (good/bad):      199 /       19 s2x2:  0.36895296E-01
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    58783 try:    39250 acc: (good/bad):      314 /       29 s2x2:  0.35951909E-01
+
+ Delta Chi    : ave:      0.7861E-04 sig:      0.6199E-04 max:      0.2763E-03
+
+ Elapsed time :    0 h 37 min 49 sec 
+ Time/cycle   :     0.058 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.583527E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    25961 acc: (good/bad):      220 /       24 s2x2:  0.34209673E-01
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    59115 try:    39250 acc: (good/bad):      343 /       37 s2x2:  0.33466250E-01
+
+ Delta Chi    : ave:      0.7332E-04 sig:      0.5722E-04 max:      0.2738E-03
+
+ Elapsed time :    0 h 37 min 46 sec 
+ Time/cycle   :     0.058 sec
+
+ Saving structure to file : RMC_Coreshell5050_PtAu_on_Au_1-10-10/1-9.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.545410E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    26145 acc: (good/bad):      185 /       26 s2x2:  0.32364785E-01
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    58679 try:    39250 acc: (good/bad):      276 /       40 s2x2:  0.31761172E-01
+
+ Delta Chi    : ave:      0.7421E-04 sig:      0.5870E-04 max:      0.2687E-03
 
  Elapsed time :    0 h 37 min 51 sec 
  Time/cycle   :     0.058 sec
 
- Saving structure to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-9.stru ...
  Setting up PDF segment ...
  Extending PDF search distance to  51.1429 A ...
  Running PDF-Fit ...
 
  Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
 
- Elapsed time    :  0.604630E-01 sec
+ Elapsed time    :  0.556185E-01 sec
 
  Starting main RMC loop ...
- (Mode SHIFT) 
+ (Mode SWCHEM) 
 
- Gen:    39250 try:    25599 acc: (good/bad):      597 /      285 s2x2:  0.74572227E-01
+ Gen:    39250 try:    26171 acc: (good/bad):      177 /       23 s2x2:  0.30503283E-01
 
  ---- Final configuration (s=   1.0000) ---- 
 
- Gen:    59788 try:    39250 acc: (good/bad):      899 /      438 s2x2:  0.73983355E-01
+ Gen:    58815 try:    39250 acc: (good/bad):      262 /       32 s2x2:  0.29857624E-01
 
- Delta Chi    : ave:      0.9898E-04 sig:      0.1117E-03 max:      0.5058E-03
+ Delta Chi    : ave:      0.7022E-04 sig:      0.5483E-04 max:      0.2775E-03
 
- Elapsed time :    0 h 37 min 59 sec 
+ Elapsed time :    0 h 37 min 47 sec 
  Time/cycle   :     0.058 sec
 
- Setting up PDF segment ...
- Extending PDF search distance to  51.1429 A ...
- Running PDF-Fit ...
-
- Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
-
- Elapsed time    :  0.599950E-01 sec
-
- Starting main RMC loop ...
- (Mode SHIFT) 
-
- Gen:    39250 try:    25565 acc: (good/bad):      559 /      350 s2x2:  0.72568059E-01
-
- ---- Final configuration (s=   1.0000) ---- 
-
- Gen:    59848 try:    39250 acc: (good/bad):      850 /      482 s2x2:  0.72070313E-01
-
- Delta Chi    : ave:      0.9751E-04 sig:      0.1096E-03 max:      0.5265E-03
-
- Elapsed time :    0 h 37 min 58 sec 
- Time/cycle   :     0.058 sec
-
- Saving structure to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-10.stru ...
+ Saving structure to file : RMC_Coreshell5050_PtAu_on_Au_1-10-10/1-10.stru ...
  Fm-3m             225
  Lattice constants :
     a          b          c         alpha      beta       gamma      volume
@@ -591,10 +590,10 @@
  Computing sin(theta)/lambda table ...
   Starting histogram
 
- Elapsed time H  :  0.447349     sec
+ Elapsed time H  :  0.425220     sec
   Starting convolution
 
- Elapsed time    :   101846.     sec
+ Elapsed time    :   49994.9     sec
  Resetting - all parameters ..
  Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd ..
  Column assignement (x y dx dy):     1    2    0    0
@@ -604,17 +603,17 @@
    Size     :   8692 points
 
    Range  x :    30.00     to    120.0    
-   Range  y :   0.2711E-09 to   0.2458E+05
+   Range  y :   0.3190E-09 to   0.2273E+05
 
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-1.xrd ..
+ Reading file RMC_Coreshell5050_PtAu_on_Au_1-10-10/1-1.xrd ..
  Column assignement (x y dx dy):     1    2    0    0
  Data set no.:   2
 
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-1.xrd
+   Filename : RMC_Coreshell5050_PtAu_on_Au_1-10-10/1-1.xrd
    Size     :   8692 points
 
    Range  x :    30.00     to    120.0    
-   Range  y :   0.1270E-08 to   0.1793E+05
+   Range  y :   0.7025E-09 to   0.2034E+05
 
  Data set no.:   1
 
@@ -622,17 +621,17 @@
    Size     :   8692 points
 
    Range  x :    30.00     to    120.0    
-   Range  y :   0.1103E-12 to    10.00    
+   Range  y :   0.1403E-12 to    10.00    
 
  Data set no.:   2
 
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-1.xrd
+   Filename : RMC_Coreshell5050_PtAu_on_Au_1-10-10/1-1.xrd
    Size     :   8692 points
 
    Range  x :    30.00     to    120.0    
-   Range  y :   0.5166E-12 to    7.293    
+   Range  y :   0.3090E-12 to    8.948    
 
- ------ > Saving window   1 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-1XRD.pdf ..
+ ------ > Saving window   1 to file : RMC_Coreshell5050_PtAu_on_Au_1-10-10/1-1XRD.pdf ..
  Setting PDF calculation to no periodic bound., 3D, exact mode ..
  Setting up PDF segment ...
  Extending PDF search distance to  51.1429 A ...
@@ -643,1167 +642,11 @@
     80.00 % done  ...
    100.00 % done  ...
 
- Elapsed time    :  0.743380E-01 sec
- Required time        :     0.63 s
-
- Total sum of weights :    191233.1255    
- Saving PDF to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-1.apd ...
- Resetting - all parameters ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd ..
- Column assignement (x y dx dy):     1    2    3    4
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -4.548     to    16.40    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-1.apd ..
- Column assignement (x y dx dy):     1    2    3    4
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-1.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -3.187     to    10.50    
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -2.773     to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-1.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -1.943     to    6.401    
-
- ------ > Saving window   1 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-1PDF.pdf ..
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    AU(1)    - AU(1)    : d =  9.559 +-  2.592 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             358092)
-                                                 (Total =             358092)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    AU(1)    - PT(2)    : d =  9.556 +-  2.589 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             382218)
-                                                 (Total =             382218)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    PT(2)    - PT(2)    : d =  9.560 +-  2.588 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             405288)
-                                                 (Total =             405288)
- Resetting ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    4786.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-1_AuAu.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-1_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    5190.    
-
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   3
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1927.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-1_AuPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   4
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-1_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    5513.    
-
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   5
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1862.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-1_PtPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   6
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-1_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    5858.    
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-1_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.84    
-
- Data set no.:   3
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   4
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-1_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    28.61    
-
- Data set no.:   5
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   6
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-1_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    31.46    
-
- ------ > Saving window   3 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-1BLD.pdf ..
- Fm-3m             225
- Lattice constants :
-    a          b          c         alpha      beta       gamma      volume
-    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
-
- Metric Tensor     :
-      16.63743      0.00000      0.00000
-       0.00000     16.63743      0.00000
-       0.00000      0.00000     16.63743
-
- Reciprocal Lattice constants :
-    a*         b*         c*        alpha*     beta*      gamma*     volume
-    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
-
- Reciprocal metric tensor     : 
-       0.06011     -0.00000     -0.00000
-      -0.00000      0.06011     -0.00000
-      -0.00000     -0.00000      0.06011
-
-    Neighbour determination mode   : quick = F
-    Periodic boundaries (x,y,z)    : F F F
-    Current operation mode         : atoms
-    Sample volume for homo-check   : complete crystal
-    Allowed bond length range      :  1.500 A to  7.500 A
-    # points for histogramms       :    601
-
-    Neighbour definitions          : 
-
-        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
-       -------------------------------------------------------------------
-
-    Defined correlation vectors    : 
-
-       ** none defined **
-
-    Defined correlation angles     : 
-
-       ** none defined **
-
-    Defined correlation environments: 
-
-       ** none defined **
-
-    Defined correlation ranges: 
-
-       ** none defined **
-
-    Defined displacement direc.    : 
-
-       ** none defined **
-
-    Defined correlation connectiv. : 
-
-       ** none defined **
- Size of the crystal (unit cells) :    1 x    1 x    1
- Total number of atoms            :      3925
- Number of atoms per unit cell    :      3925
- Number of different atoms        :         2
-
-    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
-    Element : AU(1)     rel. abundance : 0.487  (     1911 atoms)
-    Element : PT(2)     rel. abundance : 0.513  (     2014 atoms)
- Computing powder sine lookup table ...
- Computing sin(theta)/lambda table ...
-  Starting histogram
-
- Elapsed time H  :  0.468412     sec
-  Starting convolution
-
- Elapsed time    :   101850.     sec
- Resetting - all parameters ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.2711E-09 to   0.2458E+05
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-2.xrd ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-2.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.1241E-08 to   0.1889E+05
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.1103E-12 to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-2.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.5051E-12 to    7.683    
-
- ------ > Saving window   1 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-2XRD.pdf ..
- Setting PDF calculation to no periodic bound., 3D, exact mode ..
- Setting up PDF segment ...
- Extending PDF search distance to  51.1429 A ...
- Calculating PDF (exact mode) ...
-    20.00 % done  ...
-    40.00 % done  ...
-    60.00 % done  ...
-    80.00 % done  ...
-   100.00 % done  ...
-
- Elapsed time    :  0.514950E-01 sec
- Required time        :     0.61 s
-
- Total sum of weights :    190511.4460    
- Saving PDF to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-2.apd ...
- Resetting - all parameters ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd ..
- Column assignement (x y dx dy):     1    2    3    4
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -4.548     to    16.40    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-2.apd ..
- Column assignement (x y dx dy):     1    2    3    4
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-2.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -3.609     to    12.36    
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -2.773     to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-2.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -2.201     to    7.536    
-
- ------ > Saving window   1 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-2PDF.pdf ..
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    AU(1)    - AU(1)    : d =  9.569 +-  2.591 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             363202)
-                                                 (Total =             363202)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    AU(1)    - PT(2)    : d =  9.561 +-  2.588 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             381059)
-                                                 (Total =             381059)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    PT(2)    - PT(2)    : d =  9.551 +-  2.592 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             402658)
-                                                 (Total =             402658)
- Resetting ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    4786.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-2_AuAu.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-2_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    5996.    
-
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   3
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1927.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-2_AuPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   4
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-2_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    1.000     to    3967.    
-
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   5
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1862.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-2_PtPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   6
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-2_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    2950.    
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-2_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    12.53    
-
- Data set no.:   3
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   4
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-2_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :   0.5189E-02 to    20.59    
-
- Data set no.:   5
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   6
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-2_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    15.84    
-
- ------ > Saving window   3 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-2BLD.pdf ..
- Fm-3m             225
- Lattice constants :
-    a          b          c         alpha      beta       gamma      volume
-    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
-
- Metric Tensor     :
-      16.63743      0.00000      0.00000
-       0.00000     16.63743      0.00000
-       0.00000      0.00000     16.63743
-
- Reciprocal Lattice constants :
-    a*         b*         c*        alpha*     beta*      gamma*     volume
-    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
-
- Reciprocal metric tensor     : 
-       0.06011     -0.00000     -0.00000
-      -0.00000      0.06011     -0.00000
-      -0.00000     -0.00000      0.06011
-
-    Neighbour determination mode   : quick = F
-    Periodic boundaries (x,y,z)    : F F F
-    Current operation mode         : atoms
-    Sample volume for homo-check   : complete crystal
-    Allowed bond length range      :  1.500 A to  7.500 A
-    # points for histogramms       :    601
-
-    Neighbour definitions          : 
-
-        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
-       -------------------------------------------------------------------
-
-    Defined correlation vectors    : 
-
-       ** none defined **
-
-    Defined correlation angles     : 
-
-       ** none defined **
-
-    Defined correlation environments: 
-
-       ** none defined **
-
-    Defined correlation ranges: 
-
-       ** none defined **
-
-    Defined displacement direc.    : 
-
-       ** none defined **
-
-    Defined correlation connectiv. : 
-
-       ** none defined **
- Size of the crystal (unit cells) :    1 x    1 x    1
- Total number of atoms            :      3925
- Number of atoms per unit cell    :      3925
- Number of different atoms        :         2
-
-    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
-    Element : AU(1)     rel. abundance : 0.487  (     1911 atoms)
-    Element : PT(2)     rel. abundance : 0.513  (     2014 atoms)
- Computing powder sine lookup table ...
- Computing sin(theta)/lambda table ...
-  Starting histogram
-
- Elapsed time H  :  0.445808     sec
-  Starting convolution
-
- Elapsed time    :   101853.     sec
- Resetting - all parameters ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.2711E-09 to   0.2458E+05
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-3.xrd ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-3.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.1190E-08 to   0.1943E+05
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.1103E-12 to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-3.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.4840E-12 to    7.905    
-
- ------ > Saving window   1 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-3XRD.pdf ..
- Setting PDF calculation to no periodic bound., 3D, exact mode ..
- Setting up PDF segment ...
- Extending PDF search distance to  51.1429 A ...
- Calculating PDF (exact mode) ...
-    20.00 % done  ...
-    40.00 % done  ...
-    60.00 % done  ...
-    80.00 % done  ...
-   100.00 % done  ...
-
- Elapsed time    :  0.535530E-01 sec
- Required time        :     0.61 s
-
- Total sum of weights :    189982.7589    
- Saving PDF to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-3.apd ...
- Resetting - all parameters ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd ..
- Column assignement (x y dx dy):     1    2    3    4
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -4.548     to    16.40    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-3.apd ..
- Column assignement (x y dx dy):     1    2    3    4
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-3.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -3.757     to    13.35    
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -2.773     to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-3.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -2.291     to    8.142    
-
- ------ > Saving window   1 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-3PDF.pdf ..
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    AU(1)    - AU(1)    : d =  9.586 +-  2.589 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             380662)
-                                                 (Total =             380662)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    AU(1)    - PT(2)    : d =  9.557 +-  2.589 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             380215)
-                                                 (Total =             380215)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    PT(2)    - PT(2)    : d =  9.536 +-  2.593 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             386796)
-                                                 (Total =             386796)
- Resetting ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    4786.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-3_AuAu.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-3_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    5454.    
-
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   3
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1927.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-3_AuPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   4
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-3_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    1.000     to    3014.    
-
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   5
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1862.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-3_PtPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   6
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-3_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    2220.    
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-3_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    11.40    
-
- Data set no.:   3
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   4
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-3_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :   0.5189E-02 to    15.64    
-
- Data set no.:   5
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   6
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-3_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    11.92    
-
- ------ > Saving window   3 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-3BLD.pdf ..
- Fm-3m             225
- Lattice constants :
-    a          b          c         alpha      beta       gamma      volume
-    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
-
- Metric Tensor     :
-      16.63743      0.00000      0.00000
-       0.00000     16.63743      0.00000
-       0.00000      0.00000     16.63743
-
- Reciprocal Lattice constants :
-    a*         b*         c*        alpha*     beta*      gamma*     volume
-    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
-
- Reciprocal metric tensor     : 
-       0.06011     -0.00000     -0.00000
-      -0.00000      0.06011     -0.00000
-      -0.00000     -0.00000      0.06011
-
-    Neighbour determination mode   : quick = F
-    Periodic boundaries (x,y,z)    : F F F
-    Current operation mode         : atoms
-    Sample volume for homo-check   : complete crystal
-    Allowed bond length range      :  1.500 A to  7.500 A
-    # points for histogramms       :    601
-
-    Neighbour definitions          : 
-
-        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
-       -------------------------------------------------------------------
-
-    Defined correlation vectors    : 
-
-       ** none defined **
-
-    Defined correlation angles     : 
-
-       ** none defined **
-
-    Defined correlation environments: 
-
-       ** none defined **
-
-    Defined correlation ranges: 
-
-       ** none defined **
-
-    Defined displacement direc.    : 
-
-       ** none defined **
-
-    Defined correlation connectiv. : 
-
-       ** none defined **
- Size of the crystal (unit cells) :    1 x    1 x    1
- Total number of atoms            :      3925
- Number of atoms per unit cell    :      3925
- Number of different atoms        :         2
-
-    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
-    Element : PT(1)     rel. abundance : 0.513  (     2014 atoms)
-    Element : AU(2)     rel. abundance : 0.487  (     1911 atoms)
- Computing powder sine lookup table ...
- Computing sin(theta)/lambda table ...
-  Starting histogram
-
- Elapsed time H  :  0.449585     sec
-  Starting convolution
-
- Elapsed time    :   101856.     sec
- Resetting - all parameters ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.2711E-09 to   0.2458E+05
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-4.xrd ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-4.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.1162E-08 to   0.1977E+05
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.1103E-12 to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-4.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.4728E-12 to    8.041    
-
- ------ > Saving window   1 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-4XRD.pdf ..
- Setting PDF calculation to no periodic bound., 3D, exact mode ..
- Setting up PDF segment ...
- Extending PDF search distance to  51.1429 A ...
- Calculating PDF (exact mode) ...
-    20.00 % done  ...
-    40.00 % done  ...
-    60.00 % done  ...
-    80.00 % done  ...
-   100.00 % done  ...
-
- Elapsed time    :  0.561440E-01 sec
- Required time        :     0.61 s
-
- Total sum of weights :    189556.6898    
- Saving PDF to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-4.apd ...
- Resetting - all parameters ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd ..
- Column assignement (x y dx dy):     1    2    3    4
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -4.548     to    16.40    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-4.apd ..
- Column assignement (x y dx dy):     1    2    3    4
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-4.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -3.805     to    13.80    
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -2.773     to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-4.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -2.320     to    8.416    
-
- ------ > Saving window   1 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-4PDF.pdf ..
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    AU(2)    - AU(2)    : d =  9.570 +-  2.595 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             377692)
-                                                 (Total =             377692)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    AU(2)    - PT(1)    : d =  9.564 +-  2.588 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             380358)
-                                                 (Total =             380358)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    PT(1)    - PT(1)    : d =  9.537 +-  2.591 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             390350)
-                                                 (Total =             390350)
- Resetting ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    4786.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-4_AuAu.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-4_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    5040.    
-
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   3
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1927.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-4_AuPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   4
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-4_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    2558.    
-
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   5
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1862.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-4_PtPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   6
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-4_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    2106.    
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-4_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.53    
-
- Data set no.:   3
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   4
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-4_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    13.27    
-
- Data set no.:   5
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   6
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-4_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    11.31    
-
- ------ > Saving window   3 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-4BLD.pdf ..
- Fm-3m             225
- Lattice constants :
-    a          b          c         alpha      beta       gamma      volume
-    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
-
- Metric Tensor     :
-      16.63743      0.00000      0.00000
-       0.00000     16.63743      0.00000
-       0.00000      0.00000     16.63743
-
- Reciprocal Lattice constants :
-    a*         b*         c*        alpha*     beta*      gamma*     volume
-    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
-
- Reciprocal metric tensor     : 
-       0.06011     -0.00000     -0.00000
-      -0.00000      0.06011     -0.00000
-      -0.00000     -0.00000      0.06011
-
-    Neighbour determination mode   : quick = F
-    Periodic boundaries (x,y,z)    : F F F
-    Current operation mode         : atoms
-    Sample volume for homo-check   : complete crystal
-    Allowed bond length range      :  1.500 A to  7.500 A
-    # points for histogramms       :    601
-
-    Neighbour definitions          : 
-
-        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
-       -------------------------------------------------------------------
-
-    Defined correlation vectors    : 
-
-       ** none defined **
-
-    Defined correlation angles     : 
-
-       ** none defined **
-
-    Defined correlation environments: 
-
-       ** none defined **
-
-    Defined correlation ranges: 
-
-       ** none defined **
-
-    Defined displacement direc.    : 
-
-       ** none defined **
-
-    Defined correlation connectiv. : 
-
-       ** none defined **
- Size of the crystal (unit cells) :    1 x    1 x    1
- Total number of atoms            :      3925
- Number of atoms per unit cell    :      3925
- Number of different atoms        :         2
-
-    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
-    Element : AU(1)     rel. abundance : 0.487  (     1911 atoms)
-    Element : PT(2)     rel. abundance : 0.513  (     2014 atoms)
- Computing powder sine lookup table ...
- Computing sin(theta)/lambda table ...
-  Starting histogram
-
- Elapsed time H  :  0.447093     sec
-  Starting convolution
-
- Elapsed time    :   101860.     sec
- Resetting - all parameters ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.2711E-09 to   0.2458E+05
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-5.xrd ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-5.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.1151E-08 to   0.1997E+05
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.1103E-12 to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-5.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.4683E-12 to    8.124    
-
- ------ > Saving window   1 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-5XRD.pdf ..
- Setting PDF calculation to no periodic bound., 3D, exact mode ..
- Setting up PDF segment ...
- Extending PDF search distance to  51.1429 A ...
- Calculating PDF (exact mode) ...
-    20.00 % done  ...
-    40.00 % done  ...
-    60.00 % done  ...
-    80.00 % done  ...
-   100.00 % done  ...
-
- Elapsed time    :  0.530215E-01 sec
+ Elapsed time    :  0.508020E-01 sec
  Required time        :     0.60 s
 
- Total sum of weights :    189047.2561    
- Saving PDF to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-5.apd ...
+ Total sum of weights :    187849.2973    
+ Saving PDF to file : RMC_Coreshell5050_PtAu_on_Au_1-10-10/1-1.apd ...
  Resetting - all parameters ..
  Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd ..
  Column assignement (x y dx dy):     1    2    3    4
@@ -1813,17 +656,17 @@
    Size     :   5000 points
 
    Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -4.548     to    16.40    
+   Range  y :   -5.976     to    24.80    
 
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-5.apd ..
+ Reading file RMC_Coreshell5050_PtAu_on_Au_1-10-10/1-1.apd ..
  Column assignement (x y dx dy):     1    2    3    4
  Data set no.:   2
 
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-5.apd
+   Filename : RMC_Coreshell5050_PtAu_on_Au_1-10-10/1-1.apd
    Size     :   5000 points
 
    Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -3.846     to    14.14    
+   Range  y :   -4.277     to    20.19    
 
  Data set no.:   1
 
@@ -1831,1588 +674,14 @@
    Size     :   5000 points
 
    Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -2.773     to    10.00    
+   Range  y :   -2.410     to    10.00    
 
  Data set no.:   2
 
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-5.apd
+   Filename : RMC_Coreshell5050_PtAu_on_Au_1-10-10/1-1.apd
    Size     :   5000 points
 
    Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -2.345     to    8.621    
+   Range  y :   -1.725     to    8.144    
 
- ------ > Saving window   1 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-5PDF.pdf ..
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    AU(1)    - AU(1)    : d =  9.557 +-  2.605 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             379498)
-                                                 (Total =             379498)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    AU(1)    - PT(2)    : d =  9.569 +-  2.584 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             380730)
-                                                 (Total =             380730)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    PT(2)    - PT(2)    : d =  9.541 +-  2.590 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             388170)
-                                                 (Total =             388170)
- Resetting ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    4786.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-5_AuAu.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-5_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    4636.    
-
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   3
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1927.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-5_AuPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   4
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-5_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    2437.    
-
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   5
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1862.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-5_PtPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   6
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-5_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1942.    
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-5_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    9.687    
-
- Data set no.:   3
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   4
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-5_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    12.65    
-
- Data set no.:   5
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   6
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-5_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.43    
-
- ------ > Saving window   3 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-5BLD.pdf ..
- Fm-3m             225
- Lattice constants :
-    a          b          c         alpha      beta       gamma      volume
-    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
-
- Metric Tensor     :
-      16.63743      0.00000      0.00000
-       0.00000     16.63743      0.00000
-       0.00000      0.00000     16.63743
-
- Reciprocal Lattice constants :
-    a*         b*         c*        alpha*     beta*      gamma*     volume
-    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
-
- Reciprocal metric tensor     : 
-       0.06011     -0.00000     -0.00000
-      -0.00000      0.06011     -0.00000
-      -0.00000     -0.00000      0.06011
-
-    Neighbour determination mode   : quick = F
-    Periodic boundaries (x,y,z)    : F F F
-    Current operation mode         : atoms
-    Sample volume for homo-check   : complete crystal
-    Allowed bond length range      :  1.500 A to  7.500 A
-    # points for histogramms       :    601
-
-    Neighbour definitions          : 
-
-        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
-       -------------------------------------------------------------------
-
-    Defined correlation vectors    : 
-
-       ** none defined **
-
-    Defined correlation angles     : 
-
-       ** none defined **
-
-    Defined correlation environments: 
-
-       ** none defined **
-
-    Defined correlation ranges: 
-
-       ** none defined **
-
-    Defined displacement direc.    : 
-
-       ** none defined **
-
-    Defined correlation connectiv. : 
-
-       ** none defined **
- Size of the crystal (unit cells) :    1 x    1 x    1
- Total number of atoms            :      3925
- Number of atoms per unit cell    :      3925
- Number of different atoms        :         2
-
-    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
-    Element : PT(1)     rel. abundance : 0.513  (     2014 atoms)
-    Element : AU(2)     rel. abundance : 0.487  (     1911 atoms)
- Computing powder sine lookup table ...
- Computing sin(theta)/lambda table ...
-  Starting histogram
-
- Elapsed time H  :  0.452121     sec
-  Starting convolution
-
- Elapsed time    :   101863.     sec
- Resetting - all parameters ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.2711E-09 to   0.2458E+05
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-6.xrd ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-6.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.1131E-08 to   0.2015E+05
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.1103E-12 to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-6.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.4600E-12 to    8.198    
-
- ------ > Saving window   1 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-6XRD.pdf ..
- Setting PDF calculation to no periodic bound., 3D, exact mode ..
- Setting up PDF segment ...
- Extending PDF search distance to  51.1429 A ...
- Calculating PDF (exact mode) ...
-    20.00 % done  ...
-    40.00 % done  ...
-    60.00 % done  ...
-    80.00 % done  ...
-   100.00 % done  ...
-
- Elapsed time    :  0.523805E-01 sec
- Required time        :     0.60 s
-
- Total sum of weights :    188777.0813    
- Saving PDF to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-6.apd ...
- Resetting - all parameters ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd ..
- Column assignement (x y dx dy):     1    2    3    4
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -4.548     to    16.40    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-6.apd ..
- Column assignement (x y dx dy):     1    2    3    4
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-6.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -3.890     to    14.32    
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -2.773     to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-6.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -2.372     to    8.733    
-
- ------ > Saving window   1 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-6PDF.pdf ..
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    AU(2)    - AU(2)    : d =  9.555 +-  2.610 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             380520)
-                                                 (Total =             380520)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    AU(2)    - PT(1)    : d =  9.569 +-  2.583 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             380435)
-                                                 (Total =             380435)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    PT(1)    - PT(1)    : d =  9.545 +-  2.589 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             387866)
-                                                 (Total =             387866)
- Resetting ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    4786.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-6_AuAu.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-6_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    4288.    
-
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   3
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1927.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-6_AuPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   4
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-6_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    2361.    
-
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   5
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1862.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-6_PtPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   6
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-6_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1910.    
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-6_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    8.959    
-
- Data set no.:   3
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   4
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-6_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    12.25    
-
- Data set no.:   5
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   6
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-6_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.26    
-
- ------ > Saving window   3 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-6BLD.pdf ..
- Fm-3m             225
- Lattice constants :
-    a          b          c         alpha      beta       gamma      volume
-    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
-
- Metric Tensor     :
-      16.63743      0.00000      0.00000
-       0.00000     16.63743      0.00000
-       0.00000      0.00000     16.63743
-
- Reciprocal Lattice constants :
-    a*         b*         c*        alpha*     beta*      gamma*     volume
-    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
-
- Reciprocal metric tensor     : 
-       0.06011     -0.00000     -0.00000
-      -0.00000      0.06011     -0.00000
-      -0.00000     -0.00000      0.06011
-
-    Neighbour determination mode   : quick = F
-    Periodic boundaries (x,y,z)    : F F F
-    Current operation mode         : atoms
-    Sample volume for homo-check   : complete crystal
-    Allowed bond length range      :  1.500 A to  7.500 A
-    # points for histogramms       :    601
-
-    Neighbour definitions          : 
-
-        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
-       -------------------------------------------------------------------
-
-    Defined correlation vectors    : 
-
-       ** none defined **
-
-    Defined correlation angles     : 
-
-       ** none defined **
-
-    Defined correlation environments: 
-
-       ** none defined **
-
-    Defined correlation ranges: 
-
-       ** none defined **
-
-    Defined displacement direc.    : 
-
-       ** none defined **
-
-    Defined correlation connectiv. : 
-
-       ** none defined **
- Size of the crystal (unit cells) :    1 x    1 x    1
- Total number of atoms            :      3925
- Number of atoms per unit cell    :      3925
- Number of different atoms        :         2
-
-    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
-    Element : AU(1)     rel. abundance : 0.487  (     1911 atoms)
-    Element : PT(2)     rel. abundance : 0.513  (     2014 atoms)
- Computing powder sine lookup table ...
- Computing sin(theta)/lambda table ...
-  Starting histogram
-
- Elapsed time H  :  0.441411     sec
-  Starting convolution
-
- Elapsed time    :   101866.     sec
- Resetting - all parameters ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.2711E-09 to   0.2458E+05
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-7.xrd ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-7.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.1119E-08 to   0.2028E+05
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.1103E-12 to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-7.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.4553E-12 to    8.248    
-
- ------ > Saving window   1 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-7XRD.pdf ..
- Setting PDF calculation to no periodic bound., 3D, exact mode ..
- Setting up PDF segment ...
- Extending PDF search distance to  51.1429 A ...
- Calculating PDF (exact mode) ...
-    20.00 % done  ...
-    40.00 % done  ...
-    60.00 % done  ...
-    80.00 % done  ...
-   100.00 % done  ...
-
- Elapsed time    :  0.569665E-01 sec
- Required time        :     0.61 s
-
- Total sum of weights :    188614.6231    
- Saving PDF to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-7.apd ...
- Resetting - all parameters ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd ..
- Column assignement (x y dx dy):     1    2    3    4
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -4.548     to    16.40    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-7.apd ..
- Column assignement (x y dx dy):     1    2    3    4
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-7.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -3.912     to    14.43    
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -2.773     to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-7.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -2.385     to    8.800    
-
- ------ > Saving window   1 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-7PDF.pdf ..
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    AU(1)    - AU(1)    : d =  9.565 +-  2.605 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             383152)
-                                                 (Total =             383152)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    AU(1)    - PT(2)    : d =  9.563 +-  2.587 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             380785)
-                                                 (Total =             380785)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    PT(2)    - PT(2)    : d =  9.546 +-  2.584 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             384736)
-                                                 (Total =             384736)
- Resetting ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    4786.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-7_AuAu.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-7_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    4190.    
-
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   3
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1927.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-7_AuPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   4
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-7_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    2307.    
-
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   5
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1862.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-7_PtPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   6
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-7_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1850.    
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-7_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    8.755    
-
- Data set no.:   3
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   4
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-7_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    11.97    
-
- Data set no.:   5
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   6
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-7_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    9.936    
-
- ------ > Saving window   3 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-7BLD.pdf ..
- Fm-3m             225
- Lattice constants :
-    a          b          c         alpha      beta       gamma      volume
-    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
-
- Metric Tensor     :
-      16.63743      0.00000      0.00000
-       0.00000     16.63743      0.00000
-       0.00000      0.00000     16.63743
-
- Reciprocal Lattice constants :
-    a*         b*         c*        alpha*     beta*      gamma*     volume
-    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
-
- Reciprocal metric tensor     : 
-       0.06011     -0.00000     -0.00000
-      -0.00000      0.06011     -0.00000
-      -0.00000     -0.00000      0.06011
-
-    Neighbour determination mode   : quick = F
-    Periodic boundaries (x,y,z)    : F F F
-    Current operation mode         : atoms
-    Sample volume for homo-check   : complete crystal
-    Allowed bond length range      :  1.500 A to  7.500 A
-    # points for histogramms       :    601
-
-    Neighbour definitions          : 
-
-        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
-       -------------------------------------------------------------------
-
-    Defined correlation vectors    : 
-
-       ** none defined **
-
-    Defined correlation angles     : 
-
-       ** none defined **
-
-    Defined correlation environments: 
-
-       ** none defined **
-
-    Defined correlation ranges: 
-
-       ** none defined **
-
-    Defined displacement direc.    : 
-
-       ** none defined **
-
-    Defined correlation connectiv. : 
-
-       ** none defined **
- Size of the crystal (unit cells) :    1 x    1 x    1
- Total number of atoms            :      3925
- Number of atoms per unit cell    :      3925
- Number of different atoms        :         2
-
-    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
-    Element : PT(1)     rel. abundance : 0.513  (     2014 atoms)
-    Element : AU(2)     rel. abundance : 0.487  (     1911 atoms)
- Computing powder sine lookup table ...
- Computing sin(theta)/lambda table ...
-  Starting histogram
-
- Elapsed time H  :  0.481369     sec
-  Starting convolution
-
- Elapsed time    :   101870.     sec
- Resetting - all parameters ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.2711E-09 to   0.2458E+05
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-8.xrd ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-8.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.1124E-08 to   0.2045E+05
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.1103E-12 to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-8.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.4572E-12 to    8.320    
-
- ------ > Saving window   1 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-8XRD.pdf ..
- Setting PDF calculation to no periodic bound., 3D, exact mode ..
- Setting up PDF segment ...
- Extending PDF search distance to  51.1429 A ...
- Calculating PDF (exact mode) ...
-    20.00 % done  ...
-    40.00 % done  ...
-    60.00 % done  ...
-    80.00 % done  ...
-   100.00 % done  ...
-
- Elapsed time    :  0.499580E-01 sec
- Required time        :     0.60 s
-
- Total sum of weights :    188245.5104    
- Saving PDF to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-8.apd ...
- Resetting - all parameters ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd ..
- Column assignement (x y dx dy):     1    2    3    4
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -4.548     to    16.40    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-8.apd ..
- Column assignement (x y dx dy):     1    2    3    4
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-8.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -3.946     to    14.50    
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -2.773     to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-8.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -2.406     to    8.838    
-
- ------ > Saving window   1 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-8PDF.pdf ..
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    AU(2)    - AU(2)    : d =  9.557 +-  2.616 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             383614)
-                                                 (Total =             383614)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    AU(2)    - PT(1)    : d =  9.561 +-  2.582 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             381741)
-                                                 (Total =             381741)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    PT(1)    - PT(1)    : d =  9.561 +-  2.583 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             382932)
-                                                 (Total =             382932)
- Resetting ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    4786.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-8_AuAu.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-8_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    4046.    
-
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   3
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1927.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-8_AuPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   4
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-8_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    2318.    
-
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   5
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1862.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-8_PtPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   6
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-8_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1814.    
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-8_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    8.454    
-
- Data set no.:   3
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   4
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-8_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    12.03    
-
- Data set no.:   5
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   6
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-8_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    9.742    
-
- ------ > Saving window   3 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-8BLD.pdf ..
- Fm-3m             225
- Lattice constants :
-    a          b          c         alpha      beta       gamma      volume
-    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
-
- Metric Tensor     :
-      16.63743      0.00000      0.00000
-       0.00000     16.63743      0.00000
-       0.00000      0.00000     16.63743
-
- Reciprocal Lattice constants :
-    a*         b*         c*        alpha*     beta*      gamma*     volume
-    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
-
- Reciprocal metric tensor     : 
-       0.06011     -0.00000     -0.00000
-      -0.00000      0.06011     -0.00000
-      -0.00000     -0.00000      0.06011
-
-    Neighbour determination mode   : quick = F
-    Periodic boundaries (x,y,z)    : F F F
-    Current operation mode         : atoms
-    Sample volume for homo-check   : complete crystal
-    Allowed bond length range      :  1.500 A to  7.500 A
-    # points for histogramms       :    601
-
-    Neighbour definitions          : 
-
-        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
-       -------------------------------------------------------------------
-
-    Defined correlation vectors    : 
-
-       ** none defined **
-
-    Defined correlation angles     : 
-
-       ** none defined **
-
-    Defined correlation environments: 
-
-       ** none defined **
-
-    Defined correlation ranges: 
-
-       ** none defined **
-
-    Defined displacement direc.    : 
-
-       ** none defined **
-
-    Defined correlation connectiv. : 
-
-       ** none defined **
- Size of the crystal (unit cells) :    1 x    1 x    1
- Total number of atoms            :      3925
- Number of atoms per unit cell    :      3925
- Number of different atoms        :         2
-
-    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
-    Element : PT(1)     rel. abundance : 0.513  (     2014 atoms)
-    Element : AU(2)     rel. abundance : 0.487  (     1911 atoms)
- Computing powder sine lookup table ...
- Computing sin(theta)/lambda table ...
-  Starting histogram
-
- Elapsed time H  :  0.462106     sec
-  Starting convolution
-
- Elapsed time    :   101873.     sec
- Resetting - all parameters ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.2711E-09 to   0.2458E+05
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-9.xrd ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-9.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.1113E-08 to   0.2057E+05
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.1103E-12 to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-9.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.4528E-12 to    8.367    
-
- ------ > Saving window   1 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-9XRD.pdf ..
- Setting PDF calculation to no periodic bound., 3D, exact mode ..
- Setting up PDF segment ...
- Extending PDF search distance to  51.1429 A ...
- Calculating PDF (exact mode) ...
-    20.00 % done  ...
-    40.00 % done  ...
-    60.00 % done  ...
-    80.00 % done  ...
-   100.00 % done  ...
-
- Elapsed time    :  0.518205E-01 sec
- Required time        :     0.76 s
-
- Total sum of weights :    188015.8283    
- Saving PDF to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-9.apd ...
- Resetting - all parameters ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd ..
- Column assignement (x y dx dy):     1    2    3    4
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -4.548     to    16.40    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-9.apd ..
- Column assignement (x y dx dy):     1    2    3    4
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-9.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -3.975     to    14.58    
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -2.773     to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-9.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -2.424     to    8.893    
-
- ------ > Saving window   1 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-9PDF.pdf ..
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    AU(2)    - AU(2)    : d =  9.549 +-  2.622 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             381822)
-                                                 (Total =             381822)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    AU(2)    - PT(1)    : d =  9.565 +-  2.580 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             381604)
-                                                 (Total =             381604)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    PT(1)    - PT(1)    : d =  9.561 +-  2.582 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             385344)
-                                                 (Total =             385344)
- Resetting ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    4786.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-9_AuAu.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-9_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    3994.    
-
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   3
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1927.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-9_AuPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   4
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-9_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    2301.    
-
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   5
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1862.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-9_PtPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   6
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-9_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1832.    
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-9_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    8.345    
-
- Data set no.:   3
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   4
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-9_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    11.94    
-
- Data set no.:   5
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   6
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-9_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    9.839    
-
- ------ > Saving window   3 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-9BLD.pdf ..
- Fm-3m             225
- Lattice constants :
-    a          b          c         alpha      beta       gamma      volume
-    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
-
- Metric Tensor     :
-      16.63743      0.00000      0.00000
-       0.00000     16.63743      0.00000
-       0.00000      0.00000     16.63743
-
- Reciprocal Lattice constants :
-    a*         b*         c*        alpha*     beta*      gamma*     volume
-    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
-
- Reciprocal metric tensor     : 
-       0.06011     -0.00000     -0.00000
-      -0.00000      0.06011     -0.00000
-      -0.00000     -0.00000      0.06011
-
-    Neighbour determination mode   : quick = F
-    Periodic boundaries (x,y,z)    : F F F
-    Current operation mode         : atoms
-    Sample volume for homo-check   : complete crystal
-    Allowed bond length range      :  1.500 A to  7.500 A
-    # points for histogramms       :    601
-
-    Neighbour definitions          : 
-
-        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
-       -------------------------------------------------------------------
-
-    Defined correlation vectors    : 
-
-       ** none defined **
-
-    Defined correlation angles     : 
-
-       ** none defined **
-
-    Defined correlation environments: 
-
-       ** none defined **
-
-    Defined correlation ranges: 
-
-       ** none defined **
-
-    Defined displacement direc.    : 
-
-       ** none defined **
-
-    Defined correlation connectiv. : 
-
-       ** none defined **
- Size of the crystal (unit cells) :    1 x    1 x    1
- Total number of atoms            :      3925
- Number of atoms per unit cell    :      3925
- Number of different atoms        :         2
-
-    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
-    Element : PT(1)     rel. abundance : 0.513  (     2014 atoms)
-    Element : AU(2)     rel. abundance : 0.487  (     1911 atoms)
- Computing powder sine lookup table ...
- Computing sin(theta)/lambda table ...
-  Starting histogram
-
- Elapsed time H  :  0.477725     sec
-  Starting convolution
-
- Elapsed time    :   101877.     sec
- Resetting - all parameters ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.2711E-09 to   0.2458E+05
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-10.xrd ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-10.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.1113E-08 to   0.2063E+05
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.1103E-12 to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-10.xrd
-   Size     :   8692 points
-
-   Range  x :    30.00     to    120.0    
-   Range  y :   0.4529E-12 to    8.391    
-
- ------ > Saving window   1 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-10XRD.pdf ..
- Setting PDF calculation to no periodic bound., 3D, exact mode ..
- Setting up PDF segment ...
- Extending PDF search distance to  51.1429 A ...
- Calculating PDF (exact mode) ...
-    20.00 % done  ...
-    40.00 % done  ...
-    60.00 % done  ...
-    80.00 % done  ...
-   100.00 % done  ...
-
- Elapsed time    :  0.527115E-01 sec
- Required time        :     0.60 s
-
- Total sum of weights :    187764.6465    
- Saving PDF to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-10.apd ...
- Resetting - all parameters ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd ..
- Column assignement (x y dx dy):     1    2    3    4
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -4.548     to    16.40    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-10.apd ..
- Column assignement (x y dx dy):     1    2    3    4
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-10.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -4.006     to    14.63    
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -2.773     to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-10.apd
-   Size     :   5000 points
-
-   Range  x :   0.1000E-01 to    50.00    
-   Range  y :   -2.443     to    8.922    
-
- ------ > Saving window   1 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-10PDF.pdf ..
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    AU(2)    - AU(2)    : d =  9.546 +-  2.622 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             385618)
-                                                 (Total =             385618)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    AU(2)    - PT(1)    : d =  9.565 +-  2.579 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             381240)
-                                                 (Total =             381240)
- Calculating bond-length distibution
-    Allowed range :   1.00 A to  13.00  A / File : RMC_Coreshel ( 801 pts)
-
-    PT(1)    - PT(1)    : d =  9.563 +-  2.585 A (Min =  0.000, Max = 13.000)
-                                                 (Pairs =             382150)
-                                                 (Total =             382150)
- Resetting ..
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    4786.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-10_AuAu.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-10_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    3970.    
-
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   3
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1927.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-10_AuPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   4
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-10_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    2341.    
-
- Reading file MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   5
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1862.    
-
- Reading file RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-10_PtPt.bld ..
- Column assignement (x y dx dy):     1    2    0    0
- Data set no.:   6
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-10_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    1760.    
-
- Data set no.:   1
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   2
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-10_AuAu.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    8.295    
-
- Data set no.:   3
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   4
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-10_AuPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    12.15    
-
- Data set no.:   5
-
-   Filename : MC_Coreshell5050_PtAu_onAu_r25_5000Cycles/5000_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    10.00    
-
- Data set no.:   6
-
-   Filename : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-10_PtPt.bld
-   Size     :    801 points
-
-   Range  x :    1.000     to    12.98    
-   Range  y :    0.000     to    9.452    
-
- ------ > Saving window   3 to file : RMC_Coreshell5050_AuPt_on_Au_1-10-10/1-10BLD.pdf ..
- END rmc.shift.swap.mac
+ ------ > Saving window   1 to file : RMC_Coreshell5050_PtAu_on_Au_1-10-10/1-1PDF.pdf ..
