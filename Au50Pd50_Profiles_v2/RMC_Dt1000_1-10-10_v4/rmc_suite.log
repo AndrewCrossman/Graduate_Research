@@ -1,0 +1,3417 @@
+ rmc.shift.swap.mac
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Read PDF data (r =   0.010 to  50.000 A, 49990 points) ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Current PDF calculation settings : 
+   Maximum r [A]              :  51.1429
+   Grid size DR [A]           :   0.0100    (        51142 pts)
+   Radiation                  :   X-Rays    (at   0.0000 A**-1)
+
+   Applied corrections        : 
+     Q termination (SINC)     : applied, Qmax =  35.0000 A**-1
+     Instrument resolution    : not applied
+     Periodic boundaries      : not applied
+     4 Pi Rho r correction    :  50.0000 A diameter sphere
+     Weight correction        :   1.00000000
+     Convolution therm. Gauss.: applied
+     Resolution broadening    :   0.0000
+     Quad. correlation fac.   :   0.3000
+     Linear correlation fac.  :   0.0000
+     PDF peak width ratio     :   1.0000 below   0.0000 A
+     Number density           : automatic
+     Correction for RHO0      :   1.0000
+     PDF calculation mode     : all atoms
+
+   Refinement settings        : 
+     Fit minimum r [A]        :   0.0100   (pt.    1)
+     Fit maximum r [A]        :  50.0000   (pt. 5000)
+     Current scale factor     :   1.0000   (refined = F)
+
+   Selected atoms for PDF calculation :
+     Atoms (i)                : AU(1)     PD(2)    
+     Atoms (j)                : AU(1)     PD(2)    
+
+   Weights for PDF calculation (internal) :
+     AU(1)     - AU(1)        :      1.6125153    
+     AU(1)     - PD(2)        :     0.93902152    
+     PD(2)     - PD(2)        :     0.54682359    
+
+ Current RMC settings (not all used here) :
+   Valid neighbours          : all
+   Calc. scaling/backgr.     : none
+   Fourier volume            : complete crystal
+   Max. number of RMC cycles :    39250
+   Output update intervall   :    39250   (logging to rmc.log=F)
+   SIGMA for CHI calculation :   0.0100
+ Minimal allowed distances   : 
+     AU(1)     and AU(1)     :   0.500
+     AU(1)     and PD(2)     :   0.500
+     PD(2)     and PD(2)     :   0.500
+
+ Sigma for created RMC moves : 
+              Atom AU(1)     :   0.200   0.200   0.200
+              Atom PD(2)     :   0.200   0.200   0.200
+
+ Selected atoms for RMC      : VOID(0)   AU(1)     PD(2)    
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.385518     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    17379 acc: (good/bad):     2557 /     1380 s2x2:   4.9698585    
+ Gen:    78500 try:    34899 acc: (good/bad):     3993 /     2825 s2x2:   4.9660208    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    88148 try:    39250 acc: (good/bad):     4331 /     3132 s2x2:   4.9648376    
+
+ Delta Chi    : ave:      0.3593E-03 sig:      0.2654E-03 max:      0.1661E-02
+
+ Elapsed time :    6 h 23 min 18 sec 
+ Time/cycle   :     0.586 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.368345     sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:    39250 try:    26331 acc: (good/bad):     7506 /     2234 s2x2:  0.27703527    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    58454 try:    39250 acc: (good/bad):     9362 /     3581 s2x2:  0.20500660    
+
+ Delta Chi    : ave:      0.2824E-03 sig:      0.2434E-03 max:      0.2888E-02
+
+ Elapsed time :    4 h 36 min  0 sec 
+ Time/cycle   :     0.422 sec
+
+ Saving structure to file : RMC_Dt1000_1-10-10_v4/1-1.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.422495     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    26199 acc: (good/bad):     2925 /      914 s2x2:  0.68894774E-01
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    58649 try:    39250 acc: (good/bad):     4133 /     1614 s2x2:  0.44504450E-01
+
+ Delta Chi    : ave:      0.1930E-03 sig:      0.1761E-03 max:      0.1257E-02
+
+ Elapsed time :    4 h 44 min 44 sec 
+ Time/cycle   :     0.435 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.425965     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    26151 acc: (good/bad):     2439 /     2089 s2x2:  0.26778523E-01
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    58747 try:    39250 acc: (good/bad):     3888 /     3418 s2x2:  0.23371214E-01
+
+ Delta Chi    : ave:      0.9844E-04 sig:      0.8872E-04 max:      0.5525E-03
+
+ Elapsed time :    4 h 43 min 27 sec 
+ Time/cycle   :     0.433 sec
+
+ Saving structure to file : RMC_Dt1000_1-10-10_v4/1-2.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.415376     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    26248 acc: (good/bad):     2489 /     1831 s2x2:  0.13375583E-01
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    58666 try:    39250 acc: (good/bad):     3696 /     2890 s2x2:  0.11892065E-01
+
+ Delta Chi    : ave:      0.5467E-04 sig:      0.5155E-04 max:      0.3628E-03
+
+ Elapsed time :    4 h 43 min 42 sec 
+ Time/cycle   :     0.434 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.424259     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    26095 acc: (good/bad):     2379 /     2241 s2x2:  0.10126743E-01
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    58811 try:    39250 acc: (good/bad):     3630 /     3402 s2x2:  0.96246607E-02
+
+ Delta Chi    : ave:      0.4587E-04 sig:      0.4205E-04 max:      0.2490E-03
+
+ Elapsed time :    4 h 42 min 28 sec 
+ Time/cycle   :     0.432 sec
+
+ Saving structure to file : RMC_Dt1000_1-10-10_v4/1-3.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.419378     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    26180 acc: (good/bad):     2311 /     1822 s2x2:  0.62951767E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    58825 try:    39250 acc: (good/bad):     3404 /     2897 s2x2:  0.60571356E-02
+
+ Delta Chi    : ave:      0.3299E-04 sig:      0.3205E-04 max:      0.2072E-03
+
+ Elapsed time :    4 h 43 min 54 sec 
+ Time/cycle   :     0.434 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.415365     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    26144 acc: (good/bad):     2323 /     2288 s2x2:  0.50261828E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    58918 try:    39250 acc: (good/bad):     3539 /     3448 s2x2:  0.48469699E-02
+
+ Delta Chi    : ave:      0.2871E-04 sig:      0.2792E-04 max:      0.1674E-03
+
+ Elapsed time :    4 h 42 min 57 sec 
+ Time/cycle   :     0.433 sec
+
+ Saving structure to file : RMC_Dt1000_1-10-10_v4/1-4.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.422924     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    26201 acc: (good/bad):     2162 /     1871 s2x2:  0.34724004E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    58667 try:    39250 acc: (good/bad):     3183 /     2868 s2x2:  0.33581182E-02
+
+ Delta Chi    : ave:      0.2206E-04 sig:      0.2194E-04 max:      0.1407E-03
+
+ Elapsed time :    4 h 44 min 16 sec 
+ Time/cycle   :     0.435 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.423427     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    26196 acc: (good/bad):     2071 /     2026 s2x2:  0.29824328E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    58678 try:    39250 acc: (good/bad):     3087 /     3048 s2x2:  0.28326582E-02
+
+ Delta Chi    : ave:      0.2001E-04 sig:      0.1989E-04 max:      0.1272E-03
+
+ Elapsed time :    4 h 43 min 37 sec 
+ Time/cycle   :     0.434 sec
+
+ Saving structure to file : RMC_Dt1000_1-10-10_v4/1-5.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.429939     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    26017 acc: (good/bad):     1972 /     1819 s2x2:  0.22440949E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    58960 try:    39250 acc: (good/bad):     2978 /     2748 s2x2:  0.20378980E-02
+
+ Delta Chi    : ave:      0.1614E-04 sig:      0.1641E-04 max:      0.1099E-03
+
+ Elapsed time :    4 h 44 min 20 sec 
+ Time/cycle   :     0.435 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.423866     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    26110 acc: (good/bad):     1955 /     1950 s2x2:  0.18587636E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    58785 try:    39250 acc: (good/bad):     3000 /     2972 s2x2:  0.17667119E-02
+
+ Delta Chi    : ave:      0.1489E-04 sig:      0.1500E-04 max:      0.9433E-04
+
+ Elapsed time :    4 h 44 min 18 sec 
+ Time/cycle   :     0.435 sec
+
+ Saving structure to file : RMC_Dt1000_1-10-10_v4/1-6.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.420544     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    26079 acc: (good/bad):     1913 /     1780 s2x2:  0.14098440E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    59070 try:    39250 acc: (good/bad):     2853 /     2675 s2x2:  0.13357802E-02
+
+ Delta Chi    : ave:      0.1228E-04 sig:      0.1260E-04 max:      0.8068E-04
+
+ Elapsed time :    4 h 44 min 43 sec 
+ Time/cycle   :     0.435 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.411399     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    26270 acc: (good/bad):     1943 /     1890 s2x2:  0.12499258E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    58689 try:    39250 acc: (good/bad):     2920 /     2820 s2x2:  0.11926786E-02
+
+ Delta Chi    : ave:      0.1142E-04 sig:      0.1162E-04 max:      0.7738E-04
+
+ Elapsed time :    4 h 45 min 52 sec 
+ Time/cycle   :     0.437 sec
+
+ Saving structure to file : RMC_Dt1000_1-10-10_v4/1-7.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.420654     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    26041 acc: (good/bad):     1792 /     1735 s2x2:  0.97927242E-03
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    59118 try:    39250 acc: (good/bad):     2699 /     2641 s2x2:  0.93296133E-03
+
+ Delta Chi    : ave:      0.9508E-05 sig:      0.9817E-05 max:      0.6437E-04
+
+ Elapsed time :    4 h 44 min 48 sec 
+ Time/cycle   :     0.435 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.422630     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    26050 acc: (good/bad):     1769 /     1772 s2x2:  0.88539027E-03
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    58877 try:    39250 acc: (good/bad):     2708 /     2674 s2x2:  0.83024995E-03
+
+ Delta Chi    : ave:      0.9292E-05 sig:      0.9550E-05 max:      0.6246E-04
+
+ Elapsed time :    4 h 44 min 42 sec 
+ Time/cycle   :     0.435 sec
+
+ Saving structure to file : RMC_Dt1000_1-10-10_v4/1-8.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.425391     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    26119 acc: (good/bad):     1796 /     1693 s2x2:  0.71127570E-03
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    59054 try:    39250 acc: (good/bad):     2709 /     2569 s2x2:  0.69193077E-03
+
+ Delta Chi    : ave:      0.7825E-05 sig:      0.8082E-05 max:      0.5647E-04
+
+ Elapsed time :    4 h 44 min  4 sec 
+ Time/cycle   :     0.434 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.411440     sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:    39250 try:    26068 acc: (good/bad):     1747 /     1700 s2x2:  0.69650198E-03
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    58951 try:    39250 acc: (good/bad):     2633 /     2526 s2x2:  0.67673558E-03
+
+ Delta Chi    : ave:      0.7797E-05 sig:      0.7981E-05 max:      0.5112E-04
+
+ Elapsed time :    4 h 44 min 23 sec 
+ Time/cycle   :     0.435 sec
+
+ Saving structure to file : RMC_Dt1000_1-10-10_v4/1-9.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.405522     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    25928 acc: (good/bad):     1582 /     1498 s2x2:  0.55712350E-03
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    59317 try:    39250 acc: (good/bad):     2356 /     2342 s2x2:  0.55332246E-03
+
+ Delta Chi    : ave:      0.6749E-05 sig:      0.7048E-05 max:      0.4912E-04
+
+ Elapsed time :    4 h 46 min 29 sec 
+ Time/cycle   :     0.438 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.408514     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    39250 try:    26102 acc: (good/bad):     1650 /     1631 s2x2:  0.55726693E-03
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    58908 try:    39250 acc: (good/bad):     2501 /     2447 s2x2:  0.54646907E-03
+
+ Delta Chi    : ave:      0.6445E-05 sig:      0.6670E-05 max:      0.4754E-04
+
+ Elapsed time :    4 h 45 min 21 sec 
+ Time/cycle   :     0.436 sec
+
+ Saving structure to file : RMC_Dt1000_1-10-10_v4/1-10.stru ...
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : PD(1)     rel. abundance : 0.509  (     1997 atoms)
+    Element : AU(2)     rel. abundance : 0.491  (     1928 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :   3.36829     sec
+  Starting convolution
+
+ Elapsed time    :   346750.     sec
+ Resetting - all parameters ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4061E-09 to   0.1502E+05
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-1.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-1.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4666E-09 to   0.1351E+05
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2704E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-1.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3107E-12 to    8.993    
+
+ ------ > Saving window   1 to file : RMC_Dt1000_1-10-10_v4/1-1XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.459779     sec
+ Required time        :     4.98 s
+
+ Total sum of weights :    185298.7854    
+ Saving PDF to file : RMC_Dt1000_1-10-10_v4/1-1.apd ...
+ Resetting - all parameters ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -4.205     to    14.88    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-1.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-1.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -3.233     to    10.66    
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.826     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-1.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.173     to    7.163    
+
+ ------ > Saving window   1 to file : RMC_Dt1000_1-10-10_v4/1-1PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    AU(2)    - AU(2)    : d = 10.987 +-  3.052 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             613188)
+                                                 (Total =             613188)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    AU(2)    - PD(1)    : d = 11.010 +-  3.015 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             556763)
+                                                 (Total =             556763)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    PD(1)    - PD(1)    : d = 10.914 +-  3.065 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             521326)
+                                                 (Total =             521326)
+ Resetting ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3318.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-1_AuAu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-1_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    9368.    
+
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3156.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-1_AuPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-1_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3975.    
+
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3126.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-1_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-1_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2394.    
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-1_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    28.23    
+
+ Data set no.:   3
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-1_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    12.60    
+
+ Data set no.:   5
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-1_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    7.658    
+
+ ------ > Saving window   3 to file : RMC_Dt1000_1-10-10_v4/1-1BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : PD(1)     rel. abundance : 0.509  (     1997 atoms)
+    Element : AU(2)     rel. abundance : 0.491  (     1928 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :   3.34173     sec
+  Starting convolution
+
+ Elapsed time    :   346776.     sec
+ Resetting - all parameters ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4061E-09 to   0.1502E+05
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-2.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-2.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4479E-09 to   0.1385E+05
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2704E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-2.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2982E-12 to    9.221    
+
+ ------ > Saving window   1 to file : RMC_Dt1000_1-10-10_v4/1-2XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.482160     sec
+ Required time        :     5.01 s
+
+ Total sum of weights :    183754.1518    
+ Saving PDF to file : RMC_Dt1000_1-10-10_v4/1-2.apd ...
+ Resetting - all parameters ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -4.205     to    14.88    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-2.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-2.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -3.920     to    13.36    
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.826     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-2.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.635     to    8.978    
+
+ ------ > Saving window   1 to file : RMC_Dt1000_1-10-10_v4/1-2PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    AU(2)    - AU(2)    : d = 10.931 +-  3.091 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             598568)
+                                                 (Total =             598568)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    AU(2)    - PD(1)    : d = 11.043 +-  2.998 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             556773)
+                                                 (Total =             556773)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    PD(1)    - PD(1)    : d = 10.944 +-  3.062 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             541834)
+                                                 (Total =             541834)
+ Resetting ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3318.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-2_AuAu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-2_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4462.    
+
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3156.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-2_AuPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-2_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3140.    
+
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3126.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-2_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-2_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2430.    
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-2_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    13.45    
+
+ Data set no.:   3
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-2_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    9.949    
+
+ Data set no.:   5
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-2_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    7.774    
+
+ ------ > Saving window   3 to file : RMC_Dt1000_1-10-10_v4/1-2BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : PD(1)     rel. abundance : 0.509  (     1997 atoms)
+    Element : AU(2)     rel. abundance : 0.491  (     1928 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :   3.32429     sec
+  Starting convolution
+
+ Elapsed time    :   346802.     sec
+ Resetting - all parameters ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4061E-09 to   0.1502E+05
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-3.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-3.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4138E-09 to   0.1409E+05
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2704E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-3.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2755E-12 to    9.383    
+
+ ------ > Saving window   1 to file : RMC_Dt1000_1-10-10_v4/1-3XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.443041     sec
+ Required time        :     4.98 s
+
+ Total sum of weights :    183342.8111    
+ Saving PDF to file : RMC_Dt1000_1-10-10_v4/1-3.apd ...
+ Resetting - all parameters ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -4.205     to    14.88    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-3.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-3.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -4.017     to    14.09    
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.826     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-3.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.699     to    9.469    
+
+ ------ > Saving window   1 to file : RMC_Dt1000_1-10-10_v4/1-3PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    AU(2)    - AU(2)    : d = 10.905 +-  3.111 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             589404)
+                                                 (Total =             589404)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    AU(2)    - PD(1)    : d = 11.056 +-  2.983 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             553655)
+                                                 (Total =             553655)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    PD(1)    - PD(1)    : d = 10.952 +-  3.067 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             552682)
+                                                 (Total =             552682)
+ Resetting ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3318.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-3_AuAu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-3_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3512.    
+
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3156.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-3_AuPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-3_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2952.    
+
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3126.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-3_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-3_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2586.    
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-3_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.58    
+
+ Data set no.:   3
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-3_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    9.354    
+
+ Data set no.:   5
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-3_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    8.273    
+
+ ------ > Saving window   3 to file : RMC_Dt1000_1-10-10_v4/1-3BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : PD(1)     rel. abundance : 0.509  (     1997 atoms)
+    Element : AU(2)     rel. abundance : 0.491  (     1928 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :   3.34556     sec
+  Starting convolution
+
+ Elapsed time    :   346828.     sec
+ Resetting - all parameters ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4061E-09 to   0.1502E+05
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-4.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-4.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4117E-09 to   0.1426E+05
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2704E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-4.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2741E-12 to    9.496    
+
+ ------ > Saving window   1 to file : RMC_Dt1000_1-10-10_v4/1-4XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.447071     sec
+ Required time        :     5.01 s
+
+ Total sum of weights :    183625.9091    
+ Saving PDF to file : RMC_Dt1000_1-10-10_v4/1-4.apd ...
+ Resetting - all parameters ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -4.205     to    14.88    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-4.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-4.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -4.069     to    14.39    
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.826     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-4.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.734     to    9.673    
+
+ ------ > Saving window   1 to file : RMC_Dt1000_1-10-10_v4/1-4PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    AU(2)    - AU(2)    : d = 10.894 +-  3.110 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             590550)
+                                                 (Total =             590550)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    AU(2)    - PD(1)    : d = 11.076 +-  2.981 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             548233)
+                                                 (Total =             548233)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    PD(1)    - PD(1)    : d = 10.934 +-  3.066 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             559666)
+                                                 (Total =             559666)
+ Resetting ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3318.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-4_AuAu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-4_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3384.    
+
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3156.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-4_AuPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-4_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2945.    
+
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3126.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-4_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-4_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2670.    
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-4_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.20    
+
+ Data set no.:   3
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-4_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    9.331    
+
+ Data set no.:   5
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-4_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    8.541    
+
+ ------ > Saving window   3 to file : RMC_Dt1000_1-10-10_v4/1-4BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : PD(1)     rel. abundance : 0.509  (     1997 atoms)
+    Element : AU(2)     rel. abundance : 0.491  (     1928 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :   3.30217     sec
+  Starting convolution
+
+ Elapsed time    :   346854.     sec
+ Resetting - all parameters ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4061E-09 to   0.1502E+05
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-5.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-5.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4011E-09 to   0.1444E+05
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2704E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-5.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2671E-12 to    9.616    
+
+ ------ > Saving window   1 to file : RMC_Dt1000_1-10-10_v4/1-5XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.445918     sec
+ Required time        :     4.99 s
+
+ Total sum of weights :    183828.5605    
+ Saving PDF to file : RMC_Dt1000_1-10-10_v4/1-5.apd ...
+ Resetting - all parameters ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -4.205     to    14.88    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-5.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-5.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -4.126     to    14.55    
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.826     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-5.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.773     to    9.777    
+
+ ------ > Saving window   1 to file : RMC_Dt1000_1-10-10_v4/1-5PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    AU(2)    - AU(2)    : d = 10.901 +-  3.118 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             590514)
+                                                 (Total =             590514)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    AU(2)    - PD(1)    : d = 11.078 +-  2.972 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             546536)
+                                                 (Total =             546536)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    PD(1)    - PD(1)    : d = 10.927 +-  3.072 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             560186)
+                                                 (Total =             560186)
+ Resetting ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3318.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-5_AuAu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-5_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3444.    
+
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3156.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-5_AuPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-5_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2915.    
+
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3126.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-5_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-5_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2628.    
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-5_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.38    
+
+ Data set no.:   3
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-5_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    9.236    
+
+ Data set no.:   5
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-5_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    8.407    
+
+ ------ > Saving window   3 to file : RMC_Dt1000_1-10-10_v4/1-5BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : PD(1)     rel. abundance : 0.509  (     1997 atoms)
+    Element : AU(2)     rel. abundance : 0.491  (     1928 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :   3.33314     sec
+  Starting convolution
+
+ Elapsed time    :   346880.     sec
+ Resetting - all parameters ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4061E-09 to   0.1502E+05
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-6.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-6.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3869E-09 to   0.1454E+05
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2704E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-6.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2577E-12 to    9.680    
+
+ ------ > Saving window   1 to file : RMC_Dt1000_1-10-10_v4/1-6XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.454427     sec
+ Required time        :     5.02 s
+
+ Total sum of weights :    183829.2477    
+ Saving PDF to file : RMC_Dt1000_1-10-10_v4/1-6.apd ...
+ Resetting - all parameters ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -4.205     to    14.88    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-6.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-6.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -4.144     to    14.64    
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.826     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-6.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.785     to    9.838    
+
+ ------ > Saving window   1 to file : RMC_Dt1000_1-10-10_v4/1-6PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    AU(2)    - AU(2)    : d = 10.916 +-  3.112 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             586674)
+                                                 (Total =             586674)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    AU(2)    - PD(1)    : d = 11.064 +-  2.977 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             548507)
+                                                 (Total =             548507)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    PD(1)    - PD(1)    : d = 10.943 +-  3.071 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             558386)
+                                                 (Total =             558386)
+ Resetting ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3318.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-6_AuAu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-6_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3428.    
+
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3156.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-6_AuPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-6_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2887.    
+
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3126.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-6_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-6_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2712.    
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-6_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.33    
+
+ Data set no.:   3
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-6_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    9.148    
+
+ Data set no.:   5
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-6_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    8.676    
+
+ ------ > Saving window   3 to file : RMC_Dt1000_1-10-10_v4/1-6BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : PD(1)     rel. abundance : 0.509  (     1997 atoms)
+    Element : AU(2)     rel. abundance : 0.491  (     1928 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :   3.41823     sec
+  Starting convolution
+
+ Elapsed time    :   346906.     sec
+ Resetting - all parameters ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4061E-09 to   0.1502E+05
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-7.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-7.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3880E-09 to   0.1461E+05
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2704E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-7.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2584E-12 to    9.729    
+
+ ------ > Saving window   1 to file : RMC_Dt1000_1-10-10_v4/1-7XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.434415     sec
+ Required time        :     5.03 s
+
+ Total sum of weights :    183860.3166    
+ Saving PDF to file : RMC_Dt1000_1-10-10_v4/1-7.apd ...
+ Resetting - all parameters ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -4.205     to    14.88    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-7.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-7.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -4.164     to    14.67    
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.826     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-7.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.799     to    9.858    
+
+ ------ > Saving window   1 to file : RMC_Dt1000_1-10-10_v4/1-7PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    AU(2)    - AU(2)    : d = 10.913 +-  3.112 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             586360)
+                                                 (Total =             586360)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    AU(2)    - PD(1)    : d = 11.069 +-  2.976 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             548770)
+                                                 (Total =             548770)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    PD(1)    - PD(1)    : d = 10.940 +-  3.072 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             556090)
+                                                 (Total =             556090)
+ Resetting ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3318.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-7_AuAu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-7_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3340.    
+
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3156.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-7_AuPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-7_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2900.    
+
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3126.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-7_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-7_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2676.    
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-7_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.07    
+
+ Data set no.:   3
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-7_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    9.189    
+
+ Data set no.:   5
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-7_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    8.560    
+
+ ------ > Saving window   3 to file : RMC_Dt1000_1-10-10_v4/1-7BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : PD(1)     rel. abundance : 0.509  (     1997 atoms)
+    Element : AU(2)     rel. abundance : 0.491  (     1928 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :   3.34008     sec
+  Starting convolution
+
+ Elapsed time    :   346932.     sec
+ Resetting - all parameters ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4061E-09 to   0.1502E+05
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-8.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-8.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3864E-09 to   0.1467E+05
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2704E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-8.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2573E-12 to    9.769    
+
+ ------ > Saving window   1 to file : RMC_Dt1000_1-10-10_v4/1-8XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.450554     sec
+ Required time        :     5.03 s
+
+ Total sum of weights :    184194.3771    
+ Saving PDF to file : RMC_Dt1000_1-10-10_v4/1-8.apd ...
+ Resetting - all parameters ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -4.205     to    14.88    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-8.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-8.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -4.175     to    14.74    
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.826     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-8.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.806     to    9.908    
+
+ ------ > Saving window   1 to file : RMC_Dt1000_1-10-10_v4/1-8PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    AU(2)    - AU(2)    : d = 10.909 +-  3.110 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             586732)
+                                                 (Total =             586732)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    AU(2)    - PD(1)    : d = 11.083 +-  2.972 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             547013)
+                                                 (Total =             547013)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    PD(1)    - PD(1)    : d = 10.919 +-  3.079 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             559192)
+                                                 (Total =             559192)
+ Resetting ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3318.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-8_AuAu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-8_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3392.    
+
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3156.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-8_AuPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-8_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2886.    
+
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3126.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-8_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-8_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2700.    
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-8_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.22    
+
+ Data set no.:   3
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-8_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    9.144    
+
+ Data set no.:   5
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-8_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    8.637    
+
+ ------ > Saving window   3 to file : RMC_Dt1000_1-10-10_v4/1-8BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : PD(1)     rel. abundance : 0.509  (     1997 atoms)
+    Element : AU(2)     rel. abundance : 0.491  (     1928 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :   3.35835     sec
+  Starting convolution
+
+ Elapsed time    :   346958.     sec
+ Resetting - all parameters ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4061E-09 to   0.1502E+05
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-9.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-9.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4010E-09 to   0.1473E+05
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2704E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-9.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2670E-12 to    9.806    
+
+ ------ > Saving window   1 to file : RMC_Dt1000_1-10-10_v4/1-9XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.484264     sec
+ Required time        :     5.09 s
+
+ Total sum of weights :    184188.6379    
+ Saving PDF to file : RMC_Dt1000_1-10-10_v4/1-9.apd ...
+ Resetting - all parameters ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -4.205     to    14.88    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-9.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-9.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -4.174     to    14.77    
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.826     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-9.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.805     to    9.924    
+
+ ------ > Saving window   1 to file : RMC_Dt1000_1-10-10_v4/1-9PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    AU(2)    - AU(2)    : d = 10.917 +-  3.106 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             586908)
+                                                 (Total =             586908)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    AU(2)    - PD(1)    : d = 11.074 +-  2.980 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             546954)
+                                                 (Total =             546954)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    PD(1)    - PD(1)    : d = 10.934 +-  3.071 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             558664)
+                                                 (Total =             558664)
+ Resetting ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3318.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-9_AuAu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-9_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3340.    
+
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3156.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-9_AuPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-9_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2906.    
+
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3126.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-9_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-9_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2656.    
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-9_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.07    
+
+ Data set no.:   3
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-9_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    9.208    
+
+ Data set no.:   5
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-9_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    8.496    
+
+ ------ > Saving window   3 to file : RMC_Dt1000_1-10-10_v4/1-9BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : PD(1)     rel. abundance : 0.509  (     1997 atoms)
+    Element : AU(2)     rel. abundance : 0.491  (     1928 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :   3.38408     sec
+  Starting convolution
+
+ Elapsed time    :   346984.     sec
+ Resetting - all parameters ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4061E-09 to   0.1502E+05
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-10.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-10.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4000E-09 to   0.1472E+05
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2704E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-10.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2664E-12 to    9.800    
+
+ ------ > Saving window   1 to file : RMC_Dt1000_1-10-10_v4/1-10XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.462303     sec
+ Required time        :     5.04 s
+
+ Total sum of weights :    184074.0215    
+ Saving PDF to file : RMC_Dt1000_1-10-10_v4/1-10.apd ...
+ Resetting - all parameters ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -4.205     to    14.88    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-10.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-10.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -4.180     to    14.77    
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.826     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-10.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.809     to    9.926    
+
+ ------ > Saving window   1 to file : RMC_Dt1000_1-10-10_v4/1-10PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    AU(2)    - AU(2)    : d = 10.924 +-  3.101 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             585398)
+                                                 (Total =             585398)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    AU(2)    - PD(1)    : d = 11.068 +-  2.984 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             548471)
+                                                 (Total =             548471)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Dt1000_1 ( 801 pts)
+
+    PD(1)    - PD(1)    : d = 10.938 +-  3.068 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             556116)
+                                                 (Total =             556116)
+ Resetting ..
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3318.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-10_AuAu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-10_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3236.    
+
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3156.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-10_AuPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-10_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2857.    
+
+ Reading file Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3126.    
+
+ Reading file RMC_Dt1000_1-10-10_v4/1-10_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-10_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2714.    
+
+ Data set no.:   1
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-10_AuAu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    9.753    
+
+ Data set no.:   3
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-10_AuPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    9.053    
+
+ Data set no.:   5
+
+   Filename : Au50Pd50_Profiles_v2/MC_Dt1000/2000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Dt1000_1-10-10_v4/1-10_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    8.682    
+
+ ------ > Saving window   3 to file : RMC_Dt1000_1-10-10_v4/1-10BLD.pdf ..
+ END rmc.shift.swap.mac
