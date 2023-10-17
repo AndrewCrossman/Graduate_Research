@@ -1,0 +1,30 @@
+###################################################################
+# makeBlen.mac: last update 4/23/22
+# version 1.0	
+###################################################################
+# Creates an output file *.blen that shows the bond length distribution
+# between the two chosen atoms
+#
+chem	
+  reset
+  set mode, exact
+  set blen, 1,15
+  set bin, 801
+  blen 1,1, "%c_%c%c.blen", outfile,atom1,atom1
+  exit
+if(atom2/="")then
+  chem
+    reset	
+  	set mode, exact
+  	set blen, 1,15
+  	set bin, 801
+  	blen 1,2, "%c_%c%c.blen", outfile,atom1,atom2
+  	exit
+  chem
+    reset	
+  	set mode, exact
+  	set blen, 1,15
+  	set bin, 801
+  	blen 2,2, "%c_%c%c.blen", outfile,atom2,atom2
+  	exit
+endif

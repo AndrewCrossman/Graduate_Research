@@ -1,0 +1,38 @@
+###################################################################
+# makeXDP.mac: last update 3/27/22
+# version 1.0	
+#
+# INPUT:	
+# (none)
+# OUTPUT:
+# *.xy file
+##################################################################
+# This section calculates a minimal (i.e. without a variety of 
+# different intensity and line position corrections) powder xrd
+# pattern from the active set of atomic coordinates.
+#
+
+chem
+  set cryst,1,1,1,n[1] 
+exit
+
+powder 
+  reset                         # enter "powder" level
+  xray                          # enter x-ray diffraction level
+  set calc, debye               # diffraction using Debye formula
+  set temp, ignore              # ignore thermal vibrations effects
+  set wvle, Cu12                # set the x-ray wavelength (in A) to Cu k-alpha 1 
+  set delta, 0                  # no instrumental convolutions
+  set lpcor, bragg, 26.4        # graphite monochromator angle 
+  set profile, off              # no instrumental convolution  
+  set axis, tth                 # set x-axis title to 2*theta
+  set tthmin, 30                # set minimum 2*theta value
+  set tthmax, 120               # set maximum 2*theta value
+  set dtth, 0.02                # set 2*theta calculation interval    
+  run                           # run the calculation                        
+  exit
+output                    
+  format powder
+  outfile "%c/%d.xrd", output,(MMC_Cycles*loop/divs)         # makes an *.xy file with the XDP info
+  run 
+  exit

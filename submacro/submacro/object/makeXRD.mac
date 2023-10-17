@@ -1,0 +1,49 @@
+###################################################################
+# makeXDP.mac: last update 4/29/21
+# version 1.0	
+##################################################################
+# This section calculates a minimal (i.e. without a variety of 
+# different intensity and line position corrections) powder xrd
+# pattern from the active set of atomic coordinates.
+#
+# discus/help>powder for all "powder" options.
+
+chem
+ 	set cryst,1,1,1,n[1] 
+exit
+
+powder                          # enter "powder" level
+  xray                          # enter x-ray diffraction level
+  set calc, debye               # diffraction using Debye formula
+  set temp, ignore              # ignore thermal vibrations effects
+  set wvle, Cu12                # set the x-ray wavelength (in A) to Cu k-alpha 1 
+  set delta, 0                  # no instrumental convolutions
+  set lpcor, bragg, 26.4        # graphite monochromator angle 
+  set profile, off              # no instrumental convolution  
+  set axis, tth                 # set x-axis title to 2*theta
+  set tthmin, 30                # set minimum 2*theta value
+  set tthmax, 120               # set maximum 2*theta value
+  set dtth, 0.02                # set 2*theta calculation interval    
+  run                           # run the calculation                        
+  exit
+output                    
+  format powder
+  outfile "%c.xrd", outfile        # makes an *.xy file with the XDP info
+  run 
+  exit
+
+branch kuplot
+  reset
+  load xy, "%c.xrd", outfile# loads the *.xy file that contains the XRD
+  r[1]=10/ymax[1]           # determine y-axis scale factor
+  ccal mul, wy, 1, r[1]     # rescale the y data to make ymax=10, 1 reference load index
+  ltyp, 1,1
+  mtyp, 1,0
+  achx  2(\theta)    # xlabel
+  achy Intensity             # ylabel
+  font size, 3, 20      # Axes Labels Font Size
+  font size, 4, 12      # Axes Numbers Font Size
+  font typ, 3, 2
+  grid on         # Turns on the grid
+  plot            # Plots the data
+  exit

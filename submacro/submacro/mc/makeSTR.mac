@@ -1,0 +1,25 @@
+###################################################################
+# makeSTR.mac: last update 11/17/21
+# version 1.0	
+#
+# INPUT:
+# $1
+# OUTPUT:
+# *.cif file
+###################################################################
+# Creates an output *.stru file
+
+if($1=='include')then
+  save
+    outfile "%c/%d.stru", output,(MMC_Cycles*loop/divs)
+	sel all
+	run
+	exit
+elseif($1=='exclude')then
+  save
+    outfile "%c/%d_voidless.stru", output,(MMC_Cycles*loop/divs)
+	sel all
+	des void
+	run
+	exit
+endif

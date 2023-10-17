@@ -1,0 +1,3417 @@
+ rmc.shift.swap.mac
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Read PDF data (r =   0.010 to  50.000 A, 49990 points) ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Current PDF calculation settings : 
+   Maximum r [A]              :  51.1429
+   Grid size DR [A]           :   0.0100    (        51142 pts)
+   Radiation                  :   X-Rays    (at   0.0000 A**-1)
+
+   Applied corrections        : 
+     Q termination (SINC)     : applied, Qmax =  35.0000 A**-1
+     Instrument resolution    : not applied
+     Periodic boundaries      : not applied
+     4 Pi Rho r correction    :  50.0000 A diameter sphere
+     Weight correction        :   1.00000000
+     Convolution therm. Gauss.: applied
+     Resolution broadening    :   0.0000
+     Quad. correlation fac.   :   0.3000
+     Linear correlation fac.  :   0.0000
+     PDF peak width ratio     :   1.0000 below   0.0000 A
+     Number density           : automatic
+     Correction for RHO0      :   1.0000
+     PDF calculation mode     : all atoms
+
+   Refinement settings        : 
+     Fit minimum r [A]        :   0.0100   (pt.    1)
+     Fit maximum r [A]        :  50.0000   (pt. 5000)
+     Current scale factor     :   1.0000   (refined = F)
+
+   Selected atoms for PDF calculation :
+     Atoms (i)                : PD(1)     NI(2)    
+     Atoms (j)                : PD(1)     NI(2)    
+
+   Weights for PDF calculation (internal) :
+     PD(1)     - PD(1)        :      1.5526813    
+     PD(1)     - NI(2)        :     0.94517814    
+     NI(2)     - NI(2)        :     0.57536708    
+
+ Current RMC settings (not all used here) :
+   Valid neighbours          : all
+   Calc. scaling/backgr.     : none
+   Fourier volume            : complete crystal
+   Max. number of RMC cycles :    78500
+   Output update intervall   :    78500   (logging to rmc.log=F)
+   SIGMA for CHI calculation :   0.0100
+ Minimal allowed distances   : 
+     PD(1)     and PD(1)     :   0.500
+     PD(1)     and NI(2)     :   0.500
+     NI(2)     and NI(2)     :   0.500
+
+ Sigma for created RMC moves : 
+              Atom PD(1)     :   0.200   0.200   0.200
+              Atom NI(2)     :   0.200   0.200   0.200
+
+ Selected atoms for RMC      : VOID(0)   PD(1)     NI(2)    
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.625000E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    78500 try:    35021 acc: (good/bad):     2649 /      654 s2x2:   18.954977    
+ Gen:   157000 try:    70213 acc: (good/bad):     2938 /      825 s2x2:   18.937097    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   175375 try:    78500 acc: (good/bad):     2988 /      859 s2x2:   18.935243    
+
+ Delta Chi    : ave:      0.1032E-02 sig:      0.5952E-03 max:      0.3180E-02
+
+ Elapsed time :    1 h 46 min 58 sec 
+ Time/cycle   :     0.082 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.625000E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:    78500 try:    52328 acc: (good/bad):    16620 /     3593 s2x2:   2.4511078    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   117475 try:    78500 acc: (good/bad):    19956 /     5638 s2x2:   2.2800117    
+
+ Delta Chi    : ave:      0.3979E-03 sig:      0.3501E-03 max:      0.6996E-02
+
+ Elapsed time :    1 h 18 min 19 sec 
+ Time/cycle   :     0.060 sec
+
+ Saving structure to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-1.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.625000E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    78500 try:    52439 acc: (good/bad):     4241 /      928 s2x2:   2.0180434    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   117349 try:    78500 acc: (good/bad):     5717 /     1340 s2x2:   1.9456968    
+
+ Delta Chi    : ave:      0.3982E-03 sig:      0.2940E-03 max:      0.2239E-02
+
+ Elapsed time :    1 h 21 min 40 sec 
+ Time/cycle   :     0.062 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.625000E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    78500 try:    52166 acc: (good/bad):     2582 /      742 s2x2:   1.8321652    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   117711 try:    78500 acc: (good/bad):     3685 /     1074 s2x2:   1.7844836    
+
+ Delta Chi    : ave:      0.4058E-03 sig:      0.2910E-03 max:      0.1972E-02
+
+ Elapsed time :    1 h 22 min 55 sec 
+ Time/cycle   :     0.063 sec
+
+ Saving structure to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-2.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.625000E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    78500 try:    52624 acc: (good/bad):     1835 /      277 s2x2:   1.6996379    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   117100 try:    78500 acc: (good/bad):     2664 /      400 s2x2:   1.6651098    
+
+ Delta Chi    : ave:      0.4132E-03 sig:      0.2970E-03 max:      0.2275E-02
+
+ Elapsed time :    1 h 23 min  0 sec 
+ Time/cycle   :     0.063 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.625000E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    78500 try:    52437 acc: (good/bad):     1484 /      256 s2x2:   1.6060289    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   117450 try:    78500 acc: (good/bad):     2200 /      381 s2x2:   1.5765076    
+
+ Delta Chi    : ave:      0.4189E-03 sig:      0.3026E-03 max:      0.2313E-02
+
+ Elapsed time :    1 h 21 min 57 sec 
+ Time/cycle   :     0.063 sec
+
+ Saving structure to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-3.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.625000E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:    78500 try:    52123 acc: (good/bad):     1309 /      121 s2x2:   1.5241287    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   117783 try:    78500 acc: (good/bad):     1922 /      191 s2x2:   1.4996632    
+
+ Delta Chi    : ave:      0.4260E-03 sig:      0.3115E-03 max:      0.2453E-02
+
+ Elapsed time :    1 h 22 min 15 sec 
+ Time/cycle   :     0.063 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.625000E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    78500 try:    52158 acc: (good/bad):     1231 /      128 s2x2:   1.4471360    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   117957 try:    78500 acc: (good/bad):     1811 /      188 s2x2:   1.4214477    
+
+ Delta Chi    : ave:      0.4340E-03 sig:      0.3245E-03 max:      0.2679E-02
+
+ Elapsed time :    1 h 23 min 52 sec 
+ Time/cycle   :     0.064 sec
+
+ Saving structure to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-4.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.625000E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    78500 try:    52265 acc: (good/bad):     1184 /       71 s2x2:   1.3696012    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   117610 try:    78500 acc: (good/bad):     1761 /      105 s2x2:   1.3451068    
+
+ Delta Chi    : ave:      0.4398E-03 sig:      0.3375E-03 max:      0.2593E-02
+
+ Elapsed time :    1 h 24 min  9 sec 
+ Time/cycle   :     0.064 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.625000E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:    78500 try:    52241 acc: (good/bad):     1116 /       64 s2x2:   1.2968845    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   117823 try:    78500 acc: (good/bad):     1660 /      111 s2x2:   1.2718679    
+
+ Delta Chi    : ave:      0.4483E-03 sig:      0.3520E-03 max:      0.2897E-02
+
+ Elapsed time :    1 h 24 min 28 sec 
+ Time/cycle   :     0.065 sec
+
+ Saving structure to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-5.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.625000E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    78500 try:    52204 acc: (good/bad):     1166 /       70 s2x2:   1.2169483    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   117801 try:    78500 acc: (good/bad):     1736 /      100 s2x2:   1.1895422    
+
+ Delta Chi    : ave:      0.4523E-03 sig:      0.3624E-03 max:      0.2890E-02
+
+ Elapsed time :    1 h 24 min  8 sec 
+ Time/cycle   :     0.064 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.781250E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    78500 try:    52116 acc: (good/bad):     1139 /       53 s2x2:   1.1407667    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   117986 try:    78500 acc: (good/bad):     1721 /       84 s2x2:   1.1141695    
+
+ Delta Chi    : ave:      0.4577E-03 sig:      0.3705E-03 max:      0.2818E-02
+
+ Elapsed time :    1 h 22 min 50 sec 
+ Time/cycle   :     0.063 sec
+
+ Saving structure to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-6.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.625000E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    78500 try:    52164 acc: (good/bad):     1228 /       60 s2x2:   1.0565287    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   118047 try:    78500 acc: (good/bad):     1839 /       78 s2x2:   1.0273800    
+
+ Delta Chi    : ave:      0.4618E-03 sig:      0.3797E-03 max:      0.2991E-02
+
+ Elapsed time :    1 h 22 min 41 sec 
+ Time/cycle   :     0.063 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.781250E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    78500 try:    52050 acc: (good/bad):     1266 /       67 s2x2:  0.97332717    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   118153 try:    78500 acc: (good/bad):     1922 /       89 s2x2:  0.94146802    
+
+ Delta Chi    : ave:      0.4629E-03 sig:      0.3848E-03 max:      0.2858E-02
+
+ Elapsed time :    1 h 22 min 58 sec 
+ Time/cycle   :     0.063 sec
+
+ Saving structure to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-7.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.781250E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    78500 try:    52064 acc: (good/bad):     1319 /       54 s2x2:  0.87838391    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   118133 try:    78500 acc: (good/bad):     2034 /       71 s2x2:  0.84645410    
+
+ Delta Chi    : ave:      0.4611E-03 sig:      0.3823E-03 max:      0.2802E-02
+
+ Elapsed time :    1 h 21 min 40 sec 
+ Time/cycle   :     0.062 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.468750E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:    78500 try:    52289 acc: (good/bad):     1448 /       40 s2x2:  0.77846819    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   117879 try:    78500 acc: (good/bad):     2237 /       57 s2x2:  0.74039119    
+
+ Delta Chi    : ave:      0.4586E-03 sig:      0.3815E-03 max:      0.2684E-02
+
+ Elapsed time :    1 h 20 min 37 sec 
+ Time/cycle   :     0.062 sec
+
+ Saving structure to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-8.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.625000E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:    78500 try:    52179 acc: (good/bad):     1505 /       36 s2x2:  0.67211976    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   118170 try:    78500 acc: (good/bad):     2296 /       58 s2x2:  0.63371128    
+
+ Delta Chi    : ave:      0.4490E-03 sig:      0.3677E-03 max:      0.2411E-02
+
+ Elapsed time :    1 h 20 min 31 sec 
+ Time/cycle   :     0.062 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.625000E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:    78500 try:    52075 acc: (good/bad):     1521 /       43 s2x2:  0.56629065    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   118406 try:    78500 acc: (good/bad):     2316 /       59 s2x2:  0.53351754    
+
+ Delta Chi    : ave:      0.4251E-03 sig:      0.3442E-03 max:      0.2171E-02
+
+ Elapsed time :    1 h 20 min 27 sec 
+ Time/cycle   :     0.062 sec
+
+ Saving structure to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-9.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.625000E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:    78500 try:    52197 acc: (good/bad):     1677 /       30 s2x2:  0.45711753    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   118164 try:    78500 acc: (good/bad):     2521 /       55 s2x2:  0.42196289    
+
+ Delta Chi    : ave:      0.3953E-03 sig:      0.3182E-03 max:      0.1990E-02
+
+ Elapsed time :    1 h 20 min  5 sec 
+ Time/cycle   :     0.061 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3925 atoms
+
+ Elapsed time    :  0.468750E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    78500 try:    51920 acc: (good/bad):     1620 /       32 s2x2:  0.35582506    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   118677 try:    78500 acc: (good/bad):     2576 /       51 s2x2:  0.31896759    
+
+ Delta Chi    : ave:      0.3550E-03 sig:      0.2827E-03 max:      0.1780E-02
+
+ Elapsed time :    1 h 19 min 42 sec 
+ Time/cycle   :     0.061 sec
+
+ Saving structure to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-10.stru ...
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.505  (     1981 atoms)
+    Element : PD(2)     rel. abundance : 0.495  (     1944 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.500000     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4614E-10 to    4607.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-1.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-1.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3899E-09 to    1832.    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1001E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-1.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.8463E-12 to    3.976    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-1XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.625000E-01 sec
+ Required time        :     0.59 s
+
+ Total sum of weights :    174481.6644    
+ Saving PDF to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-1.apd ...
+ Resetting - all parameters ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -3.143     to    16.10    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-1.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-1.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.8376     to    4.970    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.952     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-1.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.5203     to    3.087    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-1PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    PD(2)    - PD(2)    : d = 10.811 +-  3.040 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             929780)
+                                                 (Total =             929780)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    PD(2)    - NI(1)    : d = 11.325 +-  2.797 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             440800)
+                                                 (Total =             440800)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.315 +-  3.272 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             437818)
+                                                 (Total =             437818)
+ Resetting ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    6220.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-1_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-1_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2922.    
+
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2097.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-1_PdNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-1_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1600.    
+
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1426.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-1_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-1_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1204.    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-1_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4.698    
+
+ Data set no.:   3
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-1_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    7.630    
+
+ Data set no.:   5
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-1_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    8.443    
+
+ ------ > Saving window   3 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-1BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.505  (     1981 atoms)
+    Element : PD(2)     rel. abundance : 0.495  (     1944 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.593750     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4614E-10 to    4607.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-2.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-2.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4020E-09 to    1786.    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1001E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-2.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.8724E-12 to    3.876    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-2XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.625000E-01 sec
+ Required time        :     0.59 s
+
+ Total sum of weights :    170202.2864    
+ Saving PDF to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-2.apd ...
+ Resetting - all parameters ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -3.143     to    16.10    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-2.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-2.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.8558     to    7.180    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.952     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-2.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.5316     to    4.460    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-2PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    PD(2)    - PD(2)    : d = 10.788 +-  3.050 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             958948)
+                                                 (Total =             958948)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    PD(2)    - NI(1)    : d = 11.351 +-  2.760 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             439957)
+                                                 (Total =             439957)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.263 +-  3.292 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             440604)
+                                                 (Total =             440604)
+ Resetting ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    6220.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-2_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-2_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3016.    
+
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2097.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-2_PdNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-2_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1651.    
+
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1426.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-2_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-2_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1178.    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-2_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4.849    
+
+ Data set no.:   3
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-2_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    7.873    
+
+ Data set no.:   5
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-2_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    8.261    
+
+ ------ > Saving window   3 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-2BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.505  (     1981 atoms)
+    Element : PD(2)     rel. abundance : 0.495  (     1944 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.593750     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4614E-10 to    4607.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-3.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-3.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3949E-09 to    1877.    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1001E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-3.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.8570E-12 to    4.074    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-3XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.625000E-01 sec
+ Required time        :     0.59 s
+
+ Total sum of weights :    170163.8254    
+ Saving PDF to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-3.apd ...
+ Resetting - all parameters ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -3.143     to    16.10    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-3.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-3.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.8426     to    7.959    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.952     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-3.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.5233     to    4.944    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-3PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    PD(2)    - PD(2)    : d = 10.787 +-  3.051 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             962076)
+                                                 (Total =             962076)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    PD(2)    - NI(1)    : d = 11.345 +-  2.761 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             444239)
+                                                 (Total =             444239)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.259 +-  3.292 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             443820)
+                                                 (Total =             443820)
+ Resetting ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    6220.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-3_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-3_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3082.    
+
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2097.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-3_PdNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-3_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1716.    
+
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1426.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-3_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-3_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    2.000     to    1182.    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-3_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4.955    
+
+ Data set no.:   3
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-3_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    8.183    
+
+ Data set no.:   5
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-3_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :   0.1403E-01 to    8.289    
+
+ ------ > Saving window   3 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-3BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.505  (     1981 atoms)
+    Element : PD(2)     rel. abundance : 0.495  (     1944 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.484375     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4614E-10 to    4607.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-4.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-4.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3873E-09 to    1956.    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1001E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-4.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.8406E-12 to    4.245    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-4XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.625000E-01 sec
+ Required time        :     0.59 s
+
+ Total sum of weights :    171929.5981    
+ Saving PDF to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-4.apd ...
+ Resetting - all parameters ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -3.143     to    16.10    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-4.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-4.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.8496     to    8.606    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.952     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-4.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.5277     to    5.345    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-4PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    PD(2)    - PD(2)    : d = 10.789 +-  3.051 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             958008)
+                                                 (Total =             958008)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    PD(2)    - NI(1)    : d = 11.338 +-  2.767 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             447416)
+                                                 (Total =             447416)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.263 +-  3.285 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             449454)
+                                                 (Total =             449454)
+ Resetting ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    6220.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-4_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-4_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3124.    
+
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2097.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-4_PdNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-4_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1694.    
+
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1426.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-4_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-4_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1226.    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-4_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    5.023    
+
+ Data set no.:   3
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-4_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    8.078    
+
+ Data set no.:   5
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-4_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    8.597    
+
+ ------ > Saving window   3 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-4BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.505  (     1981 atoms)
+    Element : PD(2)     rel. abundance : 0.495  (     1944 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.500000     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4614E-10 to    4607.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-5.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-5.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3695E-09 to    2074.    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1001E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-5.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.8021E-12 to    4.502    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-5XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.625000E-01 sec
+ Required time        :     0.59 s
+
+ Total sum of weights :    172944.0443    
+ Saving PDF to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-5.apd ...
+ Resetting - all parameters ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -3.143     to    16.10    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-5.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-5.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.9039     to    9.208    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.952     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-5.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.5615     to    5.720    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-5PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    PD(2)    - PD(2)    : d = 10.793 +-  3.049 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             957506)
+                                                 (Total =             957506)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    PD(2)    - NI(1)    : d = 11.335 +-  2.774 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             447203)
+                                                 (Total =             447203)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.276 +-  3.274 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             458546)
+                                                 (Total =             458546)
+ Resetting ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    6220.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-5_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-5_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3178.    
+
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2097.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-5_PdNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-5_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1727.    
+
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1426.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-5_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-5_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    4.000     to    1252.    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-5_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    5.109    
+
+ Data set no.:   3
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-5_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    8.236    
+
+ Data set no.:   5
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-5_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :   0.2805E-01 to    8.780    
+
+ ------ > Saving window   3 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-5BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.505  (     1981 atoms)
+    Element : PD(2)     rel. abundance : 0.495  (     1944 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.593750     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4614E-10 to    4607.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-6.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-6.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3569E-09 to    2220.    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1001E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-6.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.7747E-12 to    4.819    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-6XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.781250E-01 sec
+ Required time        :     0.66 s
+
+ Total sum of weights :    174069.2341    
+ Saving PDF to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-6.apd ...
+ Resetting - all parameters ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -3.143     to    16.10    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-6.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-6.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.041     to    9.812    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.952     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-6.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.6463     to    6.095    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-6PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    PD(2)    - PD(2)    : d = 10.799 +-  3.047 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             952996)
+                                                 (Total =             952996)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    PD(2)    - NI(1)    : d = 11.319 +-  2.785 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             449715)
+                                                 (Total =             449715)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.298 +-  3.264 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             465714)
+                                                 (Total =             465714)
+ Resetting ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    6220.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-6_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-6_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3354.    
+
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2097.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-6_PdNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-6_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1777.    
+
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1426.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-6_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-6_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    4.000     to    1338.    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-6_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    5.392    
+
+ Data set no.:   3
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-6_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    8.474    
+
+ Data set no.:   5
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-6_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :   0.2805E-01 to    9.383    
+
+ ------ > Saving window   3 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-6BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.505  (     1981 atoms)
+    Element : PD(2)     rel. abundance : 0.495  (     1944 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.687500     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4614E-10 to    4607.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-7.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-7.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3493E-09 to    2382.    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1001E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-7.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.7582E-12 to    5.170    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-7XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.625000E-01 sec
+ Required time        :     0.64 s
+
+ Total sum of weights :    174745.2743    
+ Saving PDF to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-7.apd ...
+ Resetting - all parameters ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -3.143     to    16.10    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-7.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-7.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.167     to    10.40    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.952     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-7.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.7249     to    6.462    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-7PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    PD(2)    - PD(2)    : d = 10.806 +-  3.045 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             948668)
+                                                 (Total =             948668)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    PD(2)    - NI(1)    : d = 11.306 +-  2.799 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             453588)
+                                                 (Total =             453588)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.317 +-  3.251 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             471946)
+                                                 (Total =             471946)
+ Resetting ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    6220.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-7_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-7_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3538.    
+
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2097.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-7_PdNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-7_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1811.    
+
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1426.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-7_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-7_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    4.000     to    1268.    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-7_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    5.688    
+
+ Data set no.:   3
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-7_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    8.636    
+
+ Data set no.:   5
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-7_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :   0.2805E-01 to    8.892    
+
+ ------ > Saving window   3 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-7BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.505  (     1981 atoms)
+    Element : PD(2)     rel. abundance : 0.495  (     1944 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.546875     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4614E-10 to    4607.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-8.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-8.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3204E-09 to    2585.    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1001E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-8.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.6955E-12 to    5.610    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-8XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.781250E-01 sec
+ Required time        :     0.64 s
+
+ Total sum of weights :    174535.1798    
+ Saving PDF to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-8.apd ...
+ Resetting - all parameters ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -3.143     to    16.10    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-8.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-8.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.316     to    11.27    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.952     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-8.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.8172     to    7.000    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-8PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    PD(2)    - PD(2)    : d = 10.813 +-  3.043 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             945996)
+                                                 (Total =             945996)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    PD(2)    - NI(1)    : d = 11.288 +-  2.816 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             458156)
+                                                 (Total =             458156)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.344 +-  3.234 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             476738)
+                                                 (Total =             476738)
+ Resetting ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    6220.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-8_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-8_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3754.    
+
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2097.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-8_PdNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-8_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1926.    
+
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1426.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-8_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-8_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1396.    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-8_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    6.035    
+
+ Data set no.:   3
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-8_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    9.185    
+
+ Data set no.:   5
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-8_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    9.790    
+
+ ------ > Saving window   3 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-8BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.505  (     1981 atoms)
+    Element : PD(2)     rel. abundance : 0.495  (     1944 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.500000     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4614E-10 to    4607.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-9.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-9.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3000E-09 to    2816.    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1001E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-9.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.6512E-12 to    6.112    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-9XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.781250E-01 sec
+ Required time        :     0.62 s
+
+ Total sum of weights :    173843.8220    
+ Saving PDF to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-9.apd ...
+ Resetting - all parameters ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -3.143     to    16.10    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-9.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-9.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.597     to    12.02    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.952     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-9.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.9919     to    7.466    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-9PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    PD(2)    - PD(2)    : d = 10.822 +-  3.041 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             945616)
+                                                 (Total =             945616)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    PD(2)    - NI(1)    : d = 11.263 +-  2.834 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             464030)
+                                                 (Total =             464030)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.376 +-  3.222 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             478712)
+                                                 (Total =             478712)
+ Resetting ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    6220.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-9_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-9_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4124.    
+
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2097.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-9_PdNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-9_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2054.    
+
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1426.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-9_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-9_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1462.    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-9_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    6.630    
+
+ Data set no.:   3
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-9_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    9.795    
+
+ Data set no.:   5
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-9_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.25    
+
+ ------ > Saving window   3 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-9BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.07890    4.07890    4.07890   90.00000   90.00000   90.00000    67.8624    
+
+ Metric Tensor     :
+      16.63743      0.00000      0.00000
+       0.00000     16.63743      0.00000
+       0.00000      0.00000     16.63743
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24516    0.24516    0.24516   90.00000   90.00000   90.00000   0.147357E-01
+
+ Reciprocal metric tensor     : 
+       0.06011     -0.00000     -0.00000
+      -0.00000      0.06011     -0.00000
+      -0.00000     -0.00000      0.06011
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3925
+ Number of atoms per unit cell    :      3925
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.505  (     1981 atoms)
+    Element : PD(2)     rel. abundance : 0.495  (     1944 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.562500     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4614E-10 to    4607.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-10.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-10.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2649E-09 to    3130.    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1001E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-10.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.5750E-12 to    6.795    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-10XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.625000E-01 sec
+ Required time        :     0.59 s
+
+ Total sum of weights :    171363.5707    
+ Saving PDF to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-10.apd ...
+ Resetting - all parameters ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -3.143     to    16.10    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-10.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-10.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.130     to    12.94    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.952     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-10.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.323     to    8.039    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-10PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    PD(2)    - PD(2)    : d = 10.818 +-  3.042 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             958840)
+                                                 (Total =             958840)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    PD(2)    - NI(1)    : d = 11.263 +-  2.830 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             468025)
+                                                 (Total =             468025)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.380 +-  3.225 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             474644)
+                                                 (Total =             474644)
+ Resetting ..
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    6220.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-10_PdPd.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-10_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4788.    
+
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2097.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-10_PdNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-10_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2239.    
+
+ Reading file MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1426.    
+
+ Reading file RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-10_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-10_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1436.    
+
+ Data set no.:   1
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-10_PdPd.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    7.698    
+
+ Data set no.:   3
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-10_PdNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.68    
+
+ Data set no.:   5
+
+   Filename : MC_Coreshell5050_PdNi_onAu_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-10_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.07    
+
+ ------ > Saving window   3 to file : RMC_Coreshell5050_PdNi_onAu_r25_1-10-20/1-10BLD.pdf ..
+ END rmc.shift.swap.mac

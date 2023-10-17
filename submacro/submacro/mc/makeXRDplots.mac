@@ -1,0 +1,63 @@
+branch kuplot 
+  reset all
+
+  window 1
+
+  font size, 1, 18  # title 1, font size
+  font size, 2, 18  # title 2, font size
+  font size, 3, 16  # axis labels, font size
+  font size, 4, 14  # axis numbers, font size
+  font size, 5, 14  # text, font size
+  font typ, 1, 2    # title 1, font 2 (Roman)
+  font typ, 2, 2    # title 2, font 2 
+  font typ, 3, 2    # axis labels, font 2 
+  font typ, 4, 2    # axis numbers, font 2 
+  font typ, 5, 2    # text, font 2
+  font just, center # justify title lines
+  fnam off
+  grid on
+  orient landscape
+
+  load xy, "%c", Initial_XRD 
+  load xy, "%c/%d.xrd", output,(MMC_Cycles*loop/divs)
+
+  r[1]=10/ymax[1]           # determine y-axis scale factor
+  ccal mul, wy, 1, r[1]     # rescale the y data to make ymax=10, 1 reference load index
+  ccal mul, wy, 2, r[1]
+
+  nfra 2      # set the number of frames
+  afra 1      # set the active frame
+
+    lcol 1, 1   # file 1, line color 1 (red)
+    lcol 2, 3   # file 2, line color 3 (blue)
+    lwid 1, 0.75  # file 1, line width 0.5 mm
+    lwid 2, 0.75  # file 2, line width 0.5 mm
+    sfra 1, 0.0, 0.5, 1.0, 1.0
+    buff 0.2, 0.1, 0.05, 0.1 
+    tit1 "XRD for CycleNumber: %d",(MMC_Cycles*loop/divs)
+    tit2 ""
+    sleg 1, "Initial XRD"
+    sleg 2, "Relaxed XRD"
+    skal 30,75, -1,11
+    mark 5,5
+    achx 2\gh
+    achy Intensity
+  afra 2
+    lcol 1, 1   # file 1, line color 1 (red)
+    lcol 2, 3   # file 2, line color 3 (blue)
+    lwid 1, 0.75  # file 1, line width 0.5 mm
+    lwid 2, 0.75  # file 2, line width 0.5 mm
+    sfra 2, 0.0, 0.0, 1.0, 0.5
+    buff 0.2, 0.1, 0.1, 0.05
+    tit1 ""
+    tit2 ""
+    sleg 1, "Initial XRD"
+    sleg 2, "Relaxed XRD"
+    skal 75,120, -1,6
+    mark 5,1
+    achx 2\gh
+    achy Intensity
+  plot
+
+  save pdf, "%c/%dXRD.pdf", output,(MMC_Cycles*loop/divs)
+  exit

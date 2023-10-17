@@ -1,0 +1,43 @@
+###################################################################
+# makePDF.mac: last update 4/23/21
+# version 1.0	
+###################################################################
+# Creates a *.xy file that shows the pair distribution function
+#
+pdf
+  set range, 2*radius,0.01      # set the range and increments to make the pdf in angstroms
+  set therm, gaus           # the contribution to the PDF of each atom pair is convoluted with a Gaussian
+  set delta,0.3             # pdf peak width is modified by this value 
+  set bound, crystal,exact  # sets structure to be not periodic, takes exact PDF not just nieghbors
+  set finite, sphere, 2*radius    # set the structure shape to correctly modify 4*Pi*rho0
+  set diameter, 2*radius          # compliments set finite above (not sure if necessary)
+  #set density, .0589        # FCC bulk Au number density from Au lattice parameter (4.0789 a)
+  set qmax, 35              # set qmax, pdf is integrated from Q=0 to Q=Qmax
+  set qsigma, 0             # correction for the limited resolution of Q. Damps G(r) (identical to qdamp)
+  set qbroad, 0             # correction for peak broadening (identical to qalp)
+  set rad, xray              # set the incident waves to be x-rays
+
+  des all
+  sel all
+
+  calc
+  save pdf, "%c.apd", outfile
+  exit
+####################################################################
+# Creates the actual plot but must be save manually
+#
+branch kuplot
+  reset
+  load xy, "%c.apd", outfile			# loads the *.xy file that contains the PDF
+  r[1]=10/ymax[1]          	# determine y-axis scale factor
+  ccal mul, wy, 1, r[1]   	# rescale the y data to make ymax=10, 1 reference load index
+  ltyp, 1,1
+  mtyp, 1,0
+  achx Distance (\A)		# xlabel
+  achy G(r)					# ylabel
+  font size, 3, 20			# Axes Labels Font Size
+  font size, 4, 12			# Axes Numbers Font Size
+  font typ, 3, 2
+  grid on					# Turns on the grid
+  plot						# Plots the data
+  exit

@@ -1,0 +1,20 @@
+###################################################################
+# makeSTR.mac: last update 04/23/2022
+# version 1.0	
+###################################################################
+# Creates an output *.stru file
+
+if($1=='include')then
+  save
+    outfile "%c.stru", outfile
+	sel all
+	run
+	exit
+elseif($1=='exclude')then
+  save
+    outfile "%c_voidless.stru", outfile
+	sel all
+	des void
+	run
+	exit
+endif

@@ -1,0 +1,93 @@
+###################################################################
+# makeBLD.mac: last update 4/23/22
+# version 1.0	
+#
+# INPUT:
+# (none)	
+# OUTPUT:
+# *.blen file which is treated like a *.xy file
+###################################################################
+# NOTES:
+# blen command does not work with nonnumericals so you cant use variables to store "Au" and "Ni" for example
+# but you could use variables to store 1 and 2 but then IDK what atom 1 refers to or 2.
+###################################################################
+# Creates an output file *.blen that shows the bond length distribution
+# between the two chosen atoms {$1, $2}
+#
+variable character, bldname1
+variable character, bldname2
+variable character, bldname3
+
+if(type=='Au')then
+  bldname1 = "%c/%d_%c%c.bld",output,MMC_Cycles*loop/divs,atom1,atom1
+  bldname2 = ""
+  bldname3 = ""
+  chem	
+  	set mode, exact
+    set blen, 1,15
+    set bin, 801
+  	blen Au, Au, "%c",bldname1
+  	exit
+
+elseif(type=="AuNi")then
+  bldname1 = "%c/%d_%c%c.bld",output,MMC_Cycles*loop/divs,atom1,atom1
+  bldname2 = "%c/%d_%c%c.bld",output,MMC_Cycles*loop/divs,atom1,atom2
+  bldname3 = "%c/%d_%c%c.bld",output,MMC_Cycles*loop/divs,atom2,atom2
+  chem	
+    set mode, exact
+    set blen, 1,15
+    set bin, 801
+    blen Au, Au, "%c",bldname1
+    blen Au, Ni, "%c",bldname2
+    blen Ni, Ni, "%c",bldname3
+    exit
+
+elseif(type=="AuPd")then
+  bldname1 = "%c/%d_%c%c.bld",output,MMC_Cycles*loop/divs,atom1,atom1
+  bldname2 = "%c/%d_%c%c.bld",output,MMC_Cycles*loop/divs,atom1,atom2
+  bldname3 = "%c/%d_%c%c.bld",output,MMC_Cycles*loop/divs,atom2,atom2
+  chem	
+    set mode, exact
+    set blen, 1,15
+    set bin, 801
+    blen Au, Au, "%c",bldname1
+    blen Au, Pd, "%c",bldname2
+    blen Pd, Pd, "%c",bldname3
+    exit
+elseif(type=="AuPt")then
+  bldname1 = "%c/%d_%c%c.bld",output,MMC_Cycles*loop/divs,atom1,atom1
+  bldname2 = "%c/%d_%c%c.bld",output,MMC_Cycles*loop/divs,atom1,atom2
+  bldname3 = "%c/%d_%c%c.bld",output,MMC_Cycles*loop/divs,atom2,atom2
+  chem  
+    set mode, exact
+    set blen, 1,15
+    set bin, 801
+    blen Au, Au, "%c",bldname1
+    blen Au, Pt, "%c",bldname2
+    blen Pt, Pt, "%c",bldname3
+    exit
+elseif(type=="CuNi")then
+  bldname1 = "%c/%d_%c%c.bld",output,MMC_Cycles*loop/divs,atom1,atom1
+  bldname2 = "%c/%d_%c%c.bld",output,MMC_Cycles*loop/divs,atom1,atom2
+  bldname3 = "%c/%d_%c%c.bld",output,MMC_Cycles*loop/divs,atom2,atom2
+  chem  
+    set mode, exact
+    set blen, 1,15
+    set bin, 801
+    blen Ni, Ni, "%c",bldname1
+    blen Cu, Ni, "%c",bldname2
+    blen Cu, Cu, "%c",bldname3
+    exit
+elseif(type=="PdNi")then
+  bldname1 = "%c/%d_%c%c.bld",output,MMC_Cycles*loop/divs,atom1,atom1
+  bldname2 = "%c/%d_%c%c.bld",output,MMC_Cycles*loop/divs,atom1,atom2
+  bldname3 = "%c/%d_%c%c.bld",output,MMC_Cycles*loop/divs,atom2,atom2
+  chem  
+    set mode, exact
+    set blen, 1,15
+    set bin, 801
+    blen Pd, Pd, "%c",bldname1
+    blen Pd, Ni, "%c",bldname2
+    blen Ni, Ni, "%c",bldname3
+    exit
+endif

@@ -1,0 +1,25 @@
+###################################################################
+# makePDF.mac
+# last update 6/8/22
+###################################################################
+# Creates a *.xy file that shows the pair distribution function
+#
+pdf
+  set range, diameter,0.01      # set the range and increments to make the pdf in angstroms
+  set therm, gaus           # the contribution to the PDF of each atom pair is convoluted with a Gaussian
+  set delta,0.3             # pdf peak width is modified by this value 
+  set bound, crystal,exact  # sets structure to be not periodic, takes exact PDF not just nieghbors
+  set finite, sphere, diameter    # set the structure shape to correctly modify 4*Pi*rho0
+  set diameter, diameter          # compliments set finite above (not sure if necessary)
+  #set density, .0589        # FCC bulk Au number density from Au lattice parameter (4.0789 a)
+  set qmax, 35              # set qmax, pdf is integrated from Q=0 to Q=Qmax
+  set qsigma, 0             # correction for the limited resolution of Q. Damps G(r) (identical to qdamp)
+  set qbroad, 0             # correction for peak broadening (identical to qalp)
+  set rad, xray              # set the incident waves to be x-rays
+
+  des all
+  sel all
+
+  calc
+  save pdf, "%c/%d.apd", output,(MMC_Cycles*loop/divs)
+  exit

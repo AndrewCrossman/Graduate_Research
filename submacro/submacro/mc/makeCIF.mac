@@ -1,0 +1,19 @@
+###################################################################
+# makeCif.mac: last update 4/23/21
+# version 1.0	
+#
+# INPUT:
+# (none)
+# OUTPUT:
+# *.cif file
+###################################################################
+# Creates an output *.cif file that can be read by visualization
+# programs like vesta and jmol.
+#
+plot     				# enter "plot" level
+  prog cif    			# create a data file that can be read by jmol
+  outfile "%c/%d.cif",output,(MMC_Cycles*loop/divs)
+  ext all
+  sel all
+  run
+  exit   # return to discus level
