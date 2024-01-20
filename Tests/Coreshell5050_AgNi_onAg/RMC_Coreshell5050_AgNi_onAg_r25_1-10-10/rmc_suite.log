@@ -1,0 +1,3417 @@
+ rmc.shift.swap.mac
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.08530    4.08530    4.08530   90.00000   90.00000   90.00000    68.1823    
+
+ Metric Tensor     :
+      16.68968      0.00000      0.00000
+       0.00000     16.68968      0.00000
+       0.00000      0.00000     16.68968
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24478    0.24478    0.24478   90.00000   90.00000   90.00000   0.146666E-01
+
+ Reciprocal metric tensor     : 
+       0.05992     -0.00000     -0.00000
+      -0.00000      0.05992     -0.00000
+      -0.00000     -0.00000      0.05992
+
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Read PDF data (r =   0.010 to  50.000 A, 49990 points) ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Current PDF calculation settings : 
+   Maximum r [A]              :  51.1429
+   Grid size DR [A]           :   0.0100    (        51142 pts)
+   Radiation                  :   X-Rays    (at   0.0000 A**-1)
+
+   Applied corrections        : 
+     Q termination (SINC)     : applied, Qmax =  35.0000 A**-1
+     Instrument resolution    : not applied
+     Periodic boundaries      : not applied
+     4 Pi Rho r correction    :  50.0000 A diameter sphere
+     Weight correction        :   1.00000000
+     Convolution therm. Gauss.: applied
+     Resolution broadening    :   0.0000
+     Quad. correlation fac.   :   0.3000
+     Linear correlation fac.  :   0.0000
+     PDF peak width ratio     :   1.0000 below   0.0000 A
+     Number density           : automatic
+     Correction for RHO0      :   1.0000
+     PDF calculation mode     : all atoms
+
+   Refinement settings        : 
+     Fit minimum r [A]        :   0.0100   (pt.    1)
+     Fit maximum r [A]        :  50.0000   (pt. 5000)
+     Current scale factor     :   1.0000   (refined = F)
+
+   Selected atoms for PDF calculation :
+     Atoms (i)                : NI(1)     AG(2)    
+     Atoms (j)                : NI(1)     AG(2)    
+
+   Weights for PDF calculation (internal) :
+     NI(1)     - NI(1)        :     0.55578057    
+     NI(1)     - AG(2)        :     0.93315055    
+     AG(2)     - AG(2)        :      1.5667513    
+
+ Current RMC settings (not all used here) :
+   Valid neighbours          : all
+   Calc. scaling/backgr.     : none
+   Fourier volume            : complete crystal
+   Max. number of RMC cycles :    38050
+   Output update intervall   :    38050   (logging to rmc.log=F)
+   SIGMA for CHI calculation :   0.0100
+ Minimal allowed distances   : 
+     NI(1)     and NI(1)     :   0.500
+     NI(1)     and AG(2)     :   0.500
+     AG(2)     and AG(2)     :   0.500
+
+ Sigma for created RMC moves : 
+              Atom NI(1)     :   0.200   0.200   0.200
+              Atom AG(2)     :   0.200   0.200   0.200
+
+ Selected atoms for RMC      : VOID(0)   NI(1)     AG(2)    
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3805 atoms
+
+ Elapsed time    :  0.468750E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    38050 try:    16842 acc: (good/bad):     2188 /      998 s2x2:   7.3872537    
+ Gen:    76100 try:    33769 acc: (good/bad):     3132 /     1867 s2x2:   7.3817390    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    85611 try:    38050 acc: (good/bad):     3322 /     2057 s2x2:   7.3806876    
+
+ Delta Chi    : ave:      0.3399E-03 sig:      0.2153E-03 max:      0.1207E-02
+
+ Elapsed time :    0 h 52 min 34 sec 
+ Time/cycle   :     0.083 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3805 atoms
+
+ Elapsed time    :  0.468750E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:    38050 try:    25269 acc: (good/bad):     9663 /     3236 s2x2:  0.36174847    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    57154 try:    38050 acc: (good/bad):    12232 /     5316 s2x2:  0.30287393    
+
+ Delta Chi    : ave:      0.1663E-03 sig:      0.1522E-03 max:      0.3332E-02
+
+ Elapsed time :    0 h 37 min 20 sec 
+ Time/cycle   :     0.059 sec
+
+ Saving structure to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-1.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3805 atoms
+
+ Elapsed time    :  0.468750E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    38050 try:    25336 acc: (good/bad):     3864 /     1255 s2x2:  0.14892782    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    56901 try:    38050 acc: (good/bad):     5410 /     2021 s2x2:  0.11022680    
+
+ Delta Chi    : ave:      0.1484E-03 sig:      0.1181E-03 max:      0.9550E-03
+
+ Elapsed time :    0 h 39 min 21 sec 
+ Time/cycle   :     0.062 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3805 atoms
+
+ Elapsed time    :  0.625000E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:    38050 try:    25307 acc: (good/bad):     2979 /     2065 s2x2:  0.63893935E-01
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    56936 try:    38050 acc: (good/bad):     4529 /     3366 s2x2:  0.53895666E-01
+
+ Delta Chi    : ave:      0.1004E-03 sig:      0.7812E-04 max:      0.5073E-03
+
+ Elapsed time :    0 h 39 min  5 sec 
+ Time/cycle   :     0.062 sec
+
+ Saving structure to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-2.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3805 atoms
+
+ Elapsed time    :  0.468750E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    38050 try:    25360 acc: (good/bad):     2790 /     1765 s2x2:  0.34080888E-01
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    56894 try:    38050 acc: (good/bad):     4080 /     2770 s2x2:  0.29123937E-01
+
+ Delta Chi    : ave:      0.6264E-04 sig:      0.4906E-04 max:      0.3083E-03
+
+ Elapsed time :    0 h 39 min 21 sec 
+ Time/cycle   :     0.062 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3805 atoms
+
+ Elapsed time    :  0.468750E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    38050 try:    25399 acc: (good/bad):     2679 /     2360 s2x2:  0.23415904E-01
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    56990 try:    38050 acc: (good/bad):     4014 /     3541 s2x2:  0.21110990E-01
+
+ Delta Chi    : ave:      0.4879E-04 sig:      0.3773E-04 max:      0.2659E-03
+
+ Elapsed time :    0 h 38 min 54 sec 
+ Time/cycle   :     0.061 sec
+
+ Saving structure to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-3.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3805 atoms
+
+ Elapsed time    :  0.781250E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    38050 try:    25358 acc: (good/bad):     2625 /     1818 s2x2:  0.14721657E-01
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    56959 try:    38050 acc: (good/bad):     3874 /     2810 s2x2:  0.13172767E-01
+
+ Delta Chi    : ave:      0.3569E-04 sig:      0.2843E-04 max:      0.1594E-03
+
+ Elapsed time :    0 h 38 min 50 sec 
+ Time/cycle   :     0.061 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3805 atoms
+
+ Elapsed time    :  0.468750E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    38050 try:    25239 acc: (good/bad):     2360 /     2026 s2x2:  0.10988437E-01
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    57273 try:    38050 acc: (good/bad):     3612 /     3071 s2x2:  0.99784761E-02
+
+ Delta Chi    : ave:      0.2896E-04 sig:      0.2233E-04 max:      0.1463E-03
+
+ Elapsed time :    0 h 38 min 49 sec 
+ Time/cycle   :     0.061 sec
+
+ Saving structure to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-4.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3805 atoms
+
+ Elapsed time    :  0.625000E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    38050 try:    25397 acc: (good/bad):     2230 /     1726 s2x2:  0.75485686E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    57004 try:    38050 acc: (good/bad):     3304 /     2635 s2x2:  0.68633414E-02
+
+ Delta Chi    : ave:      0.2273E-04 sig:      0.1777E-04 max:      0.1059E-03
+
+ Elapsed time :    0 h 38 min 50 sec 
+ Time/cycle   :     0.061 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3805 atoms
+
+ Elapsed time    :  0.468750E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    38050 try:    25129 acc: (good/bad):     2096 /     1897 s2x2:  0.59109507E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    57474 try:    38050 acc: (good/bad):     3137 /     2906 s2x2:  0.57861810E-02
+
+ Delta Chi    : ave:      0.1899E-04 sig:      0.1428E-04 max:      0.9949E-04
+
+ Elapsed time :    0 h 38 min 54 sec 
+ Time/cycle   :     0.061 sec
+
+ Saving structure to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-5.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3805 atoms
+
+ Elapsed time    :  0.468750E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:    38050 try:    25260 acc: (good/bad):     1909 /     1534 s2x2:  0.45145465E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    57313 try:    38050 acc: (good/bad):     2860 /     2452 s2x2:  0.42912604E-02
+
+ Delta Chi    : ave:      0.1557E-04 sig:      0.1189E-04 max:      0.8542E-04
+
+ Elapsed time :    0 h 38 min 49 sec 
+ Time/cycle   :     0.061 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3805 atoms
+
+ Elapsed time    :  0.468750E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    38050 try:    25259 acc: (good/bad):     1839 /     1734 s2x2:  0.39368651E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    57227 try:    38050 acc: (good/bad):     2774 /     2622 s2x2:  0.38407478E-02
+
+ Delta Chi    : ave:      0.1463E-04 sig:      0.1115E-04 max:      0.7680E-04
+
+ Elapsed time :    0 h 39 min 10 sec 
+ Time/cycle   :     0.062 sec
+
+ Saving structure to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-6.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3805 atoms
+
+ Elapsed time    :  0.468750E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:    38050 try:    25286 acc: (good/bad):     1724 /     1377 s2x2:  0.31089398E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    57125 try:    38050 acc: (good/bad):     2595 /     2134 s2x2:  0.28908541E-02
+
+ Delta Chi    : ave:      0.1177E-04 sig:      0.8937E-05 max:      0.6738E-04
+
+ Elapsed time :    0 h 39 min  5 sec 
+ Time/cycle   :     0.062 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3805 atoms
+
+ Elapsed time    :  0.625000E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    38050 try:    25425 acc: (good/bad):     1679 /     1579 s2x2:  0.26500141E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    56939 try:    38050 acc: (good/bad):     2537 /     2448 s2x2:  0.26676862E-02
+
+ Delta Chi    : ave:      0.1057E-04 sig:      0.7969E-05 max:      0.5318E-04
+
+ Elapsed time :    0 h 38 min 54 sec 
+ Time/cycle   :     0.061 sec
+
+ Saving structure to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-7.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3805 atoms
+
+ Elapsed time    :  0.625000E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:    38050 try:    25249 acc: (good/bad):     1602 /     1291 s2x2:  0.22175063E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    57167 try:    38050 acc: (good/bad):     2391 /     2008 s2x2:  0.21047981E-02
+
+ Delta Chi    : ave:      0.9568E-05 sig:      0.7228E-05 max:      0.5021E-04
+
+ Elapsed time :    0 h 38 min 59 sec 
+ Time/cycle   :     0.061 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3805 atoms
+
+ Elapsed time    :  0.625000E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    38050 try:    25204 acc: (good/bad):     1497 /     1485 s2x2:  0.19477173E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    57318 try:    38050 acc: (good/bad):     2260 /     2225 s2x2:  0.18893005E-02
+
+ Delta Chi    : ave:      0.8618E-05 sig:      0.6476E-05 max:      0.4743E-04
+
+ Elapsed time :    0 h 38 min 55 sec 
+ Time/cycle   :     0.061 sec
+
+ Saving structure to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-8.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3805 atoms
+
+ Elapsed time    :  0.468750E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    38050 try:    25332 acc: (good/bad):     1468 /     1338 s2x2:  0.16538683E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    56945 try:    38050 acc: (good/bad):     2205 /     2051 s2x2:  0.16043169E-02
+
+ Delta Chi    : ave:      0.7550E-05 sig:      0.5646E-05 max:      0.4882E-04
+
+ Elapsed time :    0 h 39 min  1 sec 
+ Time/cycle   :     0.062 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3805 atoms
+
+ Elapsed time    :  0.468750E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    38050 try:    25180 acc: (good/bad):     1436 /     1334 s2x2:  0.14924270E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    57455 try:    38050 acc: (good/bad):     2180 /     2024 s2x2:  0.14488685E-02
+
+ Delta Chi    : ave:      0.7164E-05 sig:      0.5277E-05 max:      0.3760E-04
+
+ Elapsed time :    0 h 39 min 13 sec 
+ Time/cycle   :     0.062 sec
+
+ Saving structure to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-9.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3805 atoms
+
+ Elapsed time    :  0.625000E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    38050 try:    25249 acc: (good/bad):     1421 /     1204 s2x2:  0.12474533E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    57208 try:    38050 acc: (good/bad):     2083 /     1845 s2x2:  0.12234954E-02
+
+ Delta Chi    : ave:      0.6464E-05 sig:      0.4793E-05 max:      0.3389E-04
+
+ Elapsed time :    0 h 39 min  5 sec 
+ Time/cycle   :     0.062 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      3805 atoms
+
+ Elapsed time    :  0.468750E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:    38050 try:    25228 acc: (good/bad):     1326 /     1216 s2x2:  0.11778825E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:    57199 try:    38050 acc: (good/bad):     1981 /     1869 s2x2:  0.11652810E-02
+
+ Delta Chi    : ave:      0.6109E-05 sig:      0.4512E-05 max:      0.3267E-04
+
+ Elapsed time :    0 h 39 min  3 sec 
+ Time/cycle   :     0.062 sec
+
+ Saving structure to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-10.stru ...
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.08530    4.08530    4.08530   90.00000   90.00000   90.00000    68.1823    
+
+ Metric Tensor     :
+      16.68968      0.00000      0.00000
+       0.00000     16.68968      0.00000
+       0.00000      0.00000     16.68968
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24478    0.24478    0.24478   90.00000   90.00000   90.00000   0.146666E-01
+
+ Reciprocal metric tensor     : 
+       0.05992     -0.00000     -0.00000
+      -0.00000      0.05992     -0.00000
+      -0.00000     -0.00000      0.05992
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3805
+ Number of atoms per unit cell    :      3805
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.497  (     1892 atoms)
+    Element : AG(2)     rel. abundance : 0.503  (     1913 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.500000     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.6323E-10 to    4112.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-1.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-1.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2406E-09 to    3512.    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1538E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-1.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.5851E-12 to    8.541    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-1XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.781250E-01 sec
+ Required time        :     0.78 s
+
+ Total sum of weights :    180783.4522    
+ Saving PDF to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-1.apd ...
+ Resetting - all parameters ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.987     to    9.485    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-1.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-1.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.233     to    5.172    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.095     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-1.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.300     to    5.453    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-1PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    AG(2)    - AG(2)    : d = 10.872 +-  3.014 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             787876)
+                                                 (Total =             787876)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    AG(2)    - NI(1)    : d = 11.141 +-  2.919 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             447243)
+                                                 (Total =             447243)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.517 +-  3.193 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             406480)
+                                                 (Total =             406480)
+ Resetting ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4258.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-1_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-1_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    2724.    
+
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1593.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-1_AgNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-1_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1698.    
+
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1076.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-1_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-1_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1252.    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-1_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    6.397    
+
+ Data set no.:   3
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-1_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.66    
+
+ Data set no.:   5
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-1_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    11.64    
+
+ ------ > Saving window   3 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-1BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.08530    4.08530    4.08530   90.00000   90.00000   90.00000    68.1823    
+
+ Metric Tensor     :
+      16.68968      0.00000      0.00000
+       0.00000     16.68968      0.00000
+       0.00000      0.00000     16.68968
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24478    0.24478    0.24478   90.00000   90.00000   90.00000   0.146666E-01
+
+ Reciprocal metric tensor     : 
+       0.05992     -0.00000     -0.00000
+      -0.00000      0.05992     -0.00000
+      -0.00000     -0.00000      0.05992
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3805
+ Number of atoms per unit cell    :      3805
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.497  (     1892 atoms)
+    Element : AG(2)     rel. abundance : 0.503  (     1913 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.484375     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.6323E-10 to    4112.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-2.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-2.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2224E-09 to    3709.    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1538E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-2.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.5409E-12 to    9.021    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-2XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.625000E-01 sec
+ Required time        :     0.70 s
+
+ Total sum of weights :    172575.7578    
+ Saving PDF to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-2.apd ...
+ Resetting - all parameters ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.987     to    9.485    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-2.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-2.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.748     to    7.775    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.095     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-2.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.843     to    8.198    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-2PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    AG(2)    - AG(2)    : d = 10.802 +-  3.029 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             853666)
+                                                 (Total =             853666)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    AG(2)    - NI(1)    : d = 11.261 +-  2.832 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             413398)
+                                                 (Total =             413398)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.351 +-  3.262 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             394184)
+                                                 (Total =             394184)
+ Resetting ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4258.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-2_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-2_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3324.    
+
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1593.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-2_AgNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-2_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1654.    
+
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1076.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-2_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-2_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1162.    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-2_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    7.806    
+
+ Data set no.:   3
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-2_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.38    
+
+ Data set no.:   5
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-2_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.80    
+
+ ------ > Saving window   3 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-2BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.08530    4.08530    4.08530   90.00000   90.00000   90.00000    68.1823    
+
+ Metric Tensor     :
+      16.68968      0.00000      0.00000
+       0.00000     16.68968      0.00000
+       0.00000      0.00000     16.68968
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24478    0.24478    0.24478   90.00000   90.00000   90.00000   0.146666E-01
+
+ Reciprocal metric tensor     : 
+       0.05992     -0.00000     -0.00000
+      -0.00000      0.05992     -0.00000
+      -0.00000     -0.00000      0.05992
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3805
+ Number of atoms per unit cell    :      3805
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.497  (     1892 atoms)
+    Element : AG(2)     rel. abundance : 0.503  (     1913 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.578125     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.6323E-10 to    4112.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-3.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-3.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1921E-09 to    3759.    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1538E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-3.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4673E-12 to    9.141    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-3XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.468750E-01 sec
+ Required time        :     0.69 s
+
+ Total sum of weights :    169113.0575    
+ Saving PDF to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-3.apd ...
+ Resetting - all parameters ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.987     to    9.485    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-3.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-3.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.783     to    8.543    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.095     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-3.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.880     to    9.007    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-3PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    AG(2)    - AG(2)    : d = 10.786 +-  3.036 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             858292)
+                                                 (Total =             858292)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    AG(2)    - NI(1)    : d = 11.268 +-  2.826 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             419085)
+                                                 (Total =             419085)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.321 +-  3.285 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             396264)
+                                                 (Total =             396264)
+ Resetting ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4258.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-3_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-3_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3800.    
+
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1593.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-3_AgNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-3_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1623.    
+
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1076.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-3_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-3_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    2.000     to    1138.    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-3_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    8.924    
+
+ Data set no.:   3
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-3_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.19    
+
+ Data set no.:   5
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-3_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :   0.1859E-01 to    10.58    
+
+ ------ > Saving window   3 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-3BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.08530    4.08530    4.08530   90.00000   90.00000   90.00000    68.1823    
+
+ Metric Tensor     :
+      16.68968      0.00000      0.00000
+       0.00000     16.68968      0.00000
+       0.00000      0.00000     16.68968
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24478    0.24478    0.24478   90.00000   90.00000   90.00000   0.146666E-01
+
+ Reciprocal metric tensor     : 
+       0.05992     -0.00000     -0.00000
+      -0.00000      0.05992     -0.00000
+      -0.00000     -0.00000      0.05992
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3805
+ Number of atoms per unit cell    :      3805
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.497  (     1892 atoms)
+    Element : AG(2)     rel. abundance : 0.503  (     1913 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.484375     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.6323E-10 to    4112.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-4.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-4.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1660E-09 to    3833.    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1538E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-4.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.4036E-12 to    9.322    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-4XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.468750E-01 sec
+ Required time        :     0.67 s
+
+ Total sum of weights :    167642.7344    
+ Saving PDF to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-4.apd ...
+ Resetting - all parameters ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.987     to    9.485    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-4.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-4.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.814     to    8.930    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.095     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-4.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.912     to    9.415    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-4PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    AG(2)    - AG(2)    : d = 10.783 +-  3.038 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             856824)
+                                                 (Total =             856824)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    AG(2)    - NI(1)    : d = 11.251 +-  2.835 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             425445)
+                                                 (Total =             425445)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.322 +-  3.293 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             399568)
+                                                 (Total =             399568)
+ Resetting ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4258.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-4_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-4_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4030.    
+
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1593.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-4_AgNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-4_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1629.    
+
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1076.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-4_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-4_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1130.    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-4_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    9.465    
+
+ Data set no.:   3
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-4_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.23    
+
+ Data set no.:   5
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-4_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.50    
+
+ ------ > Saving window   3 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-4BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.08530    4.08530    4.08530   90.00000   90.00000   90.00000    68.1823    
+
+ Metric Tensor     :
+      16.68968      0.00000      0.00000
+       0.00000     16.68968      0.00000
+       0.00000      0.00000     16.68968
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24478    0.24478    0.24478   90.00000   90.00000   90.00000   0.146666E-01
+
+ Reciprocal metric tensor     : 
+       0.05992     -0.00000     -0.00000
+      -0.00000      0.05992     -0.00000
+      -0.00000     -0.00000      0.05992
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3805
+ Number of atoms per unit cell    :      3805
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.497  (     1892 atoms)
+    Element : AG(2)     rel. abundance : 0.503  (     1913 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.500000     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.6323E-10 to    4112.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-5.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-5.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1493E-09 to    3884.    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1538E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-5.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3630E-12 to    9.444    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-5XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.625000E-01 sec
+ Required time        :     0.69 s
+
+ Total sum of weights :    166894.1792    
+ Saving PDF to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-5.apd ...
+ Resetting - all parameters ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.987     to    9.485    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-5.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-5.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.830     to    9.067    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.095     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-5.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.929     to    9.560    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-5PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    AG(2)    - AG(2)    : d = 10.781 +-  3.043 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             852424)
+                                                 (Total =             852424)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    AG(2)    - NI(1)    : d = 11.232 +-  2.841 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             431232)
+                                                 (Total =             431232)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.339 +-  3.293 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             401036)
+                                                 (Total =             401036)
+ Resetting ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4258.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-5_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-5_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3978.    
+
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1593.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-5_AgNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-5_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1607.    
+
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1076.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-5_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-5_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1116.    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-5_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    9.342    
+
+ Data set no.:   3
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-5_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.09    
+
+ Data set no.:   5
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-5_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.37    
+
+ ------ > Saving window   3 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-5BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.08530    4.08530    4.08530   90.00000   90.00000   90.00000    68.1823    
+
+ Metric Tensor     :
+      16.68968      0.00000      0.00000
+       0.00000     16.68968      0.00000
+       0.00000      0.00000     16.68968
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24478    0.24478    0.24478   90.00000   90.00000   90.00000   0.146666E-01
+
+ Reciprocal metric tensor     : 
+       0.05992     -0.00000     -0.00000
+      -0.00000      0.05992     -0.00000
+      -0.00000     -0.00000      0.05992
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3805
+ Number of atoms per unit cell    :      3805
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.497  (     1892 atoms)
+    Element : AG(2)     rel. abundance : 0.503  (     1913 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.484375     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.6323E-10 to    4112.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-6.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-6.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1298E-09 to    3920.    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1538E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-6.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3156E-12 to    9.533    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-6XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.625000E-01 sec
+ Required time        :     0.69 s
+
+ Total sum of weights :    166582.3352    
+ Saving PDF to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-6.apd ...
+ Resetting - all parameters ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.987     to    9.485    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-6.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-6.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.832     to    9.125    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.095     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-6.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.932     to    9.620    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-6PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    AG(2)    - AG(2)    : d = 10.779 +-  3.044 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             851484)
+                                                 (Total =             851484)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    AG(2)    - NI(1)    : d = 11.228 +-  2.842 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             433147)
+                                                 (Total =             433147)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.332 +-  3.296 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             402416)
+                                                 (Total =             402416)
+ Resetting ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4258.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-6_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-6_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3922.    
+
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1593.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-6_AgNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-6_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1628.    
+
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1076.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-6_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-6_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    2.000     to    1188.    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-6_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    9.211    
+
+ Data set no.:   3
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-6_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.22    
+
+ Data set no.:   5
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-6_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :   0.1859E-01 to    11.04    
+
+ ------ > Saving window   3 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-6BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.08530    4.08530    4.08530   90.00000   90.00000   90.00000    68.1823    
+
+ Metric Tensor     :
+      16.68968      0.00000      0.00000
+       0.00000     16.68968      0.00000
+       0.00000      0.00000     16.68968
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24478    0.24478    0.24478   90.00000   90.00000   90.00000   0.146666E-01
+
+ Reciprocal metric tensor     : 
+       0.05992     -0.00000     -0.00000
+      -0.00000      0.05992     -0.00000
+      -0.00000     -0.00000      0.05992
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3805
+ Number of atoms per unit cell    :      3805
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.497  (     1892 atoms)
+    Element : AG(2)     rel. abundance : 0.503  (     1913 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.500000     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.6323E-10 to    4112.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-7.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-7.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1234E-09 to    3961.    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1538E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-7.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3001E-12 to    9.634    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-7XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.625000E-01 sec
+ Required time        :     0.70 s
+
+ Total sum of weights :    166157.6975    
+ Saving PDF to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-7.apd ...
+ Resetting - all parameters ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.987     to    9.485    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-7.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-7.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.862     to    9.199    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.095     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-7.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.963     to    9.699    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-7PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    AG(2)    - AG(2)    : d = 10.780 +-  3.044 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             850318)
+                                                 (Total =             850318)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    AG(2)    - NI(1)    : d = 11.224 +-  2.848 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             434647)
+                                                 (Total =             434647)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.331 +-  3.295 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             402680)
+                                                 (Total =             402680)
+ Resetting ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4258.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-7_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-7_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3848.    
+
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1593.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-7_AgNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-7_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1624.    
+
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1076.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-7_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-7_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    2.000     to    1124.    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-7_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    9.037    
+
+ Data set no.:   3
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-7_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.19    
+
+ Data set no.:   5
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-7_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :   0.1859E-01 to    10.45    
+
+ ------ > Saving window   3 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-7BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.08530    4.08530    4.08530   90.00000   90.00000   90.00000    68.1823    
+
+ Metric Tensor     :
+      16.68968      0.00000      0.00000
+       0.00000     16.68968      0.00000
+       0.00000      0.00000     16.68968
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24478    0.24478    0.24478   90.00000   90.00000   90.00000   0.146666E-01
+
+ Reciprocal metric tensor     : 
+       0.05992     -0.00000     -0.00000
+      -0.00000      0.05992     -0.00000
+      -0.00000     -0.00000      0.05992
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3805
+ Number of atoms per unit cell    :      3805
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.497  (     1892 atoms)
+    Element : AG(2)     rel. abundance : 0.503  (     1913 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.484375     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.6323E-10 to    4112.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-8.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-8.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1180E-09 to    3980.    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1538E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-8.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2869E-12 to    9.678    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-8XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.468750E-01 sec
+ Required time        :     0.70 s
+
+ Total sum of weights :    166512.8494    
+ Saving PDF to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-8.apd ...
+ Resetting - all parameters ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.987     to    9.485    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-8.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-8.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.887     to    9.301    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.095     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-8.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.990     to    9.806    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-8PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    AG(2)    - AG(2)    : d = 10.780 +-  3.045 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             850318)
+                                                 (Total =             850318)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    AG(2)    - NI(1)    : d = 11.225 +-  2.847 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             435023)
+                                                 (Total =             435023)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.325 +-  3.298 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             403568)
+                                                 (Total =             403568)
+ Resetting ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4258.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-8_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-8_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3908.    
+
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1593.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-8_AgNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-8_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1596.    
+
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1076.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-8_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-8_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1186.    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-8_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    9.178    
+
+ Data set no.:   3
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-8_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.02    
+
+ Data set no.:   5
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-8_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    11.02    
+
+ ------ > Saving window   3 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-8BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.08530    4.08530    4.08530   90.00000   90.00000   90.00000    68.1823    
+
+ Metric Tensor     :
+      16.68968      0.00000      0.00000
+       0.00000     16.68968      0.00000
+       0.00000      0.00000     16.68968
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24478    0.24478    0.24478   90.00000   90.00000   90.00000   0.146666E-01
+
+ Reciprocal metric tensor     : 
+       0.05992     -0.00000     -0.00000
+      -0.00000      0.05992     -0.00000
+      -0.00000     -0.00000      0.05992
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3805
+ Number of atoms per unit cell    :      3805
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.497  (     1892 atoms)
+    Element : AG(2)     rel. abundance : 0.503  (     1913 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.593750     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.6323E-10 to    4112.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-9.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-9.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1122E-09 to    3989.    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1538E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-9.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2730E-12 to    9.701    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-9XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.625000E-01 sec
+ Required time        :     0.72 s
+
+ Total sum of weights :    166341.5665    
+ Saving PDF to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-9.apd ...
+ Resetting - all parameters ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.987     to    9.485    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-9.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-9.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.889     to    9.316    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.095     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-9.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.991     to    9.821    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-9PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    AG(2)    - AG(2)    : d = 10.781 +-  3.044 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             849924)
+                                                 (Total =             849924)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    AG(2)    - NI(1)    : d = 11.220 +-  2.850 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             435431)
+                                                 (Total =             435431)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.326 +-  3.297 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             404324)
+                                                 (Total =             404324)
+ Resetting ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4258.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-9_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-9_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3862.    
+
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1593.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-9_AgNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-9_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1634.    
+
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1076.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-9_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-9_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    2.000     to    1162.    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-9_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    9.070    
+
+ Data set no.:   3
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-9_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.26    
+
+ Data set no.:   5
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-9_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :   0.1859E-01 to    10.80    
+
+ ------ > Saving window   3 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-9BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.08530    4.08530    4.08530   90.00000   90.00000   90.00000    68.1823    
+
+ Metric Tensor     :
+      16.68968      0.00000      0.00000
+       0.00000     16.68968      0.00000
+       0.00000      0.00000     16.68968
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24478    0.24478    0.24478   90.00000   90.00000   90.00000   0.146666E-01
+
+ Reciprocal metric tensor     : 
+       0.05992     -0.00000     -0.00000
+      -0.00000      0.05992     -0.00000
+      -0.00000     -0.00000      0.05992
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3805
+ Number of atoms per unit cell    :      3805
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.497  (     1892 atoms)
+    Element : AG(2)     rel. abundance : 0.503  (     1913 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.468750     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.6323E-10 to    4112.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-10.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-10.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1061E-09 to    3992.    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1538E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-10.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2580E-12 to    9.708    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-10XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.468750E-01 sec
+ Required time        :     0.67 s
+
+ Total sum of weights :    166850.8739    
+ Saving PDF to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-10.apd ...
+ Resetting - all parameters ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.987     to    9.485    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-10.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-10.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.922     to    9.337    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.095     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-10.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.026     to    9.845    
+
+ ------ > Saving window   1 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-10PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    AG(2)    - AG(2)    : d = 10.783 +-  3.043 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             848328)
+                                                 (Total =             848328)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    AG(2)    - NI(1)    : d = 11.216 +-  2.855 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             436537)
+                                                 (Total =             436537)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : RMC_Coreshel ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.324 +-  3.294 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             405298)
+                                                 (Total =             405298)
+ Resetting ..
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4258.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-10_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-10_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3780.    
+
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1593.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-10_AgNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-10_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1619.    
+
+ Reading file Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1076.    
+
+ Reading file RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-10_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-10_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1150.    
+
+ Data set no.:   1
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-10_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    8.877    
+
+ Data set no.:   3
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-10_AgNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.16    
+
+ Data set no.:   5
+
+   Filename : Tests/MC_Coreshell5050_AgNi_onAg_r25/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-10_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.69    
+
+ ------ > Saving window   3 to file : RMC_Coreshell5050_AgNi_onAg_r25_1-10-10/1-10BLD.pdf ..
+ END rmc.shift.swap.mac
