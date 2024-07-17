@@ -1,0 +1,15 @@
+set prompt, off, file  
+
+discus
+reset
+
+read
+	stru Control/Sphere100_Au_onAu_r75_voidless.stru
+chem
+	#set cryst,1,1,1,n[1] 
+    #set mode, exact
+	env site, 15,15,15, 1,15
+exit
+exit
+
+set prompt, on, on
