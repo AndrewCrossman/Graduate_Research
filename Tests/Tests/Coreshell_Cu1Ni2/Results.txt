@@ -1,0 +1,6 @@
+Coreshell_Cu1Ni2 Averaged Results
+PDF R_wp: 6.458%
+XRD R_wp: 2.1707%
+BLD11 R_wp: 22.4324%
+BLD12 R_wp: 28.6945%
+BLD22 R_wp: 41.7535%

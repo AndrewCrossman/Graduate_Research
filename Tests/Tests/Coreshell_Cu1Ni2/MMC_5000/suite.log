@@ -1,0 +1,4102 @@
+  running mc.relax.mac 
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    3.61480    3.61480    3.61480   90.00000   90.00000   90.00000    47.2338    
+
+ Metric Tensor     :
+      13.06678      0.00000      0.00000
+       0.00000     13.06678      0.00000
+       0.00000      0.00000     13.06678
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.27664    0.27664    0.27664   90.00000   90.00000   90.00000   0.211713E-01
+
+ Reciprocal metric tensor     : 
+       0.07653     -0.00000     -0.00000
+      -0.00000      0.07653     -0.00000
+      -0.00000     -0.00000      0.07653
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :   18 x   18 x   18
+ Total number of atoms            :     23328
+ Number of atoms per unit cell    :         4
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.765  (    17855 atoms)
+    Element : NI(1)     rel. abundance : 0.155  (     3608 atoms)
+    Element : CU(2)     rel. abundance : 0.080  (     1865 atoms)
+   Operation mode for MC        : atoms
+   Max. number of MC cycles     : 11664000
+   Feedback/update intervall    : 11664000
+   Maximum no. non_valid cycles :     1000
+   Temperature [kT]             :   0.6000
+   MMC will stop at convergence
+      Max rel. difference       :   0.0000 at last cycle
+      Max change rel. difference:   0.0000 observed over    3 feedbacks
+      Av. change rel. difference:   0.0000 averaged over    3 feedbacks
+
+ Operation modes for MMC; atoms selected 
+   Mode                  Probability  two-atom correlation
+   -------------------------------------------------------
+   switch chemistry      0.00000      all                 
+   switch displacement   0.00000      all                 
+   shift atom            1.00000      all                 
+   inverse displacement  0.00000      all                 
+   rotate molecule       0.00000      all                 
+
+ Correlation definitions        : 
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+        1  vec      1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50
+       51  vec     52  53  54
+        2  vec     55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72  73  74  75  76  77  78  79  80  81  82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99 100 101 102 103 104
+       **  vec    106 107 108
+        3  vec    109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158
+       **  vec    160 161 162
+        4  vec    163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212
+       **  vec    214 215 216
+
+    Defined correlation vectors    : 
+
+       Correlation vector   1      : Site  1 -> site  2, neig =  0 -1 -1
+       Correlation vector   2      : Site  1 -> site  3, neig =  0  0 -1
+       Correlation vector   3      : Site  1 -> site  4, neig = -1 -1  0
+       Correlation vector   4      : Site  1 -> site  3, neig = -1  0  0
+       Correlation vector   5      : Site  1 -> site  4, neig = -1  0  0
+       Correlation vector   6      : Site  1 -> site  2, neig =  0 -1  0
+       Correlation vector   7      : Site  1 -> site  2, neig =  0  0  0
+       Correlation vector   8      : Site  1 -> site  2, neig =  0  0 -1
+       Correlation vector   9      : Site  1 -> site  4, neig =  0 -1  0
+       Correlation vector  10      : Site  1 -> site  3, neig = -1  0 -1
+       Correlation vector  11      : Site  1 -> site  4, neig =  0  0  0
+       Correlation vector  12      : Site  1 -> site  3, neig =  0  0  0
+       Correlation vector  13      : Site  1 -> site  1, neig =  0 -1  0
+       Correlation vector  14      : Site  1 -> site  1, neig =  0  1  0
+       Correlation vector  15      : Site  1 -> site  1, neig = -1  0  0
+       Correlation vector  16      : Site  1 -> site  1, neig =  1  0  0
+       Correlation vector  17      : Site  1 -> site  1, neig =  0  0  1
+       Correlation vector  18      : Site  1 -> site  1, neig =  0  0 -1
+       Correlation vector  19      : Site  1 -> site  3, neig =  0  1  0
+       Correlation vector  20      : Site  1 -> site  2, neig =  1  0  0
+       Correlation vector  21      : Site  1 -> site  2, neig =  1 -1 -1
+       Correlation vector  22      : Site  1 -> site  4, neig =  0 -1 -1
+       Correlation vector  23      : Site  1 -> site  3, neig = -1 -1 -1
+       Correlation vector  24      : Site  1 -> site  3, neig =  0 -1 -1
+       Correlation vector  25      : Site  1 -> site  4, neig = -1 -1  1
+       Correlation vector  26      : Site  1 -> site  3, neig = -1  1 -1
+       Correlation vector  27      : Site  1 -> site  4, neig = -1 -1 -1
+       Correlation vector  28      : Site  1 -> site  3, neig =  0  1 -1
+       Correlation vector  29      : Site  1 -> site  4, neig =  0 -1  1
+       Correlation vector  30      : Site  1 -> site  2, neig = -1 -1 -1
+       Correlation vector  31      : Site  1 -> site  2, neig = -1  0  0
+       Correlation vector  32      : Site  1 -> site  2, neig = -1  0 -1
+       Correlation vector  33      : Site  1 -> site  3, neig = -1  1  0
+       Correlation vector  34      : Site  1 -> site  4, neig =  0  0 -1
+       Correlation vector  35      : Site  1 -> site  2, neig =  1 -1  0
+       Correlation vector  36      : Site  1 -> site  3, neig =  0 -1  0
+       Correlation vector  37      : Site  1 -> site  3, neig = -1 -1  0
+       Correlation vector  38      : Site  1 -> site  2, neig =  1  0 -1
+       Correlation vector  39      : Site  1 -> site  4, neig =  0  0  1
+       Correlation vector  40      : Site  1 -> site  4, neig = -1  0  1
+       Correlation vector  41      : Site  1 -> site  2, neig = -1 -1  0
+       Correlation vector  42      : Site  1 -> site  4, neig = -1  0 -1
+       Correlation vector  43      : Site  1 -> site  1, neig =  0  1 -1
+       Correlation vector  44      : Site  1 -> site  1, neig =  0  1  1
+       Correlation vector  45      : Site  1 -> site  1, neig =  1  0 -1
+       Correlation vector  46      : Site  1 -> site  1, neig =  1 -1  0
+       Correlation vector  47      : Site  1 -> site  1, neig =  0 -1 -1
+       Correlation vector  48      : Site  1 -> site  1, neig = -1 -1  0
+       Correlation vector  49      : Site  1 -> site  1, neig =  0 -1  1
+       Correlation vector  50      : Site  1 -> site  1, neig = -1  1  0
+       Correlation vector  51      : Site  1 -> site  1, neig = -1  0  1
+       Correlation vector  52      : Site  1 -> site  1, neig = -1  0 -1
+       Correlation vector  53      : Site  1 -> site  1, neig =  1  0  1
+       Correlation vector  54      : Site  1 -> site  1, neig =  1  1  0
+       Correlation vector  55      : Site  2 -> site  1, neig =  0  0  0
+       Correlation vector  56      : Site  2 -> site  3, neig = -1  1  0
+       Correlation vector  57      : Site  2 -> site  1, neig =  0  0  1
+       Correlation vector  58      : Site  2 -> site  3, neig =  0  0  0
+       Correlation vector  59      : Site  2 -> site  4, neig =  0  0  1
+       Correlation vector  60      : Site  2 -> site  4, neig = -1  0  0
+       Correlation vector  61      : Site  2 -> site  3, neig = -1  0  0
+       Correlation vector  62      : Site  2 -> site  4, neig = -1  0  1
+       Correlation vector  63      : Site  2 -> site  1, neig =  0  1  1
+       Correlation vector  64      : Site  2 -> site  4, neig =  0  0  0
+       Correlation vector  65      : Site  2 -> site  1, neig =  0  1  0
+       Correlation vector  66      : Site  2 -> site  3, neig =  0  1  0
+       Correlation vector  67      : Site  2 -> site  2, neig =  0  1  0
+       Correlation vector  68      : Site  2 -> site  2, neig =  0  0 -1
+       Correlation vector  69      : Site  2 -> site  2, neig =  0  0  1
+       Correlation vector  70      : Site  2 -> site  2, neig =  0 -1  0
+       Correlation vector  71      : Site  2 -> site  2, neig = -1  0  0
+       Correlation vector  72      : Site  2 -> site  2, neig =  1  0  0
+       Correlation vector  73      : Site  2 -> site  1, neig = -1  1  0
+       Correlation vector  74      : Site  2 -> site  4, neig = -1  1  0
+       Correlation vector  75      : Site  2 -> site  1, neig =  1  1  0
+       Correlation vector  76      : Site  2 -> site  3, neig = -1  1 -1
+       Correlation vector  77      : Site  2 -> site  4, neig = -1 -1  0
+       Correlation vector  78      : Site  2 -> site  3, neig =  0  0 -1
+       Correlation vector  79      : Site  2 -> site  1, neig =  1  0  0
+       Correlation vector  80      : Site  2 -> site  3, neig =  0  1 -1
+       Correlation vector  81      : Site  2 -> site  1, neig = -1  0  0
+       Correlation vector  82      : Site  2 -> site  4, neig =  0 -1  0
+       Correlation vector  83      : Site  2 -> site  4, neig =  0  1  0
+       Correlation vector  84      : Site  2 -> site  3, neig = -1  0 -1
+       Correlation vector  85      : Site  2 -> site  1, neig = -1  1  1
+       Correlation vector  86      : Site  2 -> site  4, neig =  0 -1  1
+       Correlation vector  87      : Site  2 -> site  3, neig = -1  0  1
+       Correlation vector  88      : Site  2 -> site  3, neig = -1  1  1
+       Correlation vector  89      : Site  2 -> site  4, neig = -1  1  1
+       Correlation vector  90      : Site  2 -> site  1, neig = -1  0  1
+       Correlation vector  91      : Site  2 -> site  3, neig =  0  1  1
+       Correlation vector  92      : Site  2 -> site  1, neig =  1  0  1
+       Correlation vector  93      : Site  2 -> site  1, neig =  1  1  1
+       Correlation vector  94      : Site  2 -> site  3, neig =  0  0  1
+       Correlation vector  95      : Site  2 -> site  4, neig = -1 -1  1
+       Correlation vector  96      : Site  2 -> site  4, neig =  0  1  1
+       Correlation vector  97      : Site  2 -> site  2, neig =  1  0 -1
+       Correlation vector  98      : Site  2 -> site  2, neig =  1  0  1
+       Correlation vector  99      : Site  2 -> site  2, neig = -1 -1  0
+       Correlation vector 100      : Site  2 -> site  2, neig =  1 -1  0
+       Correlation vector 101      : Site  2 -> site  2, neig =  0 -1 -1
+       Correlation vector 102      : Site  2 -> site  2, neig =  0  1  1
+       Correlation vector 103      : Site  2 -> site  2, neig =  0  1 -1
+       Correlation vector 104      : Site  2 -> site  2, neig = -1  0 -1
+       Correlation vector 105      : Site  2 -> site  2, neig = -1  0  1
+       Correlation vector 106      : Site  2 -> site  2, neig =  0 -1  1
+       Correlation vector 107      : Site  2 -> site  2, neig = -1  1  0
+       Correlation vector 108      : Site  2 -> site  2, neig =  1  1  0
+       Correlation vector 109      : Site  3 -> site  2, neig =  1  0  0
+       Correlation vector 110      : Site  3 -> site  1, neig =  1  0  1
+       Correlation vector 111      : Site  3 -> site  1, neig =  0  0  0
+       Correlation vector 112      : Site  3 -> site  2, neig =  0  0  0
+       Correlation vector 113      : Site  3 -> site  4, neig =  0  0  0
+       Correlation vector 114      : Site  3 -> site  1, neig =  1  0  0
+       Correlation vector 115      : Site  3 -> site  2, neig =  1 -1  0
+       Correlation vector 116      : Site  3 -> site  4, neig =  0  0  1
+       Correlation vector 117      : Site  3 -> site  2, neig =  0 -1  0
+       Correlation vector 118      : Site  3 -> site  4, neig =  0 -1  1
+       Correlation vector 119      : Site  3 -> site  1, neig =  0  0  1
+       Correlation vector 120      : Site  3 -> site  4, neig =  0 -1  0
+       Correlation vector 121      : Site  3 -> site  3, neig =  0  0 -1
+       Correlation vector 122      : Site  3 -> site  3, neig =  0  0  1
+       Correlation vector 123      : Site  3 -> site  3, neig =  0 -1  0
+       Correlation vector 124      : Site  3 -> site  3, neig = -1  0  0
+       Correlation vector 125      : Site  3 -> site  3, neig =  0  1  0
+       Correlation vector 126      : Site  3 -> site  3, neig =  1  0  0
+       Correlation vector 127      : Site  3 -> site  2, neig =  1 -1  1
+       Correlation vector 128      : Site  3 -> site  1, neig =  1  1  0
+       Correlation vector 129      : Site  3 -> site  1, neig =  1 -1  1
+       Correlation vector 130      : Site  3 -> site  4, neig =  1 -1  1
+       Correlation vector 131      : Site  3 -> site  2, neig =  0 -1 -1
+       Correlation vector 132      : Site  3 -> site  2, neig =  1 -1 -1
+       Correlation vector 133      : Site  3 -> site  1, neig =  1 -1  0
+       Correlation vector 134      : Site  3 -> site  4, neig =  1  0  0
+       Correlation vector 135      : Site  3 -> site  4, neig =  1 -1  0
+       Correlation vector 136      : Site  3 -> site  4, neig = -1  0  0
+       Correlation vector 137      : Site  3 -> site  2, neig =  0 -1  1
+       Correlation vector 138      : Site  3 -> site  1, neig =  0 -1  1
+       Correlation vector 139      : Site  3 -> site  4, neig = -1 -1  1
+       Correlation vector 140      : Site  3 -> site  2, neig =  0  0 -1
+       Correlation vector 141      : Site  3 -> site  1, neig =  0  1  0
+       Correlation vector 142      : Site  3 -> site  2, neig =  1  0 -1
+       Correlation vector 143      : Site  3 -> site  4, neig = -1  0  1
+       Correlation vector 144      : Site  3 -> site  2, neig =  1  0  1
+       Correlation vector 145      : Site  3 -> site  1, neig =  0 -1  0
+       Correlation vector 146      : Site  3 -> site  1, neig =  1  1  1
+       Correlation vector 147      : Site  3 -> site  4, neig = -1 -1  0
+       Correlation vector 148      : Site  3 -> site  2, neig =  0  0  1
+       Correlation vector 149      : Site  3 -> site  1, neig =  0  1  1
+       Correlation vector 150      : Site  3 -> site  4, neig =  1  0  1
+       Correlation vector 151      : Site  3 -> site  3, neig =  0 -1 -1
+       Correlation vector 152      : Site  3 -> site  3, neig = -1 -1  0
+       Correlation vector 153      : Site  3 -> site  3, neig = -1  1  0
+       Correlation vector 154      : Site  3 -> site  3, neig =  0  1 -1
+       Correlation vector 155      : Site  3 -> site  3, neig =  1  1  0
+       Correlation vector 156      : Site  3 -> site  3, neig = -1  0 -1
+       Correlation vector 157      : Site  3 -> site  3, neig =  0 -1  1
+       Correlation vector 158      : Site  3 -> site  3, neig =  1  0 -1
+       Correlation vector 159      : Site  3 -> site  3, neig =  1 -1  0
+       Correlation vector 160      : Site  3 -> site  3, neig =  1  0  1
+       Correlation vector 161      : Site  3 -> site  3, neig =  0  1  1
+       Correlation vector 162      : Site  3 -> site  3, neig = -1  0  1
+       Correlation vector 163      : Site  4 -> site  1, neig =  0  1  0
+       Correlation vector 164      : Site  4 -> site  2, neig =  1  0  0
+       Correlation vector 165      : Site  4 -> site  3, neig =  0  1  0
+       Correlation vector 166      : Site  4 -> site  3, neig =  0  1 -1
+       Correlation vector 167      : Site  4 -> site  1, neig =  0  0  0
+       Correlation vector 168      : Site  4 -> site  3, neig =  0  0  0
+       Correlation vector 169      : Site  4 -> site  1, neig =  1  0  0
+       Correlation vector 170      : Site  4 -> site  1, neig =  1  1  0
+       Correlation vector 171      : Site  4 -> site  2, neig =  0  0  0
+       Correlation vector 172      : Site  4 -> site  2, neig =  1  0 -1
+       Correlation vector 173      : Site  4 -> site  2, neig =  0  0 -1
+       Correlation vector 174      : Site  4 -> site  3, neig =  0  0 -1
+       Correlation vector 175      : Site  4 -> site  4, neig = -1  0  0
+       Correlation vector 176      : Site  4 -> site  4, neig =  0  0  1
+       Correlation vector 177      : Site  4 -> site  4, neig =  0  1  0
+       Correlation vector 178      : Site  4 -> site  4, neig =  0  0 -1
+       Correlation vector 179      : Site  4 -> site  4, neig =  0 -1  0
+       Correlation vector 180      : Site  4 -> site  4, neig =  1  0  0
+       Correlation vector 181      : Site  4 -> site  1, neig =  0  0 -1
+       Correlation vector 182      : Site  4 -> site  3, neig = -1  0 -1
+       Correlation vector 183      : Site  4 -> site  2, neig =  1 -1 -1
+       Correlation vector 184      : Site  4 -> site  1, neig =  1  1  1
+       Correlation vector 185      : Site  4 -> site  2, neig =  1 -1  0
+       Correlation vector 186      : Site  4 -> site  3, neig =  1  0 -1
+       Correlation vector 187      : Site  4 -> site  1, neig =  1  0 -1
+       Correlation vector 188      : Site  4 -> site  1, neig =  1  1 -1
+       Correlation vector 189      : Site  4 -> site  1, neig =  0  1 -1
+       Correlation vector 190      : Site  4 -> site  2, neig =  0  1 -1
+       Correlation vector 191      : Site  4 -> site  2, neig =  0 -1  0
+       Correlation vector 192      : Site  4 -> site  3, neig = -1  1 -1
+       Correlation vector 193      : Site  4 -> site  3, neig = -1  0  0
+       Correlation vector 194      : Site  4 -> site  3, neig =  1  1 -1
+       Correlation vector 195      : Site  4 -> site  2, neig =  1  1 -1
+       Correlation vector 196      : Site  4 -> site  2, neig =  0 -1 -1
+       Correlation vector 197      : Site  4 -> site  3, neig =  1  0  0
+       Correlation vector 198      : Site  4 -> site  2, neig =  1  1  0
+       Correlation vector 199      : Site  4 -> site  3, neig =  1  1  0
+       Correlation vector 200      : Site  4 -> site  3, neig = -1  1  0
+       Correlation vector 201      : Site  4 -> site  1, neig =  0  1  1
+       Correlation vector 202      : Site  4 -> site  2, neig =  0  1  0
+       Correlation vector 203      : Site  4 -> site  1, neig =  1  0  1
+       Correlation vector 204      : Site  4 -> site  1, neig =  0  0  1
+       Correlation vector 205      : Site  4 -> site  4, neig = -1  0 -1
+       Correlation vector 206      : Site  4 -> site  4, neig =  0 -1 -1
+       Correlation vector 207      : Site  4 -> site  4, neig =  1  1  0
+       Correlation vector 208      : Site  4 -> site  4, neig = -1  0  1
+       Correlation vector 209      : Site  4 -> site  4, neig =  1  0  1
+       Correlation vector 210      : Site  4 -> site  4, neig =  1  0 -1
+       Correlation vector 211      : Site  4 -> site  4, neig =  0 -1  1
+       Correlation vector 212      : Site  4 -> site  4, neig =  0  1 -1
+       Correlation vector 213      : Site  4 -> site  4, neig =  1 -1  0
+       Correlation vector 214      : Site  4 -> site  4, neig = -1 -1  0
+       Correlation vector 215      : Site  4 -> site  4, neig =  0  1  1
+       Correlation vector 216      : Site  4 -> site  4, neig = -1  1  0
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       Displacement corr. #  1     : all directions
+       Displacement corr. #  2     : all directions
+       Displacement corr. #  3     : all directions
+       Displacement corr. #  4     : all directions
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+
+ Desired distance for LENNARD : 
+
+            Pairs          neigh. #   distance/A       depth/B       m       n
+     NI(1)    - NI(1)          1       2.552          5.6500000    
+                                   431138.18         3121.4937     12.000    6.000
+     NI(1)    - CU(2)          1       3.584          5.1850000    
+                                   23289747.         21977.929     12.000    6.000
+     CU(2)    - CU(2)          1       2.616          4.7200000    
+                                   484836.02         3025.5089     12.000    6.000
+     NI(1)    - NI(1)          2       2.552          5.6500000    
+                                   431138.18         3121.4937     12.000    6.000
+     NI(1)    - CU(2)          2       3.584          5.1850000    
+                                   23289747.         21977.929     12.000    6.000
+     CU(2)    - CU(2)          2       2.616          4.7200000    
+                                   484836.02         3025.5089     12.000    6.000
+     NI(1)    - NI(1)          3       2.552          5.6500000    
+                                   431138.18         3121.4937     12.000    6.000
+     NI(1)    - CU(2)          3       3.584          5.1850000    
+                                   23289747.         21977.929     12.000    6.000
+     CU(2)    - CU(2)          3       2.616          4.7200000    
+                                   484836.02         3025.5089     12.000    6.000
+     NI(1)    - NI(1)          4       2.552          5.6500000    
+                                   431138.18         3121.4937     12.000    6.000
+     NI(1)    - CU(2)          4       3.584          5.1850000    
+                                   23289747.         21977.929     12.000    6.000
+     CU(2)    - CU(2)          4       2.616          4.7200000    
+                                   484836.02         3025.5089     12.000    6.000
+
+ Sigmas for MC shifts (l.u.)    : 
+                 Atom VOID(0)   :   0.00000   0.00000   0.00000
+                 Atom NI(1)     :   0.02500   0.02500   0.02500
+                 Atom CU(2)     :   0.02500   0.02500   0.02500
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     3.996     0.934    -1.444    -0.566
+   1   Lennard   NI      CU            3.584     4.279     0.816    -0.695    -0.194
+   1   Lennard   CU      CU            2.616     4.029     0.924    -1.413    -0.540
+   2   Lennard   NI      NI            2.552     3.997     0.934    -1.445    -0.566
+   2   Lennard   NI      CU            3.584     4.276     0.812    -0.692    -0.193
+   2   Lennard   CU      CU            2.616     4.031     0.925    -1.415    -0.541
+   3   Lennard   NI      NI            2.552     3.997     0.934    -1.445    -0.566
+   3   Lennard   NI      CU            3.584     4.276     0.812    -0.692    -0.193
+   3   Lennard   CU      CU            2.616     4.031     0.925    -1.415    -0.541
+   4   Lennard   NI      NI            2.552     3.997     0.934    -1.445    -0.566
+   4   Lennard   NI      CU            3.584     4.276     0.812    -0.692    -0.193
+   4   Lennard   CU      CU            2.616     4.031     0.925    -1.415    -0.541
+
+ ---------------------------------------------
+
+ ---------------------------------------------
+ --- multiple energy simulation is finished---
+ ---------------------------------------------
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     3.996     0.934    -1.444    -0.566
+   1   Lennard   NI      CU            3.584     4.279     0.816    -0.695    -0.194
+   1   Lennard   CU      CU            2.616     4.029     0.924    -1.413    -0.540
+   2   Lennard   NI      NI            2.552     3.997     0.934    -1.445    -0.566
+   2   Lennard   NI      CU            3.584     4.276     0.812    -0.692    -0.193
+   2   Lennard   CU      CU            2.616     4.031     0.925    -1.415    -0.541
+   3   Lennard   NI      NI            2.552     3.997     0.934    -1.445    -0.566
+   3   Lennard   NI      CU            3.584     4.276     0.812    -0.692    -0.193
+   3   Lennard   CU      CU            2.616     4.031     0.925    -1.415    -0.541
+   4   Lennard   NI      NI            2.552     3.997     0.934    -1.445    -0.566
+   4   Lennard   NI      CU            3.584     4.276     0.812    -0.692    -0.193
+   4   Lennard   CU      CU            2.616     4.031     0.925    -1.415    -0.541
+
+ ---------------------------------------------
+
+ --- Final multiple energy configuration ---
+
+ Gen:   11299376 try:   11299376 acc: (g/n/b):  1604037 /      141 /  1215919  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.072     0.972    -1.520    -0.595      70728
+   1   Lennard   NI      CU            3.584     5.121     0.804    -1.537    -0.429       8616
+   1   Lennard   CU      CU            2.616     4.037     0.932    -1.421    -0.543      41424
+   2   Lennard   NI      NI            2.552     4.069     0.970    -1.517    -0.595      70672
+   2   Lennard   NI      CU            3.584     5.108     0.809    -1.524    -0.425       8900
+   2   Lennard   CU      CU            2.616     4.038     0.933    -1.422    -0.543      41560
+   3   Lennard   NI      NI            2.552     4.071     0.970    -1.519    -0.595      70672
+   3   Lennard   NI      CU            3.584     5.104     0.808    -1.520    -0.424       8900
+   3   Lennard   CU      CU            2.616     4.038     0.933    -1.422    -0.543      41560
+   4   Lennard   NI      NI            2.552     4.070     0.970    -1.518    -0.595      70672
+   4   Lennard   NI      CU            3.584     5.106     0.809    -1.522    -0.425       8900
+   4   Lennard   CU      CU            2.616     4.038     0.933    -1.422    -0.544      41560
+
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    1603799      -0.665650       141   1215814       0.617631
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h  8 min  1 sec 
+ Time/cycle   :     0.000 sec
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.072     0.972    -1.520    -0.595
+   1   Lennard   NI      CU            3.584     5.121     0.804    -1.537    -0.429
+   1   Lennard   CU      CU            2.616     4.037     0.932    -1.421    -0.543
+   2   Lennard   NI      NI            2.552     4.069     0.970    -1.517    -0.595
+   2   Lennard   NI      CU            3.584     5.108     0.809    -1.524    -0.425
+   2   Lennard   CU      CU            2.616     4.038     0.933    -1.422    -0.543
+   3   Lennard   NI      NI            2.552     4.071     0.970    -1.519    -0.595
+   3   Lennard   NI      CU            3.584     5.104     0.808    -1.520    -0.424
+   3   Lennard   CU      CU            2.616     4.038     0.933    -1.422    -0.543
+   4   Lennard   NI      NI            2.552     4.070     0.970    -1.518    -0.595
+   4   Lennard   NI      CU            3.584     5.106     0.809    -1.522    -0.425
+   4   Lennard   CU      CU            2.616     4.038     0.933    -1.422    -0.544
+
+ ---------------------------------------------
+
+ ---------------------------------------------
+ --- multiple energy simulation is finished---
+ ---------------------------------------------
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.072     0.972    -1.520    -0.595
+   1   Lennard   NI      CU            3.584     5.121     0.804    -1.537    -0.429
+   1   Lennard   CU      CU            2.616     4.037     0.932    -1.421    -0.543
+   2   Lennard   NI      NI            2.552     4.069     0.970    -1.517    -0.595
+   2   Lennard   NI      CU            3.584     5.108     0.809    -1.524    -0.425
+   2   Lennard   CU      CU            2.616     4.038     0.933    -1.422    -0.543
+   3   Lennard   NI      NI            2.552     4.071     0.970    -1.519    -0.595
+   3   Lennard   NI      CU            3.584     5.104     0.808    -1.520    -0.424
+   3   Lennard   CU      CU            2.616     4.038     0.933    -1.422    -0.543
+   4   Lennard   NI      NI            2.552     4.070     0.970    -1.518    -0.595
+   4   Lennard   NI      CU            3.584     5.106     0.809    -1.522    -0.425
+   4   Lennard   CU      CU            2.616     4.038     0.933    -1.422    -0.544
+
+ ---------------------------------------------
+
+ --- Final multiple energy configuration ---
+
+ Gen:   11299376 try:   11299376 acc: (g/n/b):  1656611 /      167 /  1272560  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.073     0.973    -1.521    -0.596      70728
+   1   Lennard   NI      CU            3.584     5.120     0.806    -1.536    -0.428       8616
+   1   Lennard   CU      CU            2.616     4.044     0.933    -1.428    -0.546      41424
+   2   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.596      70672
+   2   Lennard   NI      CU            3.584     5.104     0.808    -1.520    -0.424       8900
+   2   Lennard   CU      CU            2.616     4.045     0.935    -1.429    -0.546      41560
+   3   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.595      70672
+   3   Lennard   NI      CU            3.584     5.107     0.809    -1.523    -0.425       8900
+   3   Lennard   CU      CU            2.616     4.044     0.934    -1.428    -0.546      41560
+   4   Lennard   NI      NI            2.552     4.073     0.972    -1.521    -0.596      70672
+   4   Lennard   NI      CU            3.584     5.104     0.808    -1.520    -0.424       8900
+   4   Lennard   CU      CU            2.616     4.044     0.935    -1.428    -0.546      41560
+
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    1656386      -0.489129       167   1272435       0.609206
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h  7 min 57 sec 
+ Time/cycle   :     0.000 sec
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.073     0.973    -1.521    -0.596
+   1   Lennard   NI      CU            3.584     5.120     0.806    -1.536    -0.428
+   1   Lennard   CU      CU            2.616     4.044     0.933    -1.428    -0.546
+   2   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.596
+   2   Lennard   NI      CU            3.584     5.104     0.808    -1.520    -0.424
+   2   Lennard   CU      CU            2.616     4.045     0.935    -1.429    -0.546
+   3   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.595
+   3   Lennard   NI      CU            3.584     5.107     0.809    -1.523    -0.425
+   3   Lennard   CU      CU            2.616     4.044     0.934    -1.428    -0.546
+   4   Lennard   NI      NI            2.552     4.073     0.972    -1.521    -0.596
+   4   Lennard   NI      CU            3.584     5.104     0.808    -1.520    -0.424
+   4   Lennard   CU      CU            2.616     4.044     0.935    -1.428    -0.546
+
+ ---------------------------------------------
+
+ ---------------------------------------------
+ --- multiple energy simulation is finished---
+ ---------------------------------------------
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.073     0.973    -1.521    -0.596
+   1   Lennard   NI      CU            3.584     5.120     0.806    -1.536    -0.428
+   1   Lennard   CU      CU            2.616     4.044     0.933    -1.428    -0.546
+   2   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.596
+   2   Lennard   NI      CU            3.584     5.104     0.808    -1.520    -0.424
+   2   Lennard   CU      CU            2.616     4.045     0.935    -1.429    -0.546
+   3   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.595
+   3   Lennard   NI      CU            3.584     5.107     0.809    -1.523    -0.425
+   3   Lennard   CU      CU            2.616     4.044     0.934    -1.428    -0.546
+   4   Lennard   NI      NI            2.552     4.073     0.972    -1.521    -0.596
+   4   Lennard   NI      CU            3.584     5.104     0.808    -1.520    -0.424
+   4   Lennard   CU      CU            2.616     4.044     0.935    -1.428    -0.546
+
+ ---------------------------------------------
+
+ --- Final multiple energy configuration ---
+
+ Gen:   11299376 try:   11299376 acc: (g/n/b):  1661466 /      148 /  1276428  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.074     0.972    -1.522    -0.596      70728
+   1   Lennard   NI      CU            3.584     5.124     0.805    -1.540    -0.430       8616
+   1   Lennard   CU      CU            2.616     4.040     0.933    -1.424    -0.544      41424
+   2   Lennard   NI      NI            2.552     4.073     0.971    -1.521    -0.596      70672
+   2   Lennard   NI      CU            3.584     5.110     0.810    -1.526    -0.426       8900
+   2   Lennard   CU      CU            2.616     4.041     0.934    -1.425    -0.545      41560
+   3   Lennard   NI      NI            2.552     4.074     0.971    -1.522    -0.596      70672
+   3   Lennard   NI      CU            3.584     5.105     0.809    -1.521    -0.424       8900
+   3   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.545      41560
+   4   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.596      70672
+   4   Lennard   NI      CU            3.584     5.108     0.809    -1.524    -0.425       8900
+   4   Lennard   CU      CU            2.616     4.041     0.935    -1.425    -0.545      41560
+
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    1661247      -0.489114       148   1276331       0.608509
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h  7 min 55 sec 
+ Time/cycle   :     0.000 sec
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.074     0.972    -1.522    -0.596
+   1   Lennard   NI      CU            3.584     5.124     0.805    -1.540    -0.430
+   1   Lennard   CU      CU            2.616     4.040     0.933    -1.424    -0.544
+   2   Lennard   NI      NI            2.552     4.073     0.971    -1.521    -0.596
+   2   Lennard   NI      CU            3.584     5.110     0.810    -1.526    -0.426
+   2   Lennard   CU      CU            2.616     4.041     0.934    -1.425    -0.545
+   3   Lennard   NI      NI            2.552     4.074     0.971    -1.522    -0.596
+   3   Lennard   NI      CU            3.584     5.105     0.809    -1.521    -0.424
+   3   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.545
+   4   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.596
+   4   Lennard   NI      CU            3.584     5.108     0.809    -1.524    -0.425
+   4   Lennard   CU      CU            2.616     4.041     0.935    -1.425    -0.545
+
+ ---------------------------------------------
+
+ ---------------------------------------------
+ --- multiple energy simulation is finished---
+ ---------------------------------------------
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.074     0.972    -1.522    -0.596
+   1   Lennard   NI      CU            3.584     5.124     0.805    -1.540    -0.430
+   1   Lennard   CU      CU            2.616     4.040     0.933    -1.424    -0.544
+   2   Lennard   NI      NI            2.552     4.073     0.971    -1.521    -0.596
+   2   Lennard   NI      CU            3.584     5.110     0.810    -1.526    -0.426
+   2   Lennard   CU      CU            2.616     4.041     0.934    -1.425    -0.545
+   3   Lennard   NI      NI            2.552     4.074     0.971    -1.522    -0.596
+   3   Lennard   NI      CU            3.584     5.105     0.809    -1.521    -0.424
+   3   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.545
+   4   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.596
+   4   Lennard   NI      CU            3.584     5.108     0.809    -1.524    -0.425
+   4   Lennard   CU      CU            2.616     4.041     0.935    -1.425    -0.545
+
+ ---------------------------------------------
+
+ --- Final multiple energy configuration ---
+
+ Gen:   11299376 try:   11299376 acc: (g/n/b):  1660534 /      152 /  1274781  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.071     0.971    -1.519    -0.595      70728
+   1   Lennard   NI      CU            3.584     5.122     0.805    -1.538    -0.429       8616
+   1   Lennard   CU      CU            2.616     4.040     0.933    -1.424    -0.544      41424
+   2   Lennard   NI      NI            2.552     4.071     0.970    -1.519    -0.595      70672
+   2   Lennard   NI      CU            3.584     5.107     0.809    -1.523    -0.425       8900
+   2   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.544      41560
+   3   Lennard   NI      NI            2.552     4.071     0.970    -1.519    -0.595      70672
+   3   Lennard   NI      CU            3.584     5.109     0.809    -1.525    -0.426       8900
+   3   Lennard   CU      CU            2.616     4.039     0.933    -1.423    -0.544      41560
+   4   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.595      70672
+   4   Lennard   NI      CU            3.584     5.107     0.808    -1.523    -0.425       8900
+   4   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.544      41560
+
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    1660332      -0.488486       152   1274668       0.608689
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h  7 min 58 sec 
+ Time/cycle   :     0.000 sec
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.071     0.971    -1.519    -0.595
+   1   Lennard   NI      CU            3.584     5.122     0.805    -1.538    -0.429
+   1   Lennard   CU      CU            2.616     4.040     0.933    -1.424    -0.544
+   2   Lennard   NI      NI            2.552     4.071     0.970    -1.519    -0.595
+   2   Lennard   NI      CU            3.584     5.107     0.809    -1.523    -0.425
+   2   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.544
+   3   Lennard   NI      NI            2.552     4.071     0.970    -1.519    -0.595
+   3   Lennard   NI      CU            3.584     5.109     0.809    -1.525    -0.426
+   3   Lennard   CU      CU            2.616     4.039     0.933    -1.423    -0.544
+   4   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.595
+   4   Lennard   NI      CU            3.584     5.107     0.808    -1.523    -0.425
+   4   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.544
+
+ ---------------------------------------------
+
+ ---------------------------------------------
+ --- multiple energy simulation is finished---
+ ---------------------------------------------
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.071     0.971    -1.519    -0.595
+   1   Lennard   NI      CU            3.584     5.122     0.805    -1.538    -0.429
+   1   Lennard   CU      CU            2.616     4.040     0.933    -1.424    -0.544
+   2   Lennard   NI      NI            2.552     4.071     0.970    -1.519    -0.595
+   2   Lennard   NI      CU            3.584     5.107     0.809    -1.523    -0.425
+   2   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.544
+   3   Lennard   NI      NI            2.552     4.071     0.970    -1.519    -0.595
+   3   Lennard   NI      CU            3.584     5.109     0.809    -1.525    -0.426
+   3   Lennard   CU      CU            2.616     4.039     0.933    -1.423    -0.544
+   4   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.595
+   4   Lennard   NI      CU            3.584     5.107     0.808    -1.523    -0.425
+   4   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.544
+
+ ---------------------------------------------
+
+ --- Final multiple energy configuration ---
+
+ Gen:   11663872 try:   11663872 acc: (g/n/b):  1661472 /      185 /  1274694  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.071     0.972    -1.519    -0.595      70728
+   1   Lennard   NI      CU            3.584     5.116     0.805    -1.532    -0.427       8616
+   1   Lennard   CU      CU            2.616     4.041     0.933    -1.425    -0.545      41424
+   2   Lennard   NI      NI            2.552     4.069     0.970    -1.517    -0.595      70672
+   2   Lennard   NI      CU            3.584     5.106     0.809    -1.522    -0.425       8900
+   2   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.544      41560
+   3   Lennard   NI      NI            2.552     4.070     0.970    -1.518    -0.595      70672
+   3   Lennard   NI      CU            3.584     5.103     0.808    -1.519    -0.424       8900
+   3   Lennard   CU      CU            2.616     4.041     0.934    -1.425    -0.545      41560
+   4   Lennard   NI      NI            2.552     4.070     0.970    -1.518    -0.595      70672
+   4   Lennard   NI      CU            3.584     5.103     0.809    -1.519    -0.424       8900
+   4   Lennard   CU      CU            2.616     4.041     0.934    -1.425    -0.545      41560
+
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    1661247      -0.488201       185   1274564       0.608910
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h  8 min  3 sec 
+ Time/cycle   :     0.000 sec
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.071     0.972    -1.519    -0.595
+   1   Lennard   NI      CU            3.584     5.116     0.805    -1.532    -0.427
+   1   Lennard   CU      CU            2.616     4.041     0.933    -1.425    -0.545
+   2   Lennard   NI      NI            2.552     4.069     0.970    -1.517    -0.595
+   2   Lennard   NI      CU            3.584     5.106     0.809    -1.522    -0.425
+   2   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.544
+   3   Lennard   NI      NI            2.552     4.070     0.970    -1.518    -0.595
+   3   Lennard   NI      CU            3.584     5.103     0.808    -1.519    -0.424
+   3   Lennard   CU      CU            2.616     4.041     0.934    -1.425    -0.545
+   4   Lennard   NI      NI            2.552     4.070     0.970    -1.518    -0.595
+   4   Lennard   NI      CU            3.584     5.103     0.809    -1.519    -0.424
+   4   Lennard   CU      CU            2.616     4.041     0.934    -1.425    -0.545
+
+ ---------------------------------------------
+
+ ---------------------------------------------
+ --- multiple energy simulation is finished---
+ ---------------------------------------------
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.071     0.972    -1.519    -0.595
+   1   Lennard   NI      CU            3.584     5.116     0.805    -1.532    -0.427
+   1   Lennard   CU      CU            2.616     4.041     0.933    -1.425    -0.545
+   2   Lennard   NI      NI            2.552     4.069     0.970    -1.517    -0.595
+   2   Lennard   NI      CU            3.584     5.106     0.809    -1.522    -0.425
+   2   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.544
+   3   Lennard   NI      NI            2.552     4.070     0.970    -1.518    -0.595
+   3   Lennard   NI      CU            3.584     5.103     0.808    -1.519    -0.424
+   3   Lennard   CU      CU            2.616     4.041     0.934    -1.425    -0.545
+   4   Lennard   NI      NI            2.552     4.070     0.970    -1.518    -0.595
+   4   Lennard   NI      CU            3.584     5.103     0.809    -1.519    -0.424
+   4   Lennard   CU      CU            2.616     4.041     0.934    -1.425    -0.545
+
+ ---------------------------------------------
+
+ --- Final multiple energy configuration ---
+
+ Gen:   11299376 try:   11299376 acc: (g/n/b):  1664317 /      146 /  1277988  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.074     0.973    -1.522    -0.596      70728
+   1   Lennard   NI      CU            3.584     5.119     0.805    -1.535    -0.428       8616
+   1   Lennard   CU      CU            2.616     4.045     0.934    -1.429    -0.546      41424
+   2   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.596      70672
+   2   Lennard   NI      CU            3.584     5.107     0.806    -1.523    -0.425       8900
+   2   Lennard   CU      CU            2.616     4.045     0.935    -1.429    -0.546      41560
+   3   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.596      70672
+   3   Lennard   NI      CU            3.584     5.107     0.807    -1.523    -0.425       8900
+   3   Lennard   CU      CU            2.616     4.045     0.935    -1.429    -0.546      41560
+   4   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.596      70672
+   4   Lennard   NI      CU            3.584     5.108     0.808    -1.524    -0.425       8900
+   4   Lennard   CU      CU            2.616     4.046     0.935    -1.430    -0.547      41560
+
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    1664072      -0.488303       146   1277819       0.608624
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h  8 min  1 sec 
+ Time/cycle   :     0.000 sec
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.074     0.973    -1.522    -0.596
+   1   Lennard   NI      CU            3.584     5.119     0.805    -1.535    -0.428
+   1   Lennard   CU      CU            2.616     4.045     0.934    -1.429    -0.546
+   2   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.596
+   2   Lennard   NI      CU            3.584     5.107     0.806    -1.523    -0.425
+   2   Lennard   CU      CU            2.616     4.045     0.935    -1.429    -0.546
+   3   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.596
+   3   Lennard   NI      CU            3.584     5.107     0.807    -1.523    -0.425
+   3   Lennard   CU      CU            2.616     4.045     0.935    -1.429    -0.546
+   4   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.596
+   4   Lennard   NI      CU            3.584     5.108     0.808    -1.524    -0.425
+   4   Lennard   CU      CU            2.616     4.046     0.935    -1.430    -0.547
+
+ ---------------------------------------------
+
+ ---------------------------------------------
+ --- multiple energy simulation is finished---
+ ---------------------------------------------
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.074     0.973    -1.522    -0.596
+   1   Lennard   NI      CU            3.584     5.119     0.805    -1.535    -0.428
+   1   Lennard   CU      CU            2.616     4.045     0.934    -1.429    -0.546
+   2   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.596
+   2   Lennard   NI      CU            3.584     5.107     0.806    -1.523    -0.425
+   2   Lennard   CU      CU            2.616     4.045     0.935    -1.429    -0.546
+   3   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.596
+   3   Lennard   NI      CU            3.584     5.107     0.807    -1.523    -0.425
+   3   Lennard   CU      CU            2.616     4.045     0.935    -1.429    -0.546
+   4   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.596
+   4   Lennard   NI      CU            3.584     5.108     0.808    -1.524    -0.425
+   4   Lennard   CU      CU            2.616     4.046     0.935    -1.430    -0.547
+
+ ---------------------------------------------
+
+ --- Final multiple energy configuration ---
+
+ Gen:   11299376 try:   11299376 acc: (g/n/b):  1662255 /      166 /  1275665  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.071     0.972    -1.519    -0.595      70728
+   1   Lennard   NI      CU            3.584     5.119     0.804    -1.535    -0.428       8616
+   1   Lennard   CU      CU            2.616     4.041     0.933    -1.425    -0.545      41424
+   2   Lennard   NI      NI            2.552     4.070     0.971    -1.518    -0.595      70672
+   2   Lennard   NI      CU            3.584     5.107     0.808    -1.523    -0.425       8900
+   2   Lennard   CU      CU            2.616     4.041     0.934    -1.425    -0.545      41560
+   3   Lennard   NI      NI            2.552     4.070     0.970    -1.518    -0.595      70672
+   3   Lennard   NI      CU            3.584     5.109     0.808    -1.525    -0.426       8900
+   3   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.544      41560
+   4   Lennard   NI      NI            2.552     4.071     0.971    -1.519    -0.595      70672
+   4   Lennard   NI      CU            3.584     5.108     0.808    -1.524    -0.425       8900
+   4   Lennard   CU      CU            2.616     4.040     0.933    -1.424    -0.544      41560
+
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    1662042      -0.488334       166   1275507       0.608847
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h  7 min 53 sec 
+ Time/cycle   :     0.000 sec
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.071     0.972    -1.519    -0.595
+   1   Lennard   NI      CU            3.584     5.119     0.804    -1.535    -0.428
+   1   Lennard   CU      CU            2.616     4.041     0.933    -1.425    -0.545
+   2   Lennard   NI      NI            2.552     4.070     0.971    -1.518    -0.595
+   2   Lennard   NI      CU            3.584     5.107     0.808    -1.523    -0.425
+   2   Lennard   CU      CU            2.616     4.041     0.934    -1.425    -0.545
+   3   Lennard   NI      NI            2.552     4.070     0.970    -1.518    -0.595
+   3   Lennard   NI      CU            3.584     5.109     0.808    -1.525    -0.426
+   3   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.544
+   4   Lennard   NI      NI            2.552     4.071     0.971    -1.519    -0.595
+   4   Lennard   NI      CU            3.584     5.108     0.808    -1.524    -0.425
+   4   Lennard   CU      CU            2.616     4.040     0.933    -1.424    -0.544
+
+ ---------------------------------------------
+
+ ---------------------------------------------
+ --- multiple energy simulation is finished---
+ ---------------------------------------------
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.071     0.972    -1.519    -0.595
+   1   Lennard   NI      CU            3.584     5.119     0.804    -1.535    -0.428
+   1   Lennard   CU      CU            2.616     4.041     0.933    -1.425    -0.545
+   2   Lennard   NI      NI            2.552     4.070     0.971    -1.518    -0.595
+   2   Lennard   NI      CU            3.584     5.107     0.808    -1.523    -0.425
+   2   Lennard   CU      CU            2.616     4.041     0.934    -1.425    -0.545
+   3   Lennard   NI      NI            2.552     4.070     0.970    -1.518    -0.595
+   3   Lennard   NI      CU            3.584     5.109     0.808    -1.525    -0.426
+   3   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.544
+   4   Lennard   NI      NI            2.552     4.071     0.971    -1.519    -0.595
+   4   Lennard   NI      CU            3.584     5.108     0.808    -1.524    -0.425
+   4   Lennard   CU      CU            2.616     4.040     0.933    -1.424    -0.544
+
+ ---------------------------------------------
+
+ --- Final multiple energy configuration ---
+
+ Gen:   11299376 try:   11299376 acc: (g/n/b):  1656708 /      159 /  1272561  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.073     0.972    -1.521    -0.596      70728
+   1   Lennard   NI      CU            3.584     5.126     0.806    -1.542    -0.430       8616
+   1   Lennard   CU      CU            2.616     4.041     0.932    -1.425    -0.545      41424
+   2   Lennard   NI      NI            2.552     4.071     0.971    -1.519    -0.595      70672
+   2   Lennard   NI      CU            3.584     5.111     0.809    -1.527    -0.426       8900
+   2   Lennard   CU      CU            2.616     4.042     0.934    -1.426    -0.545      41560
+   3   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.596      70672
+   3   Lennard   NI      CU            3.584     5.113     0.810    -1.529    -0.427       8900
+   3   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.544      41560
+   4   Lennard   NI      NI            2.552     4.070     0.971    -1.518    -0.595      70672
+   4   Lennard   NI      CU            3.584     5.112     0.809    -1.528    -0.426       8900
+   4   Lennard   CU      CU            2.616     4.041     0.934    -1.425    -0.545      41560
+
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    1656472      -0.488649       159   1272432       0.608413
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h  7 min 57 sec 
+ Time/cycle   :     0.000 sec
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.073     0.972    -1.521    -0.596
+   1   Lennard   NI      CU            3.584     5.126     0.806    -1.542    -0.430
+   1   Lennard   CU      CU            2.616     4.041     0.932    -1.425    -0.545
+   2   Lennard   NI      NI            2.552     4.071     0.971    -1.519    -0.595
+   2   Lennard   NI      CU            3.584     5.111     0.809    -1.527    -0.426
+   2   Lennard   CU      CU            2.616     4.042     0.934    -1.426    -0.545
+   3   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.596
+   3   Lennard   NI      CU            3.584     5.113     0.810    -1.529    -0.427
+   3   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.544
+   4   Lennard   NI      NI            2.552     4.070     0.971    -1.518    -0.595
+   4   Lennard   NI      CU            3.584     5.112     0.809    -1.528    -0.426
+   4   Lennard   CU      CU            2.616     4.041     0.934    -1.425    -0.545
+
+ ---------------------------------------------
+
+ ---------------------------------------------
+ --- multiple energy simulation is finished---
+ ---------------------------------------------
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.073     0.972    -1.521    -0.596
+   1   Lennard   NI      CU            3.584     5.126     0.806    -1.542    -0.430
+   1   Lennard   CU      CU            2.616     4.041     0.932    -1.425    -0.545
+   2   Lennard   NI      NI            2.552     4.071     0.971    -1.519    -0.595
+   2   Lennard   NI      CU            3.584     5.111     0.809    -1.527    -0.426
+   2   Lennard   CU      CU            2.616     4.042     0.934    -1.426    -0.545
+   3   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.596
+   3   Lennard   NI      CU            3.584     5.113     0.810    -1.529    -0.427
+   3   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.544
+   4   Lennard   NI      NI            2.552     4.070     0.971    -1.518    -0.595
+   4   Lennard   NI      CU            3.584     5.112     0.809    -1.528    -0.426
+   4   Lennard   CU      CU            2.616     4.041     0.934    -1.425    -0.545
+
+ ---------------------------------------------
+
+ --- Final multiple energy configuration ---
+
+ Gen:   11299376 try:   11299376 acc: (g/n/b):  1663598 /      140 /  1276367  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.072     0.972    -1.520    -0.596      70728
+   1   Lennard   NI      CU            3.584     5.122     0.804    -1.538    -0.429       8616
+   1   Lennard   CU      CU            2.616     4.041     0.933    -1.425    -0.545      41424
+   2   Lennard   NI      NI            2.552     4.071     0.971    -1.519    -0.595      70672
+   2   Lennard   NI      CU            3.584     5.103     0.808    -1.519    -0.424       8900
+   2   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.545      41560
+   3   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.595      70672
+   3   Lennard   NI      CU            3.584     5.106     0.809    -1.522    -0.425       8900
+   3   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.544      41560
+   4   Lennard   NI      NI            2.552     4.071     0.971    -1.519    -0.595      70672
+   4   Lennard   NI      CU            3.584     5.110     0.809    -1.526    -0.426       8900
+   4   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.544      41560
+
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    1663371      -0.488971       140   1276238       0.609736
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h  7 min 53 sec 
+ Time/cycle   :     0.000 sec
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.072     0.972    -1.520    -0.596
+   1   Lennard   NI      CU            3.584     5.122     0.804    -1.538    -0.429
+   1   Lennard   CU      CU            2.616     4.041     0.933    -1.425    -0.545
+   2   Lennard   NI      NI            2.552     4.071     0.971    -1.519    -0.595
+   2   Lennard   NI      CU            3.584     5.103     0.808    -1.519    -0.424
+   2   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.545
+   3   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.595
+   3   Lennard   NI      CU            3.584     5.106     0.809    -1.522    -0.425
+   3   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.544
+   4   Lennard   NI      NI            2.552     4.071     0.971    -1.519    -0.595
+   4   Lennard   NI      CU            3.584     5.110     0.809    -1.526    -0.426
+   4   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.544
+
+ ---------------------------------------------
+
+ ---------------------------------------------
+ --- multiple energy simulation is finished---
+ ---------------------------------------------
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.072     0.972    -1.520    -0.596
+   1   Lennard   NI      CU            3.584     5.122     0.804    -1.538    -0.429
+   1   Lennard   CU      CU            2.616     4.041     0.933    -1.425    -0.545
+   2   Lennard   NI      NI            2.552     4.071     0.971    -1.519    -0.595
+   2   Lennard   NI      CU            3.584     5.103     0.808    -1.519    -0.424
+   2   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.545
+   3   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.595
+   3   Lennard   NI      CU            3.584     5.106     0.809    -1.522    -0.425
+   3   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.544
+   4   Lennard   NI      NI            2.552     4.071     0.971    -1.519    -0.595
+   4   Lennard   NI      CU            3.584     5.110     0.809    -1.526    -0.426
+   4   Lennard   CU      CU            2.616     4.040     0.934    -1.424    -0.544
+
+ ---------------------------------------------
+
+ --- Final multiple energy configuration ---
+
+ Gen:   11663872 try:   11663872 acc: (g/n/b):  1657965 /      141 /  1273924  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   NI      NI            2.552     4.072     0.972    -1.520    -0.596      70728
+   1   Lennard   NI      CU            3.584     5.117     0.806    -1.533    -0.428       8616
+   1   Lennard   CU      CU            2.616     4.041     0.933    -1.425    -0.545      41424
+   2   Lennard   NI      NI            2.552     4.072     0.971    -1.520    -0.596      70672
+   2   Lennard   NI      CU            3.584     5.103     0.809    -1.519    -0.424       8900
+   2   Lennard   CU      CU            2.616     4.042     0.934    -1.426    -0.545      41560
+   3   Lennard   NI      NI            2.552     4.071     0.970    -1.519    -0.595      70672
+   3   Lennard   NI      CU            3.584     5.106     0.809    -1.522    -0.425       8900
+   3   Lennard   CU      CU            2.616     4.041     0.934    -1.425    -0.545      41560
+   4   Lennard   NI      NI            2.552     4.071     0.970    -1.519    -0.595      70672
+   4   Lennard   NI      CU            3.584     5.102     0.809    -1.518    -0.424       8900
+   4   Lennard   CU      CU            2.616     4.041     0.934    -1.425    -0.545      41560
+
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    1657798      -0.489006       141   1273793       0.609277
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h  7 min 49 sec 
+ Time/cycle   :     0.000 sec
+
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    3.61480    3.61480    3.61480   90.00000   90.00000   90.00000    47.2338    
+
+ Metric Tensor     :
+      13.06678      0.00000      0.00000
+       0.00000     13.06678      0.00000
+       0.00000      0.00000     13.06678
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.27664    0.27664    0.27664   90.00000   90.00000   90.00000   0.211713E-01
+
+ Reciprocal metric tensor     : 
+       0.07653     -0.00000     -0.00000
+      -0.00000      0.07653     -0.00000
+      -0.00000     -0.00000      0.07653
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      5473
+ Number of atoms per unit cell    :      5473
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.659  (     3608 atoms)
+    Element : CU(2)     rel. abundance : 0.341  (     1865 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.500000     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   -15.66     to    2841.    
+
+ Reading file MMC_5000/500.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MMC_5000/500.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3803E-10 to    1871.    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :  -0.5513E-01 to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/500.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1339E-12 to    6.586    
+
+ ------ > Saving window   1 to file : MMC_5000/500XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Calculating PDF (exact mode) ...
+    19.99 % done  ...
+    39.98 % done  ...
+    59.97 % done  ...
+    79.96 % done  ...
+    99.95 % done  ...
+
+ Elapsed time    :  0.109375     sec
+ Required time        :     0.64 s
+
+ Total sum of weights :    158933.6680    
+ Saving PDF to file : MMC_5000/500.apd ...
+ Resetting - all parameters ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -17.19     to    48.57    
+
+ Reading file MMC_5000/500.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : MMC_5000/500.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -3.060     to    12.79    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -3.539     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/500.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :  -0.6301     to    2.634    
+
+ ------ > Saving window   1 to file : MMC_5000/500PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/500 ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.247 +-  3.249 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1399728)
+                                                 (Total =            1399728)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/500 ( 801 pts)
+
+    CU(2)    - NI(1)    : d = 11.778 +-  2.395 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             689670)
+                                                 (Total =             689670)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/500 ( 801 pts)
+
+    CU(2)    - CU(2)    : d = 10.661 +-  3.095 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1189478)
+                                                 (Total =            1189478)
+ Resetting ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.1047E+06
+
+ Reading file MMC_5000/500_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MMC_5000/500_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4470.    
+
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.7109E+05
+
+ Reading file MMC_5000/500_CuNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : MMC_5000/500_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3426.    
+
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.8218E+05
+
+ Reading file MMC_5000/500_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : MMC_5000/500_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    5356.    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/500_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4268    
+
+ Data set no.:   3
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : MMC_5000/500_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4819    
+
+ Data set no.:   5
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : MMC_5000/500_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.6518    
+
+ ------ > Saving window   3 to file : MMC_5000/500BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    3.61480    3.61480    3.61480   90.00000   90.00000   90.00000    47.2338    
+
+ Metric Tensor     :
+      13.06678      0.00000      0.00000
+       0.00000     13.06678      0.00000
+       0.00000      0.00000     13.06678
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.27664    0.27664    0.27664   90.00000   90.00000   90.00000   0.211713E-01
+
+ Reciprocal metric tensor     : 
+       0.07653     -0.00000     -0.00000
+      -0.00000      0.07653     -0.00000
+      -0.00000     -0.00000      0.07653
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      5473
+ Number of atoms per unit cell    :      5473
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.659  (     3608 atoms)
+    Element : CU(2)     rel. abundance : 0.341  (     1865 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.500000     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   -15.66     to    2841.    
+
+ Reading file MMC_5000/1000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MMC_5000/1000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3939E-10 to    1872.    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :  -0.5513E-01 to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/1000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1387E-12 to    6.591    
+
+ ------ > Saving window   1 to file : MMC_5000/1000XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Calculating PDF (exact mode) ...
+    19.99 % done  ...
+    39.98 % done  ...
+    59.97 % done  ...
+    79.96 % done  ...
+    99.95 % done  ...
+
+ Elapsed time    :  0.125000     sec
+ Required time        :     0.70 s
+
+ Total sum of weights :    159101.1270    
+ Saving PDF to file : MMC_5000/1000.apd ...
+ Resetting - all parameters ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -17.19     to    48.57    
+
+ Reading file MMC_5000/1000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : MMC_5000/1000.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -3.049     to    12.65    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -3.539     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/1000.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :  -0.6277     to    2.605    
+
+ ------ > Saving window   1 to file : MMC_5000/1000PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/100 ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.246 +-  3.249 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1397502)
+                                                 (Total =            1397502)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/100 ( 801 pts)
+
+    CU(2)    - NI(1)    : d = 11.776 +-  2.396 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             687331)
+                                                 (Total =             687331)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/100 ( 801 pts)
+
+    CU(2)    - CU(2)    : d = 10.662 +-  3.093 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1186434)
+                                                 (Total =            1186434)
+ Resetting ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.1047E+06
+
+ Reading file MMC_5000/1000_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MMC_5000/1000_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4444.    
+
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.7109E+05
+
+ Reading file MMC_5000/1000_CuNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : MMC_5000/1000_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3443.    
+
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.8218E+05
+
+ Reading file MMC_5000/1000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : MMC_5000/1000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    5358.    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/1000_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4243    
+
+ Data set no.:   3
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : MMC_5000/1000_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4843    
+
+ Data set no.:   5
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : MMC_5000/1000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.6520    
+
+ ------ > Saving window   3 to file : MMC_5000/1000BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    3.61480    3.61480    3.61480   90.00000   90.00000   90.00000    47.2338    
+
+ Metric Tensor     :
+      13.06678      0.00000      0.00000
+       0.00000     13.06678      0.00000
+       0.00000      0.00000     13.06678
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.27664    0.27664    0.27664   90.00000   90.00000   90.00000   0.211713E-01
+
+ Reciprocal metric tensor     : 
+       0.07653     -0.00000     -0.00000
+      -0.00000      0.07653     -0.00000
+      -0.00000     -0.00000      0.07653
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      5473
+ Number of atoms per unit cell    :      5473
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.659  (     3608 atoms)
+    Element : CU(2)     rel. abundance : 0.341  (     1865 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.484375     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   -15.66     to    2841.    
+
+ Reading file MMC_5000/1500.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MMC_5000/1500.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3806E-10 to    1877.    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :  -0.5513E-01 to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/1500.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1340E-12 to    6.606    
+
+ ------ > Saving window   1 to file : MMC_5000/1500XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Calculating PDF (exact mode) ...
+    19.99 % done  ...
+    39.98 % done  ...
+    59.97 % done  ...
+    79.96 % done  ...
+    99.95 % done  ...
+
+ Elapsed time    :  0.125000     sec
+ Required time        :     0.67 s
+
+ Total sum of weights :    159113.4164    
+ Saving PDF to file : MMC_5000/1500.apd ...
+ Resetting - all parameters ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -17.19     to    48.57    
+
+ Reading file MMC_5000/1500.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : MMC_5000/1500.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -3.125     to    12.63    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -3.539     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/1500.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :  -0.6434     to    2.601    
+
+ ------ > Saving window   1 to file : MMC_5000/1500PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/150 ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.246 +-  3.248 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1397694)
+                                                 (Total =            1397694)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/150 ( 801 pts)
+
+    CU(2)    - NI(1)    : d = 11.777 +-  2.395 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             687882)
+                                                 (Total =             687882)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/150 ( 801 pts)
+
+    CU(2)    - CU(2)    : d = 10.661 +-  3.094 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1187768)
+                                                 (Total =            1187768)
+ Resetting ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.1047E+06
+
+ Reading file MMC_5000/1500_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MMC_5000/1500_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4500.    
+
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.7109E+05
+
+ Reading file MMC_5000/1500_CuNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : MMC_5000/1500_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3526.    
+
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.8218E+05
+
+ Reading file MMC_5000/1500_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : MMC_5000/1500_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    5134.    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/1500_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4296    
+
+ Data set no.:   3
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : MMC_5000/1500_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4960    
+
+ Data set no.:   5
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : MMC_5000/1500_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.6248    
+
+ ------ > Saving window   3 to file : MMC_5000/1500BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    3.61480    3.61480    3.61480   90.00000   90.00000   90.00000    47.2338    
+
+ Metric Tensor     :
+      13.06678      0.00000      0.00000
+       0.00000     13.06678      0.00000
+       0.00000      0.00000     13.06678
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.27664    0.27664    0.27664   90.00000   90.00000   90.00000   0.211713E-01
+
+ Reciprocal metric tensor     : 
+       0.07653     -0.00000     -0.00000
+      -0.00000      0.07653     -0.00000
+      -0.00000     -0.00000      0.07653
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      5473
+ Number of atoms per unit cell    :      5473
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.659  (     3608 atoms)
+    Element : CU(2)     rel. abundance : 0.341  (     1865 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.531250     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   -15.66     to    2841.    
+
+ Reading file MMC_5000/2000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MMC_5000/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3809E-10 to    1879.    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :  -0.5513E-01 to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1341E-12 to    6.613    
+
+ ------ > Saving window   1 to file : MMC_5000/2000XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Calculating PDF (exact mode) ...
+    19.99 % done  ...
+    39.98 % done  ...
+    59.97 % done  ...
+    79.96 % done  ...
+    99.95 % done  ...
+
+ Elapsed time    :  0.125000     sec
+ Required time        :     0.66 s
+
+ Total sum of weights :    159062.4642    
+ Saving PDF to file : MMC_5000/2000.apd ...
+ Resetting - all parameters ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -17.19     to    48.57    
+
+ Reading file MMC_5000/2000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : MMC_5000/2000.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -3.131     to    12.80    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -3.539     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/2000.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :  -0.6446     to    2.635    
+
+ ------ > Saving window   1 to file : MMC_5000/2000PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/200 ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.247 +-  3.249 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1398550)
+                                                 (Total =            1398550)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/200 ( 801 pts)
+
+    CU(2)    - NI(1)    : d = 11.779 +-  2.395 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             688515)
+                                                 (Total =             688515)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/200 ( 801 pts)
+
+    CU(2)    - CU(2)    : d = 10.662 +-  3.094 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1188764)
+                                                 (Total =            1188764)
+ Resetting ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.1047E+06
+
+ Reading file MMC_5000/2000_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MMC_5000/2000_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4574.    
+
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.7109E+05
+
+ Reading file MMC_5000/2000_CuNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : MMC_5000/2000_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3490.    
+
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.8218E+05
+
+ Reading file MMC_5000/2000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : MMC_5000/2000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    5070.    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/2000_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4367    
+
+ Data set no.:   3
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : MMC_5000/2000_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4909    
+
+ Data set no.:   5
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : MMC_5000/2000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.6170    
+
+ ------ > Saving window   3 to file : MMC_5000/2000BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    3.61480    3.61480    3.61480   90.00000   90.00000   90.00000    47.2338    
+
+ Metric Tensor     :
+      13.06678      0.00000      0.00000
+       0.00000     13.06678      0.00000
+       0.00000      0.00000     13.06678
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.27664    0.27664    0.27664   90.00000   90.00000   90.00000   0.211713E-01
+
+ Reciprocal metric tensor     : 
+       0.07653     -0.00000     -0.00000
+      -0.00000      0.07653     -0.00000
+      -0.00000     -0.00000      0.07653
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      5473
+ Number of atoms per unit cell    :      5473
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.659  (     3608 atoms)
+    Element : CU(2)     rel. abundance : 0.341  (     1865 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.531250     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   -15.66     to    2841.    
+
+ Reading file MMC_5000/2500.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MMC_5000/2500.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3887E-10 to    1881.    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :  -0.5513E-01 to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/2500.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1368E-12 to    6.620    
+
+ ------ > Saving window   1 to file : MMC_5000/2500XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Calculating PDF (exact mode) ...
+    19.99 % done  ...
+    39.98 % done  ...
+    59.97 % done  ...
+    79.96 % done  ...
+    99.95 % done  ...
+
+ Elapsed time    :  0.109375     sec
+ Required time        :     0.62 s
+
+ Total sum of weights :    159098.2691    
+ Saving PDF to file : MMC_5000/2500.apd ...
+ Resetting - all parameters ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -17.19     to    48.57    
+
+ Reading file MMC_5000/2500.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : MMC_5000/2500.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -3.109     to    12.68    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -3.539     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/2500.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :  -0.6402     to    2.612    
+
+ ------ > Saving window   1 to file : MMC_5000/2500PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/250 ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.247 +-  3.249 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1399242)
+                                                 (Total =            1399242)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/250 ( 801 pts)
+
+    CU(2)    - NI(1)    : d = 11.776 +-  2.396 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             689059)
+                                                 (Total =             689059)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/250 ( 801 pts)
+
+    CU(2)    - CU(2)    : d = 10.662 +-  3.094 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1188204)
+                                                 (Total =            1188204)
+ Resetting ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.1047E+06
+
+ Reading file MMC_5000/2500_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MMC_5000/2500_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4552.    
+
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.7109E+05
+
+ Reading file MMC_5000/2500_CuNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : MMC_5000/2500_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3468.    
+
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.8218E+05
+
+ Reading file MMC_5000/2500_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : MMC_5000/2500_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    5274.    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/2500_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4346    
+
+ Data set no.:   3
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : MMC_5000/2500_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4878    
+
+ Data set no.:   5
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : MMC_5000/2500_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.6418    
+
+ ------ > Saving window   3 to file : MMC_5000/2500BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    3.61480    3.61480    3.61480   90.00000   90.00000   90.00000    47.2338    
+
+ Metric Tensor     :
+      13.06678      0.00000      0.00000
+       0.00000     13.06678      0.00000
+       0.00000      0.00000     13.06678
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.27664    0.27664    0.27664   90.00000   90.00000   90.00000   0.211713E-01
+
+ Reciprocal metric tensor     : 
+       0.07653     -0.00000     -0.00000
+      -0.00000      0.07653     -0.00000
+      -0.00000     -0.00000      0.07653
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      5473
+ Number of atoms per unit cell    :      5473
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.659  (     3608 atoms)
+    Element : CU(2)     rel. abundance : 0.341  (     1865 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.468750     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   -15.66     to    2841.    
+
+ Reading file MMC_5000/3000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MMC_5000/3000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3917E-10 to    1897.    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :  -0.5513E-01 to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/3000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1379E-12 to    6.679    
+
+ ------ > Saving window   1 to file : MMC_5000/3000XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Calculating PDF (exact mode) ...
+    19.99 % done  ...
+    39.98 % done  ...
+    59.97 % done  ...
+    79.96 % done  ...
+    99.95 % done  ...
+
+ Elapsed time    :  0.109375     sec
+ Required time        :     0.62 s
+
+ Total sum of weights :    159196.4531    
+ Saving PDF to file : MMC_5000/3000.apd ...
+ Resetting - all parameters ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -17.19     to    48.57    
+
+ Reading file MMC_5000/3000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : MMC_5000/3000.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -3.073     to    12.70    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -3.539     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/3000.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :  -0.6327     to    2.616    
+
+ ------ > Saving window   1 to file : MMC_5000/3000PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/300 ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.246 +-  3.249 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1396852)
+                                                 (Total =            1396852)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/300 ( 801 pts)
+
+    CU(2)    - NI(1)    : d = 11.777 +-  2.396 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             687658)
+                                                 (Total =             687658)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/300 ( 801 pts)
+
+    CU(2)    - CU(2)    : d = 10.662 +-  3.094 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1184006)
+                                                 (Total =            1184006)
+ Resetting ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.1047E+06
+
+ Reading file MMC_5000/3000_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MMC_5000/3000_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4572.    
+
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.7109E+05
+
+ Reading file MMC_5000/3000_CuNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : MMC_5000/3000_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3428.    
+
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.8218E+05
+
+ Reading file MMC_5000/3000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : MMC_5000/3000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    5172.    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/3000_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4365    
+
+ Data set no.:   3
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : MMC_5000/3000_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4822    
+
+ Data set no.:   5
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : MMC_5000/3000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.6294    
+
+ ------ > Saving window   3 to file : MMC_5000/3000BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    3.61480    3.61480    3.61480   90.00000   90.00000   90.00000    47.2338    
+
+ Metric Tensor     :
+      13.06678      0.00000      0.00000
+       0.00000     13.06678      0.00000
+       0.00000      0.00000     13.06678
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.27664    0.27664    0.27664   90.00000   90.00000   90.00000   0.211713E-01
+
+ Reciprocal metric tensor     : 
+       0.07653     -0.00000     -0.00000
+      -0.00000      0.07653     -0.00000
+      -0.00000     -0.00000      0.07653
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      5473
+ Number of atoms per unit cell    :      5473
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.659  (     3608 atoms)
+    Element : CU(2)     rel. abundance : 0.341  (     1865 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.609375     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   -15.66     to    2841.    
+
+ Reading file MMC_5000/3500.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MMC_5000/3500.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3900E-10 to    1868.    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :  -0.5513E-01 to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/3500.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1373E-12 to    6.575    
+
+ ------ > Saving window   1 to file : MMC_5000/3500XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Calculating PDF (exact mode) ...
+    19.99 % done  ...
+    39.98 % done  ...
+    59.97 % done  ...
+    79.96 % done  ...
+    99.95 % done  ...
+
+ Elapsed time    :  0.140625     sec
+ Required time        :     0.69 s
+
+ Total sum of weights :    159055.1499    
+ Saving PDF to file : MMC_5000/3500.apd ...
+ Resetting - all parameters ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -17.19     to    48.57    
+
+ Reading file MMC_5000/3500.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : MMC_5000/3500.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -3.064     to    12.80    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -3.539     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/3500.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :  -0.6307     to    2.636    
+
+ ------ > Saving window   1 to file : MMC_5000/3500PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/350 ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.246 +-  3.249 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1398896)
+                                                 (Total =            1398896)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/350 ( 801 pts)
+
+    CU(2)    - NI(1)    : d = 11.777 +-  2.396 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             688559)
+                                                 (Total =             688559)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/350 ( 801 pts)
+
+    CU(2)    - CU(2)    : d = 10.662 +-  3.094 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1188720)
+                                                 (Total =            1188720)
+ Resetting ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.1047E+06
+
+ Reading file MMC_5000/3500_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MMC_5000/3500_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4396.    
+
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.7109E+05
+
+ Reading file MMC_5000/3500_CuNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : MMC_5000/3500_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3425.    
+
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.8218E+05
+
+ Reading file MMC_5000/3500_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : MMC_5000/3500_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    5146.    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/3500_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4197    
+
+ Data set no.:   3
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : MMC_5000/3500_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4818    
+
+ Data set no.:   5
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : MMC_5000/3500_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.6262    
+
+ ------ > Saving window   3 to file : MMC_5000/3500BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    3.61480    3.61480    3.61480   90.00000   90.00000   90.00000    47.2338    
+
+ Metric Tensor     :
+      13.06678      0.00000      0.00000
+       0.00000     13.06678      0.00000
+       0.00000      0.00000     13.06678
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.27664    0.27664    0.27664   90.00000   90.00000   90.00000   0.211713E-01
+
+ Reciprocal metric tensor     : 
+       0.07653     -0.00000     -0.00000
+      -0.00000      0.07653     -0.00000
+      -0.00000     -0.00000      0.07653
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      5473
+ Number of atoms per unit cell    :      5473
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.659  (     3608 atoms)
+    Element : CU(2)     rel. abundance : 0.341  (     1865 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.546875     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   -15.66     to    2841.    
+
+ Reading file MMC_5000/4000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MMC_5000/4000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3822E-10 to    1856.    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :  -0.5513E-01 to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/4000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1345E-12 to    6.534    
+
+ ------ > Saving window   1 to file : MMC_5000/4000XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Calculating PDF (exact mode) ...
+    19.99 % done  ...
+    39.98 % done  ...
+    59.97 % done  ...
+    79.96 % done  ...
+    99.95 % done  ...
+
+ Elapsed time    :  0.109375     sec
+ Required time        :     0.67 s
+
+ Total sum of weights :    159079.4276    
+ Saving PDF to file : MMC_5000/4000.apd ...
+ Resetting - all parameters ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -17.19     to    48.57    
+
+ Reading file MMC_5000/4000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : MMC_5000/4000.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -3.106     to    12.74    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -3.539     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/4000.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :  -0.6395     to    2.623    
+
+ ------ > Saving window   1 to file : MMC_5000/4000PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/400 ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.246 +-  3.249 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1398068)
+                                                 (Total =            1398068)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/400 ( 801 pts)
+
+    CU(2)    - NI(1)    : d = 11.779 +-  2.394 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             687784)
+                                                 (Total =             687784)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/400 ( 801 pts)
+
+    CU(2)    - CU(2)    : d = 10.662 +-  3.095 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1188206)
+                                                 (Total =            1188206)
+ Resetting ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.1047E+06
+
+ Reading file MMC_5000/4000_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MMC_5000/4000_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4404.    
+
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.7109E+05
+
+ Reading file MMC_5000/4000_CuNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : MMC_5000/4000_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3380.    
+
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.8218E+05
+
+ Reading file MMC_5000/4000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : MMC_5000/4000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    5204.    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/4000_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4205    
+
+ Data set no.:   3
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : MMC_5000/4000_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4755    
+
+ Data set no.:   5
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : MMC_5000/4000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.6333    
+
+ ------ > Saving window   3 to file : MMC_5000/4000BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    3.61480    3.61480    3.61480   90.00000   90.00000   90.00000    47.2338    
+
+ Metric Tensor     :
+      13.06678      0.00000      0.00000
+       0.00000     13.06678      0.00000
+       0.00000      0.00000     13.06678
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.27664    0.27664    0.27664   90.00000   90.00000   90.00000   0.211713E-01
+
+ Reciprocal metric tensor     : 
+       0.07653     -0.00000     -0.00000
+      -0.00000      0.07653     -0.00000
+      -0.00000     -0.00000      0.07653
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      5473
+ Number of atoms per unit cell    :      5473
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.659  (     3608 atoms)
+    Element : CU(2)     rel. abundance : 0.341  (     1865 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.468750     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   -15.66     to    2841.    
+
+ Reading file MMC_5000/4500.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MMC_5000/4500.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3760E-10 to    1864.    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :  -0.5513E-01 to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/4500.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1323E-12 to    6.563    
+
+ ------ > Saving window   1 to file : MMC_5000/4500XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Calculating PDF (exact mode) ...
+    19.99 % done  ...
+    39.98 % done  ...
+    59.97 % done  ...
+    79.96 % done  ...
+    99.95 % done  ...
+
+ Elapsed time    :  0.109375     sec
+ Required time        :     0.62 s
+
+ Total sum of weights :    159094.9990    
+ Saving PDF to file : MMC_5000/4500.apd ...
+ Resetting - all parameters ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -17.19     to    48.57    
+
+ Reading file MMC_5000/4500.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : MMC_5000/4500.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -3.079     to    12.76    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -3.539     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/4500.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :  -0.6340     to    2.627    
+
+ ------ > Saving window   1 to file : MMC_5000/4500PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/450 ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.246 +-  3.249 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1398702)
+                                                 (Total =            1398702)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/450 ( 801 pts)
+
+    CU(2)    - NI(1)    : d = 11.777 +-  2.396 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             688447)
+                                                 (Total =             688447)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/450 ( 801 pts)
+
+    CU(2)    - CU(2)    : d = 10.662 +-  3.094 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1189182)
+                                                 (Total =            1189182)
+ Resetting ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.1047E+06
+
+ Reading file MMC_5000/4500_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MMC_5000/4500_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4416.    
+
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.7109E+05
+
+ Reading file MMC_5000/4500_CuNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : MMC_5000/4500_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3359.    
+
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.8218E+05
+
+ Reading file MMC_5000/4500_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : MMC_5000/4500_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    5356.    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/4500_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4216    
+
+ Data set no.:   3
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : MMC_5000/4500_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4725    
+
+ Data set no.:   5
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : MMC_5000/4500_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.6518    
+
+ ------ > Saving window   3 to file : MMC_5000/4500BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    3.61480    3.61480    3.61480   90.00000   90.00000   90.00000    47.2338    
+
+ Metric Tensor     :
+      13.06678      0.00000      0.00000
+       0.00000     13.06678      0.00000
+       0.00000      0.00000     13.06678
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.27664    0.27664    0.27664   90.00000   90.00000   90.00000   0.211713E-01
+
+ Reciprocal metric tensor     : 
+       0.07653     -0.00000     -0.00000
+      -0.00000      0.07653     -0.00000
+      -0.00000     -0.00000      0.07653
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      5473
+ Number of atoms per unit cell    :      5473
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : NI(1)     rel. abundance : 0.659  (     3608 atoms)
+    Element : CU(2)     rel. abundance : 0.341  (     1865 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.562500     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   -15.66     to    2841.    
+
+ Reading file MMC_5000/5000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MMC_5000/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3812E-10 to    1885.    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :  -0.5513E-01 to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1342E-12 to    6.636    
+
+ ------ > Saving window   1 to file : MMC_5000/5000XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Calculating PDF (exact mode) ...
+    19.99 % done  ...
+    39.98 % done  ...
+    59.97 % done  ...
+    79.96 % done  ...
+    99.95 % done  ...
+
+ Elapsed time    :  0.109375     sec
+ Required time        :     0.64 s
+
+ Total sum of weights :    159065.2951    
+ Saving PDF to file : MMC_5000/5000.apd ...
+ Resetting - all parameters ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -17.19     to    48.57    
+
+ Reading file MMC_5000/5000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : MMC_5000/5000.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -3.088     to    12.81    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :   -3.539     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/5000.apd
+   Size     :   6000 points
+
+   Range  x :   0.1000E-01 to    60.00    
+   Range  y :  -0.6358     to    2.638    
+
+ ------ > Saving window   1 to file : MMC_5000/5000PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/500 ( 801 pts)
+
+    NI(1)    - NI(1)    : d = 10.246 +-  3.248 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1398482)
+                                                 (Total =            1398482)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/500 ( 801 pts)
+
+    CU(2)    - NI(1)    : d = 11.776 +-  2.396 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             688873)
+                                                 (Total =             688873)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MMC_5000/500 ( 801 pts)
+
+    CU(2)    - CU(2)    : d = 10.662 +-  3.095 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1187348)
+                                                 (Total =            1187348)
+ Resetting ..
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.1047E+06
+
+ Reading file MMC_5000/5000_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MMC_5000/5000_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4468.    
+
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.7109E+05
+
+ Reading file MMC_5000/5000_CuNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : MMC_5000/5000_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    3411.    
+
+ Reading file Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.8218E+05
+
+ Reading file MMC_5000/5000_NiNi.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : MMC_5000/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    5286.    
+
+ Data set no.:   1
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MMC_5000/5000_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4266    
+
+ Data set no.:   3
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : MMC_5000/5000_CuNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4798    
+
+ Data set no.:   5
+
+   Filename : Tests/Coreshell_Cu1Ni2/Coreshell_Cu1Ni2_onCu_r25_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : MMC_5000/5000_NiNi.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.6433    
+
+ ------ > Saving window   3 to file : MMC_5000/5000BLD.pdf ..
+ END mc.relax.mac

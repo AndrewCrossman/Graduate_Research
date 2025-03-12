@@ -1,0 +1,958 @@
+ rmc.shift.swap.mac
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    3.61480    3.61480    3.61480   90.00000   90.00000   90.00000    47.2338    
+
+ Metric Tensor     :
+      13.06678      0.00000      0.00000
+       0.00000     13.06678      0.00000
+       0.00000      0.00000     13.06678
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.27664    0.27664    0.27664   90.00000   90.00000   90.00000   0.211713E-01
+
+ Reciprocal metric tensor     : 
+       0.07653     -0.00000     -0.00000
+      -0.00000      0.07653     -0.00000
+      -0.00000     -0.00000      0.07653
+
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Read PDF data (r =   0.010 to  60.000 A, 59990 points) ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Current PDF calculation settings : 
+   Maximum r [A]              :  61.1429
+   Grid size DR [A]           :   0.0100    (        61142 pts)
+   Radiation                  :   X-Rays    (at   0.0000 A**-1)
+
+   Applied corrections        : 
+     Q termination (SINC)     : applied, Qmax =  35.0000 A**-1
+     Instrument resolution    : not applied
+     Periodic boundaries      : not applied
+     4 Pi Rho r correction    :  50.0000 A diameter sphere
+     Weight correction        :   1.00000000
+     Convolution therm. Gauss.: applied
+     Resolution broadening    :   0.0000
+     Quad. correlation fac.   :   0.3000
+     Linear correlation fac.  :   0.0000
+     PDF peak width ratio     :   1.0000 below   0.0000 A
+     Number density           : automatic
+     Correction for RHO0      :   1.0000
+     PDF calculation mode     : all atoms
+
+   Refinement settings        : 
+     Fit minimum r [A]        :   0.0100   (pt.    1)
+     Fit maximum r [A]        :  60.0000   (pt. 6000)
+     Current scale factor     :   1.0000   (refined = F)
+
+   Selected atoms for PDF calculation :
+     Atoms (i)                : CU(1)     NI(2)    
+     Atoms (j)                : CU(1)     NI(2)    
+
+   Weights for PDF calculation (internal) :
+     CU(1)     - CU(1)        :      1.0470255    
+     CU(1)     - NI(2)        :      1.0109491    
+     NI(2)     - NI(2)        :     0.97611579    
+
+ Current RMC settings (not all used here) :
+   Valid neighbours          : all
+   Calc. scaling/backgr.     : none
+   Fourier volume            : complete crystal
+   Max. number of RMC cycles :   136825
+   Output update intervall   :   136825   (logging to rmc.log=F)
+   SIGMA for CHI calculation :   0.0100
+ Minimal allowed distances   : 
+     CU(1)     and CU(1)     :   2.300
+     CU(1)     and NI(2)     :   2.300
+     NI(2)     and NI(2)     :   2.300
+
+ Sigma for created RMC moves : 
+              Atom CU(1)     :   0.200   0.200   0.200
+              Atom NI(2)     :   0.200   0.200   0.200
+
+ Selected atoms for RMC      : VOID(0)   CU(1)     NI(2)    
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.125000     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    54653 acc: (good/bad):     5180 /     3430 s2x2:   13.217061    
+ Gen:   273650 try:   109651 acc: (good/bad):     8364 /     6650 s2x2:   13.216746    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   341196 try:   136825 acc: (good/bad):     9890 /     8228 s2x2:   13.214309    
+
+ Delta Chi    : ave:      0.3112E-03 sig:      0.1499E-03 max:      0.7006E-03
+
+ Elapsed time :    3 h 55 min 29 sec 
+ Time/cycle   :     0.103 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.109375     sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:   136825 try:    58686 acc: (good/bad):    29719 /    15987 s2x2:  0.90150624    
+ Gen:   273650 try:   117016 acc: (good/bad):    53902 /    36518 s2x2:  0.66301253    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   318660 try:   136825 acc: (good/bad):    61865 /    43734 s2x2:  0.61122127    
+
+ Delta Chi    : ave:      0.4460E-04 sig:      0.9136E-04 max:      0.5351E-02
+
+ Elapsed time :    2 h 48 min 40 sec 
+ Time/cycle   :     0.074 sec
+
+ Saving structure to file : RMC_1-20-25_v1/1-1.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.140625     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    63701 acc: (good/bad):    19705 /    13246 s2x2:  0.37644443    
+ Gen:   273650 try:   131924 acc: (good/bad):    39892 /    29271 s2x2:  0.25276162    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   283219 try:   136825 acc: (good/bad):    41327 /    30479 s2x2:  0.24610244    
+
+ Delta Chi    : ave:      0.2976E-04 sig:      0.3208E-04 max:      0.2856E-03
+
+ Elapsed time :    2 h 50 min 47 sec 
+ Time/cycle   :     0.075 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.109375     sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:   136825 try:    70271 acc: (good/bad):    20917 /    18132 s2x2:  0.16970065    
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   263086 try:   136825 acc: (good/bad):    41081 /    36391 s2x2:  0.12264489    
+
+ Delta Chi    : ave:      0.2513E-04 sig:      0.2735E-04 max:      0.2094E-03
+
+ Elapsed time :    2 h 46 min 29 sec 
+ Time/cycle   :     0.073 sec
+
+ Saving structure to file : RMC_1-20-25_v1/1-2.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.109375     sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:   136825 try:    73276 acc: (good/bad):    19977 /    16379 s2x2:  0.70566262E-01
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   254153 try:   136825 acc: (good/bad):    36967 /    32050 s2x2:  0.49932133E-01
+
+ Delta Chi    : ave:      0.1610E-04 sig:      0.1762E-04 max:      0.1451E-03
+
+ Elapsed time :    2 h 48 min  9 sec 
+ Time/cycle   :     0.074 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.140625     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    73891 acc: (good/bad):    20581 /    19315 s2x2:  0.36129901E-01
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   253176 try:   136825 acc: (good/bad):    38257 /    36380 s2x2:  0.29502988E-01
+
+ Delta Chi    : ave:      0.1283E-04 sig:      0.1374E-04 max:      0.1027E-03
+
+ Elapsed time :    2 h 45 min  9 sec 
+ Time/cycle   :     0.072 sec
+
+ Saving structure to file : RMC_1-20-25_v1/1-3.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.125000     sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:   136825 try:    74171 acc: (good/bad):    19627 /    18062 s2x2:  0.19140195E-01
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   251798 try:   136825 acc: (good/bad):    36211 /    34251 s2x2:  0.15882449E-01
+
+ Delta Chi    : ave:      0.8636E-05 sig:      0.9241E-05 max:      0.8239E-04
+
+ Elapsed time :    2 h 44 min 31 sec 
+ Time/cycle   :     0.072 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.109375     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    73993 acc: (good/bad):    20004 /    19506 s2x2:  0.13706588E-01
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   252056 try:   136825 acc: (good/bad):    37076 /    36097 s2x2:  0.12675796E-01
+
+ Delta Chi    : ave:      0.7502E-05 sig:      0.7916E-05 max:      0.6298E-04
+
+ Elapsed time :    2 h 44 min  8 sec 
+ Time/cycle   :     0.072 sec
+
+ Saving structure to file : RMC_1-20-25_v1/1-4.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.125000     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    74067 acc: (good/bad):    19286 /    18402 s2x2:  0.91715076E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   252331 try:   136825 acc: (good/bad):    35522 /    34360 s2x2:  0.80030008E-02
+
+ Delta Chi    : ave:      0.5366E-05 sig:      0.5691E-05 max:      0.4145E-04
+
+ Elapsed time :    2 h 46 min  0 sec 
+ Time/cycle   :     0.073 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.109375     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    74167 acc: (good/bad):    19176 /    19004 s2x2:  0.75914271E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   251711 try:   136825 acc: (good/bad):    35277 /    35104 s2x2:  0.72952201E-02
+
+ Delta Chi    : ave:      0.5076E-05 sig:      0.5330E-05 max:      0.4692E-04
+
+ Elapsed time :    2 h 46 min  2 sec 
+ Time/cycle   :     0.073 sec
+
+ Saving structure to file : RMC_1-20-25_v1/1-5.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.109375     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    74117 acc: (good/bad):    18301 /    17718 s2x2:  0.57353397E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   251874 try:   136825 acc: (good/bad):    33716 /    32934 s2x2:  0.51455786E-02
+
+ Delta Chi    : ave:      0.3920E-05 sig:      0.4119E-05 max:      0.3155E-04
+
+ Elapsed time :    2 h 45 min 29 sec 
+ Time/cycle   :     0.073 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.109375     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    74330 acc: (good/bad):    18474 /    18155 s2x2:  0.48041099E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   251787 try:   136825 acc: (good/bad):    33809 /    33346 s2x2:  0.46430420E-02
+
+ Delta Chi    : ave:      0.3719E-05 sig:      0.3869E-05 max:      0.2773E-04
+
+ Elapsed time :    2 h 45 min 33 sec 
+ Time/cycle   :     0.073 sec
+
+ Saving structure to file : RMC_1-20-25_v1/1-6.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.109375     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    74272 acc: (good/bad):    17282 /    17001 s2x2:  0.37540609E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   251216 try:   136825 acc: (good/bad):    31836 /    31414 s2x2:  0.36163665E-02
+
+ Delta Chi    : ave:      0.2981E-05 sig:      0.3072E-05 max:      0.2229E-04
+
+ Elapsed time :    2 h 46 min 11 sec 
+ Time/cycle   :     0.073 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.125000     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    74089 acc: (good/bad):    17055 /    17056 s2x2:  0.32921678E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   251684 try:   136825 acc: (good/bad):    31583 /    31728 s2x2:  0.32723075E-02
+
+ Delta Chi    : ave:      0.2847E-05 sig:      0.2924E-05 max:      0.2515E-04
+
+ Elapsed time :    2 h 46 min  9 sec 
+ Time/cycle   :     0.073 sec
+
+ Saving structure to file : RMC_1-20-25_v1/1-7.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.140625     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    74384 acc: (good/bad):    16601 /    16168 s2x2:  0.27440129E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   251265 try:   136825 acc: (good/bad):    30435 /    29824 s2x2:  0.26170412E-02
+
+ Delta Chi    : ave:      0.2329E-05 sig:      0.2360E-05 max:      0.1978E-04
+
+ Elapsed time :    2 h 46 min 33 sec 
+ Time/cycle   :     0.073 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.125000     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    73770 acc: (good/bad):    16301 /    16122 s2x2:  0.25036586E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   252833 try:   136825 acc: (good/bad):    30015 /    29922 s2x2:  0.24648280E-02
+
+ Delta Chi    : ave:      0.2306E-05 sig:      0.2322E-05 max:      0.1749E-04
+
+ Elapsed time :    2 h 48 min  8 sec 
+ Time/cycle   :     0.074 sec
+
+ Saving structure to file : RMC_1-20-25_v1/1-8.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.140625     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    74209 acc: (good/bad):    15610 /    15420 s2x2:  0.20694994E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   252235 try:   136825 acc: (good/bad):    28495 /    28450 s2x2:  0.20014343E-02
+
+ Delta Chi    : ave:      0.1944E-05 sig:      0.1951E-05 max:      0.1517E-04
+
+ Elapsed time :    2 h 50 min 59 sec 
+ Time/cycle   :     0.075 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.109375     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    73890 acc: (good/bad):    15451 /    15299 s2x2:  0.19529052E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   252473 try:   136825 acc: (good/bad):    28659 /    28426 s2x2:  0.19271131E-02
+
+ Delta Chi    : ave:      0.1895E-05 sig:      0.1884E-05 max:      0.1496E-04
+
+ Elapsed time :    2 h 48 min 19 sec 
+ Time/cycle   :     0.074 sec
+
+ Saving structure to file : RMC_1-20-25_v1/1-9.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.109375     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    74049 acc: (good/bad):    14769 /    14567 s2x2:  0.17180659E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   252274 try:   136825 acc: (good/bad):    27166 /    26919 s2x2:  0.16181320E-02
+
+ Delta Chi    : ave:      0.1637E-05 sig:      0.1624E-05 max:      0.1374E-04
+
+ Elapsed time :    2 h 47 min 30 sec 
+ Time/cycle   :     0.073 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.109375     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    73980 acc: (good/bad):    14759 /    14874 s2x2:  0.15806847E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   252497 try:   136825 acc: (good/bad):    27397 /    27629 s2x2:  0.15148384E-02
+
+ Delta Chi    : ave:      0.1590E-05 sig:      0.1565E-05 max:      0.1352E-04
+
+ Elapsed time :    2 h 47 min 10 sec 
+ Time/cycle   :     0.073 sec
+
+ Saving structure to file : RMC_1-20-25_v1/1-10.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.109375     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    73962 acc: (good/bad):    14329 /    14118 s2x2:  0.13398539E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   252760 try:   136825 acc: (good/bad):    26345 /    26128 s2x2:  0.13062288E-02
+
+ Delta Chi    : ave:      0.1377E-05 sig:      0.1338E-05 max:      0.1081E-04
+
+ Elapsed time :    2 h 47 min 57 sec 
+ Time/cycle   :     0.074 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.109375     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    73771 acc: (good/bad):    14085 /    14282 s2x2:  0.12390290E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   252921 try:   136825 acc: (good/bad):    26122 /    26485 s2x2:  0.12651550E-02
+
+ Delta Chi    : ave:      0.1355E-05 sig:      0.1310E-05 max:      0.1080E-04
+
+ Elapsed time :    2 h 47 min 39 sec 
+ Time/cycle   :     0.074 sec
+
+ Saving structure to file : RMC_1-20-25_v1/1-11.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.140625     sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:   136825 try:    74013 acc: (good/bad):    13745 /    13510 s2x2:  0.11066608E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   252335 try:   136825 acc: (good/bad):    25398 /    25132 s2x2:  0.10808725E-02
+
+ Delta Chi    : ave:      0.1185E-05 sig:      0.1137E-05 max:      0.1005E-04
+
+ Elapsed time :    2 h 48 min 19 sec 
+ Time/cycle   :     0.074 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.109375     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    73963 acc: (good/bad):    13702 /    13669 s2x2:  0.10707959E-02
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   252244 try:   136825 acc: (good/bad):    25487 /    25423 s2x2:  0.10507400E-02
+
+ Delta Chi    : ave:      0.1175E-05 sig:      0.1121E-05 max:      0.9382E-05
+
+ Elapsed time :    2 h 47 min 22 sec 
+ Time/cycle   :     0.073 sec
+
+ Saving structure to file : RMC_1-20-25_v1/1-12.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.109375     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    74044 acc: (good/bad):    13156 /    13054 s2x2:  0.95374548E-03
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   253180 try:   136825 acc: (good/bad):    24274 /    24120 s2x2:  0.93706866E-03
+
+ Delta Chi    : ave:      0.1051E-05 sig:      0.9978E-06 max:      0.8987E-05
+
+ Elapsed time :    2 h 47 min 48 sec 
+ Time/cycle   :     0.074 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.125000     sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:   136825 try:    73765 acc: (good/bad):    13070 /    12818 s2x2:  0.92306619E-03
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   253008 try:   136825 acc: (good/bad):    24312 /    23937 s2x2:  0.87904373E-03
+
+ Delta Chi    : ave:      0.1060E-05 sig:      0.1004E-05 max:      0.7967E-05
+
+ Elapsed time :    2 h 48 min 10 sec 
+ Time/cycle   :     0.074 sec
+
+ Saving structure to file : RMC_1-20-25_v1/1-13.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.109375     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    73783 acc: (good/bad):    12593 /    12625 s2x2:  0.79648710E-03
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   252998 try:   136825 acc: (good/bad):    23228 /    23195 s2x2:  0.76688692E-03
+
+ Delta Chi    : ave:      0.9416E-06 sig:      0.8860E-06 max:      0.7399E-05
+
+ Elapsed time :    2 h 48 min 15 sec 
+ Time/cycle   :     0.074 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.125000     sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:   136825 try:    73693 acc: (good/bad):    12754 /    12657 s2x2:  0.75959825E-03
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   252719 try:   136825 acc: (good/bad):    23587 /    23688 s2x2:  0.74398083E-03
+
+ Delta Chi    : ave:      0.9197E-06 sig:      0.8647E-06 max:      0.8007E-05
+
+ Elapsed time :    2 h 47 min 32 sec 
+ Time/cycle   :     0.073 sec
+
+ Saving structure to file : RMC_1-20-25_v1/1-14.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.109375     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    73855 acc: (good/bad):    12297 /    12017 s2x2:  0.66853398E-03
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   252934 try:   136825 acc: (good/bad):    22794 /    22356 s2x2:  0.63012458E-03
+
+ Delta Chi    : ave:      0.8349E-06 sig:      0.7742E-06 max:      0.7054E-05
+
+ Elapsed time :    2 h 48 min 15 sec 
+ Time/cycle   :     0.074 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.937500E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    73452 acc: (good/bad):    11948 /    12146 s2x2:  0.62880606E-03
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   253799 try:   136825 acc: (good/bad):    22504 /    22566 s2x2:  0.61364817E-03
+
+ Delta Chi    : ave:      0.8310E-06 sig:      0.7701E-06 max:      0.7276E-05
+
+ Elapsed time :    2 h 48 min  3 sec 
+ Time/cycle   :     0.074 sec
+
+ Saving structure to file : RMC_1-20-25_v1/1-15.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.937500E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:   136825 try:    74020 acc: (good/bad):    11977 /    11628 s2x2:  0.55493446E-03
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   252370 try:   136825 acc: (good/bad):    21836 /    21559 s2x2:  0.55304053E-03
+
+ Delta Chi    : ave:      0.7505E-06 sig:      0.6832E-06 max:      0.5413E-05
+
+ Elapsed time :    2 h 47 min 40 sec 
+ Time/cycle   :     0.074 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.109375     sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:   136825 try:    73520 acc: (good/bad):    11686 /    11790 s2x2:  0.54001553E-03
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   253841 try:   136825 acc: (good/bad):    21799 /    21933 s2x2:  0.53193647E-03
+
+ Delta Chi    : ave:      0.7486E-06 sig:      0.6877E-06 max:      0.6097E-05
+
+ Elapsed time :    2 h 47 min 33 sec 
+ Time/cycle   :     0.073 sec
+
+ Saving structure to file : RMC_1-20-25_v1/1-16.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.125000     sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    73615 acc: (good/bad):    11448 /    11303 s2x2:  0.49284348E-03
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   253811 try:   136825 acc: (good/bad):    21340 /    21010 s2x2:  0.48434723E-03
+
+ Delta Chi    : ave:      0.6916E-06 sig:      0.6315E-06 max:      0.5513E-05
+
+ Elapsed time :    2 h 48 min 31 sec 
+ Time/cycle   :     0.074 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.125000     sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:   136825 try:    73511 acc: (good/bad):    11480 /    11423 s2x2:  0.47368116E-03
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   253198 try:   136825 acc: (good/bad):    21187 /    21100 s2x2:  0.47559419E-03
+
+ Delta Chi    : ave:      0.6874E-06 sig:      0.6279E-06 max:      0.7313E-05
+
+ Elapsed time :    2 h 48 min 35 sec 
+ Time/cycle   :     0.074 sec
+
+ Saving structure to file : RMC_1-20-25_v1/1-17.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.937500E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:   136825 try:    73258 acc: (good/bad):    11116 /    10928 s2x2:  0.43215176E-03
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   254790 try:   136825 acc: (good/bad):    20714 /    20529 s2x2:  0.42918292E-03
+
+ Delta Chi    : ave:      0.6381E-06 sig:      0.5819E-06 max:      0.5327E-05
+
+ Elapsed time :    2 h 48 min 47 sec 
+ Time/cycle   :     0.074 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.937500E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:   136825 try:    73687 acc: (good/bad):    11270 /    11253 s2x2:  0.42036584E-03
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   253390 try:   136825 acc: (good/bad):    20774 /    20804 s2x2:  0.41785209E-03
+
+ Delta Chi    : ave:      0.6302E-06 sig:      0.5753E-06 max:      0.5659E-05
+
+ Elapsed time :    2 h 48 min 58 sec 
+ Time/cycle   :     0.074 sec
+
+ Saving structure to file : RMC_1-20-25_v1/1-18.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.125000     sec
+
+ Starting main RMC loop ...
+ (Mode SWCHEM) 
+
+ Gen:   136825 try:    73685 acc: (good/bad):    10704 /    10748 s2x2:  0.39831751E-03
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   253965 try:   136825 acc: (good/bad):    19934 /    19929 s2x2:  0.37114382E-03
+
+ Delta Chi    : ave:      0.5837E-06 sig:      0.5283E-06 max:      0.6212E-05
+
+ Elapsed time :    2 h 48 min 40 sec 
+ Time/cycle   :     0.074 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.937500E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    73685 acc: (good/bad):    10745 /    10677 s2x2:  0.38040864E-03
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   254105 try:   136825 acc: (good/bad):    20065 /    19996 s2x2:  0.36929243E-03
+
+ Delta Chi    : ave:      0.5893E-06 sig:      0.5345E-06 max:      0.6202E-05
+
+ Elapsed time :    2 h 49 min  2 sec 
+ Time/cycle   :     0.074 sec
+
+ Saving structure to file : RMC_1-20-25_v1/1-19.stru ...
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...
+
+ Size of model crystal     :   1 x   1 x   1 containing      5473 atoms
+
+ Elapsed time    :  0.937500E-01 sec
+
+ Starting main RMC loop ...
+ (Mode SHIFT) 
+
+ Gen:   136825 try:    73599 acc: (good/bad):    10450 /    10365 s2x2:  0.34383628E-03
+
+ ---- Final configuration (s=   1.0000) ---- 
+
+ Gen:   253475 try:   136825 acc: (good/bad):    19348 /    19147 s2x2:  0.33697863E-03
+
+ Delta Chi    : ave:      0.5533E-06 sig:      0.5006E-06 max:      0.4569E-05
+
+ Elapsed time :    2 h 49 min 49 sec 
+ Time/cycle   :     0.074 sec
+
+ Setting up PDF segment ...
+ Extending PDF search distance to  61.1429 A ...
+ Running PDF-Fit ...

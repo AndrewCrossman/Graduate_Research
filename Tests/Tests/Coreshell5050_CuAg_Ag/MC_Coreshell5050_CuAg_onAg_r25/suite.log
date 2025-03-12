@@ -1,0 +1,4102 @@
+  running mc.relax.mac 
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.08530    4.08530    4.08530   90.00000   90.00000   90.00000    68.1823    
+
+ Metric Tensor     :
+      16.68968      0.00000      0.00000
+       0.00000     16.68968      0.00000
+       0.00000      0.00000     16.68968
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24478    0.24478    0.24478   90.00000   90.00000   90.00000   0.146666E-01
+
+ Reciprocal metric tensor     : 
+       0.05992     -0.00000     -0.00000
+      -0.00000      0.05992     -0.00000
+      -0.00000     -0.00000      0.05992
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :   18 x   18 x   18
+ Total number of atoms            :     23328
+ Number of atoms per unit cell    :         4
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.837  (    19523 atoms)
+    Element : AG(1)     rel. abundance : 0.079  (     1844 atoms)
+    Element : CU(2)     rel. abundance : 0.084  (     1961 atoms)
+   Operation mode for MC        : atoms
+   Max. number of MC cycles     : 11664000
+   Feedback/update intervall    : 11664000
+   Maximum no. non_valid cycles :     1000
+   Temperature [kT]             :   0.6000
+   MMC will stop at convergence
+      Max rel. difference       :   0.0000 at last cycle
+      Max change rel. difference:   0.0000 observed over    3 feedbacks
+      Av. change rel. difference:   0.0000 averaged over    3 feedbacks
+
+ Operation modes for MMC; atoms selected 
+   Mode                  Probability  two-atom correlation
+   -------------------------------------------------------
+   switch chemistry      0.00000      all                 
+   switch displacement   0.00000      all                 
+   shift atom            1.00000      all                 
+   inverse displacement  0.00000      all                 
+   rotate molecule       0.00000      all                 
+
+ Correlation definitions        : 
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+        1  vec      1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50
+       51  vec     52  53  54
+        2  vec     55  56  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72  73  74  75  76  77  78  79  80  81  82  83  84  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99 100 101 102 103 104
+       **  vec    106 107 108
+        3  vec    109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158
+       **  vec    160 161 162
+        4  vec    163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212
+       **  vec    214 215 216
+
+    Defined correlation vectors    : 
+
+       Correlation vector   1      : Site  1 -> site  2, neig =  0 -1 -1
+       Correlation vector   2      : Site  1 -> site  3, neig =  0  0 -1
+       Correlation vector   3      : Site  1 -> site  4, neig = -1 -1  0
+       Correlation vector   4      : Site  1 -> site  3, neig = -1  0  0
+       Correlation vector   5      : Site  1 -> site  4, neig = -1  0  0
+       Correlation vector   6      : Site  1 -> site  2, neig =  0 -1  0
+       Correlation vector   7      : Site  1 -> site  2, neig =  0  0  0
+       Correlation vector   8      : Site  1 -> site  2, neig =  0  0 -1
+       Correlation vector   9      : Site  1 -> site  4, neig =  0 -1  0
+       Correlation vector  10      : Site  1 -> site  3, neig = -1  0 -1
+       Correlation vector  11      : Site  1 -> site  4, neig =  0  0  0
+       Correlation vector  12      : Site  1 -> site  3, neig =  0  0  0
+       Correlation vector  13      : Site  1 -> site  1, neig =  0 -1  0
+       Correlation vector  14      : Site  1 -> site  1, neig =  0  1  0
+       Correlation vector  15      : Site  1 -> site  1, neig = -1  0  0
+       Correlation vector  16      : Site  1 -> site  1, neig =  1  0  0
+       Correlation vector  17      : Site  1 -> site  1, neig =  0  0  1
+       Correlation vector  18      : Site  1 -> site  1, neig =  0  0 -1
+       Correlation vector  19      : Site  1 -> site  3, neig =  0  1  0
+       Correlation vector  20      : Site  1 -> site  2, neig =  1  0  0
+       Correlation vector  21      : Site  1 -> site  2, neig =  1 -1 -1
+       Correlation vector  22      : Site  1 -> site  4, neig =  0 -1 -1
+       Correlation vector  23      : Site  1 -> site  3, neig = -1 -1 -1
+       Correlation vector  24      : Site  1 -> site  3, neig =  0 -1 -1
+       Correlation vector  25      : Site  1 -> site  4, neig = -1 -1  1
+       Correlation vector  26      : Site  1 -> site  3, neig = -1  1 -1
+       Correlation vector  27      : Site  1 -> site  4, neig = -1 -1 -1
+       Correlation vector  28      : Site  1 -> site  3, neig =  0  1 -1
+       Correlation vector  29      : Site  1 -> site  4, neig =  0 -1  1
+       Correlation vector  30      : Site  1 -> site  2, neig = -1 -1 -1
+       Correlation vector  31      : Site  1 -> site  2, neig = -1  0  0
+       Correlation vector  32      : Site  1 -> site  2, neig = -1  0 -1
+       Correlation vector  33      : Site  1 -> site  3, neig = -1  1  0
+       Correlation vector  34      : Site  1 -> site  4, neig =  0  0 -1
+       Correlation vector  35      : Site  1 -> site  2, neig =  1 -1  0
+       Correlation vector  36      : Site  1 -> site  3, neig =  0 -1  0
+       Correlation vector  37      : Site  1 -> site  3, neig = -1 -1  0
+       Correlation vector  38      : Site  1 -> site  2, neig =  1  0 -1
+       Correlation vector  39      : Site  1 -> site  4, neig =  0  0  1
+       Correlation vector  40      : Site  1 -> site  4, neig = -1  0  1
+       Correlation vector  41      : Site  1 -> site  2, neig = -1 -1  0
+       Correlation vector  42      : Site  1 -> site  4, neig = -1  0 -1
+       Correlation vector  43      : Site  1 -> site  1, neig =  0  1 -1
+       Correlation vector  44      : Site  1 -> site  1, neig =  0  1  1
+       Correlation vector  45      : Site  1 -> site  1, neig =  1  0 -1
+       Correlation vector  46      : Site  1 -> site  1, neig =  1 -1  0
+       Correlation vector  47      : Site  1 -> site  1, neig =  0 -1 -1
+       Correlation vector  48      : Site  1 -> site  1, neig = -1 -1  0
+       Correlation vector  49      : Site  1 -> site  1, neig =  0 -1  1
+       Correlation vector  50      : Site  1 -> site  1, neig = -1  1  0
+       Correlation vector  51      : Site  1 -> site  1, neig = -1  0  1
+       Correlation vector  52      : Site  1 -> site  1, neig = -1  0 -1
+       Correlation vector  53      : Site  1 -> site  1, neig =  1  0  1
+       Correlation vector  54      : Site  1 -> site  1, neig =  1  1  0
+       Correlation vector  55      : Site  2 -> site  1, neig =  0  0  0
+       Correlation vector  56      : Site  2 -> site  3, neig = -1  1  0
+       Correlation vector  57      : Site  2 -> site  1, neig =  0  0  1
+       Correlation vector  58      : Site  2 -> site  3, neig =  0  0  0
+       Correlation vector  59      : Site  2 -> site  4, neig =  0  0  1
+       Correlation vector  60      : Site  2 -> site  4, neig = -1  0  0
+       Correlation vector  61      : Site  2 -> site  3, neig = -1  0  0
+       Correlation vector  62      : Site  2 -> site  4, neig = -1  0  1
+       Correlation vector  63      : Site  2 -> site  1, neig =  0  1  1
+       Correlation vector  64      : Site  2 -> site  4, neig =  0  0  0
+       Correlation vector  65      : Site  2 -> site  1, neig =  0  1  0
+       Correlation vector  66      : Site  2 -> site  3, neig =  0  1  0
+       Correlation vector  67      : Site  2 -> site  2, neig =  0  1  0
+       Correlation vector  68      : Site  2 -> site  2, neig =  0  0 -1
+       Correlation vector  69      : Site  2 -> site  2, neig =  0  0  1
+       Correlation vector  70      : Site  2 -> site  2, neig =  0 -1  0
+       Correlation vector  71      : Site  2 -> site  2, neig = -1  0  0
+       Correlation vector  72      : Site  2 -> site  2, neig =  1  0  0
+       Correlation vector  73      : Site  2 -> site  1, neig = -1  1  0
+       Correlation vector  74      : Site  2 -> site  4, neig = -1  1  0
+       Correlation vector  75      : Site  2 -> site  1, neig =  1  1  0
+       Correlation vector  76      : Site  2 -> site  3, neig = -1  1 -1
+       Correlation vector  77      : Site  2 -> site  4, neig = -1 -1  0
+       Correlation vector  78      : Site  2 -> site  3, neig =  0  0 -1
+       Correlation vector  79      : Site  2 -> site  1, neig =  1  0  0
+       Correlation vector  80      : Site  2 -> site  3, neig =  0  1 -1
+       Correlation vector  81      : Site  2 -> site  1, neig = -1  0  0
+       Correlation vector  82      : Site  2 -> site  4, neig =  0 -1  0
+       Correlation vector  83      : Site  2 -> site  4, neig =  0  1  0
+       Correlation vector  84      : Site  2 -> site  3, neig = -1  0 -1
+       Correlation vector  85      : Site  2 -> site  1, neig = -1  1  1
+       Correlation vector  86      : Site  2 -> site  4, neig =  0 -1  1
+       Correlation vector  87      : Site  2 -> site  3, neig = -1  0  1
+       Correlation vector  88      : Site  2 -> site  3, neig = -1  1  1
+       Correlation vector  89      : Site  2 -> site  4, neig = -1  1  1
+       Correlation vector  90      : Site  2 -> site  1, neig = -1  0  1
+       Correlation vector  91      : Site  2 -> site  3, neig =  0  1  1
+       Correlation vector  92      : Site  2 -> site  1, neig =  1  0  1
+       Correlation vector  93      : Site  2 -> site  1, neig =  1  1  1
+       Correlation vector  94      : Site  2 -> site  3, neig =  0  0  1
+       Correlation vector  95      : Site  2 -> site  4, neig = -1 -1  1
+       Correlation vector  96      : Site  2 -> site  4, neig =  0  1  1
+       Correlation vector  97      : Site  2 -> site  2, neig =  1  0 -1
+       Correlation vector  98      : Site  2 -> site  2, neig =  1  0  1
+       Correlation vector  99      : Site  2 -> site  2, neig = -1 -1  0
+       Correlation vector 100      : Site  2 -> site  2, neig =  1 -1  0
+       Correlation vector 101      : Site  2 -> site  2, neig =  0 -1 -1
+       Correlation vector 102      : Site  2 -> site  2, neig =  0  1  1
+       Correlation vector 103      : Site  2 -> site  2, neig =  0  1 -1
+       Correlation vector 104      : Site  2 -> site  2, neig = -1  0 -1
+       Correlation vector 105      : Site  2 -> site  2, neig = -1  0  1
+       Correlation vector 106      : Site  2 -> site  2, neig =  0 -1  1
+       Correlation vector 107      : Site  2 -> site  2, neig = -1  1  0
+       Correlation vector 108      : Site  2 -> site  2, neig =  1  1  0
+       Correlation vector 109      : Site  3 -> site  2, neig =  1  0  0
+       Correlation vector 110      : Site  3 -> site  1, neig =  1  0  1
+       Correlation vector 111      : Site  3 -> site  1, neig =  0  0  0
+       Correlation vector 112      : Site  3 -> site  2, neig =  0  0  0
+       Correlation vector 113      : Site  3 -> site  4, neig =  0  0  0
+       Correlation vector 114      : Site  3 -> site  1, neig =  1  0  0
+       Correlation vector 115      : Site  3 -> site  2, neig =  1 -1  0
+       Correlation vector 116      : Site  3 -> site  4, neig =  0  0  1
+       Correlation vector 117      : Site  3 -> site  2, neig =  0 -1  0
+       Correlation vector 118      : Site  3 -> site  4, neig =  0 -1  1
+       Correlation vector 119      : Site  3 -> site  1, neig =  0  0  1
+       Correlation vector 120      : Site  3 -> site  4, neig =  0 -1  0
+       Correlation vector 121      : Site  3 -> site  3, neig =  0  0 -1
+       Correlation vector 122      : Site  3 -> site  3, neig =  0  0  1
+       Correlation vector 123      : Site  3 -> site  3, neig =  0 -1  0
+       Correlation vector 124      : Site  3 -> site  3, neig = -1  0  0
+       Correlation vector 125      : Site  3 -> site  3, neig =  0  1  0
+       Correlation vector 126      : Site  3 -> site  3, neig =  1  0  0
+       Correlation vector 127      : Site  3 -> site  2, neig =  1 -1  1
+       Correlation vector 128      : Site  3 -> site  1, neig =  1  1  0
+       Correlation vector 129      : Site  3 -> site  1, neig =  1 -1  1
+       Correlation vector 130      : Site  3 -> site  4, neig =  1 -1  1
+       Correlation vector 131      : Site  3 -> site  2, neig =  0 -1 -1
+       Correlation vector 132      : Site  3 -> site  2, neig =  1 -1 -1
+       Correlation vector 133      : Site  3 -> site  1, neig =  1 -1  0
+       Correlation vector 134      : Site  3 -> site  4, neig =  1  0  0
+       Correlation vector 135      : Site  3 -> site  4, neig =  1 -1  0
+       Correlation vector 136      : Site  3 -> site  4, neig = -1  0  0
+       Correlation vector 137      : Site  3 -> site  2, neig =  0 -1  1
+       Correlation vector 138      : Site  3 -> site  1, neig =  0 -1  1
+       Correlation vector 139      : Site  3 -> site  4, neig = -1 -1  1
+       Correlation vector 140      : Site  3 -> site  2, neig =  0  0 -1
+       Correlation vector 141      : Site  3 -> site  1, neig =  0  1  0
+       Correlation vector 142      : Site  3 -> site  2, neig =  1  0 -1
+       Correlation vector 143      : Site  3 -> site  4, neig = -1  0  1
+       Correlation vector 144      : Site  3 -> site  2, neig =  1  0  1
+       Correlation vector 145      : Site  3 -> site  1, neig =  0 -1  0
+       Correlation vector 146      : Site  3 -> site  1, neig =  1  1  1
+       Correlation vector 147      : Site  3 -> site  4, neig = -1 -1  0
+       Correlation vector 148      : Site  3 -> site  2, neig =  0  0  1
+       Correlation vector 149      : Site  3 -> site  1, neig =  0  1  1
+       Correlation vector 150      : Site  3 -> site  4, neig =  1  0  1
+       Correlation vector 151      : Site  3 -> site  3, neig =  0 -1 -1
+       Correlation vector 152      : Site  3 -> site  3, neig = -1 -1  0
+       Correlation vector 153      : Site  3 -> site  3, neig = -1  1  0
+       Correlation vector 154      : Site  3 -> site  3, neig =  0  1 -1
+       Correlation vector 155      : Site  3 -> site  3, neig =  1  1  0
+       Correlation vector 156      : Site  3 -> site  3, neig = -1  0 -1
+       Correlation vector 157      : Site  3 -> site  3, neig =  0 -1  1
+       Correlation vector 158      : Site  3 -> site  3, neig =  1  0 -1
+       Correlation vector 159      : Site  3 -> site  3, neig =  1 -1  0
+       Correlation vector 160      : Site  3 -> site  3, neig =  1  0  1
+       Correlation vector 161      : Site  3 -> site  3, neig =  0  1  1
+       Correlation vector 162      : Site  3 -> site  3, neig = -1  0  1
+       Correlation vector 163      : Site  4 -> site  1, neig =  0  1  0
+       Correlation vector 164      : Site  4 -> site  2, neig =  1  0  0
+       Correlation vector 165      : Site  4 -> site  3, neig =  0  1  0
+       Correlation vector 166      : Site  4 -> site  3, neig =  0  1 -1
+       Correlation vector 167      : Site  4 -> site  1, neig =  0  0  0
+       Correlation vector 168      : Site  4 -> site  3, neig =  0  0  0
+       Correlation vector 169      : Site  4 -> site  1, neig =  1  0  0
+       Correlation vector 170      : Site  4 -> site  1, neig =  1  1  0
+       Correlation vector 171      : Site  4 -> site  2, neig =  0  0  0
+       Correlation vector 172      : Site  4 -> site  2, neig =  1  0 -1
+       Correlation vector 173      : Site  4 -> site  2, neig =  0  0 -1
+       Correlation vector 174      : Site  4 -> site  3, neig =  0  0 -1
+       Correlation vector 175      : Site  4 -> site  4, neig = -1  0  0
+       Correlation vector 176      : Site  4 -> site  4, neig =  0  0  1
+       Correlation vector 177      : Site  4 -> site  4, neig =  0  1  0
+       Correlation vector 178      : Site  4 -> site  4, neig =  0  0 -1
+       Correlation vector 179      : Site  4 -> site  4, neig =  0 -1  0
+       Correlation vector 180      : Site  4 -> site  4, neig =  1  0  0
+       Correlation vector 181      : Site  4 -> site  1, neig =  0  0 -1
+       Correlation vector 182      : Site  4 -> site  3, neig = -1  0 -1
+       Correlation vector 183      : Site  4 -> site  2, neig =  1 -1 -1
+       Correlation vector 184      : Site  4 -> site  1, neig =  1  1  1
+       Correlation vector 185      : Site  4 -> site  2, neig =  1 -1  0
+       Correlation vector 186      : Site  4 -> site  3, neig =  1  0 -1
+       Correlation vector 187      : Site  4 -> site  1, neig =  1  0 -1
+       Correlation vector 188      : Site  4 -> site  1, neig =  1  1 -1
+       Correlation vector 189      : Site  4 -> site  1, neig =  0  1 -1
+       Correlation vector 190      : Site  4 -> site  2, neig =  0  1 -1
+       Correlation vector 191      : Site  4 -> site  2, neig =  0 -1  0
+       Correlation vector 192      : Site  4 -> site  3, neig = -1  1 -1
+       Correlation vector 193      : Site  4 -> site  3, neig = -1  0  0
+       Correlation vector 194      : Site  4 -> site  3, neig =  1  1 -1
+       Correlation vector 195      : Site  4 -> site  2, neig =  1  1 -1
+       Correlation vector 196      : Site  4 -> site  2, neig =  0 -1 -1
+       Correlation vector 197      : Site  4 -> site  3, neig =  1  0  0
+       Correlation vector 198      : Site  4 -> site  2, neig =  1  1  0
+       Correlation vector 199      : Site  4 -> site  3, neig =  1  1  0
+       Correlation vector 200      : Site  4 -> site  3, neig = -1  1  0
+       Correlation vector 201      : Site  4 -> site  1, neig =  0  1  1
+       Correlation vector 202      : Site  4 -> site  2, neig =  0  1  0
+       Correlation vector 203      : Site  4 -> site  1, neig =  1  0  1
+       Correlation vector 204      : Site  4 -> site  1, neig =  0  0  1
+       Correlation vector 205      : Site  4 -> site  4, neig = -1  0 -1
+       Correlation vector 206      : Site  4 -> site  4, neig =  0 -1 -1
+       Correlation vector 207      : Site  4 -> site  4, neig =  1  1  0
+       Correlation vector 208      : Site  4 -> site  4, neig = -1  0  1
+       Correlation vector 209      : Site  4 -> site  4, neig =  1  0  1
+       Correlation vector 210      : Site  4 -> site  4, neig =  1  0 -1
+       Correlation vector 211      : Site  4 -> site  4, neig =  0 -1  1
+       Correlation vector 212      : Site  4 -> site  4, neig =  0  1 -1
+       Correlation vector 213      : Site  4 -> site  4, neig =  1 -1  0
+       Correlation vector 214      : Site  4 -> site  4, neig = -1 -1  0
+       Correlation vector 215      : Site  4 -> site  4, neig =  0  1  1
+       Correlation vector 216      : Site  4 -> site  4, neig = -1  1  0
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       Displacement corr. #  1     : all directions
+       Displacement corr. #  2     : all directions
+       Displacement corr. #  3     : all directions
+       Displacement corr. #  4     : all directions
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+
+ Desired distance for LENNARD : 
+
+            Pairs          neigh. #   distance/A       depth/B       m       n
+     AG(1)    - AG(1)          1       2.995          4.5600000    
+                                   2375345.4         6582.2716     12.000    6.000
+     AG(1)    - CU(2)          1       2.805          4.6400000    
+                                   1103167.0         4524.9066     12.000    6.000
+     CU(2)    - CU(2)          1       2.616          4.7200000    
+                                   484836.02         3025.5089     12.000    6.000
+     AG(1)    - AG(1)          2       2.995          4.5600000    
+                                   2375345.4         6582.2716     12.000    6.000
+     AG(1)    - CU(2)          2       2.805          4.6400000    
+                                   1103167.0         4524.9066     12.000    6.000
+     CU(2)    - CU(2)          2       2.616          4.7200000    
+                                   484836.02         3025.5089     12.000    6.000
+     AG(1)    - AG(1)          3       2.995          4.5600000    
+                                   2375345.4         6582.2716     12.000    6.000
+     AG(1)    - CU(2)          3       2.805          4.6400000    
+                                   1103167.0         4524.9066     12.000    6.000
+     CU(2)    - CU(2)          3       2.616          4.7200000    
+                                   484836.02         3025.5089     12.000    6.000
+     AG(1)    - AG(1)          4       2.995          4.5600000    
+                                   2375345.4         6582.2716     12.000    6.000
+     AG(1)    - CU(2)          4       2.805          4.6400000    
+                                   1103167.0         4524.9066     12.000    6.000
+     CU(2)    - CU(2)          4       2.616          4.7200000    
+                                   484836.02         3025.5089     12.000    6.000
+
+ Sigmas for MC shifts (l.u.)    : 
+                 Atom VOID(0)   :   0.00000   0.00000   0.00000
+                 Atom AG(1)     :   0.02500   0.02500   0.02500
+                 Atom CU(2)     :   0.02500   0.02500   0.02500
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.430     1.079    -1.435    -0.479
+   1   Lennard   AG      CU            2.805     4.839     0.912    -2.034    -0.725
+   1   Lennard   CU      CU            2.616     4.544     1.046    -1.928    -0.737
+   2   Lennard   AG      AG            2.995     4.399     1.078    -1.404    -0.469
+   2   Lennard   AG      CU            2.805     4.824     0.923    -2.019    -0.720
+   2   Lennard   CU      CU            2.616     4.559     1.044    -1.943    -0.743
+   3   Lennard   AG      AG            2.995     4.399     1.078    -1.404    -0.469
+   3   Lennard   AG      CU            2.805     4.824     0.923    -2.019    -0.720
+   3   Lennard   CU      CU            2.616     4.559     1.044    -1.943    -0.743
+   4   Lennard   AG      AG            2.995     4.399     1.078    -1.404    -0.469
+   4   Lennard   AG      CU            2.805     4.824     0.923    -2.019    -0.720
+   4   Lennard   CU      CU            2.616     4.559     1.044    -1.943    -0.743
+
+ ---------------------------------------------
+
+ ---------------------------------------------
+ --- multiple energy simulation is finished---
+ ---------------------------------------------
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.430     1.079    -1.435    -0.479
+   1   Lennard   AG      CU            2.805     4.839     0.912    -2.034    -0.725
+   1   Lennard   CU      CU            2.616     4.544     1.046    -1.928    -0.737
+   2   Lennard   AG      AG            2.995     4.399     1.078    -1.404    -0.469
+   2   Lennard   AG      CU            2.805     4.824     0.923    -2.019    -0.720
+   2   Lennard   CU      CU            2.616     4.559     1.044    -1.943    -0.743
+   3   Lennard   AG      AG            2.995     4.399     1.078    -1.404    -0.469
+   3   Lennard   AG      CU            2.805     4.824     0.923    -2.019    -0.720
+   3   Lennard   CU      CU            2.616     4.559     1.044    -1.943    -0.743
+   4   Lennard   AG      AG            2.995     4.399     1.078    -1.404    -0.469
+   4   Lennard   AG      CU            2.805     4.824     0.923    -2.019    -0.720
+   4   Lennard   CU      CU            2.616     4.559     1.044    -1.943    -0.743
+
+ ---------------------------------------------
+
+ --- Final multiple energy configuration ---
+
+ Gen:   11663872 try:   11663872 acc: (g/n/b):  1968043 /      217 /  1501512  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.544     1.155    -1.549    -0.517      28368
+   1   Lennard   AG      CU            2.805     4.977     1.078    -2.171    -0.774       8808
+   1   Lennard   CU      CU            2.616     4.154     0.963    -1.538    -0.588      42384
+   2   Lennard   AG      AG            2.995     4.504     1.156    -1.509    -0.504      25944
+   2   Lennard   AG      CU            2.805     5.003     1.090    -2.197    -0.783       9124
+   2   Lennard   CU      CU            2.616     4.170     0.965    -1.554    -0.594      44312
+   3   Lennard   AG      AG            2.995     4.508     1.159    -1.513    -0.505      25944
+   3   Lennard   AG      CU            2.805     4.987     1.084    -2.182    -0.778       9124
+   3   Lennard   CU      CU            2.616     4.170     0.965    -1.554    -0.594      44312
+   4   Lennard   AG      AG            2.995     4.508     1.155    -1.513    -0.505      25944
+   4   Lennard   AG      CU            2.805     5.000     1.092    -2.194    -0.782       9124
+   4   Lennard   CU      CU            2.616     4.167     0.963    -1.551    -0.593      44312
+
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    1968110      -0.444102       217   1501426       0.555234
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h  8 min 13 sec 
+ Time/cycle   :     0.000 sec
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.544     1.155    -1.549    -0.517
+   1   Lennard   AG      CU            2.805     4.977     1.078    -2.171    -0.774
+   1   Lennard   CU      CU            2.616     4.154     0.963    -1.538    -0.588
+   2   Lennard   AG      AG            2.995     4.504     1.156    -1.509    -0.504
+   2   Lennard   AG      CU            2.805     5.003     1.090    -2.197    -0.783
+   2   Lennard   CU      CU            2.616     4.170     0.965    -1.554    -0.594
+   3   Lennard   AG      AG            2.995     4.508     1.159    -1.513    -0.505
+   3   Lennard   AG      CU            2.805     4.987     1.084    -2.182    -0.778
+   3   Lennard   CU      CU            2.616     4.170     0.965    -1.554    -0.594
+   4   Lennard   AG      AG            2.995     4.508     1.155    -1.513    -0.505
+   4   Lennard   AG      CU            2.805     5.000     1.092    -2.194    -0.782
+   4   Lennard   CU      CU            2.616     4.167     0.963    -1.551    -0.593
+
+ ---------------------------------------------
+
+ ---------------------------------------------
+ --- multiple energy simulation is finished---
+ ---------------------------------------------
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.544     1.155    -1.549    -0.517
+   1   Lennard   AG      CU            2.805     4.977     1.078    -2.171    -0.774
+   1   Lennard   CU      CU            2.616     4.154     0.963    -1.538    -0.588
+   2   Lennard   AG      AG            2.995     4.504     1.156    -1.509    -0.504
+   2   Lennard   AG      CU            2.805     5.003     1.090    -2.197    -0.783
+   2   Lennard   CU      CU            2.616     4.170     0.965    -1.554    -0.594
+   3   Lennard   AG      AG            2.995     4.508     1.159    -1.513    -0.505
+   3   Lennard   AG      CU            2.805     4.987     1.084    -2.182    -0.778
+   3   Lennard   CU      CU            2.616     4.170     0.965    -1.554    -0.594
+   4   Lennard   AG      AG            2.995     4.508     1.155    -1.513    -0.505
+   4   Lennard   AG      CU            2.805     5.000     1.092    -2.194    -0.782
+   4   Lennard   CU      CU            2.616     4.167     0.963    -1.551    -0.593
+
+ ---------------------------------------------
+
+ --- Final multiple energy configuration ---
+
+ Gen:   11663872 try:   11663872 acc: (g/n/b):  1880987 /      171 /  1439189  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.548     1.161    -1.553    -0.518      28368
+   1   Lennard   AG      CU            2.805     5.000     1.094    -2.195    -0.782       8808
+   1   Lennard   CU      CU            2.616     4.152     0.964    -1.536    -0.587      42384
+   2   Lennard   AG      AG            2.995     4.516     1.166    -1.521    -0.508      25944
+   2   Lennard   AG      CU            2.805     5.005     1.101    -2.199    -0.784       9124
+   2   Lennard   CU      CU            2.616     4.168     0.964    -1.552    -0.593      44312
+   3   Lennard   AG      AG            2.995     4.514     1.164    -1.519    -0.507      25944
+   3   Lennard   AG      CU            2.805     5.002     1.094    -2.196    -0.783       9124
+   3   Lennard   CU      CU            2.616     4.165     0.963    -1.549    -0.592      44312
+   4   Lennard   AG      AG            2.995     4.516     1.164    -1.521    -0.508      25944
+   4   Lennard   AG      CU            2.805     5.000     1.097    -2.195    -0.782       9124
+   4   Lennard   CU      CU            2.616     4.167     0.964    -1.551    -0.593      44312
+
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    1881015      -0.458566       171   1439117       0.572271
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h  8 min  6 sec 
+ Time/cycle   :     0.000 sec
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.548     1.161    -1.553    -0.518
+   1   Lennard   AG      CU            2.805     5.000     1.094    -2.195    -0.782
+   1   Lennard   CU      CU            2.616     4.152     0.964    -1.536    -0.587
+   2   Lennard   AG      AG            2.995     4.516     1.166    -1.521    -0.508
+   2   Lennard   AG      CU            2.805     5.005     1.101    -2.199    -0.784
+   2   Lennard   CU      CU            2.616     4.168     0.964    -1.552    -0.593
+   3   Lennard   AG      AG            2.995     4.514     1.164    -1.519    -0.507
+   3   Lennard   AG      CU            2.805     5.002     1.094    -2.196    -0.783
+   3   Lennard   CU      CU            2.616     4.165     0.963    -1.549    -0.592
+   4   Lennard   AG      AG            2.995     4.516     1.164    -1.521    -0.508
+   4   Lennard   AG      CU            2.805     5.000     1.097    -2.195    -0.782
+   4   Lennard   CU      CU            2.616     4.167     0.964    -1.551    -0.593
+
+ ---------------------------------------------
+
+ ---------------------------------------------
+ --- multiple energy simulation is finished---
+ ---------------------------------------------
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.548     1.161    -1.553    -0.518
+   1   Lennard   AG      CU            2.805     5.000     1.094    -2.195    -0.782
+   1   Lennard   CU      CU            2.616     4.152     0.964    -1.536    -0.587
+   2   Lennard   AG      AG            2.995     4.516     1.166    -1.521    -0.508
+   2   Lennard   AG      CU            2.805     5.005     1.101    -2.199    -0.784
+   2   Lennard   CU      CU            2.616     4.168     0.964    -1.552    -0.593
+   3   Lennard   AG      AG            2.995     4.514     1.164    -1.519    -0.507
+   3   Lennard   AG      CU            2.805     5.002     1.094    -2.196    -0.783
+   3   Lennard   CU      CU            2.616     4.165     0.963    -1.549    -0.592
+   4   Lennard   AG      AG            2.995     4.516     1.164    -1.521    -0.508
+   4   Lennard   AG      CU            2.805     5.000     1.097    -2.195    -0.782
+   4   Lennard   CU      CU            2.616     4.167     0.964    -1.551    -0.593
+
+ ---------------------------------------------
+
+ --- Final multiple energy configuration ---
+
+ Gen:   11663872 try:   11663872 acc: (g/n/b):  1878709 /      170 /  1438038  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.550     1.164    -1.555    -0.519      28368
+   1   Lennard   AG      CU            2.805     5.002     1.096    -2.196    -0.783       8808
+   1   Lennard   CU      CU            2.616     4.151     0.963    -1.535    -0.587      42384
+   2   Lennard   AG      AG            2.995     4.515     1.167    -1.520    -0.507      25944
+   2   Lennard   AG      CU            2.805     5.014     1.107    -2.209    -0.787       9124
+   2   Lennard   CU      CU            2.616     4.166     0.964    -1.550    -0.592      44312
+   3   Lennard   AG      AG            2.995     4.512     1.165    -1.517    -0.507      25944
+   3   Lennard   AG      CU            2.805     5.004     1.095    -2.199    -0.784       9124
+   3   Lennard   CU      CU            2.616     4.165     0.964    -1.549    -0.592      44312
+   4   Lennard   AG      AG            2.995     4.514     1.166    -1.519    -0.507      25944
+   4   Lennard   AG      CU            2.805     5.006     1.100    -2.200    -0.784       9124
+   4   Lennard   CU      CU            2.616     4.167     0.964    -1.551    -0.593      44312
+
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    1878754      -0.458795       170   1437979       0.572461
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h  8 min  7 sec 
+ Time/cycle   :     0.000 sec
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.550     1.164    -1.555    -0.519
+   1   Lennard   AG      CU            2.805     5.002     1.096    -2.196    -0.783
+   1   Lennard   CU      CU            2.616     4.151     0.963    -1.535    -0.587
+   2   Lennard   AG      AG            2.995     4.515     1.167    -1.520    -0.507
+   2   Lennard   AG      CU            2.805     5.014     1.107    -2.209    -0.787
+   2   Lennard   CU      CU            2.616     4.166     0.964    -1.550    -0.592
+   3   Lennard   AG      AG            2.995     4.512     1.165    -1.517    -0.507
+   3   Lennard   AG      CU            2.805     5.004     1.095    -2.199    -0.784
+   3   Lennard   CU      CU            2.616     4.165     0.964    -1.549    -0.592
+   4   Lennard   AG      AG            2.995     4.514     1.166    -1.519    -0.507
+   4   Lennard   AG      CU            2.805     5.006     1.100    -2.200    -0.784
+   4   Lennard   CU      CU            2.616     4.167     0.964    -1.551    -0.593
+
+ ---------------------------------------------
+
+ ---------------------------------------------
+ --- multiple energy simulation is finished---
+ ---------------------------------------------
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.550     1.164    -1.555    -0.519
+   1   Lennard   AG      CU            2.805     5.002     1.096    -2.196    -0.783
+   1   Lennard   CU      CU            2.616     4.151     0.963    -1.535    -0.587
+   2   Lennard   AG      AG            2.995     4.515     1.167    -1.520    -0.507
+   2   Lennard   AG      CU            2.805     5.014     1.107    -2.209    -0.787
+   2   Lennard   CU      CU            2.616     4.166     0.964    -1.550    -0.592
+   3   Lennard   AG      AG            2.995     4.512     1.165    -1.517    -0.507
+   3   Lennard   AG      CU            2.805     5.004     1.095    -2.199    -0.784
+   3   Lennard   CU      CU            2.616     4.165     0.964    -1.549    -0.592
+   4   Lennard   AG      AG            2.995     4.514     1.166    -1.519    -0.507
+   4   Lennard   AG      CU            2.805     5.006     1.100    -2.200    -0.784
+   4   Lennard   CU      CU            2.616     4.167     0.964    -1.551    -0.593
+
+ ---------------------------------------------
+
+ --- Final multiple energy configuration ---
+
+ Gen:   11663872 try:   11663872 acc: (g/n/b):  1881488 /      190 /  1440036  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.555     1.166    -1.560    -0.521      28368
+   1   Lennard   AG      CU            2.805     4.998     1.100    -2.193    -0.782       8808
+   1   Lennard   CU      CU            2.616     4.153     0.963    -1.537    -0.588      42384
+   2   Lennard   AG      AG            2.995     4.525     1.173    -1.530    -0.511      25944
+   2   Lennard   AG      CU            2.805     5.013     1.109    -2.208    -0.787       9124
+   2   Lennard   CU      CU            2.616     4.168     0.965    -1.552    -0.593      44312
+   3   Lennard   AG      AG            2.995     4.516     1.166    -1.521    -0.508      25944
+   3   Lennard   AG      CU            2.805     5.001     1.095    -2.196    -0.783       9124
+   3   Lennard   CU      CU            2.616     4.167     0.963    -1.551    -0.593      44312
+   4   Lennard   AG      AG            2.995     4.520     1.169    -1.525    -0.509      25944
+   4   Lennard   AG      CU            2.805     5.006     1.102    -2.201    -0.784       9124
+   4   Lennard   CU      CU            2.616     4.168     0.964    -1.552    -0.593      44312
+
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    1881466      -0.458932       190   1439948       0.572336
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h  8 min  4 sec 
+ Time/cycle   :     0.000 sec
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.555     1.166    -1.560    -0.521
+   1   Lennard   AG      CU            2.805     4.998     1.100    -2.193    -0.782
+   1   Lennard   CU      CU            2.616     4.153     0.963    -1.537    -0.588
+   2   Lennard   AG      AG            2.995     4.525     1.173    -1.530    -0.511
+   2   Lennard   AG      CU            2.805     5.013     1.109    -2.208    -0.787
+   2   Lennard   CU      CU            2.616     4.168     0.965    -1.552    -0.593
+   3   Lennard   AG      AG            2.995     4.516     1.166    -1.521    -0.508
+   3   Lennard   AG      CU            2.805     5.001     1.095    -2.196    -0.783
+   3   Lennard   CU      CU            2.616     4.167     0.963    -1.551    -0.593
+   4   Lennard   AG      AG            2.995     4.520     1.169    -1.525    -0.509
+   4   Lennard   AG      CU            2.805     5.006     1.102    -2.201    -0.784
+   4   Lennard   CU      CU            2.616     4.168     0.964    -1.552    -0.593
+
+ ---------------------------------------------
+
+ ---------------------------------------------
+ --- multiple energy simulation is finished---
+ ---------------------------------------------
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.555     1.166    -1.560    -0.521
+   1   Lennard   AG      CU            2.805     4.998     1.100    -2.193    -0.782
+   1   Lennard   CU      CU            2.616     4.153     0.963    -1.537    -0.588
+   2   Lennard   AG      AG            2.995     4.525     1.173    -1.530    -0.511
+   2   Lennard   AG      CU            2.805     5.013     1.109    -2.208    -0.787
+   2   Lennard   CU      CU            2.616     4.168     0.965    -1.552    -0.593
+   3   Lennard   AG      AG            2.995     4.516     1.166    -1.521    -0.508
+   3   Lennard   AG      CU            2.805     5.001     1.095    -2.196    -0.783
+   3   Lennard   CU      CU            2.616     4.167     0.963    -1.551    -0.593
+   4   Lennard   AG      AG            2.995     4.520     1.169    -1.525    -0.509
+   4   Lennard   AG      CU            2.805     5.006     1.102    -2.201    -0.784
+   4   Lennard   CU      CU            2.616     4.168     0.964    -1.552    -0.593
+
+ ---------------------------------------------
+
+ --- Final multiple energy configuration ---
+
+ Gen:   11663872 try:   11663872 acc: (g/n/b):  1879518 /      182 /  1438494  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.550     1.163    -1.555    -0.519      28368
+   1   Lennard   AG      CU            2.805     5.005     1.098    -2.199    -0.784       8808
+   1   Lennard   CU      CU            2.616     4.152     0.963    -1.536    -0.587      42384
+   2   Lennard   AG      AG            2.995     4.517     1.168    -1.522    -0.508      25944
+   2   Lennard   AG      CU            2.805     5.019     1.110    -2.214    -0.789       9124
+   2   Lennard   CU      CU            2.616     4.167     0.964    -1.551    -0.593      44312
+   3   Lennard   AG      AG            2.995     4.516     1.168    -1.521    -0.508      25944
+   3   Lennard   AG      CU            2.805     5.016     1.103    -2.211    -0.788       9124
+   3   Lennard   CU      CU            2.616     4.165     0.962    -1.549    -0.592      44312
+   4   Lennard   AG      AG            2.995     4.520     1.170    -1.525    -0.509      25944
+   4   Lennard   AG      CU            2.805     5.009     1.104    -2.204    -0.785       9124
+   4   Lennard   CU      CU            2.616     4.168     0.965    -1.552    -0.593      44312
+
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    1879541      -0.458851       182   1438421       0.572102
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h  8 min 16 sec 
+ Time/cycle   :     0.000 sec
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.550     1.163    -1.555    -0.519
+   1   Lennard   AG      CU            2.805     5.005     1.098    -2.199    -0.784
+   1   Lennard   CU      CU            2.616     4.152     0.963    -1.536    -0.587
+   2   Lennard   AG      AG            2.995     4.517     1.168    -1.522    -0.508
+   2   Lennard   AG      CU            2.805     5.019     1.110    -2.214    -0.789
+   2   Lennard   CU      CU            2.616     4.167     0.964    -1.551    -0.593
+   3   Lennard   AG      AG            2.995     4.516     1.168    -1.521    -0.508
+   3   Lennard   AG      CU            2.805     5.016     1.103    -2.211    -0.788
+   3   Lennard   CU      CU            2.616     4.165     0.962    -1.549    -0.592
+   4   Lennard   AG      AG            2.995     4.520     1.170    -1.525    -0.509
+   4   Lennard   AG      CU            2.805     5.009     1.104    -2.204    -0.785
+   4   Lennard   CU      CU            2.616     4.168     0.965    -1.552    -0.593
+
+ ---------------------------------------------
+
+ ---------------------------------------------
+ --- multiple energy simulation is finished---
+ ---------------------------------------------
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.550     1.163    -1.555    -0.519
+   1   Lennard   AG      CU            2.805     5.005     1.098    -2.199    -0.784
+   1   Lennard   CU      CU            2.616     4.152     0.963    -1.536    -0.587
+   2   Lennard   AG      AG            2.995     4.517     1.168    -1.522    -0.508
+   2   Lennard   AG      CU            2.805     5.019     1.110    -2.214    -0.789
+   2   Lennard   CU      CU            2.616     4.167     0.964    -1.551    -0.593
+   3   Lennard   AG      AG            2.995     4.516     1.168    -1.521    -0.508
+   3   Lennard   AG      CU            2.805     5.016     1.103    -2.211    -0.788
+   3   Lennard   CU      CU            2.616     4.165     0.962    -1.549    -0.592
+   4   Lennard   AG      AG            2.995     4.520     1.170    -1.525    -0.509
+   4   Lennard   AG      CU            2.805     5.009     1.104    -2.204    -0.785
+   4   Lennard   CU      CU            2.616     4.168     0.965    -1.552    -0.593
+
+ ---------------------------------------------
+
+ --- Final multiple energy configuration ---
+
+ Gen:   11663872 try:   11663872 acc: (g/n/b):  1879827 /      196 /  1439407  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.550     1.162    -1.555    -0.519      28368
+   1   Lennard   AG      CU            2.805     4.999     1.097    -2.193    -0.782       8808
+   1   Lennard   CU      CU            2.616     4.151     0.963    -1.535    -0.587      42384
+   2   Lennard   AG      AG            2.995     4.514     1.165    -1.519    -0.507      25944
+   2   Lennard   AG      CU            2.805     5.009     1.102    -2.204    -0.786       9124
+   2   Lennard   CU      CU            2.616     4.167     0.964    -1.551    -0.593      44312
+   3   Lennard   AG      AG            2.995     4.516     1.164    -1.521    -0.508      25944
+   3   Lennard   AG      CU            2.805     5.015     1.100    -2.209    -0.787       9124
+   3   Lennard   CU      CU            2.616     4.163     0.962    -1.547    -0.591      44312
+   4   Lennard   AG      AG            2.995     4.516     1.168    -1.521    -0.508      25944
+   4   Lennard   AG      CU            2.805     5.010     1.102    -2.205    -0.786       9124
+   4   Lennard   CU      CU            2.616     4.167     0.964    -1.551    -0.593      44312
+
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    1879782      -0.458604       196   1439307       0.572079
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h  8 min 13 sec 
+ Time/cycle   :     0.000 sec
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.550     1.162    -1.555    -0.519
+   1   Lennard   AG      CU            2.805     4.999     1.097    -2.193    -0.782
+   1   Lennard   CU      CU            2.616     4.151     0.963    -1.535    -0.587
+   2   Lennard   AG      AG            2.995     4.514     1.165    -1.519    -0.507
+   2   Lennard   AG      CU            2.805     5.009     1.102    -2.204    -0.786
+   2   Lennard   CU      CU            2.616     4.167     0.964    -1.551    -0.593
+   3   Lennard   AG      AG            2.995     4.516     1.164    -1.521    -0.508
+   3   Lennard   AG      CU            2.805     5.015     1.100    -2.209    -0.787
+   3   Lennard   CU      CU            2.616     4.163     0.962    -1.547    -0.591
+   4   Lennard   AG      AG            2.995     4.516     1.168    -1.521    -0.508
+   4   Lennard   AG      CU            2.805     5.010     1.102    -2.205    -0.786
+   4   Lennard   CU      CU            2.616     4.167     0.964    -1.551    -0.593
+
+ ---------------------------------------------
+
+ ---------------------------------------------
+ --- multiple energy simulation is finished---
+ ---------------------------------------------
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.550     1.162    -1.555    -0.519
+   1   Lennard   AG      CU            2.805     4.999     1.097    -2.193    -0.782
+   1   Lennard   CU      CU            2.616     4.151     0.963    -1.535    -0.587
+   2   Lennard   AG      AG            2.995     4.514     1.165    -1.519    -0.507
+   2   Lennard   AG      CU            2.805     5.009     1.102    -2.204    -0.786
+   2   Lennard   CU      CU            2.616     4.167     0.964    -1.551    -0.593
+   3   Lennard   AG      AG            2.995     4.516     1.164    -1.521    -0.508
+   3   Lennard   AG      CU            2.805     5.015     1.100    -2.209    -0.787
+   3   Lennard   CU      CU            2.616     4.163     0.962    -1.547    -0.591
+   4   Lennard   AG      AG            2.995     4.516     1.168    -1.521    -0.508
+   4   Lennard   AG      CU            2.805     5.010     1.102    -2.205    -0.786
+   4   Lennard   CU      CU            2.616     4.167     0.964    -1.551    -0.593
+
+ ---------------------------------------------
+
+ --- Final multiple energy configuration ---
+
+ Gen:   11663872 try:   11663872 acc: (g/n/b):  1876618 /      193 /  1435956  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.551     1.163    -1.556    -0.519      28368
+   1   Lennard   AG      CU            2.805     5.013     1.104    -2.208    -0.787       8808
+   1   Lennard   CU      CU            2.616     4.151     0.963    -1.535    -0.587      42384
+   2   Lennard   AG      AG            2.995     4.515     1.168    -1.520    -0.507      25944
+   2   Lennard   AG      CU            2.805     5.015     1.105    -2.209    -0.787       9124
+   2   Lennard   CU      CU            2.616     4.167     0.965    -1.551    -0.593      44312
+   3   Lennard   AG      AG            2.995     4.516     1.165    -1.521    -0.508      25944
+   3   Lennard   AG      CU            2.805     5.015     1.102    -2.209    -0.788       9124
+   3   Lennard   CU      CU            2.616     4.164     0.963    -1.548    -0.592      44312
+   4   Lennard   AG      AG            2.995     4.521     1.168    -1.526    -0.509      25944
+   4   Lennard   AG      CU            2.805     5.019     1.109    -2.213    -0.789       9124
+   4   Lennard   CU      CU            2.616     4.165     0.964    -1.549    -0.592      44312
+
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    1876635      -0.459482       193   1435901       0.573521
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h  8 min  8 sec 
+ Time/cycle   :     0.000 sec
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.551     1.163    -1.556    -0.519
+   1   Lennard   AG      CU            2.805     5.013     1.104    -2.208    -0.787
+   1   Lennard   CU      CU            2.616     4.151     0.963    -1.535    -0.587
+   2   Lennard   AG      AG            2.995     4.515     1.168    -1.520    -0.507
+   2   Lennard   AG      CU            2.805     5.015     1.105    -2.209    -0.787
+   2   Lennard   CU      CU            2.616     4.167     0.965    -1.551    -0.593
+   3   Lennard   AG      AG            2.995     4.516     1.165    -1.521    -0.508
+   3   Lennard   AG      CU            2.805     5.015     1.102    -2.209    -0.788
+   3   Lennard   CU      CU            2.616     4.164     0.963    -1.548    -0.592
+   4   Lennard   AG      AG            2.995     4.521     1.168    -1.526    -0.509
+   4   Lennard   AG      CU            2.805     5.019     1.109    -2.213    -0.789
+   4   Lennard   CU      CU            2.616     4.165     0.964    -1.549    -0.592
+
+ ---------------------------------------------
+
+ ---------------------------------------------
+ --- multiple energy simulation is finished---
+ ---------------------------------------------
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.551     1.163    -1.556    -0.519
+   1   Lennard   AG      CU            2.805     5.013     1.104    -2.208    -0.787
+   1   Lennard   CU      CU            2.616     4.151     0.963    -1.535    -0.587
+   2   Lennard   AG      AG            2.995     4.515     1.168    -1.520    -0.507
+   2   Lennard   AG      CU            2.805     5.015     1.105    -2.209    -0.787
+   2   Lennard   CU      CU            2.616     4.167     0.965    -1.551    -0.593
+   3   Lennard   AG      AG            2.995     4.516     1.165    -1.521    -0.508
+   3   Lennard   AG      CU            2.805     5.015     1.102    -2.209    -0.788
+   3   Lennard   CU      CU            2.616     4.164     0.963    -1.548    -0.592
+   4   Lennard   AG      AG            2.995     4.521     1.168    -1.526    -0.509
+   4   Lennard   AG      CU            2.805     5.019     1.109    -2.213    -0.789
+   4   Lennard   CU      CU            2.616     4.165     0.964    -1.549    -0.592
+
+ ---------------------------------------------
+
+ --- Final multiple energy configuration ---
+
+ Gen:   11663872 try:   11663872 acc: (g/n/b):  1878885 /      180 /  1437922  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.555     1.168    -1.560    -0.521      28368
+   1   Lennard   AG      CU            2.805     5.007     1.104    -2.201    -0.785       8808
+   1   Lennard   CU      CU            2.616     4.151     0.964    -1.535    -0.587      42384
+   2   Lennard   AG      AG            2.995     4.525     1.175    -1.530    -0.511      25944
+   2   Lennard   AG      CU            2.805     5.035     1.116    -2.230    -0.795       9124
+   2   Lennard   CU      CU            2.616     4.164     0.963    -1.548    -0.592      44312
+   3   Lennard   AG      AG            2.995     4.515     1.170    -1.520    -0.508      25944
+   3   Lennard   AG      CU            2.805     5.020     1.102    -2.215    -0.789       9124
+   3   Lennard   CU      CU            2.616     4.164     0.963    -1.548    -0.592      44312
+   4   Lennard   AG      AG            2.995     4.525     1.171    -1.530    -0.511      25944
+   4   Lennard   AG      CU            2.805     5.031     1.115    -2.225    -0.793       9124
+   4   Lennard   CU      CU            2.616     4.164     0.964    -1.548    -0.592      44312
+
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    1878869      -0.458752       180   1437810       0.572227
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h  8 min  3 sec 
+ Time/cycle   :     0.000 sec
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.555     1.168    -1.560    -0.521
+   1   Lennard   AG      CU            2.805     5.007     1.104    -2.201    -0.785
+   1   Lennard   CU      CU            2.616     4.151     0.964    -1.535    -0.587
+   2   Lennard   AG      AG            2.995     4.525     1.175    -1.530    -0.511
+   2   Lennard   AG      CU            2.805     5.035     1.116    -2.230    -0.795
+   2   Lennard   CU      CU            2.616     4.164     0.963    -1.548    -0.592
+   3   Lennard   AG      AG            2.995     4.515     1.170    -1.520    -0.508
+   3   Lennard   AG      CU            2.805     5.020     1.102    -2.215    -0.789
+   3   Lennard   CU      CU            2.616     4.164     0.963    -1.548    -0.592
+   4   Lennard   AG      AG            2.995     4.525     1.171    -1.530    -0.511
+   4   Lennard   AG      CU            2.805     5.031     1.115    -2.225    -0.793
+   4   Lennard   CU      CU            2.616     4.164     0.964    -1.548    -0.592
+
+ ---------------------------------------------
+
+ ---------------------------------------------
+ --- multiple energy simulation is finished---
+ ---------------------------------------------
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.555     1.168    -1.560    -0.521
+   1   Lennard   AG      CU            2.805     5.007     1.104    -2.201    -0.785
+   1   Lennard   CU      CU            2.616     4.151     0.964    -1.535    -0.587
+   2   Lennard   AG      AG            2.995     4.525     1.175    -1.530    -0.511
+   2   Lennard   AG      CU            2.805     5.035     1.116    -2.230    -0.795
+   2   Lennard   CU      CU            2.616     4.164     0.963    -1.548    -0.592
+   3   Lennard   AG      AG            2.995     4.515     1.170    -1.520    -0.508
+   3   Lennard   AG      CU            2.805     5.020     1.102    -2.215    -0.789
+   3   Lennard   CU      CU            2.616     4.164     0.963    -1.548    -0.592
+   4   Lennard   AG      AG            2.995     4.525     1.171    -1.530    -0.511
+   4   Lennard   AG      CU            2.805     5.031     1.115    -2.225    -0.793
+   4   Lennard   CU      CU            2.616     4.164     0.964    -1.548    -0.592
+
+ ---------------------------------------------
+
+ --- Final multiple energy configuration ---
+
+ Gen:   11663872 try:   11663872 acc: (g/n/b):  1877029 /      190 /  1436384  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.553     1.164    -1.558    -0.520      28368
+   1   Lennard   AG      CU            2.805     4.998     1.102    -2.192    -0.781       8808
+   1   Lennard   CU      CU            2.616     4.155     0.964    -1.539    -0.588      42384
+   2   Lennard   AG      AG            2.995     4.520     1.170    -1.525    -0.509      25944
+   2   Lennard   AG      CU            2.805     5.016     1.108    -2.210    -0.788       9124
+   2   Lennard   CU      CU            2.616     4.170     0.965    -1.554    -0.594      44312
+   3   Lennard   AG      AG            2.995     4.517     1.170    -1.522    -0.508      25944
+   3   Lennard   AG      CU            2.805     5.008     1.099    -2.203    -0.785       9124
+   3   Lennard   CU      CU            2.616     4.169     0.965    -1.553    -0.594      44312
+   4   Lennard   AG      AG            2.995     4.517     1.169    -1.522    -0.508      25944
+   4   Lennard   AG      CU            2.805     5.008     1.104    -2.203    -0.785       9124
+   4   Lennard   CU      CU            2.616     4.169     0.964    -1.553    -0.594      44312
+
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    1877097      -0.459349       190   1436331       0.573093
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h  8 min  8 sec 
+ Time/cycle   :     0.000 sec
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.553     1.164    -1.558    -0.520
+   1   Lennard   AG      CU            2.805     4.998     1.102    -2.192    -0.781
+   1   Lennard   CU      CU            2.616     4.155     0.964    -1.539    -0.588
+   2   Lennard   AG      AG            2.995     4.520     1.170    -1.525    -0.509
+   2   Lennard   AG      CU            2.805     5.016     1.108    -2.210    -0.788
+   2   Lennard   CU      CU            2.616     4.170     0.965    -1.554    -0.594
+   3   Lennard   AG      AG            2.995     4.517     1.170    -1.522    -0.508
+   3   Lennard   AG      CU            2.805     5.008     1.099    -2.203    -0.785
+   3   Lennard   CU      CU            2.616     4.169     0.965    -1.553    -0.594
+   4   Lennard   AG      AG            2.995     4.517     1.169    -1.522    -0.508
+   4   Lennard   AG      CU            2.805     5.008     1.104    -2.203    -0.785
+   4   Lennard   CU      CU            2.616     4.169     0.964    -1.553    -0.594
+
+ ---------------------------------------------
+
+ ---------------------------------------------
+ --- multiple energy simulation is finished---
+ ---------------------------------------------
+
+ --- Initial multiple energy configuration ---
+
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.553     1.164    -1.558    -0.520
+   1   Lennard   AG      CU            2.805     4.998     1.102    -2.192    -0.781
+   1   Lennard   CU      CU            2.616     4.155     0.964    -1.539    -0.588
+   2   Lennard   AG      AG            2.995     4.520     1.170    -1.525    -0.509
+   2   Lennard   AG      CU            2.805     5.016     1.108    -2.210    -0.788
+   2   Lennard   CU      CU            2.616     4.170     0.965    -1.554    -0.594
+   3   Lennard   AG      AG            2.995     4.517     1.170    -1.522    -0.508
+   3   Lennard   AG      CU            2.805     5.008     1.099    -2.203    -0.785
+   3   Lennard   CU      CU            2.616     4.169     0.965    -1.553    -0.594
+   4   Lennard   AG      AG            2.995     4.517     1.169    -1.522    -0.508
+   4   Lennard   AG      CU            2.805     5.008     1.104    -2.203    -0.785
+   4   Lennard   CU      CU            2.616     4.169     0.964    -1.553    -0.594
+
+ ---------------------------------------------
+
+ --- Final multiple energy configuration ---
+
+ Gen:   11663872 try:   11663872 acc: (g/n/b):  1879160 /      212 /  1438694  MC moves 
+                                             Correlations/
+ Neig.- Energy-       Atoms           Target  Distance/    Sigma     Diff      Diff/     Number
+ Def.   Type    central  Neighbors             Angle                           Target  of pairs
+   1   Lennard   AG      AG            2.995     4.556     1.172    -1.561    -0.521      28368
+   1   Lennard   AG      CU            2.805     5.006     1.100    -2.200    -0.784       8808
+   1   Lennard   CU      CU            2.616     4.155     0.964    -1.539    -0.588      42384
+   2   Lennard   AG      AG            2.995     4.523     1.175    -1.528    -0.510      25944
+   2   Lennard   AG      CU            2.805     5.003     1.104    -2.198    -0.783       9124
+   2   Lennard   CU      CU            2.616     4.174     0.967    -1.558    -0.595      44312
+   3   Lennard   AG      AG            2.995     4.515     1.169    -1.520    -0.508      25944
+   3   Lennard   AG      CU            2.805     5.004     1.097    -2.199    -0.784       9124
+   3   Lennard   CU      CU            2.616     4.170     0.965    -1.554    -0.594      44312
+   4   Lennard   AG      AG            2.995     4.525     1.176    -1.530    -0.511      25944
+   4   Lennard   AG      CU            2.805     5.011     1.108    -2.205    -0.786       9124
+   4   Lennard   CU      CU            2.616     4.171     0.965    -1.555    -0.594      44312
+
+
+ --- Average energy changes ---
+
+ Energy type              number                 number  number
+                             E < 0      <E>           E = 0     E > 0     <E>
+Occupation correlation           0       0.000000         0         0       0.000000
+Displacement correlation         0       0.000000         0         0       0.000000
+Displacement energy              0       0.000000         0         0       0.000000
+Angular energy                   0       0.000000         0         0       0.000000
+Vector energy                    0       0.000000         0         0       0.000000
+Bond length energy               0       0.000000         0         0       0.000000
+Lennard Jones Potential    1879196      -0.459144       212   1438622       0.572864
+Buckingham Potential             0       0.000000         0         0       0.000000
+Repulsive     Potential          0       0.000000         0         0       0.000000
+Coordination Number              0       0.000000         0         0       0.000000
+Unidirectional Corr              0       0.000000         0         0       0.000000
+Groupwise correlation            0       0.000000         0         0       0.000000
+
+ Elapsed time :    0 h  8 min  0 sec 
+ Time/cycle   :     0.000 sec
+
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.08530    4.08530    4.08530   90.00000   90.00000   90.00000    68.1823    
+
+ Metric Tensor     :
+      16.68968      0.00000      0.00000
+       0.00000     16.68968      0.00000
+       0.00000      0.00000     16.68968
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24478    0.24478    0.24478   90.00000   90.00000   90.00000   0.146666E-01
+
+ Reciprocal metric tensor     : 
+       0.05992     -0.00000     -0.00000
+      -0.00000      0.05992     -0.00000
+      -0.00000     -0.00000      0.05992
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3805
+ Number of atoms per unit cell    :      3805
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : AG(1)     rel. abundance : 0.485  (     1844 atoms)
+    Element : CU(2)     rel. abundance : 0.515  (     1961 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.625000     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1099E-09 to    5009.    
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/500.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/500.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1859E-09 to    2288.    
+
+ Data set no.:   1
+
+   Filename : Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2195E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/500.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3710E-12 to    4.568    
+
+ ------ > Saving window   1 to file : MC_Coreshell5050_CuAg_onAg_r25/500XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.625000E-01 sec
+ Required time        :     0.83 s
+
+ Total sum of weights :    166198.9931    
+ Saving PDF to file : MC_Coreshell5050_CuAg_onAg_r25/500.apd ...
+ Resetting - all parameters ..
+ Reading file Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -11.22     to    39.85    
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/500.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/500.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.587     to    5.441    
+
+ Data set no.:   1
+
+   Filename : Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.815     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/500.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.3981     to    1.365    
+
+ ------ > Saving window   1 to file : MC_Coreshell5050_CuAg_onAg_r25/500PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    AG(1)    - AG(1)    : d = 10.265 +-  3.293 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             402032)
+                                                 (Total =             402032)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    AG(1)    - CU(2)    : d = 11.510 +-  2.628 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             441886)
+                                                 (Total =             441886)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    CU(2)    - CU(2)    : d = 10.648 +-  3.059 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1173498)
+                                                 (Total =            1173498)
+ Resetting ..
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3110E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/500_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/500_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1042.    
+
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3946E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/500_AgCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/500_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1626.    
+
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.8726E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/500_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/500_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4492.    
+
+ Data set no.:   1
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/500_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3350    
+
+ Data set no.:   3
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/500_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4121    
+
+ Data set no.:   5
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/500_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.5148    
+
+ ------ > Saving window   3 to file : MC_Coreshell5050_CuAg_onAg_r25/500BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.08530    4.08530    4.08530   90.00000   90.00000   90.00000    68.1823    
+
+ Metric Tensor     :
+      16.68968      0.00000      0.00000
+       0.00000     16.68968      0.00000
+       0.00000      0.00000     16.68968
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24478    0.24478    0.24478   90.00000   90.00000   90.00000   0.146666E-01
+
+ Reciprocal metric tensor     : 
+       0.05992     -0.00000     -0.00000
+      -0.00000      0.05992     -0.00000
+      -0.00000     -0.00000      0.05992
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3805
+ Number of atoms per unit cell    :      3805
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : AG(1)     rel. abundance : 0.485  (     1844 atoms)
+    Element : CU(2)     rel. abundance : 0.515  (     1961 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.468750     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1099E-09 to    5009.    
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/1000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/1000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1876E-09 to    2289.    
+
+ Data set no.:   1
+
+   Filename : Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2195E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/1000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3746E-12 to    4.570    
+
+ ------ > Saving window   1 to file : MC_Coreshell5050_CuAg_onAg_r25/1000XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.625000E-01 sec
+ Required time        :     0.70 s
+
+ Total sum of weights :    166152.4285    
+ Saving PDF to file : MC_Coreshell5050_CuAg_onAg_r25/1000.apd ...
+ Resetting - all parameters ..
+ Reading file Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -11.22     to    39.85    
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/1000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/1000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.624     to    5.468    
+
+ Data set no.:   1
+
+   Filename : Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.815     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/1000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.4076     to    1.372    
+
+ ------ > Saving window   1 to file : MC_Coreshell5050_CuAg_onAg_r25/1000PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    AG(1)    - AG(1)    : d = 10.259 +-  3.291 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             401452)
+                                                 (Total =             401452)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    AG(1)    - CU(2)    : d = 11.512 +-  2.627 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             441850)
+                                                 (Total =             441850)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    CU(2)    - CU(2)    : d = 10.646 +-  3.059 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1174898)
+                                                 (Total =            1174898)
+ Resetting ..
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3110E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/1000_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/1000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1072.    
+
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3946E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/1000_AgCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/1000_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1649.    
+
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.8726E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/1000_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/1000_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4386.    
+
+ Data set no.:   1
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/1000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3447    
+
+ Data set no.:   3
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/1000_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4179    
+
+ Data set no.:   5
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/1000_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.5026    
+
+ ------ > Saving window   3 to file : MC_Coreshell5050_CuAg_onAg_r25/1000BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.08530    4.08530    4.08530   90.00000   90.00000   90.00000    68.1823    
+
+ Metric Tensor     :
+      16.68968      0.00000      0.00000
+       0.00000     16.68968      0.00000
+       0.00000      0.00000     16.68968
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24478    0.24478    0.24478   90.00000   90.00000   90.00000   0.146666E-01
+
+ Reciprocal metric tensor     : 
+       0.05992     -0.00000     -0.00000
+      -0.00000      0.05992     -0.00000
+      -0.00000     -0.00000      0.05992
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3805
+ Number of atoms per unit cell    :      3805
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : AG(1)     rel. abundance : 0.485  (     1844 atoms)
+    Element : CU(2)     rel. abundance : 0.515  (     1961 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.375000     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1099E-09 to    5009.    
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/1500.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/1500.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1846E-09 to    2272.    
+
+ Data set no.:   1
+
+   Filename : Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2195E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/1500.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3684E-12 to    4.536    
+
+ ------ > Saving window   1 to file : MC_Coreshell5050_CuAg_onAg_r25/1500XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.468750E-01 sec
+ Required time        :     0.69 s
+
+ Total sum of weights :    166211.4159    
+ Saving PDF to file : MC_Coreshell5050_CuAg_onAg_r25/1500.apd ...
+ Resetting - all parameters ..
+ Reading file Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -11.22     to    39.85    
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/1500.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/1500.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.599     to    5.532    
+
+ Data set no.:   1
+
+   Filename : Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.815     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/1500.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.4013     to    1.388    
+
+ ------ > Saving window   1 to file : MC_Coreshell5050_CuAg_onAg_r25/1500PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    AG(1)    - AG(1)    : d = 10.264 +-  3.293 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             402100)
+                                                 (Total =             402100)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    AG(1)    - CU(2)    : d = 11.512 +-  2.625 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             441707)
+                                                 (Total =             441707)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    CU(2)    - CU(2)    : d = 10.649 +-  3.060 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1176856)
+                                                 (Total =            1176856)
+ Resetting ..
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3110E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/1500_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/1500_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1066.    
+
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3946E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/1500_AgCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/1500_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1613.    
+
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.8726E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/1500_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/1500_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4470.    
+
+ Data set no.:   1
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/1500_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3427    
+
+ Data set no.:   3
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/1500_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4088    
+
+ Data set no.:   5
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/1500_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.5122    
+
+ ------ > Saving window   3 to file : MC_Coreshell5050_CuAg_onAg_r25/1500BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.08530    4.08530    4.08530   90.00000   90.00000   90.00000    68.1823    
+
+ Metric Tensor     :
+      16.68968      0.00000      0.00000
+       0.00000     16.68968      0.00000
+       0.00000      0.00000     16.68968
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24478    0.24478    0.24478   90.00000   90.00000   90.00000   0.146666E-01
+
+ Reciprocal metric tensor     : 
+       0.05992     -0.00000     -0.00000
+      -0.00000      0.05992     -0.00000
+      -0.00000     -0.00000      0.05992
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3805
+ Number of atoms per unit cell    :      3805
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : AG(1)     rel. abundance : 0.485  (     1844 atoms)
+    Element : CU(2)     rel. abundance : 0.515  (     1961 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.375000     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1099E-09 to    5009.    
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/2000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1907E-09 to    2246.    
+
+ Data set no.:   1
+
+   Filename : Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2195E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/2000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3807E-12 to    4.484    
+
+ ------ > Saving window   1 to file : MC_Coreshell5050_CuAg_onAg_r25/2000XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.625000E-01 sec
+ Required time        :     0.73 s
+
+ Total sum of weights :    166168.0708    
+ Saving PDF to file : MC_Coreshell5050_CuAg_onAg_r25/2000.apd ...
+ Resetting - all parameters ..
+ Reading file Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -11.22     to    39.85    
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/2000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/2000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.578     to    5.210    
+
+ Data set no.:   1
+
+   Filename : Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.815     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/2000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.3959     to    1.307    
+
+ ------ > Saving window   1 to file : MC_Coreshell5050_CuAg_onAg_r25/2000PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    AG(1)    - AG(1)    : d = 10.266 +-  3.293 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             401758)
+                                                 (Total =             401758)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    AG(1)    - CU(2)    : d = 11.511 +-  2.627 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             441214)
+                                                 (Total =             441214)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    CU(2)    - CU(2)    : d = 10.648 +-  3.059 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1174804)
+                                                 (Total =            1174804)
+ Resetting ..
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3110E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/2000_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/2000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1166.    
+
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3946E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/2000_AgCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/2000_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1639.    
+
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.8726E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/2000_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/2000_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4418.    
+
+ Data set no.:   1
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/2000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3749    
+
+ Data set no.:   3
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/2000_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4154    
+
+ Data set no.:   5
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/2000_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.5063    
+
+ ------ > Saving window   3 to file : MC_Coreshell5050_CuAg_onAg_r25/2000BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.08530    4.08530    4.08530   90.00000   90.00000   90.00000    68.1823    
+
+ Metric Tensor     :
+      16.68968      0.00000      0.00000
+       0.00000     16.68968      0.00000
+       0.00000      0.00000     16.68968
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24478    0.24478    0.24478   90.00000   90.00000   90.00000   0.146666E-01
+
+ Reciprocal metric tensor     : 
+       0.05992     -0.00000     -0.00000
+      -0.00000      0.05992     -0.00000
+      -0.00000     -0.00000      0.05992
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3805
+ Number of atoms per unit cell    :      3805
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : AG(1)     rel. abundance : 0.485  (     1844 atoms)
+    Element : CU(2)     rel. abundance : 0.515  (     1961 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.500000     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1099E-09 to    5009.    
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/2500.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/2500.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1857E-09 to    2270.    
+
+ Data set no.:   1
+
+   Filename : Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2195E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/2500.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3707E-12 to    4.531    
+
+ ------ > Saving window   1 to file : MC_Coreshell5050_CuAg_onAg_r25/2500XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.625000E-01 sec
+ Required time        :     0.70 s
+
+ Total sum of weights :    166117.6870    
+ Saving PDF to file : MC_Coreshell5050_CuAg_onAg_r25/2500.apd ...
+ Resetting - all parameters ..
+ Reading file Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -11.22     to    39.85    
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/2500.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/2500.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.587     to    5.323    
+
+ Data set no.:   1
+
+   Filename : Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.815     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/2500.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.3983     to    1.336    
+
+ ------ > Saving window   1 to file : MC_Coreshell5050_CuAg_onAg_r25/2500PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    AG(1)    - AG(1)    : d = 10.265 +-  3.293 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             401714)
+                                                 (Total =             401714)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    AG(1)    - CU(2)    : d = 11.513 +-  2.626 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             441246)
+                                                 (Total =             441246)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    CU(2)    - CU(2)    : d = 10.647 +-  3.059 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1174988)
+                                                 (Total =            1174988)
+ Resetting ..
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3110E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/2500_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/2500_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1084.    
+
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3946E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/2500_AgCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/2500_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1642.    
+
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.8726E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/2500_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/2500_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4540.    
+
+ Data set no.:   1
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/2500_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3485    
+
+ Data set no.:   3
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/2500_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4162    
+
+ Data set no.:   5
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/2500_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.5203    
+
+ ------ > Saving window   3 to file : MC_Coreshell5050_CuAg_onAg_r25/2500BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.08530    4.08530    4.08530   90.00000   90.00000   90.00000    68.1823    
+
+ Metric Tensor     :
+      16.68968      0.00000      0.00000
+       0.00000     16.68968      0.00000
+       0.00000      0.00000     16.68968
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24478    0.24478    0.24478   90.00000   90.00000   90.00000   0.146666E-01
+
+ Reciprocal metric tensor     : 
+       0.05992     -0.00000     -0.00000
+      -0.00000      0.05992     -0.00000
+      -0.00000     -0.00000      0.05992
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3805
+ Number of atoms per unit cell    :      3805
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : AG(1)     rel. abundance : 0.485  (     1844 atoms)
+    Element : CU(2)     rel. abundance : 0.515  (     1961 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.375000     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1099E-09 to    5009.    
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/3000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/3000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1933E-09 to    2240.    
+
+ Data set no.:   1
+
+   Filename : Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2195E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/3000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3858E-12 to    4.471    
+
+ ------ > Saving window   1 to file : MC_Coreshell5050_CuAg_onAg_r25/3000XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.625000E-01 sec
+ Required time        :     0.70 s
+
+ Total sum of weights :    166205.3376    
+ Saving PDF to file : MC_Coreshell5050_CuAg_onAg_r25/3000.apd ...
+ Resetting - all parameters ..
+ Reading file Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -11.22     to    39.85    
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/3000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/3000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.597     to    5.403    
+
+ Data set no.:   1
+
+   Filename : Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.815     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/3000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.4006     to    1.356    
+
+ ------ > Saving window   1 to file : MC_Coreshell5050_CuAg_onAg_r25/3000PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    AG(1)    - AG(1)    : d = 10.264 +-  3.293 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             401842)
+                                                 (Total =             401842)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    AG(1)    - CU(2)    : d = 11.512 +-  2.625 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             441211)
+                                                 (Total =             441211)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    CU(2)    - CU(2)    : d = 10.648 +-  3.059 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1177460)
+                                                 (Total =            1177460)
+ Resetting ..
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3110E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/3000_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/3000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1064.    
+
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3946E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/3000_AgCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/3000_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1660.    
+
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.8726E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/3000_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/3000_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4396.    
+
+ Data set no.:   1
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/3000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3421    
+
+ Data set no.:   3
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/3000_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4207    
+
+ Data set no.:   5
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/3000_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.5038    
+
+ ------ > Saving window   3 to file : MC_Coreshell5050_CuAg_onAg_r25/3000BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.08530    4.08530    4.08530   90.00000   90.00000   90.00000    68.1823    
+
+ Metric Tensor     :
+      16.68968      0.00000      0.00000
+       0.00000     16.68968      0.00000
+       0.00000      0.00000     16.68968
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24478    0.24478    0.24478   90.00000   90.00000   90.00000   0.146666E-01
+
+ Reciprocal metric tensor     : 
+       0.05992     -0.00000     -0.00000
+      -0.00000      0.05992     -0.00000
+      -0.00000     -0.00000      0.05992
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3805
+ Number of atoms per unit cell    :      3805
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : AG(1)     rel. abundance : 0.485  (     1844 atoms)
+    Element : CU(2)     rel. abundance : 0.515  (     1961 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.500000     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1099E-09 to    5009.    
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/3500.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/3500.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1870E-09 to    2253.    
+
+ Data set no.:   1
+
+   Filename : Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2195E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/3500.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3733E-12 to    4.498    
+
+ ------ > Saving window   1 to file : MC_Coreshell5050_CuAg_onAg_r25/3500XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.625000E-01 sec
+ Required time        :     0.70 s
+
+ Total sum of weights :    166219.5121    
+ Saving PDF to file : MC_Coreshell5050_CuAg_onAg_r25/3500.apd ...
+ Resetting - all parameters ..
+ Reading file Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -11.22     to    39.85    
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/3500.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/3500.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.564     to    5.580    
+
+ Data set no.:   1
+
+   Filename : Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.815     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/3500.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.3923     to    1.400    
+
+ ------ > Saving window   1 to file : MC_Coreshell5050_CuAg_onAg_r25/3500PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    AG(1)    - AG(1)    : d = 10.263 +-  3.292 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             401424)
+                                                 (Total =             401424)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    AG(1)    - CU(2)    : d = 11.514 +-  2.624 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             441152)
+                                                 (Total =             441152)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    CU(2)    - CU(2)    : d = 10.646 +-  3.059 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1175726)
+                                                 (Total =            1175726)
+ Resetting ..
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3110E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/3500_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/3500_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1060.    
+
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3946E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/3500_AgCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/3500_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1630.    
+
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.8726E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/3500_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/3500_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4426.    
+
+ Data set no.:   1
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/3500_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3408    
+
+ Data set no.:   3
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/3500_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4131    
+
+ Data set no.:   5
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/3500_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.5072    
+
+ ------ > Saving window   3 to file : MC_Coreshell5050_CuAg_onAg_r25/3500BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.08530    4.08530    4.08530   90.00000   90.00000   90.00000    68.1823    
+
+ Metric Tensor     :
+      16.68968      0.00000      0.00000
+       0.00000     16.68968      0.00000
+       0.00000      0.00000     16.68968
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24478    0.24478    0.24478   90.00000   90.00000   90.00000   0.146666E-01
+
+ Reciprocal metric tensor     : 
+       0.05992     -0.00000     -0.00000
+      -0.00000      0.05992     -0.00000
+      -0.00000     -0.00000      0.05992
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3805
+ Number of atoms per unit cell    :      3805
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : AG(1)     rel. abundance : 0.485  (     1844 atoms)
+    Element : CU(2)     rel. abundance : 0.515  (     1961 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.375000     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1099E-09 to    5009.    
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/4000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/4000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1829E-09 to    2252.    
+
+ Data set no.:   1
+
+   Filename : Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2195E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/4000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3651E-12 to    4.495    
+
+ ------ > Saving window   1 to file : MC_Coreshell5050_CuAg_onAg_r25/4000XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.625000E-01 sec
+ Required time        :     0.72 s
+
+ Total sum of weights :    166221.4777    
+ Saving PDF to file : MC_Coreshell5050_CuAg_onAg_r25/4000.apd ...
+ Resetting - all parameters ..
+ Reading file Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -11.22     to    39.85    
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/4000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/4000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.590     to    5.342    
+
+ Data set no.:   1
+
+   Filename : Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.815     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/4000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.3989     to    1.340    
+
+ ------ > Saving window   1 to file : MC_Coreshell5050_CuAg_onAg_r25/4000PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    AG(1)    - AG(1)    : d = 10.262 +-  3.292 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             401242)
+                                                 (Total =             401242)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    AG(1)    - CU(2)    : d = 11.514 +-  2.624 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             440267)
+                                                 (Total =             440267)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    CU(2)    - CU(2)    : d = 10.648 +-  3.059 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1177510)
+                                                 (Total =            1177510)
+ Resetting ..
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3110E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/4000_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/4000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1070.    
+
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3946E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/4000_AgCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/4000_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1619.    
+
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.8726E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/4000_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/4000_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4490.    
+
+ Data set no.:   1
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/4000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3440    
+
+ Data set no.:   3
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/4000_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4103    
+
+ Data set no.:   5
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/4000_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.5145    
+
+ ------ > Saving window   3 to file : MC_Coreshell5050_CuAg_onAg_r25/4000BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.08530    4.08530    4.08530   90.00000   90.00000   90.00000    68.1823    
+
+ Metric Tensor     :
+      16.68968      0.00000      0.00000
+       0.00000     16.68968      0.00000
+       0.00000      0.00000     16.68968
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24478    0.24478    0.24478   90.00000   90.00000   90.00000   0.146666E-01
+
+ Reciprocal metric tensor     : 
+       0.05992     -0.00000     -0.00000
+      -0.00000      0.05992     -0.00000
+      -0.00000     -0.00000      0.05992
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3805
+ Number of atoms per unit cell    :      3805
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : AG(1)     rel. abundance : 0.485  (     1844 atoms)
+    Element : CU(2)     rel. abundance : 0.515  (     1961 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.484375     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1099E-09 to    5009.    
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/4500.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/4500.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1910E-09 to    2306.    
+
+ Data set no.:   1
+
+   Filename : Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2195E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/4500.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3814E-12 to    4.604    
+
+ ------ > Saving window   1 to file : MC_Coreshell5050_CuAg_onAg_r25/4500XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.468750E-01 sec
+ Required time        :     0.69 s
+
+ Total sum of weights :    166287.2422    
+ Saving PDF to file : MC_Coreshell5050_CuAg_onAg_r25/4500.apd ...
+ Resetting - all parameters ..
+ Reading file Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -11.22     to    39.85    
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/4500.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/4500.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.636     to    5.474    
+
+ Data set no.:   1
+
+   Filename : Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.815     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/4500.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.4106     to    1.373    
+
+ ------ > Saving window   1 to file : MC_Coreshell5050_CuAg_onAg_r25/4500PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    AG(1)    - AG(1)    : d = 10.262 +-  3.292 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             401486)
+                                                 (Total =             401486)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    AG(1)    - CU(2)    : d = 11.509 +-  2.626 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             441082)
+                                                 (Total =             441082)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    CU(2)    - CU(2)    : d = 10.647 +-  3.059 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1172856)
+                                                 (Total =            1172856)
+ Resetting ..
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3110E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/4500_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/4500_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1088.    
+
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3946E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/4500_AgCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/4500_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1619.    
+
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.8726E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/4500_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/4500_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4378.    
+
+ Data set no.:   1
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/4500_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3498    
+
+ Data set no.:   3
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/4500_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4103    
+
+ Data set no.:   5
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/4500_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.5017    
+
+ ------ > Saving window   3 to file : MC_Coreshell5050_CuAg_onAg_r25/4500BLD.pdf ..
+ Fm-3m             225
+ Lattice constants :
+    a          b          c         alpha      beta       gamma      volume
+    4.08530    4.08530    4.08530   90.00000   90.00000   90.00000    68.1823    
+
+ Metric Tensor     :
+      16.68968      0.00000      0.00000
+       0.00000     16.68968      0.00000
+       0.00000      0.00000     16.68968
+
+ Reciprocal Lattice constants :
+    a*         b*         c*        alpha*     beta*      gamma*     volume
+    0.24478    0.24478    0.24478   90.00000   90.00000   90.00000   0.146666E-01
+
+ Reciprocal metric tensor     : 
+       0.05992     -0.00000     -0.00000
+      -0.00000      0.05992     -0.00000
+      -0.00000     -0.00000      0.05992
+
+    Neighbour determination mode   : quick = F
+    Periodic boundaries (x,y,z)    : F F F
+    Current operation mode         : atoms
+    Sample volume for homo-check   : complete crystal
+    Allowed bond length range      :  1.500 A to  7.500 A
+    # points for histogramms       :    601
+
+    Neighbour definitions          : 
+
+        #  Mode  Neighbour (or vec.)  fsig  wsig   rmin[A] rmax[A] ang sym
+       -------------------------------------------------------------------
+
+    Defined correlation vectors    : 
+
+       ** none defined **
+
+    Defined correlation angles     : 
+
+       ** none defined **
+
+    Defined correlation environments: 
+
+       ** none defined **
+
+    Defined correlation ranges: 
+
+       ** none defined **
+
+    Defined displacement direc.    : 
+
+       ** none defined **
+
+    Defined correlation connectiv. : 
+
+       ** none defined **
+ Size of the crystal (unit cells) :    1 x    1 x    1
+ Total number of atoms            :      3805
+ Number of atoms per unit cell    :      3805
+ Number of different atoms        :         2
+
+    Element : VOID(0)   rel. abundance : 0.000  (        0 atoms)
+    Element : AG(1)     rel. abundance : 0.485  (     1844 atoms)
+    Element : CU(2)     rel. abundance : 0.515  (     1961 atoms)
+ Computing powder sine lookup table ...
+ Computing sin(theta)/lambda table ...
+  Starting histogram
+
+ Elapsed time H  :  0.500000     sec
+  Starting convolution
+
+ Elapsed time    :   0.00000     sec
+ Resetting - all parameters ..
+ Reading file Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1099E-09 to    5009.    
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/5000.xrd ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.1877E-09 to    2324.    
+
+ Data set no.:   1
+
+   Filename : Control/XRDs/Coreshell5050_CuAg_onAg_r25.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.2195E-12 to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/5000.xrd
+   Size     :   8692 points
+
+   Range  x :    30.00     to    120.0    
+   Range  y :   0.3748E-12 to    4.639    
+
+ ------ > Saving window   1 to file : MC_Coreshell5050_CuAg_onAg_r25/5000XRD.pdf ..
+ Setting PDF calculation to no periodic bound., 3D, exact mode ..
+ Setting up PDF segment ...
+ Extending PDF search distance to  51.1429 A ...
+ Calculating PDF (exact mode) ...
+    20.00 % done  ...
+    40.00 % done  ...
+    60.00 % done  ...
+    80.00 % done  ...
+   100.00 % done  ...
+
+ Elapsed time    :  0.625000E-01 sec
+ Required time        :     0.72 s
+
+ Total sum of weights :    166360.3879    
+ Saving PDF to file : MC_Coreshell5050_CuAg_onAg_r25/5000.apd ...
+ Resetting - all parameters ..
+ Reading file Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   1
+
+   Filename : Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -11.22     to    39.85    
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/5000.apd ..
+ Column assignement (x y dx dy):     1    2    3    4
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -1.594     to    5.329    
+
+ Data set no.:   1
+
+   Filename : Control/PDFs/Coreshell5050_CuAg_onAg_r25.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :   -2.815     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/5000.apd
+   Size     :   5000 points
+
+   Range  x :   0.1000E-01 to    50.00    
+   Range  y :  -0.4001     to    1.337    
+
+ ------ > Saving window   1 to file : MC_Coreshell5050_CuAg_onAg_r25/5000PDF.pdf ..
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    AG(1)    - AG(1)    : d = 10.261 +-  3.292 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             401208)
+                                                 (Total =             401208)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    AG(1)    - CU(2)    : d = 11.509 +-  2.627 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =             440965)
+                                                 (Total =             440965)
+ Calculating bond-length distibution
+    Allowed range :   1.00 A to  15.00  A / File : MC_Coreshell ( 801 pts)
+
+    CU(2)    - CU(2)    : d = 10.647 +-  3.059 A (Min =  0.000, Max = 15.000)
+                                                 (Pairs =            1171664)
+                                                 (Total =            1171664)
+ Resetting ..
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   1
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3110E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/5000_AgAg.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/5000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1068.    
+
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   3
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3946E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/5000_AgCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   4
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/5000_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    1641.    
+
+ Reading file Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   5
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.8726E+05
+
+ Reading file MC_Coreshell5050_CuAg_onAg_r25/5000_CuCu.bld ..
+ Column assignement (x y dx dy):     1    2    0    0
+ Data set no.:   6
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/5000_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    4342.    
+
+ Data set no.:   1
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   2
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/5000_AgAg.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.3434    
+
+ Data set no.:   3
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   4
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/5000_AgCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4159    
+
+ Data set no.:   5
+
+   Filename : Control/BLDs/Coreshell5050_CuAg_onAg_r25_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to    10.00    
+
+ Data set no.:   6
+
+   Filename : MC_Coreshell5050_CuAg_onAg_r25/5000_CuCu.bld
+   Size     :    801 points
+
+   Range  x :    1.000     to    14.98    
+   Range  y :    0.000     to   0.4976    
+
+ ------ > Saving window   3 to file : MC_Coreshell5050_CuAg_onAg_r25/5000BLD.pdf ..
+ END mc.relax.mac
